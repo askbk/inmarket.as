@@ -19,10 +19,10 @@ function test_input($data) {
 if(preg_match("#[-a-zA-Z0-9éèÉÈäöæøåÄÖÆØÅ._ ]+#",$name) AND
    preg_match("#[-a-zA-Z0-9.@+!=()_:]+#",$email) AND
    strlen($text) < 500) {
-    if(mail("datanet@live.com", // adresse som skal motta eposten
-            "Kontaktskjema", // emne
+    if(mail("post@imnor.no", // adresse som skal motta eposten
+            "Henvendelse gjennom kontaktskjema fra $name", // emne
             "Melding fra $name <$email>, <$phone>:\n\n$text", // meldingsteksten
-            "From: Tilbakemeldingsskjema <mail@imnor.no>")) // avsender
+            "From: Tilbakemeldingsskjema <$email>")) // avsender
     {
         echo "Meldingen ble sendt!";
     } else {
