@@ -5,8 +5,8 @@ $name = $email = $phone = $text = "";
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $name = test_input($_POST["name"]);
   $email = test_input($_POST["email"]);
-  $phone = test_input($_POST["website"]);
-  $text = test_input($_POST["comment"]);
+  $phone = test_input($_POST["phone"]);
+  $text = test_input($_POST["text"]);
 }
 
 function test_input($data) {
