@@ -56,6 +56,19 @@ body, html {
     min-height: 400px;
 }
 
+.big-icon {
+    font-size: 32px;
+}
+
+textarea{
+    background-image: url("../img/logo.jpg"); /* This ruins default border */
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: 80px 80px;
+    background-position: bottom right;
+    border: 1px solid #888;
+}
+
 .w3-wide {letter-spacing: 10px;}
 .w3-hover-opacity {cursor: pointer;}
 
