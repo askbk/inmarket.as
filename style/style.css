@@ -21,6 +21,8 @@
 .w3-hover-text-theme {color:#6e0607 !important}
 .w3-hover-border-theme:hover {border-color:#6e0607 !important}
 
+.w3-theme-text-red {color: #ba0a0d !important;}
+
 .pageHeading{padding-top: 64px; padding-bottom: 64px}
 
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
@@ -28,6 +30,15 @@ body, html {
     height: 100%;
     color: #777;
     line-height: 1.8;
+}
+
+.navbar-accent {
+    border-bottom-color: #ba0a0d;
+    border-bottom-style: solid;
+}
+
+a.hover-accent:hover {
+    background-color: #ba0a0d;
 }
 
 /* Create a Parallax Effect */
@@ -40,7 +51,7 @@ body, html {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-    background-image: url('../img/forside.jpg');
+    background-image: url('../img/20160816_175908838_iOS.jpg');
     min-height: 100%;
 }
 

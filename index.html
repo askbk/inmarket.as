@@ -15,15 +15,14 @@
 
     <!-- Navbar -->
     <div class="w3-top">
-        <div class="w3-bar" id="navbar">
+        <div class="w3-bar w3-text-white" id="navbar">
             <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
       <i class="fa fa-bars"></i>
     </a>
-            <a href="#hjem" class="w3-bar-item w3-button"><i class="fa fa-home"></i> Hjem</a>
+            <a href="#hjem" class="w3-bar-item w3-button hover-accent"><i class="fa fa-home"></i> Hjem</a>
             <a href="#om" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-info-circle"></i> Om InMarket</a>
             <a href="#styret" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-users"></i> Styret</a>
             <a href="#kontakt" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> Kontakt oss</a>
-            <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red"></a>
         </div>
 
         <!-- Navbar on small screens -->
@@ -34,11 +33,9 @@
         </div>
     </div>
 
-    <!-- First Parallax Image with Logo Text -->
-    <div class="bgimg-1 w3-display-container w3-opacity-min" id="hjem">
-        <!--<div class="w3-display-middle" style="white-space:nowrap;">
-            <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">InMarket <span class="w3-hide-small">Norge</span>
-        </div>-->
+    <!-- First Parallax Image-->
+    <div class="bgimg-1 w3-display-container" id="hjem">
+
     </div>
 
     <!-- Container (om oss) -->
@@ -193,17 +190,20 @@
     </footer>
 
     <script>
+
+
+
         // Change style of navbar on scroll
         window.onscroll = function() {
             myFunction()
         };
 
         function myFunction() {
-            var navbar = document.getElementById( id="contactForm""navbar");
+            var navbar = document.getElementById("navbar");
             if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-                navbar.className = "w3-bar" + " w3-card-2" + " w3-animate-top" + " w3-white";
+                navbar.className = "w3-bar w3-card-2 w3-animate-top w3-white navbar-accent w3-theme-text-red";
             } else {
-                navbar.className = navbar.className.replace(" w3-card-2 w3-animate-top w3-white", "");
+                navbar.className = navbar.className.replace(" w3-card-2 w3-animate-top w3-white navbar-accent w3-theme-text-red", " w3-text-white");
             }
         }
 
