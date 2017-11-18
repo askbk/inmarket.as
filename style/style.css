@@ -37,10 +37,6 @@ body, html {
     border-bottom-style: solid;
 }
 
-a.hover-accent:hover {
-    background-color: #ba0a0d;
-}
-
 /* Create a Parallax Effect */
 .bgimg-1, .bgimg-2, .bgimg-3 {
     background-attachment: fixed;
@@ -51,7 +47,7 @@ a.hover-accent:hover {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-    background-image: url('../img/20160816_175908838_iOS.jpg');
+    background-image: url('../img/forside4.jpg');
     min-height: 100%;
 }
 
