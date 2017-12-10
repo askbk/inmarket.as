@@ -45,9 +45,9 @@ body, html {
     background-size: cover;
 }
 
-/* First image (Logo. Full height) */
+/* First image (Full height) */
 .bgimg-1 {
-    background-image: url('../img/marcus_forside.png');
+    background-image: url('../img/forside.png');
     min-height: 100%;
 }
 
