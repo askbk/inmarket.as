@@ -25,16 +25,19 @@
 
 .pageHeading{padding-top: 64px; padding-bottom: 64px}
 
-body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+p,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif; color: #777}
 body, html {
     height: 100%;
-    color: #777;
     line-height: 1.8;
 }
 
 .navbar-accent {
     border-bottom-color: #ba0a0d;
     border-bottom-style: solid;
+}
+
+div#navbar.w3-bar {
+    /*background: linear-gradient(RGBA(255, 255, 255, 0.76) 59%,RGBA(0, 0, 0, 0)) !important;*/
 }
 
 /* Create a Parallax Effect */

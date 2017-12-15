@@ -143,6 +143,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-left{float:left!important}.w3-right{float:right!important}
 /* .w3-button:hover{color:#000!important; background-color: #ccc}*/
 .w3-button:hover{color:#FFF!important; background-color: #640507}
+.w3-bar{background: linear-gradient(RGBA(255, 255, 255, 0.87) 10%,RGBA(0, 0, 0, 0) 90%)}
 .w3-transparent,.w3-hover-none:hover{background-color:transparent!important}
 .w3-hover-none:hover{box-shadow:none!important}
 /* Colors */
