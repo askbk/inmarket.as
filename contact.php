@@ -17,7 +17,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $text = test_input($_POST["text"]);
 }
 
-$to = "inmarket@imnor.no";
+$to = "datanet@live.com";
 $subject = "Henvendelse fra $name";
 $message = "Melding fra $name <$email>, <$phone>:\n\n$text";
 $headers = "MIME-Version: 1.0" . "\r\n";
