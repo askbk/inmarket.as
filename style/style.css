@@ -25,7 +25,7 @@
 
 .pageHeading{padding-top: 64px; padding-bottom: 64px}
 
-p,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif; color: #777}
+p,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif; line-height: 24px}
 body, html {
     height: 100%;
     line-height: 1.8;
@@ -34,10 +34,6 @@ body, html {
 .navbar-accent {
     border-bottom-color: #640507;
     border-bottom-style: solid;
-}
-
-div#navbar.w3-bar {
-    /*background: linear-gradient(RGBA(255, 255, 255, 0.76) 59%,RGBA(0, 0, 0, 0)) !important;*/
 }
 
 /* Create a Parallax Effect */
@@ -103,4 +99,12 @@ textarea{
   font-weight: 400;
   src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v14/1YwB1sO8YE1Lyjf12WNiUA.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+/* optima */
+@font-face {
+  font-family: 'Optima';
+  font-style: normal;
+  font-weight: 400;
+  src: url(http://www.imnor.no/fonts/OptimaNovaLT-Medium.otf);
 }
