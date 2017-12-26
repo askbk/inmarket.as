@@ -46,7 +46,7 @@ body, html {
 
 /* First image (Full height) */
 .bgimg-1 {
-    background-image: url('../img/forside.png');
+    background-image: url('../img/forside.jpg');
     min-height: 100%;
 }
 
