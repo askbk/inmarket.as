@@ -33,12 +33,12 @@
     </div>
 
     <!-- First Parallax Image-->
-    <div class="bgimg-1 w3-display-container w3-animate-opacity mySlides" id="hjem">
-
-    </div>
-
-    <div class="bgimg-4 w3-display-container w3-animate-opacity mySlides">
-
+    <div class="slideShow w3-display-container">
+        <div class="bgimg-1 mySlides" id="hjem"></div>
+        <div class="bgimg-4 mySlides"></div>
+        <div class="bgimg-5 mySlides"></div>
+        <div class="bgimg-6 mySlides"></div>
+        <div class="bgimg-7 mySlides"></div>
     </div>
 
     <!-- Container (om oss) -->
@@ -187,22 +187,6 @@
     </footer>
 
     <script>
-
-        var slideIndex = 0;
-        showSlides();
-
-        function showSlides() {
-            var i;
-            var slides = document.getElementsByClassName("mySlides");
-            for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
-            }
-            slideIndex++;
-            if (slideIndex > slides.length) {slideIndex = 1}
-                slides[slideIndex-1].style.display = "block";
-                setTimeout(showSlides, 2000); // Change image every 2 seconds
-        }
-
         // Change style of navbar on scroll
         window.onscroll = function() {
             myFunction()

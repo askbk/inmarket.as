@@ -37,17 +37,67 @@ body, html {
 }
 
 /* Create a Parallax Effect */
-.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7{
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+.slideShow {
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mySlides {
+    min-width: 100vw;
+    min-height: 100%;
+    position: absolute;
+}
+
+.bgimg-1, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7 {
+    animation-name: fade;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+}
+
 /* First image (Full height) */
 .bgimg-1 {
     background-image: url('../img/forside.jpg');
-    min-height: 100%;
+    opacity: 1;
+}
+
+.bgimg-4 {
+    background-image: url('../img/sliten.jpg');
+    opacity: 0;
+    animation-delay: 6s;
+}
+
+.bgimg-5 {
+    background-image: url('../img/marcus_forside.png');
+    opacity: 0;
+    animation-delay: 12s;
+}
+.bgimg-6 {
+    background-image: url('../img/fjelltur.jpg');
+    opacity: 0;
+    animation-delay: 18s;
+}
+.bgimg-7 {
+    background-image: url('../img/kayak.jpg');
+    opacity: 0;
+    animation-delay: 24s;
+}
+
+@keyframes fade {
+    0% { opacity: 0; animation-timing-function: ease-in; }
+    5% { opacity: 1; animation-timing-function: ease-out; }
+    20% { opacity: 1 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
 }
 
 /* Second image (styret) */
@@ -62,10 +112,7 @@ body, html {
     min-height: 400px;
 }
 
-.bgimg-4 {
-    background-image: url('../img/slide2.jpg');
-    min-height: 100%;
-}
+
 
 .big-icon {
     font-size: 32px;
@@ -83,33 +130,33 @@ textarea{
 .w3-wide {letter-spacing: 10px;}
 .w3-hover-opacity {cursor: pointer;}
 
-/* Turn off parallax scrolling for tablets and phones */
+/* Turn off parallax scrolling for tablets and phones
 @media only screen and (max-device-width: 1024px) {
     .bgimg-1, .bgimg-2, .bgimg-3 {
         background-attachment: scroll;
     }
-}
+}*/
 /* latin-ext */
 @font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v14/UyBMtLsHKBKXelqf4x7VRQ.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v14/UyBMtLsHKBKXelqf4x7VRQ.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
 @font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v14/1YwB1sO8YE1Lyjf12WNiUA.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v14/1YwB1sO8YE1Lyjf12WNiUA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
 }
 
 /* optima */
 @font-face {
-  font-family: 'Optima';
-  font-style: normal;
-  font-weight: 400;
-  src: url(http://www.imnor.no/fonts/OptimaNovaLT-Medium.otf);
+    font-family: 'Optima';
+    font-style: normal;
+    font-weight: 400;
+    src: url(http://www.imnor.no/fonts/OptimaNovaLT-Medium.otf);
 }
