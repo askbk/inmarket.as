@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/w3.css">
+    <script src="js/ajaxSubmit.js" charset="utf-8"></script>
+    <script src="js/navbar.js" charset="utf-8"></script>
 </head>
 
 <body>
@@ -35,10 +37,10 @@
     <!-- First Parallax Image-->
     <div class="slideShow w3-display-container">
         <div class="bgimg-1 mySlides" id="hjem"></div>
+        <div class="bgimg-2 mySlides"></div>
+        <div class="bgimg-3 mySlides"></div>
         <div class="bgimg-4 mySlides"></div>
         <div class="bgimg-5 mySlides"></div>
-        <div class="bgimg-6 mySlides"></div>
-        <div class="bgimg-7 mySlides"></div>
     </div>
 
     <!-- Container (om oss) -->
@@ -91,7 +93,7 @@
     </div>
 
     <!-- Second Parallax Image (styret) -->
-    <div class="bgimg-2 w3-display-container w3-opacity-min"></div>
+    <div class="bgimg-6 w3-display-container w3-opacity-min"></div>
 
     <!-- Container (styret) -->
     <div class="w3-content w3-container w3-padding-64" id="styret">
@@ -131,7 +133,7 @@
     </div>
 
     <!-- Third Parallax Image -->
-    <div class="bgimg-3 w3-display-container"></div>
+    <div class="bgimg-7 w3-display-container w3-opacity-min"></div>
 
     <!-- Container (kontakt oss) -->
     <div class="w3-content w3-container w3-padding-64" id="kontakt">
@@ -179,47 +181,7 @@
     </footer>
 
     <script>
-        // Change style of navbar on scroll
-        window.onscroll = function() {
-            myFunction()
-        };
 
-        function myFunction() {
-            var navbar = document.getElementById("navbar");
-            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-                navbar.className = "w3-bar w3-card-2 w3-animate-top w3-white navbar-accent w3-theme-text-red w3-border-bottom";
-            } else {
-                navbar.className = navbar.className.replace(" w3-card-2 w3-animate-top w3-white navbar-accent w3-theme-text-red w3-border-bottom", "");
-            }
-        }
-
-        // Used to toggle the menu on small screens when clicking on the menu button
-        function toggleFunction() {
-            var x = document.getElementById("smallnav");
-            if (x.className.indexOf("w3-show") == -1) {
-                x.className += " w3-show";
-            } else {
-                x.className = x.className.replace(" w3-show", "");
-            }
-        }
-
-        // Submit form using AJAX
-        document.getElementById("submitForm").onclick = function (){
-            var name = encodeURIComponent(document.getElementById("inputName").value);
-            var email = encodeURIComponent(document.getElementById("inputEmail").value);
-            var phone = encodeURIComponent(document.getElementById("inputPhone").value);
-            var text = encodeURIComponent(document.getElementById("inputText").value);
-            var data = "name=" + name + "&email=" + email + "&phone=" + phone + "&text=" + text;
-            var xhttp = new XMLHttpRequest();
-            xhttp.onreadystatechange = function() {
-                if (this.readyState == 4 && this.status == 200) {
-                    document.getElementById("responseText").innerHTML = this.responseText;
-                }
-            }
-            xhttp.open("POST", "contact.php", true);
-            xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded; charset=UTF-8");
-            xhttp.send(data);
-        }
     </script>
 </body>
 
