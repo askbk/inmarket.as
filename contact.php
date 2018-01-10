@@ -7,7 +7,6 @@ function test_input($data) {
     return $data;
 }
 
-// saniterer input data
 $name = $email = $phone = $text = $headers = "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {

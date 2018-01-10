@@ -1,10 +1,24 @@
-.w3-theme-text-red {
+.w3-theme-text-red {
     color: #ba0a0d !important;
+}
+
+.slideshowText {
+    margin: 70% 25% 0% 5%;
+    padding: 16px;
+    background: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.58));
+}
+
+.slideshowText:hover {
+    background: rgba(255, 255, 255, 0.9);
+}
+
+a {
+    text-decoration: none;
 }
 
 p,h1,h2,h3,h4,h5,h6 {
     font-family: "Lato", sans-serif;
-    line-height: 24px
+    line-height: 24px;
 }
 
 body, html {
@@ -12,13 +26,13 @@ body, html {
     line-height: 1.8;
 }
 
-.navbar-accent {
+.navbar-accent {
     border-bottom-color: #640507;
     border-bottom-style: solid;
 }
 
 /* Create a Parallax Effect */
-.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7{
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7 {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -26,7 +40,7 @@ body, html {
     min-width: 100vw;
 }
 
-.slideShow {
+.slideshow {
     min-height: 100vh;
 }
 
@@ -40,6 +54,7 @@ body, html {
     animation-duration: 30s;
     animation-iteration-count: infinite;
     opacity: 0;
+    visibility: hidden;
 }
 
 /* First image (Full height) */
@@ -78,11 +93,11 @@ body, html {
 }
 
 @keyframes fade {
-    0% { opacity: 0; animation-timing-function: ease-in; }
-    5% { opacity: 1; animation-timing-function: ease-out; }
-    20% { opacity: 1 }
-    25% { opacity: 0 }
-    100% { opacity: 0 }
+    0% { visibility: visible; opacity: 0; animation-timing-function: ease-in; }
+    5% { visibility: visible; opacity: 1; animation-timing-function: ease-out; }
+    20% { visibility: visible; opacity: 1}
+    25% { visibility: hidden; opacity: 0}
+    100% { visibility: hidden;  opacity: 0}
 }
 
 .extra-margin{
@@ -103,6 +118,8 @@ textarea{
 }
 
 .w3-hover-opacity {cursor: pointer;}
+
+
 
 /* latin-ext */
 @font-face {
