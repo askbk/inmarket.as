@@ -48,20 +48,20 @@ body, html {
 }
 
 .bgimg-2 {
-    background-image: url('../img/sliten.jpg');
+    background-image: url('../img/jenterpeker.jpg');
     animation-delay: 6s;
 }
 
 .bgimg-3 {
-    background-image: url('../img/marcus_forside.png');
+    background-image: url('../img/dressmann.jpg');
     animation-delay: 12s;
 }
 .bgimg-4 {
-    background-image: url('../img/fjelltur.jpg');
+    background-image: url('../img/barcode.jpg');
     animation-delay: 18s;
 }
 .bgimg-5 {
-    background-image: url('../img/kayak.jpg');
+    background-image: url('../img/gladefolk.jpg');
     animation-delay: 24s;
 }
 
