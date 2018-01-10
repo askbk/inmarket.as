@@ -3,9 +3,10 @@
 }
 
 .slideshowText {
-    margin: 70% 25% 0% 5%;
+    margin: 70vh 25vh 0vh 5vh;
     padding: 16px;
     background: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.58));
+    max-width: 800px;
 }
 
 .slideshowText:hover {
