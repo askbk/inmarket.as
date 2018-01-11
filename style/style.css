@@ -3,14 +3,32 @@
 }
 
 .slideshowText {
-    margin: 70vh 25vh 0vh 5vh;
     padding: 16px;
-    background: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.58));
+    background-color: #640507;
     max-width: 800px;
+    color: #fff;
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+}
+
+.slideshowText-mobile {
+    padding: 16px;
+    background-color: #640507;
+    max-width: 800px;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
 }
 
 .slideshowText:hover {
-    background: rgba(255, 255, 255, 0.9);
+    background-color: #fff;
+    color: #640507;
+}
+
+.slideshowText-mobile:hover {
+    background-color: #fff;
+    color: #640507;
 }
 
 a {
@@ -43,6 +61,7 @@ body, html {
 
 .slideshow {
     min-height: 100vh;
+
 }
 
 .mySlides {
@@ -50,9 +69,9 @@ body, html {
     position: absolute;
 }
 
-.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
     animation-name: fade;
-    animation-duration: 30s;
+    animation-duration: 32s;
     animation-iteration-count: infinite;
     opacity: 0;
     visibility: hidden;
@@ -60,23 +79,19 @@ body, html {
 
 /* First image (Full height) */
 .bgimg-1 {
-    background-image: url('../img/forside.jpg');
+    background-image: url('../img/jenterpeker.jpg');
 }
 
 .bgimg-2 {
-    background-image: url('../img/jenterpeker.jpg');
-    animation-delay: 6s;
+    background-image: url('../img/dressmann.jpg');
+    animation-delay: 8s;
 }
 
 .bgimg-3 {
-    background-image: url('../img/dressmann.jpg');
-    animation-delay: 12s;
+    background-image: url('../img/barcode.jpg');
+    animation-delay: 16s;
 }
 .bgimg-4 {
-    background-image: url('../img/barcode.jpg');
-    animation-delay: 18s;
-}
-.bgimg-5 {
     background-image: url('../img/gladefolk.jpg');
     animation-delay: 24s;
 }
@@ -96,8 +111,8 @@ body, html {
 @keyframes fade {
     0% { visibility: visible; opacity: 0; animation-timing-function: ease-in; }
     5% { visibility: visible; opacity: 1; animation-timing-function: ease-out; }
-    20% { visibility: visible; opacity: 1}
-    25% { visibility: hidden; opacity: 0}
+    25% { visibility: visible; opacity: 1}
+    28% { visibility: hidden; opacity: 0}
     100% { visibility: hidden;  opacity: 0}
 }
 
