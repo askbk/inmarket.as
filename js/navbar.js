@@ -5,7 +5,7 @@ window.onscroll = function() {
 
 function myFunction() {
     var navbar = document.getElementById("navbar");
-    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    if (document.body.scrollTop > window.innerHeight || document.documentElement.scrollTop > window.innerHeight) {
         navbar.className = "w3-bar w3-card-2 w3-animate-top w3-white navbar-accent w3-theme-text-red w3-border-bottom";
     } else {
         navbar.className = navbar.className.replace(" w3-card-2 w3-animate-top w3-white navbar-accent w3-theme-text-red w3-border-bottom", "");
