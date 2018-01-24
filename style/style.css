@@ -58,6 +58,12 @@ body, html {
     border-bottom-style: solid;
 }
 
+#smallnav {
+    width: 150px;
+    float: right;
+    min-height: 100vh;
+}
+
 /* Create a Parallax Effect */
 .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7 {
     background-attachment: fixed;
