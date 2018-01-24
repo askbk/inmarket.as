@@ -69,10 +69,19 @@ body, html {
 
 .slideshow {
     min-height: 100vh;
+}
 
+.slideshow-mobile {
+    min-height: 50vh;
 }
 
 .mySlides {
+    min-height: 100%;
+    position: absolute;
+}
+
+.mySlides-mobile {
+    background-attachment: inherit !important;
     min-height: 100%;
     position: absolute;
 }
