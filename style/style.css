@@ -34,13 +34,13 @@ body, html {
 }
 
 .slideshowText-mobile {
-    padding: 16px;
+    padding: 4px;
     background-color: #640507;
-    min-width: 100%;
+    min-width: 72%;
     /*height: 18%;*/
     color: #fff;
     position: absolute;
-    bottom: 0;
+    bottom: 0px;
 }
 
 .slideshowText:hover {
