@@ -35,20 +35,20 @@ body, html {
 
 .slideshowText-mobile {
     padding: 4px;
-    background-color: #640507b3;
-    min-width: 100%%;
+    background-color: RGBA(100, 5, 7, 0.7);
+    min-width: 100%;
     color: #fff;
     position: absolute;
     bottom: 0px;
 }
 
 .slideshowText:hover {
-    background-color: #fffc;
+    background-color: rgba(255,255,255,0.7);
     color: #640507;
 }
 
 .slideshowText-mobile:hover {
-    background-color: #fff;
+    background-color: rgba(255,255,255,0.7);
     color: #640507;
 }
 
