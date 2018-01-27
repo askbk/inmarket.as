@@ -5,5 +5,5 @@ function isMobile() {
 };
 
 if(isMobile()){
-    window.location = "http://www.imnor.no/m.html";
+    window.location.assign("http://www.imnor.no/m.html");
 }

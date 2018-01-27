@@ -1,5 +1,11 @@
+var submitButton;
+
+window.onload = function(){
+    submitButton = document.getElementById("submitForm");
+}
+
 // Submit form using AJAX
-document.getElementById("submitForm").onclick = function (){
+submitButton.onclick = function (){
     var name = encodeURIComponent(document.getElementById("inputName").value);
     var email = encodeURIComponent(document.getElementById("inputEmail").value);
     var phone = encodeURIComponent(document.getElementById("inputPhone").value);
