@@ -77,7 +77,9 @@ body, html {
 }
 
 .slideshow-mobile {
-    min-height: 38vh;
+    min-width: 100vw;
+    min-height: 25%;
+    margin-bottom: 38%;
 }
 
 .mySlides {
@@ -86,9 +88,31 @@ body, html {
 }
 
 .mySlides-mobile {
-    background-attachment: inherit !important;
-    min-height: 100%;
     position: absolute;
+}
+
+.mobile-1, .mobile-2, .mobile-3, .mobile-4 {
+    animation-name: fade;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.mobile-2 {
+    animation-delay: 10s;
+}
+
+.mobile-3 {
+    animation-delay: 20s;
+}
+
+.mobile-4 {
+    animation-delay: 30s;
+}
+
+.mySlides-mobile > img {
+    width: 100%;
 }
 
 .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
