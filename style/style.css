@@ -57,6 +57,10 @@ body, html {
     border-bottom-style: solid;
 }
 
+#navbar-mobile {
+    background: none;
+}
+
 #smallnav {
     width: 150px;
     float: right;
@@ -79,7 +83,7 @@ body, html {
 .slideshow-mobile {
     min-width: 100vw;
     min-height: 25%;
-    margin-bottom: 38%;
+    margin-bottom: 170px;
 }
 
 .mySlides {
@@ -112,7 +116,8 @@ body, html {
 }
 
 .mySlides-mobile > img {
-    width: 100%;
+    width: 130%;
+    margin-left: -8%;
 }
 
 .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
