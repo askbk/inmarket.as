@@ -36,10 +36,10 @@ body, html {
 .slideshowText-mobile {
     padding: 4px;
     background-color: RGBA(100, 5, 7, 0.7);
-    min-width: 100%;
+    width: 83%;
     color: #fff;
     position: absolute;
-    bottom: 0px;
+    bottom: 60px;
 }
 
 .slideshowText:hover {
@@ -83,7 +83,7 @@ body, html {
 .slideshow-mobile {
     min-width: 100vw;
     min-height: 25%;
-    margin-bottom: 170px;
+    margin-bottom: 90%;
 }
 
 .mySlides {
