@@ -14,7 +14,12 @@ function submitForm (){
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
-            document.getElementById("responseText").innerHTML = this.responseText;
+            if(this.responseText != "Meldingen ble sendt!"){
+                document.getElementById("responseText").innerHTML = this.responseText;
+            } else {
+                document.getElementById("kontaktHeader").className += "w3-hide"
+                document.getElementById("kontaktRespons").className.replace("w3-hide", "");
+            }
         }
     }
     xhttp.open("POST", "contact.php", true);
