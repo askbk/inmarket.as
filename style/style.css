@@ -67,6 +67,11 @@ body, html {
     min-height: 100vh;
 }
 
+#kontaktRespons {
+    padding-top: 27.4%;
+    padding-bottom: 27.4%;
+}
+
 /* Create a Parallax Effect */
 .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7 {
     background-attachment: fixed;
