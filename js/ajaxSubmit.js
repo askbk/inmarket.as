@@ -5,8 +5,7 @@ window.onload = function(){
 }
 
 // Submit form using AJAX
-function submitForm (){
-    var name = encodeURIComponent(document.getElementById("inputName").value);
+function submitForm (){var name = encodeURIComponent(document.getElementById("inputName").value);
     var email = encodeURIComponent(document.getElementById("inputEmail").value);
     var phone = encodeURIComponent(document.getElementById("inputPhone").value);
     var text = encodeURIComponent(document.getElementById("inputText").value);
@@ -17,8 +16,9 @@ function submitForm (){
             if(this.responseText != "Meldingen ble sendt!"){
                 document.getElementById("responseText").innerHTML = this.responseText;
             } else {
-                document.getElementById("kontaktHeader").className += "w3-hide"
-                document.getElementById("kontaktRespons").className.replace("w3-hide", "");
+                document.getElementById("kontaktHeader").className += " w3-hide ";
+                document.getElementById("kontaktSkjema").className += " w3-hide ";
+                document.getElementById("kontaktRespons").className += " w3-show";
             }
         }
     }
