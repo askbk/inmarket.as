@@ -16,7 +16,7 @@ function submitForm (){var name = encodeURIComponent(document.getElementById("in
             if(this.responseText != "Meldingen ble sendt!"){
                 document.getElementById("responseText").innerHTML = this.responseText;
             } else {
-                document.getElementById("kontaktHeader").className += " w3-hide ";
+                //document.getElementById("kontaktHeader").className += " w3-hide ";
                 document.getElementById("kontaktSkjema").className += " w3-hide ";
                 document.getElementById("kontaktRespons").className += " w3-show";
             }
