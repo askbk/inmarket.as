@@ -16,7 +16,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $text = test_input($_POST["text"]);
 }
 
-$to = "inmarket@imnor.no";
+$to = "inmarket@imnor.no, skretteberg@imnor.no";
 $subject = "Henvendelse fra $name";
 $message = "Melding fra $name <$email>, <$phone>:\n\n$text";
 $headers = "MIME-Version: 1.0" . "\r\n";
@@ -25,7 +25,7 @@ $headers .= 'From: Kontaktskjema <' . $email . '>' . "\r\n";
 
 if(preg_match("#[-a-zA-Z0-9éèÉÈäöæøåÄÖÆØÅ._ ]+#",$name) AND
    preg_match("#[-a-zA-Z0-9.@+!=()_:]+#", $email) AND
-   strlen($text) < 1000) {
+   strlen($text) < 2000) {
     if(mail($to, $subject, $message, $headers)){
         echo "Meldingen ble sendt!";
     } else {
