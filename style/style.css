@@ -73,7 +73,7 @@ body, html {
 }
 
 /* Create a Parallax Effect */
-.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7 {
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-kayak, .bgimg-sliten{
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -153,13 +153,13 @@ body, html {
 }
 
 /* Second image (styret) */
-.bgimg-6 {
+.bgimg-kayak {
     background-image: url("../img/kayak.jpg");
     min-height: 400px;
 }
 
 /* Third image (Contact) */
-.bgimg-7 {
+.bgimg-sliten {
     background-image: url("../img/sliten.jpg");
     min-height: 400px;
 }
