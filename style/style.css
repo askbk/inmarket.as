@@ -72,6 +72,13 @@ body, html {
     padding-bottom: 20.4%;
 }
 
+#handwritten{
+    font-size: 40px;
+    font-family: Caveat-Regular;
+    line-height: normal;
+    color: #640507;
+}
+
 /* Create a Parallax Effect */
 .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-kayak, .bgimg-sliten{
     background-attachment: fixed;
@@ -230,5 +237,21 @@ textarea{
     font-family: 'Optima';
     font-style: normal;
     font-weight: 400;
-    src: url(http://www.imnor.no/fonts/OptimaNovaLT-Medium.otf);
+    src: url(../fonts/OptimaNovaLT-Medium.otf);
+}
+
+/* Caveat-Regular */
+@font-face {
+    font-family: 'Caveat-Regular';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/Caveat-Regular.ttf);
+}
+
+/* Caveat-Bold */
+@font-face {
+    font-family: 'Caveat-Bold';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/Caveat-Bold.ttf);
 }
