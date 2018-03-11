@@ -217,6 +217,10 @@ body, html {
     color: #684848;
 }
 
+.profile-icon{
+    margin-left: 2px;
+}
+
 textarea{
     background-image: url("../img/logo.jpg"); /* This ruins default border */
     background-repeat: no-repeat;
