@@ -201,6 +201,22 @@ body, html {
     margin-left: 30px;
 }
 
+.profile-link{
+    border-bottom: #555 2px solid;
+    letter-spacing: 1.5px;
+    font-style: italic;
+    font-size: 13px;
+    color: #640507;
+}
+
+.profile-link:hover{
+    border-bottom: #dabdbd 2px solid;
+    letter-spacing: 1.5px;
+    font-style: italic;
+    font-size: 13px;
+    color: #684848;
+}
+
 textarea{
     background-image: url("../img/logo.jpg"); /* This ruins default border */
     background-repeat: no-repeat;
