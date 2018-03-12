@@ -219,6 +219,9 @@ body, html {
 
 .profile-icon{
     margin-left: 2px;
+    display: inline-block;
+    vertical-align: text-top;
+    margin-top: 1px;
 }
 
 textarea{
