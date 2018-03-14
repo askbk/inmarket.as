@@ -218,9 +218,10 @@ body, html {
 }
 
 .profile-icon{
-    margin-left: -2px;
+    margin-left: 1px;
     display: inline-block;
     vertical-align: 2px;
+    width: 60px;
 }
 
 textarea{
