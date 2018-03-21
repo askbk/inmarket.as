@@ -7,6 +7,10 @@ p,h1,h2,h3,h4,h5,h6 {
     line-height: 24px;
 }
 
+li {
+    font-family: "Lato", sans-serif;
+}
+
 body, html {
     height: 100%;
     line-height: 1.8;
@@ -199,6 +203,11 @@ body, html {
 
 .profile-text{
     margin-left: 30px;
+    margin-top: 0px !important;
+}
+
+.profile-quote {
+    font-style: italic;
 }
 
 .profile-link{
