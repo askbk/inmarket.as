@@ -20,7 +20,7 @@
     <meta name="theme-color" content="#ffffff">
 </head>
 
-<body>
+<body itemscope itemtype="http://schema.org/Organization">
     <!--Facebook plugin-->
     <div id="fb-root"></div>
     <script>
@@ -113,17 +113,19 @@
     <!-- Container (om oss) -->
     <div class="w3-content w3-container w3-padding-64" id="om">
         <h1 class="w3-center extra-margin">Om oss</h1>
-        <p><b>
+        <p itemprop="description"><b>
           InMarket er en konsulentvirksomhet innen sosialt entreprenørskap. Vi samarbeider med ungdomsskoler, videregående skoler og universiteter/høyskoler for å aktivere elever og studenter tidlig ut i arbeidslivet. Vår hovedoppgave er å sørge for at elevene, studentene, fagansvarlige og arbeidsgivere finner en trygg plattform for å kunne kommunisere og utveksle informasjon.
         </b></p>
         <h2>Behovet vi ser</h2>
         <p>
+            <link itemprop="url" href="https://no.wikipedia.org/wiki/Videreg%C3%A5ende_oppl%C3%A6ring" />
           I utgangen av skoleåret 2015-2016 fullførte 59% av elever ved videregående opplæring skolegangen på normert tid. Det betyr at ca. 27 000 elever ikke var i stand til å gjennomføre utdanningen på normert tid.
         </p>
         <p>
           I snitt bruker staten ca. 155 000 kr per elev under videregående opplæring. Et sted tappes det unødvendig store summer. Det ønsker InMarket å gjøre noe med. Organisasjonen ønsker å være et avgjørende ledd i samfunnsutviklingen og moderniseringen av studier ved å sørge for at neste generasjon blir inkludert i markedet.
         </p>
         <p>
+            <link itemprop="url" href="https://no.wikipedia.org/wiki/Karriere">
           Konseptet vårt vil ha et langsiktig utslag for virksomhetene og arbeidstakerne. Virksomhetene vil vise ungdommen hvordan en karriere kan bli, hvilke problemer som skal løses og hvordan miljøet på arbeidsplassen er. Til gjengjeld får virksomhetene muligheten til å bli kjent med, påvirke og evaluere ungdommen tidlig i evt. rekrutteringsfasen.
         </p>
         <h2>Hvordan vi ser fremtiden</h2>
@@ -135,27 +137,27 @@
         </p>
         <p class="w3-large w3-center w3-padding-16">I et stolt samarbeid med:</p>
         <div class="w3-row w3-center">
-            <div class="w3-col m3 s3">
+            <div class="w3-col m3 s3" itemprop="sponsor">
                 <a href="https://cre8bd.weebly.com/" target="_blank"><img src="img/cre8.jpg" alt="Cre8ive" style="width:90%;margin-top: -10px;"></a>
             </div>
-            <div class="w3-col m3 s3">
+            <div class="w3-col m3 s3" itemprop="sponsor">
                 <a href="http://www.nrk.no/buskerud" target="_blank"><img src="img/nrk_svart.png" alt="NRK Buskerud" style="width:100%"></a>
             </div>
-            <div class="w3-col m3 s3">
+            <div class="w3-col m3 s3" itemprop="sponsor">
                 <a href="http://nfdr.no/om-oss-medlemmer/bedrifter-i-naeringsforeningen?details=21626" target="_blank"><img src="img/nfdr-small.png" alt="Næringsforeningen" style="width:100%"></a>
             </div>
-            <div class="w3-col m3 s3">
+            <div class="w3-col m3 s3" itemprop="sponsor">
                 <a href="https://www.usn.no/" target="_blank"><img src="img/hsn-small.jpg" alt="Høgskolen i Sørøst-Norge" style="width:100%;margin-top: 17px;"></a>
             </div>
         </div>
         <div class="w3-row w3-center">
-            <div class="w3-col m4 s4">
+            <div class="w3-col m4 s4" itemprop="sponsor">
                 <a href="https://www.drammen.kommune.no/" target="_blank"><img src="img/drammen_kommune.png" alt="Drammen kommune" style="width:100%;margin-top: -10px;"></a>
             </div>
-            <div class="w3-col m4 s4">
+            <div class="w3-col m4 s4" itemprop="sponsor">
                 <a href="https://www.akademiet.no" target="_blank"><img src="img/akademiet-logo-svart.png" alt="Akademiet" style="width:100%"></a>
             </div>
-            <div class="w3-col m4 s4">
+            <div class="w3-col m4 s4" itemprop="sponsor">
                 <a href="http://www.ezinneathletics.no/" target="_blank"><img src="img/ezinne.png" alt="Ezinne Athletics" style="width:100%"></a>
             </div>
         </div>
@@ -169,42 +171,42 @@
         <h1 class="w3-center extra-margin">Ledelsen</h1>
         <div class="w3-row-padding w3-center">
             <div class="w3-col m3">
-                <div class="w3-card-2">
-                    <img src="img/samuel.png" alt="Daglig leder Samuel Bigirimana" style="width:100%">
+                <div class="w3-card-2" itemprop="founder" itemscope itemtype="http://schema.org/Person">
+                    <img src="img/samuel.png" alt="Daglig leder Samuel Bigirimana" style="width:100%" itemprop="image">
                     <div class="w3-container">
-                        <h3>Samuel Bigirimana</h3>
-                        <p class="w3-opacity">Daglig leder</p>
-                        <p>Tlf.: (+47) 950 01 753<br>E-post:<br>samuel@imnor.no</p>
+                        <h3 itemprop="name">Samuel Bigirimana</h3>
+                        <p class="w3-opacity" itemprop="jobTitle">Daglig leder</p>
+                        <p>Tlf.: (+47) <span itemprop="telephone">950 01 753</span><br>E-post:<br><span itemprop="email">samuel@imnor.no</span></p>
                     </div>
                 </div>
             </div>
             <div class="w3-col m3">
-                <div class="w3-card-2">
-                    <img src="img/oyvind.png" alt="Nestleder Øyvind Fjeld" style="width:100%">
+                <div class="w3-card-2" itemprop="employee" itemscope itemtype="http://schema.org/Person">
+                    <img src="img/oyvind.png" alt="Nestleder Øyvind Fjeld" style="width:100%" itemprop="image">
                     <div class="w3-container">
                         <h3>Øyvind Fjeld</h3>
-                        <p class="w3-opacity" style="margin-top: 56px;">Nestleder</p>
-                        <p>Tlf.: (+47) 454 76 037<br>E-post: oyvind.fjeld@imnor.no</p>
+                        <p class="w3-opacity" style="margin-top: 56px;" itemprop="jobTitle">Nestleder</p>
+                        <p>Tlf.: (+47) <span itemprop="telephone">454 76 037</span><br>E-post: <span itemprop="email">oyvind.fjeld@imnor.no</span></p>
                     </div>
                 </div>
             </div>
             <div class="w3-col m3">
-                <div class="w3-card-2">
-                    <img src="img/markus.png" alt="Markedsdirektør Markus W. Lunner" style="width:100%">
+                <div class="w3-card-2" itemprop="employee" itemscope itemtype="http://schema.org/Person">
+                    <img src="img/markus.png" alt="Markedsdirektør Markus W. Lunner" style="width:100%" itemprop="image">
                     <div class="w3-container">
                         <h3>Markus W. Lunner</h3>
-                        <p class="w3-opacity">Markedsdirektør</p>
-                        <p>Tlf.: (+47) 954 83 823<br>E-post: markus.lunner@imnor.no</p>
+                        <p class="w3-opacity" itemprop="jobTitle">Markedsdirektør</p>
+                        <p>Tlf.: (+47) <span itemprop="telephone">954 83 823</span><br>E-post: <span itemprop="email">markus.lunner@imnor.no</span></p>
                     </div>
                 </div>
             </div>
             <div class="w3-col m3">
-                <div class="w3-card-2">
-                    <img src="img/samuels.jpg" alt="Organisasjonsdirektør Samuel Skretteberg" style="width:100%">
+                <div class="w3-card-2" itemprop="employee" itemscope itemtype="http://schema.org/Person">
+                    <img src="img/samuels.jpg" alt="Organisasjonsdirektør Samuel Skretteberg" style="width:100%" itemprop="image">
                     <div class="w3-container">
                         <h3>Samuel Skretteberg</h3>
-                        <p class="w3-opacity">Organisasjonsdirektør</p>
-                        <p>Tlf.: (+47) 473 26 426<br>E-post: skretteberg@imnor.no</p>
+                        <p class="w3-opacity" itemprop="jobTitle">Organisasjonsdirektør</p>
+                        <p>Tlf.: (+47) <span itemprop="telephone">473 26 426</span><br>E-post: <span itemprop="email">skretteberg@imnor.no</span></p>
                     </div>
                 </div>
             </div>
