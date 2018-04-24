@@ -227,6 +227,23 @@
 
     <script async src="js/ajaxSubmit.js" charset="utf-8" defer></script>
     <script async src="js/mobilenavbar.js" charset="utf-8"></script>
+    <script type="text/javascript">
+    //<![CDATA[
+    var owa_baseUrl = 'http://www.imnor.no/owa/';
+    var owa_cmds = owa_cmds || [];
+    owa_cmds.push(['setSiteId', '288e25b030575d8f1c398c7047384eff']);
+    owa_cmds.push(['trackPageView']);
+    owa_cmds.push(['trackClicks']);
+
+    (function() {
+        var _owa = document.createElement('script'); _owa.type = 'text/javascript'; _owa.async = true;
+        owa_baseUrl = ('https:' == document.location.protocol ? window.owa_baseSecUrl || owa_baseUrl.replace(/http:/, 'https:') : owa_baseUrl );
+        _owa.src = owa_baseUrl + 'modules/base/js/owa.tracker-combined-min.js';
+        var _owa_s = document.getElementsByTagName('script')[0]; _owa_s.parentNode.insertBefore(_owa, _owa_s);
+    }());
+    //]]>
+    </script>
+    </script>
 </body>
 
 </html>
