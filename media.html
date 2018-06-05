@@ -242,6 +242,9 @@ var owa_cmds = owa_cmds || [];
 owa_cmds.push(['setSiteId', '8e5381be6b97e4ee33610ddc24e8a34a']);
 owa_cmds.push(['trackPageView']);
 owa_cmds.push(['trackClicks']);
+OWATracker.trackClicks();
+OWATracker.trackDomStream();
+OWATracker.setOption('logDomStreamPercentag', 10)
 
 (function() {
 	var _owa = document.createElement('script'); _owa.type = 'text/javascript'; _owa.async = true;
@@ -249,8 +252,7 @@ owa_cmds.push(['trackClicks']);
 	_owa.src = owa_baseUrl + 'modules/base/js/owa.tracker-combined-min.js';
 	var _owa_s = document.getElementsByTagName('script')[0]; _owa_s.parentNode.insertBefore(_owa, _owa_s);
 }());
-OWATracker.trackClicks();
-OWATracker.trackDomStream();
+
 //]]>
     </script>
 </body>
