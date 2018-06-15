@@ -246,17 +246,41 @@ textarea{
 
 .w3-hover-opacity {cursor: pointer;}
 
-#driver-med-animation {
-    width: 400px;
+#driver-med-slideshow {
     height: 400px;
-    margin: auto;
-    background-image: url(../img/animation/driver_med_1.jpg);
+    position: relative;
+}
+
+#driver-med-img-1, #driver-med-img-2, #driver-med-img-3 {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 400px;
-    animation: giffy 6s infinite steps(1);
+    width: 400px;
+    height: 400px;
 }
 
+#driver-med-img-1 {
+    background-image: url(../img/animation/driver_med_1.jpg);
+}
+
+#driver-med-img-2 {
+    background-image: url(../img/animation/driver_med_2.jpg);
+}
+
+#driver-med-img-3 {
+    background-image: url(../img/animation/driver_med_3.jpg);
+}
+
+.driver-med-slide-1, .driver-med-slide-2, .driver-med-slide-3 {
+    position: absolute;
+    opacity: 0;
+}
+
+.driver-med-slide-1:hover, .driver-med-slide-2:hover, .driver-med-slide-3:hover {
+    animation-play-state: paused;
+}
+
+/*
 #driver-med-animation:hover {
     animation-play-state:paused;
 }
@@ -267,6 +291,12 @@ textarea{
     67%  { background-image: url('../img/animation/driver_med_3.jpg');}
 }
 
+@keyframes giffy-txt {
+    0% { visibility: visible; opacity: 1; }
+    33% { visibility: visible; opacity: 0; }
+    67% { visibility: visible; opacity: 0; }
+}
+*/
 /* latin-ext */
 @font-face {
     font-family: 'Lato';

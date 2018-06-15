@@ -117,49 +117,62 @@
     <!-- Container (hva vi driver med) -->
     <div class="w3-content w3-container w3-padding-64" id="hva">
         <h1 class="w3-center extra-margin">Hva vi driver med</h1>
-        <div class="w3-row">
-            <div class="w3-col m5">
-                <div class="w3-content" id="driver-med-animation"></div>
-            </div>
-            <div class="w3-col m7">
-                <div class="w3-row">
-                    <div class="w3-col m6">
-                        <p>
-                            <h5>Elever</h5>
-                            <ul>
-                                <li>Tas med på bedriftsbesøk for å utforske arbeidsplasser</li>
-                                <li>Settes i kontakt med studenter fra relevante studier</li>
-                                <li>Kan delta i enkelte prosjekter for bedriftene</li>
-                                <li>Gratis</li>
-                            </ul>
-                        </p>
-                    </div>
-                    <div class="w3-col m6">
-                        <p>
-                            <h5>Studenter</h5>
-                            <ul>
-                                <li>Kan delta i relevante prosjekter for bedrifter</li>
-                                <li>Mulighet til å veilede elever mot attest</li>
-                                <li>Gratis</li>
-                            </ul>
-                        </p>
-                    </div>
+
+        <!-- slideshow -->
+        <div class="w3-display-container" id="driver-med-slideshow">
+
+            <div class="w3-row driver-med-slide-1 mySlides driver-med-slides">
+                <div class="w3-col m5">
+                    <div class="w3-content" id="driver-med-img-1"></div>
                 </div>
-                <div class="w3-row">
-                    <div class="w3-col m9">
-                        <p>
-                            <h5>Bedrifter</h5>
-                            <ul>
-                                <li>Viser seg frem for ungdom</li>
-                                <li>Knytter kontakt med fremtidige arbeidstakere</li>
-                                <li>Får nye inspill under prosjekter</li>
-                                <li>Betaler penger</li>
-                            </ul>
-                        </p>
-                    </div>
+                <div class="w3-col m7">
+                    <p>
+                        <h5>Elever</h5>
+                        <ul>
+                            <li>Tas med på bedriftsbesøk for å utforske arbeidsplasser</li>
+                            <li>Settes i kontakt med studenter fra relevante studier</li>
+                            <li>Kan delta i enkelte prosjekter for bedriftene</li>
+                            <li>Gratis</li>
+                        </ul>
+                    </p>
                 </div>
             </div>
+
+            <div class="w3-row driver-med-slide-2 mySlides driver-med-slides">
+                <div class="w3-col m5">
+                    <div class="w3-content" id="driver-med-img-2"></div>
+                </div>
+                <div class="w3-col m7">
+                    <p>
+                        <h5>Studenter</h5>
+                        <ul>
+                            <li>Kan delta i relevante prosjekter for bedrifter</li>
+                            <li>Mulighet til å veilede elever mot attest</li>
+                            <li>Gratis</li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+
+            <div class="w3-row driver-med-slide-3 mySlides driver-med-slides">
+                <div class="w3-col m5">
+                    <div class="w3-content" id="driver-med-img-3"></div>
+                </div>
+                <div class="w3-col m7">
+                    <p>
+                        <h5>Bedrifter</h5>
+                        <ul>
+                            <li>Viser seg frem for ungdom</li>
+                            <li>Knytter kontakt med fremtidige arbeidstakere</li>
+                            <li>Får nye inspill under prosjekter</li>
+                            <li>Betaler penger</li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+
         </div>
+
 
 
         <p class="w3-large w3-center w3-padding-16">I et stolt samarbeid med:</p>
@@ -310,7 +323,8 @@
 
     <script async src="js/ajaxSubmit.js" charset="utf-8"></script>
     <script async src="js/navbar.js" charset="utf-8"></script>
-    <script src="js/checkMobile.js" charset="utf-8"></script>
+    <script async src="js/checkMobile.js" charset="utf-8"></script>
+    <script async src="js/driver-med-slideshow.js" charset="utf-8"></script>
     <script type="text/javascript">
     //<![CDATA[
 var owa_baseUrl = 'http://www.imnor.no/owa/';
