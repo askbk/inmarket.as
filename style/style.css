@@ -2,9 +2,11 @@ a {
     text-decoration: none;
 }
 
-p,h1,h2,h3,h4,h5,h6 {
-    font-family: "Lato", sans-serif;
-    line-height: 24px;
+#hva h5 {
+    font-size: 18px;
+    margin-left: 25px;
+    margin-bottom: -8px;
+    text-align: left;
 }
 
 li {
@@ -244,7 +246,26 @@ textarea{
 
 .w3-hover-opacity {cursor: pointer;}
 
+#driver-med-animation {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    background-image: url(../img/animation/driver_med_1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 400px;
+    animation: giffy 6s infinite steps(1);
+}
 
+#driver-med-animation:hover {
+    animation-play-state:paused;
+}
+
+@keyframes giffy {
+    0%   { background-image: url('../img/animation/driver_med_1.jpg'); }
+    33%  { background-image: url('../img/animation/driver_med_2.jpg'); }
+    67%  { background-image: url('../img/animation/driver_med_3.jpg');}
+}
 
 /* latin-ext */
 @font-face {
