@@ -2,22 +2,24 @@ let container = document.getElementById("driver-med-slideshow");
 let slides = document.getElementsByClassName("driver-med-slides");
 let i = 2;
 
+var slideInterval = setInterval(slideshow,2500);
+
 slideshow();
 
-function sleep(ms) {
-  return new Promise(resolve => setTimeout(resolve, ms));
+
+function slideshow() {
+
+    let prev = (i++) % 3;
+    i %= 3;
+
+    slides[prev].style.display = "none";
+    slides[i].style.display = "block";
 }
 
-async function slideshow() {
-    while(true) {
+container.onmouseover = function() {
+    clearInterval(slideInterval);
+}
 
-        let prev = (i++) % 3;
-        i %= 3;
-
-        slides[prev].style.opacity = "0";
-        slides[i].style.opacity = "1";
-
-        await sleep(2500);
-        console.log("nut" + i);
-    }
+container.onmouseout = function() {
+    slideInterval = setInterval(slideshow,2000);
 }
