@@ -43,8 +43,15 @@
             <a href="#styret" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-users"></i> Ledelsen</a>
             <a href="#kontakt" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> Kontakt oss</a>
             <a href="media.html#profiler" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-play-circle"></i> Media</a>
-            <a href="login.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-play-circle"></i> Logg inn</a>
             <a href="#hjem" class="w3-bar-item w3-right"><img src="img/logo-flat-small.png" height="32px" alt=""style="margin-top: -10px; margin-bottom: -10px;"></a>
+            <div class="navbar-contact">
+                <button class="w3-button w3-right" onclick="submitPhone"><i class="fa fa-paper-plane"></i></button>
+                <input class="w3-input w3-bar-item w3-right w3-border" placeholder="Telefonnr." required name="" type="text" id="inputPhoneBar">
+                <span class="w3-bar-item w3-right">Bli oppringt i løpet av 24 timer:</span>
+            </div>
+            <div class="navbar-submit w3-right w3-hide">
+                Takk for henvendelsen!
+            </div>
         </div>
 
         <!-- Navbar on small screens -->
@@ -57,57 +64,60 @@
 
     <!-- First Parallax Image-->
     <div class="slideshow w3-display-container" id="hjem">
-        <div class="bgimg-1 mySlides">
+        <div class="bgimg-1 mySlides parallax-img">
             <div class="w3-card-4 slideshowText-mobile w3-hide-medium w3-hide-large">
                 <a href="#kontakt"><p>Finn drømmejobben ved å utforske arbeidsmarkedet via InMarket.</p></a>
             </div>
             <a href="#kontakt">
                 <div class="w3-card-4 slideshowText w3-hide-small">
-                    <h2 class="slideshowHeader">Finn drømmejobben</h2>
+                    <h2 class="slideshowHeader">Finn din retning</h2>
                     <p>
                         <link itemprop="url" href="https://no.wikipedia.org/wiki/Utdannelse" />
-                        43% av alle som fullfører utdannelsen sin svarer at de ville valgt en annen utdannelse om de kunne velge på nytt. Ikke overlat studievalget til tilfeldighetene. Finn og utforsk drømmejobben via InMarket, slik at du velger riktig vei fra starten av.<br><b>Klikk her for å kontakte oss</b>
+                        Ikke overlat studievalget til tilfeldighetene. Finn og utforsk drømmejobben og drømmestudiet gjennom InMarket.<br>
+                        <b>Klikk her for å kontakte oss</b>
                     </p>
                 </div>
             </a>
         </div>
-        <div class="bgimg-2 mySlides">
+        <div class="bgimg-2 mySlides parallax-img">
             <div class="w3-card-4 slideshowText-mobile w3-hide-medium w3-hide-large">
                 <a href="#kontakt"><p>InMarket lar bedrifter og fremtidige arbeidstakere komme i kontakt med hverandre.</p></a>
             </div>
             <a href="#kontakt">
                 <div class="w3-card-4 slideshowText w3-hide-small">
-                    <h2 class="slideshowHeader">Kom i kontakt med fremtidige arbeidstakere</h2>
+                    <h2 class="slideshowHeader">Bedrifter</h2>
                     <p>
                         <link itemprop="url" href="https://no.wikipedia.org/wiki/Arbeidstaker" />
-                        InMarket lar bedrifter og fremtidige arbeidstakere komme i kontakt med hverandre tidligere enn noen gang før. Tilhører du en bedrift som ønsker å samarbeide med InMarket? Bruk kontaktskjemaet på nettsiden, så responderer vi så snart vi kan.<br><b>Klikk her for å kontakte oss</b>
+                        Som bedrift kan InMarket hjelpe deg med å komme i kontakt med fremtidige arbeidstakere og fylle praksisplasser.<br>
+                        <b>Klikk her for å kontakte oss</b>
                     </p>
                 </div>
             </a>
         </div>
-        <div class="bgimg-3 mySlides">
+        <div class="bgimg-3 mySlides parallax-img">
             <div class="w3-card-4 slideshowText-mobile w3-hide-medium w3-hide-large">
-                <a href="#kontakt"><p>InMarket – viser veien videre</p></a>
+                <a href="#kontakt"><p>Viser veien videre</p></a>
             </div>
             <a href="#kontakt">
                 <div class="w3-card-4 slideshowText w3-hide-small">
-                    <h2 class="slideshowHeader">InMarket – viser veien videre</h2>
+                    <h2 class="slideshowHeader">Viser veien videre</h2>
                     <p>
                         <link itemprop="url" href="https://no.wikipedia.org/wiki/Elev" />
-                        InMarket Norge er en ny bedrift som tilbyr gratis informasjon og erfaring blant videregående elever om arbeidsmarkedet og jobbene som finnes der ute. Vi knytter sammen elever, studenter, bedrifter og universiteter slik at alle tjener på det.<br><b>InMarket – Viser veien videre</b>
+                        InMarket knytter sammen studenter, elever, bedrifter og universiteter. På denne måten viser vi veien videre.<br>
+                        <b>Klikk her for å kontakte oss</b>
                     </p>
                 </div>
             </a>
         </div>
-        <div class="bgimg-4 mySlides">
+        <div class="bgimg-4 mySlides parallax-img">
             <div class="w3-card-4 slideshowText-mobile w3-hide-medium w3-hide-large">
                 <a href="#kontakt"><p>Elevgruppene til InMarket har studenter som veiledere og kontaktpersoner.</p></a>
             </div>
             <a href="#kontakt">
                 <div class="w3-card-4 slideshowText w3-hide-small">
-                    <h2 class="slideshowHeader">Elevgruppene våre har studenter som veiledere</h2>
+                    <h2 class="slideshowHeader">Elever og studenter</h2>
                     <p>
-                        Elevgruppene til InMarket har studenter som veiledere. Dette gjør at elevene lærer mer om studieløpet til den aktuelle jobben, og studenten kan knytte kontakt til bedriften. Er du student og vil jobbe i InMarket? Bruk kontaktskjemaet, og du vil høre fra oss.<br><b>Klikk her for å kontakte oss</b>
+                        Studenter ansettes som mentorer for elever i InMarket og kan fortelle om studiet sitt. Er du student kan vi også gi deg praksisplass hos bedrifter.<br><b>Klikk her for å kontakte oss</b>
                     </p>
                 </div>
             </a>
@@ -116,7 +126,7 @@
 
     <!-- Container (hva vi driver med) -->
     <div class="w3-content w3-container w3-padding-64" id="hva">
-        <h1 class="w3-center extra-margin">Hva vi driver med</h1>
+        <h1 class="w3-center">Dette tilbyr vi</h1>
 
         <!-- slideshow -->
         <div class="w3-display-container" id="driver-med-slideshow">
@@ -124,16 +134,16 @@
             <div class="w3-row driver-med-slide-1 driver-med-slides">
                 <div class="w3-col m8">
                     <!--<div class="w3-content" id="driver-med-img-1"></div>-->
-                    <img src="img/animation/driver_med_1.jpg" alt="" width="500" height="500" usemap="#slideshowMap">
+                    <img src="img/animation/driver_med_1.jpg" alt="" width="550" height="550" usemap="#slideshowMap">
                 </div>
                 <div class="w3-col m4">
                     <p>
-                        <h2>Elever</h2>
+                        <h2 class="driver-med-slides-headers">Elever</h2>
                         <ul>
-                            <li>Tas med på bedriftsbesøk for å utforske arbeidsplasser</li>
+                            <li>Tas med på besøk til arbeidsplasser og studier</li>
                             <li>Settes i kontakt med studenter fra relevante studier</li>
                             <li>Kan delta i enkelte prosjekter for bedriftene</li>
-                            <li>Gratis</li>
+                            <li>Helt gratis</li>
                         </ul>
                     </p>
                 </div>
@@ -141,16 +151,16 @@
 
             <div class="w3-row driver-med-slide-2 driver-med-slides">
                 <div class="w3-col m8">
-                    <img src="img/animation/driver_med_2.jpg" alt="" width="500" height="500" usemap="#slideshowMap">
+                    <img src="img/animation/driver_med_2.jpg" alt="" width="550" height="550" usemap="#slideshowMap">
                     <!--<div class="w3-content" id="driver-med-img-2"></div>-->
                 </div>
                 <div class="w3-col m4">
                     <p>
-                        <h2>Studenter</h2>
+                        <h2 class="driver-med-slides-headers">Studenter</h2>
                         <ul>
                             <li>Kan delta i relevante prosjekter for bedrifter</li>
                             <li>Mulighet til å veilede elever mot attest</li>
-                            <li>Gratis</li>
+                            <li>Helt gratis</li>
                         </ul>
                     </p>
                 </div>
@@ -159,25 +169,25 @@
             <div class="w3-row driver-med-slide-3 driver-med-slides">
                 <div class="w3-col m8">
                     <!--<div class="w3-content" id="driver-med-img-3"></div>-->
-                    <img src="img/animation/driver_med_3.jpg" alt="" width="500" height="500" usemap="#slideshowMap">
+                    <img src="img/animation/driver_med_3.jpg" alt="" width="550" height="550" usemap="#slideshowMap">
                 </div>
                 <div class="w3-col m4">
                     <p>
-                        <h2>Bedrifter</h2>
+                        <h2 class="driver-med-slides-headers">Bedrifter</h2>
                         <ul>
                             <li>Viser seg frem for ungdom</li>
                             <li>Knytter kontakt med fremtidige arbeidstakere</li>
                             <li>Får nye inspill under prosjekter</li>
-                            <li>Betaler penger</li>
+                            <li>Støtter økonomisk for investering i fremtid</li>
                         </ul>
                     </p>
                 </div>
             </div>
 
             <map name="slideshowMap">
-                <area shape="circle" coords="128,146,106" id="slideshow-bubble-1" onmouseover="bubbleMouseOver(1)" onmouseout="bubbleMouseOut(1)">
-                <area shape="circle" coords="393,153,101" id="slideshow-bubble-2" onmouseover="bubbleMouseOver(2)" onmouseout="bubbleMouseOut(2)">
-                <area shape="circle" coords="281,362,124" id="slideshow-bubble-3" onmouseover="bubbleMouseOver(3)" onmouseout="bubbleMouseOut(3)">
+                <area shape="circle" coords="140,156,118" id="slideshow-bubble-1" onmouseover="bubbleMouseOver(1)" onmouseout="bubbleMouseOut(1)">
+                <area shape="circle" coords="435,170,111" id="slideshow-bubble-2" onmouseover="bubbleMouseOver(2)" onmouseout="bubbleMouseOut(2)">
+                <area shape="circle" coords="313,395,125" id="slideshow-bubble-3" onmouseover="bubbleMouseOver(3)" onmouseout="bubbleMouseOut(3)">
             </map>
 
         </div>
@@ -213,7 +223,7 @@
     </div>
 
     <!-- Second Parallax Image -->
-    <div class="bgimg-music-night w3-display-container w3-opacity-min"></div>
+    <div class="bgimg-music-night w3-display-container w3-opacity-min parallax-img"></div>
 
     <!-- Container (ledelsen) -->
     <div class="w3-content w3-container w3-padding-64" id="styret">
@@ -263,27 +273,26 @@
     </div>
 
     <!-- Third Parallax Image -->
-    <div class="bgimg-nrk w3-display-container w3-opacity-min"></div>
+    <div class="bgimg-nrk w3-display-container w3-opacity-min parallax-img"></div>
 
     <!-- Container (kontakt oss) -->
     <div class="w3-content w3-container w3-padding-64" id="kontakt">
         <h1 class="w3-center" id="kontaktHeader">Kontakt oss</h1>
-        <div class="w3-row w3-padding-32 w3-section" >
+        <div class="w3-row w3-section" >
             <div class="w3-col m9 w3-panel" id="kontaktSkjema">
-                <p>Ønsker du å komme i kontakt med din fremtidige arbeidsgiver? Legg igjen kontaktinformasjonen din under, så vil vi kontakte deg så snart muligheten åpner seg!</p>
+                <p>Uavhengig av om du er elev, student eller bedrift så kan du legge igjen kontaktinformasjon under. Det er helt uforpliktende og du hører fra oss innen 24 timer.</p>
 
                     <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
                         <div class="w3-third">
                             <input class="w3-input w3-border" placeholder="Navn" required name="name" type="text" id="inputName">
                         </div>
                         <div class="w3-third">
-                            <input class="w3-input w3-border" placeholder="E-post" required name="email" type="text" id="inputEmail">
+                            <input class="w3-input w3-border" placeholder="E-post" name="email" type="text" id="inputEmail">
                         </div>
                         <div class="w3-third">
-                            <input class="w3-input w3-border" placeholder="Mobilnummer" required="" name="phone" type="text" id="inputPhone">
+                            <input class="w3-input w3-border" placeholder="Mobilnummer" name="phone" type="text" id="inputPhone">
                         </div>
                     </div>
-                    <textarea class="w3-input w3-border" placeholder="Fortell litt om deg selv. Hvilken by befinner du deg i, og hvordan kan vi hjelpe deg?" required name="text" rows="8" cols="40" id="inputText"></textarea>
                     <button class="w3-button w3-right w3-section" onclick="submitForm()"><i class="fa fa-paper-plane"></i> SEND</button>
 
                 <p id="responseText"></p>
