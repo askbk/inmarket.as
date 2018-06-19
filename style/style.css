@@ -10,7 +10,6 @@ a {
 }
 
 li {
-    font-family: "Lato", sans-serif;
     margin-top: 0.5em;
     display: list-item;
 }
@@ -283,7 +282,7 @@ textarea{
 }
 
 #driver-med-slideshow li {
-    font-size: 20px;
+    font-size: 17px;
 }
 
 #driver-med-img-1, #driver-med-img-2, #driver-med-img-3 {
@@ -313,6 +312,12 @@ textarea{
 
 #slideshow-bubble-1, #slideshow-bubble-2, #slideshow-bubble-3 {
     cursor: pointer;
+}
+
+@media only screen and (max-width: 1250px) {
+    .hide-narrow {
+        display: none;
+    }
 }
 
 /* latin-ext */
