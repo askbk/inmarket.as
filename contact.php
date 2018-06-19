@@ -30,6 +30,6 @@ if(preg_match("#[-a-zA-Z0-9éèÉÈäöæøåÄÖÆØÅ._ ]+#",$name) AND
         echo "En feil oppstod!";
     }
 } else {
-    echo "Ugyldige eller for mange tegn!";
+    echo "Ugyldige tegn!";
 }
 ?>
