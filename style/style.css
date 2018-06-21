@@ -214,6 +214,10 @@ body, html {
     }
 }
 
+#partner-div {
+    margin-top: 100px;
+}
+
 /* Second image (styret) */
 
 .bgimg-music-night {
