@@ -39,12 +39,12 @@
     <div class="w3-top">
         <div class="w3-bar w3-text-black" id="navbar">
             <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-            <a href="#hjem" class="w3-bar-item w3-button"><i class="fa fa-home"></i> Hjem</a>
+            <a href="#hjem" class="w3-bar-item w3-button navbar-accent"><i class="fa fa-home"></i> Hjem</a>
             <a href="om.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-info-circle"></i> Om InMarket</a>
             <a href="#styret" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-users"></i> Ledelsen</a>
             <a href="#kontakt" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> Kontakt oss</a>
             <a href="media.html#profiler" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-play-circle"></i> Media</a>
-            <a href="#hjem" class="w3-bar-item w3-right"><img src="img/logo-flat-small.png" height="32px" alt=""style="margin-top: -10px; margin-bottom: -10px;"></a>
+            <a href="#hjem" class="w3-bar-item w3-right"><img src="img/logo-flat-small.png" height="38px" alt="" id="navbar-img"></a>
             <div id="navbar-contact" class="hide-narrow">
                 <button class="w3-button w3-right" onclick="submitPhone()"><i class="fa fa-paper-plane"></i></button>
                 <input class="w3-input w3-bar-item w3-right w3-border" placeholder="Telefonnr." required name="" type="text" id="inputPhoneBar">
@@ -138,58 +138,90 @@
         <div class="w3-display-container" id="driver-med-slideshow">
 
             <div class="w3-row driver-med-slide-1 driver-med-slides">
-                <div class="w3-col m7">
+                <div class="w3-col l7">
                     <img src="img/animation/driver_med_1.jpg" alt="" width="550" height="550" usemap="#slideshowMap">
                 </div>
-                <div class="w3-col m5">
-                    <h2 class="driver-med-slides-headers">Elever</h2>
+                <div class="w3-col l5">
+                    <h3 class="driver-med-slides-headers">Som elev får du:</h2>
                     <ul>
-                        <li><span>Tas med på besøk til arbeidsplasser og studier</span></li>
-                        <li>Settes i kontakt med studenter fra relevante studier</li>
-                        <li>Kan delta i enkelte prosjekter for bedriftene</li>
-                        <li>Helt gratis</li>
+                        <li>Tett veiledning og oppfølging av en student eller en InMarket ansatt</li>
+                        <li>Jevne møter med enten fremtidig arbeidsplass eller fremtidig studiested</li>
+                        <li>En gruppe med folk fra samme klasse å dele erfaringer med</li>
+                        <li>Muligheten til å vise dine egenskaper via prosjektarbeid gitt av en arbeidsgiver</li>
                     </ul>
                 </div>
             </div>
 
             <div class="w3-row driver-med-slide-2 driver-med-slides">
-                <div class="w3-col m7">
+                <div class="w3-col l7">
                     <img src="img/animation/driver_med_2.jpg" alt="" width="550" height="550" usemap="#slideshowMap">
                 </div>
-                <div class="w3-col m5">
-                    <h2 class="driver-med-slides-headers">Studenter</h2>
+                <div class="w3-col l5">
+                    <h3 class="driver-med-slides-headers">Som student får du:</h2>
                     <ul>
-                        <li>Kan delta i relevante prosjekter for bedrifter</li>
-                        <li>Mulighet til å veilede elever mot attest</li>
-                        <li>Helt gratis</li>
+                        <li>Tett veiledning og oppfølging av en ansatt i en virksomhet eller en InMarket ansatt</li>
+                        <li>Jevne møter med fremtidig arbeidsplass og muligheten til å utvide ditt nettverk</li>
+                        <li>Muligheten til å koble dine studier til en arbeidsplass</li>
+                        <li>Muligheten til å være mentor for en elev fra videregående skole</li>
                     </ul>
                 </div>
             </div>
 
             <div class="w3-row driver-med-slide-3 driver-med-slides">
-                <div class="w3-col m7">
+                <div class="w3-col l7">
                     <img src="img/animation/driver_med_3.jpg" alt="" width="550" height="550" usemap="#slideshowMap">
                 </div>
-                <div class="w3-col m5">
-                    <h2 class="driver-med-slides-headers">Bedrifter</h2>
+                <div class="w3-col l5">
+                    <h3 class="driver-med-slides-headers">Som virksomhet får du:</h2>
                     <ul>
-                        <li>Viser seg frem for ungdom</li>
-                        <li>Knytter kontakt med fremtidige arbeidstakere</li>
-                        <li>Får nye inspill under prosjekter</li>
-                        <li>Støtter økonomisk for investering i fremtid</li>
+                        <li>En elev eller student på besøk med jevne mellomrom</li>
+                        <li>Tett oppføling og veiledning vedrørende elevene og studentene fra InMarket</li>
+                        <li>God kontakt med neste generasjon arbeidstakere</li>
+                        <li>Muligheten til å analysere og etter hvert ansette elever og studenter som viser gode ferdigheter og holdninger</li>
                     </ul>
                 </div>
             </div>
 
             <map name="slideshowMap">
-                <area shape="circle" coords="140,156,118" id="slideshow-bubble-1" onmouseover="bubbleMouseOver(1)">
-                <area shape="circle" coords="435,170,111" id="slideshow-bubble-2" onmouseover="bubbleMouseOver(2)">
-                <area shape="circle" coords="313,395,125" id="slideshow-bubble-3" onmouseover="bubbleMouseOver(3)">
+                <area shape="circle" coords="138,157,109" id="slideshow-bubble-1" onmouseover="bubbleMouseOver(1)">
+                <area shape="circle" coords="404,164,109" id="slideshow-bubble-2" onmouseover="bubbleMouseOver(2)">
+                <area shape="circle" coords="273,397,109" id="slideshow-bubble-3" onmouseover="bubbleMouseOver(3)">
             </map>
 
         </div>
 
-        <p class="w3-large w3-center w3-padding-16">I et stolt samarbeid med:</p>
+        <div class="w3-content">
+            <div class="w3-row-padding">
+                <div class="w3-col l4">
+                    <div class="w3-card-2 driver-med-forklaring w3-container">
+                        <h2>Elev</h2>
+                        <p>Som en elev får du muligheten til å se fremover i tid. Vi kobler deg til studiet du ønsker å ta eller til karrieren du ønsker å satse på. Her får du muligheten til å knytte kontakter, vise dine egenskaper og bygge tidlige erfaringer.</p>
+                        <p>Du får en attest fra InMarket som bekrefter dine aktiviteter, karriererådgivning og faglig veiledning.</p>
+
+                        <p style="margin-top: 2.5em;">Pris: GRATIS</p>
+                    </div>
+                </div>
+                <div class="w3-col l4">
+                    <div class="w3-card-2 driver-med-forklaring w3-container">
+                        <h2>Student</h2>
+                        <p>Som student får du muligheten til å koble deg til en arbeidsplass før du er ferdig med studiet ditt. Dette kan hjelpe deg å bygge erfaring og å videreutvikle din kompetanse.</p>
+                        <p>Våre studenter blir også satt til å veilede én eller flere elever fra videregående skole. Dette vil komme sterkt frem på din CV.</p>
+
+                        <p style="margin-top: 5.5em;">Pris: GRATIS</p>
+                    </div>
+                </div>
+                <div class="w3-col l4">
+                    <div class="w3-card-2 driver-med-forklaring w3-container">
+                        <h2>Virksomhet</h2>
+                        <p>Som virksomhet får du muligheten til å møte, påvirke og evaluere de som studerer innenfor ditt fagfelt. Her har du muligheten til å få tilbakemeldinger fra en yngre gruppe, samtidig en trygg måte å rekruttere på.</p>
+                        <p>Flere arbeidsgivere sier at studentene er utdaterte før de ferdig med sine studier. Dette unngår dere å oppleve ved å koble dere til InMarket.</p>
+
+                        <p>Pris: <a href="#kontakt">Kontakt oss</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="w3-row w3-center">
             <div class="w3-col m3 s3" itemprop="sponsor" style="padding-right: 50px;">
                 <a href="https://cre8bd.weebly.com/" target="_blank"><img src="img/cre8.jpg" alt="Cre8ive" style="width:90%;margin-top: -10px;"></a>
@@ -224,7 +256,7 @@
     <div class="w3-content w3-container w3-padding-64" id="styret">
         <h1 class="w3-center extra-margin">Ledelsen</h1>
         <div class="w3-row-padding w3-center">
-            <div class="w3-col m3">
+            <div class="w3-col l3">
                 <div class="w3-card-2" itemprop="founder" itemscope itemtype="http://schema.org/Person">
                     <img src="img/samuel.png" alt="Daglig leder Samuel Bigirimana" style="width:100%" itemprop="image">
                     <div class="w3-container">
@@ -234,7 +266,7 @@
                     </div>
                 </div>
             </div>
-            <div class="w3-col m3">
+            <div class="w3-col l3">
                 <div class="w3-card-2" itemprop="employee" itemscope itemtype="http://schema.org/Person">
                     <img src="img/oyvind.png" alt="Nestleder Øyvind Fjeld" style="width:100%" itemprop="image">
                     <div class="w3-container">
@@ -244,7 +276,7 @@
                     </div>
                 </div>
             </div>
-            <div class="w3-col m3">
+            <div class="w3-col l3">
                 <div class="w3-card-2" itemprop="employee" itemscope itemtype="http://schema.org/Person">
                     <img src="img/markus.png" alt="Markedsdirektør Markus W. Lunner" style="width:100%" itemprop="image">
                     <div class="w3-container">

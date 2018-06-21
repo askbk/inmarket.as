@@ -9,6 +9,15 @@ a {
     text-align: left;
 }
 
+#navbar img {
+    margin: -10px;
+}
+
+#navbar {
+    font-size: 18px;
+    line-height: 2.5em;
+}
+
 li {
     display: list-item;
     margin-top: 0.5em;
@@ -182,19 +191,6 @@ body, html {
     background-image: url("../img/gladefolk.jpg");
 }
 
-.animate-fade-out {
-    animation: opac 0.8s;
-}
-
-@keyframes opac {
-    from {
-        opacity: 1;
-    }
-    to {
-        opacity: 0;
-    }
-}
-
 @keyframes fade {
     0% {
         visibility: visible;
@@ -318,28 +314,60 @@ textarea {
     font-size: 17px;
 }
 
-#driver-med-img-1, #driver-med-img-2, #driver-med-img-3 {
-    width: 500px;
-    height: 500px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 500px;
+.driver-med-forklaring {
+    height: 100%;
 }
 
-#driver-med-img-1 {
-    background-image: url(../img/animation/driver_med_1.jpg);
+/*.animation-fade-in {
+    animation-name: fade-short-in;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    opacity: 0;
 }
 
-#driver-med-img-2 {
-    background-image: url(../img/animation/driver_med_2.jpg);
+.animation-fade-out {
+    animation-name: fade-short-out;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    opacity: 1;
 }
 
-#driver-med-img-3 {
-    background-image: url(../img/animation/driver_med_3.jpg);
+@keyframes fade-short-in {
+    0% {
+        visibility: visible;
+        opacity: 0;
+    }
+    25% {
+        visibility: visible;
+        opacity: 1;
+    }
+    100% {
+        visibility: visible;
+        opacity: 1;
+    }
 }
 
+@keyframes fade-short-out {
+    0% {
+        visibility: visible;
+        opacity: 1;
+    }
+    75% {
+        visibility: visible;
+        opacity: 1;
+    }
+    100% {
+        visibility: hidden;
+        opacity: 0;
+    }
+}
+
+.driver-med-slides {
+    position: absolute;
+    visibility: hidden;
+}
+*/
 .driver-med-slide-2, .driver-med-slide-3 {
-    /*position: absolute;*/
     display: none;
 }
 
@@ -347,7 +375,8 @@ textarea {
     cursor: pointer;
 }
 
-@media only screen and (max-width: 1250px) {
+
+@media only screen and (max-width: 1380px) {
     .hide-narrow {
         display: none;
     }
