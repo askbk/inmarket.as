@@ -41,6 +41,14 @@ body, html {
     color: #ba0a0d !important;
 }
 
+.red-background {
+    background: #640507;
+}
+
+.red-text {
+    color: #640507;
+}
+
 .slideshowHeader {
     line-height: 1.2;
     margin: 0;
@@ -388,6 +396,10 @@ textarea {
 .om-oss-text h1 {
     color: white;
     text-align: left;
+}
+
+.about-text {
+    margin-top: 100px;
 }
 
 
