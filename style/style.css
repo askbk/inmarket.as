@@ -233,7 +233,7 @@ body, html {
 }
 
 .bgimg-nrk-anniken {
-    min-height: 400px;
+    min-height: 100%;
     background-image: url("../img/NRK-anniken.jpg");
 }
 
@@ -377,6 +377,17 @@ textarea {
 
 #slideshow-bubble-1, #slideshow-bubble-2, #slideshow-bubble-3 {
     cursor: pointer;
+}
+
+.om-oss-text {
+    color: white;
+    max-width: 50%;
+    background-color: #640507;
+}
+
+.om-oss-text h1 {
+    color: white;
+    text-align: left;
 }
 
 
