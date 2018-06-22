@@ -34,21 +34,32 @@
 
     <!-- Navbar -->
     <div class="w3-top">
-        <div class="w3-bar w3-card-2 w3-animate-top w3-white navbar-accent w3-theme-text-red w3-border-bottom" id="navbar">
-            <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu"><i class="fas fa-bars"></i></a>
-            <a href="index.html#hjem" class="w3-bar-item w3-button"><i class="fas fa-home"></i> Hjem</a>
-            <a href="om.html" class="w3-bar-item w3-button w3-hide-small"><i class="fas fa-info-circle"></i> Om InMarket</a>
-            <a href="index.html#styret" class="w3-bar-item w3-button w3-hide-small"><i class="fas fa-user"></i> Ledelsen</a>
-            <a href="index.html#kontakt" class="w3-bar-item w3-button w3-hide-small"><i class="fas fa-envelope"></i> Kontakt oss</a>
-            <a href="media.html#profiler" class="w3-bar-item w3-button w3-hide-small"><i class="fas fa-play-circle"></i> Media</a>
-            <a href="index.html#hjem" class="w3-bar-item w3-right"><img src="img/logo-flat-small.png" height="38px" alt="" id="navbar-img"></a>
-            <div id="navbar-contact" class="hide-narrow">
-                <button class="w3-button w3-right" onclick="submitPhone()"><i class="fas fa-paper-plane"></i></button>
-                <input class="w3-input w3-bar-item w3-right w3-border" placeholder="Telefonnr." required name="" type="text" id="inputPhoneBar">
-                <span class="w3-bar-item w3-right">Bli oppringt i løpet av 24 timer:</span>
-            </div>
-            <div id="navbar-submit" class="w3-right w3-hide">
-                <span class="w3-bar-item w3-right">Takk for henvendelsen!</span>
+        <div class="w3-bar w3-white w3-xxxlarge navbar-accent w3-theme-text-red">
+            <a href="index.html#hjem" class="w3-bar-item"><img src="img/logo-flat-small.png" height="64px" alt="InMarket logo" id="navbar-img" style="margin:-10px;"></a>
+            <span class="header-text">InMarket Norge</span>
+            <div class="w3-dropdown-hover w3-right">
+                <button class="w3-button header-text" id="navbar-button"> <i class="fas fa-bars"></i> Meny</button>
+                <div class="w3-dropdown-content w3-bar-block w3-card-4 w3-right w3-large">
+                    <a href="index.html#hjem" class="w3-bar-item w3-button"><i class="fas fa-home"></i> Hjem</a>
+                    <a href="om.html" class="w3-bar-item w3-button w3-hide-small"><i class="fas fa-info-circle"></i> Om InMarket</a>
+                    <a href="index.html#styret" class="w3-bar-item w3-button w3-hide-small"><i class="fas fa-user"></i> Ledelsen</a>
+                    <a href="media.html" class="w3-bar-item w3-button w3-hide-small"><i class="fas fa-play-circle"></i> Media</a>
+                    <a href="index.html#kontakt" class="w3-bar-item w3-button w3-hide-small"><i class="fas fa-envelope"></i> Kontakt oss</a>
+                    <div id="navbar-contact" class="">
+                        <span class="w3-bar-item">Bli oppringt i løpet av 24 timer:</span>
+                        <div class="w3-row w3-padding">
+                            <div class="w3-col m9">
+                                <input class="w3-input w3-border w3-bar-item" placeholder="Telefonnr." required name="" type="text" id="inputPhoneBar">
+                            </div>
+                            <div class="w3-col m3">
+                                <button class="w3-button w3-bar-item w3-center" onclick="submitPhone()"><i class="fas fa-paper-plane"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="navbar-submit" class="w3-hide">
+                        <span class="w3-bar-item w3-right">Takk for henvendelsen!</span>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -83,7 +94,7 @@
                         <br>
                     </p>
                     <ul>
-                        <li>Kontakt mellom elever og bedrifter</li>
+                        <li>Kontakt mellom elever og virksomheter</li>
                         <li>Karrierebygging</li>
                         <li>Organisasjonsledelse</li>
                         <li>Teambuilding og personlig utvikling</li>
@@ -108,13 +119,13 @@
                 <div class="profile-arrow w3-light-grey"></div>
                 <div class="profile-text w3-panel w3-light-grey">
                     <p><span itemprop="description">
-                        Øyvind Fjeld jobber som Nestleder i InMarket og er sivilingeniørstudent ved NTNU Gløshaugen. Han har vært i førstegangstjeneste og er tidligere daglig leder (nå styremedlem) i studentbedriften Lumenia. Øyvind har alltid stålkontroll på alt fra Økonomi og regnskap til elevaktiviteter og samarbeidspartnere. En bauta av en ressurs som iM ikke hadde klart seg uten.
+                        Øyvind Fjeld jobber som Nestleder i InMarket og er sivilingeniørstudent ved NTNU Gløshaugen. Han har vært i førstegangstjeneste og er tidligere daglig leder (nå styremedlem) i studentvirksomheten Lumenia. Øyvind har alltid stålkontroll på alt fra Økonomi og regnskap til elevaktiviteter og samarbeidspartnere. En bauta av en ressurs som iM ikke hadde klart seg uten.
                         </span>
                         <br><br>
                         Temaer Øyvind er kvalifisert til å snakke om i en mediasituasjon:
                     </p>
                     <ul>
-                        <li>Kontakt mellom elever og bedrifter</li>
+                        <li>Kontakt mellom elever og virksomheter</li>
                         <li>Karrierebygging</li>
                         <li>Entreprenørskap og Gründervirksomhet</li>
                         <li>Økonomi og Analyse</li>
@@ -140,13 +151,13 @@
                 <div class="profile-text w3-panel w3-light-grey">
                     <p>
                         <span itemprop="description">
-                        Markus jobber til daglig som markedsdirektør for iM og har studert markedsføringsledelse på BI i Oslo. Tidligere har han også jobbet som daglig leder i Caxtus AS og Lunner Assistanse; to ulike bedrifter som begge hadde som hovedoppgave å sysselsette landets elever/studenter. Markus er den mest positive, lidenskapelig engasjerte personen du kommer til å møte, med et smil som smitter. Han er motivert, arbeidsvillig og alltid klar for en ny utfordring!
+                        Markus jobber til daglig som markedsdirektør for iM og har studert markedsføringsledelse på BI i Oslo. Tidligere har han også jobbet som daglig leder i Caxtus AS og Lunner Assistanse; to ulike virksomheter som begge hadde som hovedoppgave å sysselsette landets elever/studenter. Markus er den mest positive, lidenskapelig engasjerte personen du kommer til å møte, med et smil som smitter. Han er motivert, arbeidsvillig og alltid klar for en ny utfordring!
                         </span>
                         <br><br>
                         Temaer Markus er kvalifisert til å snakke om i en mediasituasjon:
                     </p>
                     <ul>
-                        <li>Kontakt mellom elever og bedrifter</li>
+                        <li>Kontakt mellom elever og virksomheter</li>
                         <li>Karrierebygging</li>
                         <li>Markedsføring og Prosjektledelse</li>
                         <li>Design og Mønsterteori (UPT)</li>
@@ -177,7 +188,7 @@
                         Temaer Samuel er kvalifisert til å snakke om i en mediasituasjon:
                     </p>
                     <ul>
-                        <li>Kontakt mellom elever og bedrifter</li>
+                        <li>Kontakt mellom elever og virksomheter</li>
                         <li>Karrierebygging</li>
                         <li>Human Resource Management (HRM)</li>
                         <li>Psykologi </li>
@@ -229,13 +240,13 @@
             InMarket Samuel Bigirimana Org.nr. 8188 21 522
         </div>
         <div class="w3-col m3">
-            <i class="fas fa-envelope"></i> <br>post@imnor.no
+            <i class="fas fa-envelope w3-xxlarge red-text"></i> <br>post@imnor.no
         </div>
         <div class="w3-col m3">
-            <i class="fas fa-file-contract"></i> <br>Personvernerklæring
+            <i class="fas fa-file-contract w3-xxlarge red-text"></i> <br>Personvernerklæring
         </div>
         <div class="w3-col m3">
-
+            <a href="https://www.facebook.com/InMarketNorge/"><i class="fab fa-facebook w3-hover-opacity w3-xxxlarge red-text"></i></a> <a href="https://www.linkedin.com/company/inmarket"><i class="fab fa-linkedin w3-hover-opacity w3-xxxlarge red-text"></i></a>
         </div>
     </footer>
 
