@@ -357,6 +357,10 @@ textarea {
     padding-right: 32px;
 }
 
+#about-video {
+    width: 980px;
+}
+
 #navbar-button {
     padding-right: 2em;
     line-height: 64px;
