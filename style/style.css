@@ -38,7 +38,7 @@ body, html {
 }
 
 .red-background {
-    background: #640507;
+    background: #640507 !important;
 }
 
 .red-text {
@@ -245,6 +245,10 @@ body, html {
     margin-bottom: 80px;
 }
 
+#profiler {
+    margin-top: 3em;
+}
+
 .profile-arrow {
     position: absolute;
     z-index: -1;
@@ -345,6 +349,14 @@ textarea {
     margin-top: 100px;
 }
 
+#about-1 p {
+    padding-left: 32px;
+}
+
+#about-2 p {
+    padding-right: 32px;
+}
+
 #navbar-button {
     padding-right: 2em;
     line-height: 64px;
@@ -353,6 +365,25 @@ textarea {
 .header-text {
     font-weight: 100;
     vertical-align: middle;
+}
+
+.red-button {
+    background: #640507;
+    color: white;
+}
+
+.red-button:hover {
+    background: white;
+    color: #640507;
+}
+
+#navbar {
+    background-color: #640507;
+}
+
+#navbar-dropdown {
+    background-color: #640507;
+    color: white;
 }
 
 /* latin-ext */

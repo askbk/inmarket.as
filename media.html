@@ -34,25 +34,25 @@
 
     <!-- Navbar -->
     <div class="w3-top">
-        <div class="w3-bar w3-white w3-xxxlarge navbar-accent w3-theme-text-red">
+        <div class="w3-bar w3-white w3-xxxlarge navbar-accent">
             <a href="index.html#hjem" class="w3-bar-item"><img src="img/logo-flat-small.png" height="64px" alt="InMarket logo" id="navbar-img" style="margin:-10px;"></a>
             <span class="header-text">InMarket Norge</span>
             <div class="w3-dropdown-hover w3-right">
                 <button class="w3-button header-text" id="navbar-button"> <i class="fas fa-bars"></i> Meny</button>
-                <div class="w3-dropdown-content w3-bar-block w3-card-4 w3-right w3-large">
-                    <a href="index.html#hjem" class="w3-bar-item w3-button"><i class="fas fa-home"></i> Hjem</a>
-                    <a href="om.html" class="w3-bar-item w3-button w3-hide-small"><i class="fas fa-info-circle"></i> Om InMarket</a>
-                    <a href="index.html#styret" class="w3-bar-item w3-button w3-hide-small"><i class="fas fa-user"></i> Ledelsen</a>
-                    <a href="media.html" class="w3-bar-item w3-button w3-hide-small"><i class="fas fa-play-circle"></i> Media</a>
-                    <a href="index.html#kontakt" class="w3-bar-item w3-button w3-hide-small"><i class="fas fa-envelope"></i> Kontakt oss</a>
+                <div class="w3-dropdown-content w3-bar-block w3-card-4 w3-right w3-large" id="navbar-dropdown">
+                    <a href="index.html#hjem" class="w3-bar-item red-button"><i class="fas fa-home"></i> Hjem</a>
+                    <a href="om.html" class="w3-bar-item red-button w3-hide-small"><i class="fas fa-info-circle"></i> Om InMarket</a>
+                    <a href="index.html#styret" class="w3-bar-item red-button w3-hide-small"><i class="fas fa-user"></i> Ledelsen</a>
+                    <a href="media.html" class="w3-bar-item red-button w3-hide-small"><i class="fas fa-play-circle"></i> Media</a>
+                    <a href="index.html#kontakt" class="w3-bar-item red-button w3-hide-small"><i class="fas fa-envelope"></i> Kontakt oss</a>
                     <div id="navbar-contact" class="">
                         <span class="w3-bar-item">Bli oppringt i løpet av 24 timer:</span>
                         <div class="w3-row w3-padding">
                             <div class="w3-col m9">
-                                <input class="w3-input w3-border w3-bar-item" placeholder="Telefonnr." required name="" type="text" id="inputPhoneBar">
+                                <input class="w3-input w3-bar-item" placeholder="Telefonnr." required name="" type="text" id="inputPhoneBar">
                             </div>
                             <div class="w3-col m3">
-                                <button class="w3-button w3-bar-item w3-center" onclick="submitPhone()"><i class="fas fa-paper-plane"></i></button>
+                                <button class="red-button w3-bar-item w3-center" onclick="submitPhone()"><i class="fas fa-paper-plane"></i></button>
                             </div>
                         </div>
                     </div>
@@ -101,6 +101,7 @@
                     </ul>
                     <p>
                         <span class="profile-quote">«Jeg startet InMarket for å gjøre en forskjell i livene til de som ikke er fornøyd med utdanningen sin. Å oppleve fremgangen virksomheten har pusher meg til å tenke langt forbi det øyet kan se, noe jeg stortrives med.»</span>
+                        <br><br>
                         <a class="profile-link" rel="nofollow" href="https://www.linkedin.com/in/samuel-bigirimana-64a586bb" target="_blank" itemprop="url">Les mer om Samuel på <img src="img/linkedin-red.png" alt="" class="profile-icon" width="60px" height="100%"></a>
                     </p>
                 </div>
@@ -132,6 +133,7 @@
                     </ul>
                     <p>
                         <span class="profile-quote">«Jeg jobber i InMarket fordi veien fra skole til relevant jobb i dag er unødig kronglete og ofte tar deg innom sideveier du ikke hadde trengt i reisen mot hvor du ønsker å ende opp.»</span>
+                        <br><br>
                         <a class="profile-link" rel="nofollow" href="https://www.linkedin.com/in/%C3%B8yvind-fjeld-047444144" target="_blank" itemprop="url">Les mer om Øyvind på <img src="img/linkedin-red.png" alt="" class="profile-icon" width="60px" height="100%"></a>
                     </p>
                 </div>
@@ -164,6 +166,7 @@
                     </ul>
                     <p>
                         <span class="profile-quote">«Det jeg elsker mest med jobben min, er at jeg får lov til å være med på å forme veien videre for neste generasjon elever/studenter. Det er en ren glede å stå opp hver dag; når du vet at jobben du gjør i dag, vil ha en positiv effekt på samfunnet du er en del av i morgen.»</span>
+                        <br><br>
                         <a class="profile-link" rel="nofollow" href="https://www.linkedin.com/in/detlunnerseg" target="_blank" itemprop="url">Les mer om Markus på <img src="img/linkedin-red.png" alt="" class="profile-icon" width="60px" height="100%"></a>
                     </p>
                 </div>
@@ -195,6 +198,7 @@
                     </ul>
                     <p>
                         <span class="profile-quote">«Jeg har alltid ønsket å jobbe et sted hvor vi er med på å endre liv; og det får jeg muligheten til her.»</span>
+                        <br><br>
                         <a class="profile-link" rel="nofollow" href="https://www.linkedin.com/in/samuel-skretteberg-8a32a3149" target="_blank" itemprop="url">Les mer om Samuel på <img src="img/linkedin-red.png" alt="" class="profile-icon" width="60px" height="100%"></a>
                     </p>
                 </div>
@@ -234,8 +238,7 @@
     </div>
 
     <!-- Footer -->
-
-    <footer class="w3-row w3-center w3-opacity w3-hover-opacity-off w3-section w3-large">
+    <footer class="w3-row w3-center w3-section w3-large">
         <div class="w3-col m3">
             InMarket Samuel Bigirimana Org.nr. 8188 21 522
         </div>
@@ -251,7 +254,6 @@
     </footer>
 
     <script src="js/ajaxSubmit.js" charset="utf-8"></script>
-    <script src="js/navbar.js" charset="utf-8"></script>
     <script src="js/checkMobile.js" charset="utf-8"></script>
     <script type="text/javascript">
     //<![CDATA[

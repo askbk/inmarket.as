@@ -22,21 +22,32 @@
 
     <!-- Navbar -->
     <div class="w3-top">
-        <div class="w3-bar w3-card-2 w3-animate-top w3-white navbar-accent w3-theme-text-red w3-border-bottom" id="navbar">
-            <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu"><i class="fas fa-bars"></i></a>
-            <a href="index.html#hjem" class="w3-bar-item w3-button"><i class="fas fa-home"></i> Hjem</a>
-            <a href="om.html" class="w3-bar-item w3-button w3-hide-small"><i class="fas fa-info-circle"></i> Om InMarket</a>
-            <a href="index.html#styret" class="w3-bar-item w3-button w3-hide-small"><i class="fas fa-users"></i> Ledelsen</a>
-            <a href="index.html#kontakt" class="w3-bar-item w3-button w3-hide-small"><i class="fas fa-envelope"></i> Kontakt oss</a>
-            <a href="media.html#profiler" class="w3-bar-item w3-button w3-hide-small"><i class="fas fa-play-circle"></i> Media</a>
-            <a href="index.html#hjem" class="w3-bar-item w3-right"><img src="img/logo-flat-small.png" height="38px" alt="" id="navbar-img"></a>
-            <div id="navbar-contact" class="hide-narrow">
-                <button class="w3-button w3-right" onclick="submitPhone()"><i class="fas fa-paper-plane"></i></button>
-                <input class="w3-input w3-bar-item w3-right w3-border" placeholder="Telefonnr." required name="" type="text" id="inputPhoneBar">
-                <span class="w3-bar-item w3-right">Bli oppringt i løpet av 24 timer:</span>
-            </div>
-            <div id="navbar-submit" class="w3-right w3-hide">
-                <span class="w3-bar-item w3-right">Takk for henvendelsen!</span>
+        <div class="w3-bar w3-white w3-xxxlarge navbar-accent">
+            <a href="index.html#hjem" class="w3-bar-item"><img src="img/logo-flat-small.png" height="64px" alt="InMarket logo" id="navbar-img" style="margin:-10px;"></a>
+            <span class="header-text">InMarket Norge</span>
+            <div class="w3-dropdown-hover w3-right">
+                <button class="w3-button header-text" id="navbar-button"> <i class="fas fa-bars"></i> Meny</button>
+                <div class="w3-dropdown-content w3-bar-block w3-card-4 w3-right w3-large" id="navbar-dropdown">
+                    <a href="index.html#hjem" class="w3-bar-item red-button"><i class="fas fa-home"></i> Hjem</a>
+                    <a href="om.html" class="w3-bar-item red-button w3-hide-small"><i class="fas fa-info-circle"></i> Om InMarket</a>
+                    <a href="index.html#styret" class="w3-bar-item red-button w3-hide-small"><i class="fas fa-user"></i> Ledelsen</a>
+                    <a href="media.html" class="w3-bar-item red-button w3-hide-small"><i class="fas fa-play-circle"></i> Media</a>
+                    <a href="index.html#kontakt" class="w3-bar-item red-button w3-hide-small"><i class="fas fa-envelope"></i> Kontakt oss</a>
+                    <div id="navbar-contact" class="">
+                        <span class="w3-bar-item">Bli oppringt i løpet av 24 timer:</span>
+                        <div class="w3-row w3-padding">
+                            <div class="w3-col m9">
+                                <input class="w3-input w3-bar-item" placeholder="Telefonnr." required name="" type="text" id="inputPhoneBar">
+                            </div>
+                            <div class="w3-col m3">
+                                <button class="red-button w3-bar-item w3-center" onclick="submitPhone()"><i class="fas fa-paper-plane"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="navbar-submit" class="w3-hide">
+                        <span class="w3-bar-item w3-right">Takk for henvendelsen!</span>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -54,9 +65,9 @@
             <h1>Om oss</h1>
             <p>Vi samarbeider med videregående skoler, universiteter/høyskoler og virksomheter for å knytte elever og studenter tidligere til arbeidslivet. Vår hovedoppgave er å sørge for at elevene, studentene, fagansvarlige og arbeidsgivere finner en trygg plattform der de kan kommunisere og utveksle informasjon.</p>
         </div>
-        <footer class="w3-display-bottomright" style="padding:80px;">
-            <a href="index.html#kontakt" style="color:white; text-decoration: underline;" class="w3-large">Kontakt oss</a> <a href="https://www.facebook.com/InMarketNorge/"><i class="fas fa-facebook-official w3-hover-opacity big-icon"></i></a> <a href="https://www.linkedin.com/company/inmarket"><i class="fas fa-linkedin w3-hover-opacity big-icon"></i></a>
-        </footer>
+        <div class="w3-display-bottomright" style="padding:80px;">
+            <a href="index.html#kontakt" style="color:white; text-decoration: underline;" class="w3-large">Kontakt oss</a> <a href="https://www.facebook.com/InMarketNorge/"><i class="fab fa-facebook w3-hover-opacity big-icon w3-xlarge"></i></a> <a href="https://www.linkedin.com/company/inmarket"><i class="fab fa-linkedin w3-hover-opacity w3-xlarge"></i></a>
+        </div>
     </div>
 
     <!-- Container (om oss) -->
@@ -69,10 +80,10 @@
             Etter drift i ett år, har InMarket utviklet seg mye. Våre samarbeidspartene er svært fornøyde med oppfølgingen og oppdateringen vi gir dem angående elevene og studentene som er utplassert. Våre elever og studenter ønsker mer tid med prosjektet InMarket og vil helst se det bli til noe skolene bruker mer aktivt.
         </p>
 
-        <div class="w3-row-padding about-text">
+        <div class="w3-row about-text" id="about-1">
             <div class="w3-col m5 w3-center">
                 <img src="img/oyvind.png" alt="" class="w3-circle" width="100%">
-                <div onclick="document.getElementById('id01').style.display='block'" class="w3-button red-background w3-center">Hør hva Øyvind har å si om InMarket <i class="fas fa-play"></i> </div>
+                <div onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-center">Hør hva Øyvind har å si om InMarket <i class="fas fa-play"></i> </div>
                 <div id="id01" class="w3-modal">
                     <div class="w3-modal-content w3-animate-opacity w3-card-4">
                         <header class="w3-container w3-teal">
@@ -100,7 +111,7 @@
                 </p>
             </div>
         </div>
-        <div class="w3-row-padding about-text">
+        <div class="w3-row about-text" id="about-2">
             <div class="w3-col m7">
                 <h2>Hvordan vi ser fremtiden</h2>
                 <p>
@@ -119,20 +130,18 @@
     </div>
 
     <!-- Footer -->
-    <footer class="w3-center w3-light-grey w3-padding-16 w3-opacity w3-hover-opacity-off">
-        <div class="w3-large w3-section">
-            <div class="w3-row-padding w3-center">
-                <div class="w3-col m4">
-                    <p class="">&#169;InMarket Samuel Bigirimana | Org.nr. 818 821 522</p>
-                </div>
-                <div class="w3-col m4">
-                    <a href="#profiler" class="w3-button" style="margin-top: 15px;"><i class="fas fa-arrow-up w3-margin-right"></i>Til toppen</a>
-                </div>
-                <div class="w3-col m4">
-                    <p class="">Møt oss på Facebook og LinkedIn: <a href="https://www.facebook.com/InMarketNorge/"><i class="fas fa-facebook-official w3-hover-opacity big-icon"></i></a> <a href="https://www.linkedin.com/company/inmarket"><i class="fas fa-linkedin w3-hover-opacity big-icon"></i></a>
-                    </p>
-                </div>
-            </div>
+    <footer class="w3-row w3-center w3-section w3-large">
+        <div class="w3-col m3">
+            InMarket Samuel Bigirimana Org.nr. 8188 21 522
+        </div>
+        <div class="w3-col m3">
+            <i class="fas fa-envelope w3-xxlarge red-text"></i> <br>post@imnor.no
+        </div>
+        <div class="w3-col m3">
+            <i class="fas fa-file-contract w3-xxlarge red-text"></i> <br>Personvernerklæring
+        </div>
+        <div class="w3-col m3">
+            <a href="https://www.facebook.com/InMarketNorge/"><i class="fab fa-facebook w3-hover-opacity w3-xxxlarge red-text"></i></a> <a href="https://www.linkedin.com/company/inmarket"><i class="fab fa-linkedin w3-hover-opacity w3-xxxlarge red-text"></i></a>
         </div>
     </footer>
 
