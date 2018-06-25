@@ -23,10 +23,10 @@ function submitForm() {
 function submitPhone() {
 	var phone = encodeURIComponent(document.getElementById("inputPhoneBar").value);
 
-	if(phone.indexOf(' ') >= 0) {
+	if(phone.indexOf(' ') >= 0 || phone == '') {
 		return;
 	}
-	
+
 	var data = "phone=" + phone;
 	var xhttp = new XMLHttpRequest();
 	xhttp.onreadystatechange = function() {

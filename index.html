@@ -37,10 +37,10 @@
 
     <!-- Navbar -->
     <div class="w3-top">
-        <div class="w3-bar w3-white w3-xxxlarge navbar-accent">
-            <a href="index.html#hjem" class="w3-bar-item"><img src="img/logos/logo-flat-small.png" height="64px" alt="InMarket logo" id="navbar-img" style="margin:-10px;"></a>
+        <div class="w3-bar w3-xxlarge navbar-accent w3-center" id="navbar">
+            <a href="index.html#hjem" class="w3-bar-item"><img src="img/logos/logo-flat-small.png" height="90px" alt="InMarket logo" id="navbar-img"></a>
             <span class="header-text">InMarket Norge</span>
-            <div class="w3-dropdown-hover w3-right">
+            <div class="w3-dropdown-hover w3-right w3-large">
                 <button class="w3-button header-text" id="navbar-button"> <i class="fas fa-bars"></i> Meny</button>
                 <div class="w3-dropdown-content w3-bar-block w3-card-4 w3-right w3-large" id="navbar-dropdown">
                     <a href="index.html#hjem" class="w3-bar-item red-button"><i class="fas fa-home"></i> Hjem</a>
@@ -50,14 +50,8 @@
                     <a href="index.html#kontakt" class="w3-bar-item red-button w3-hide-small"><i class="fas fa-envelope"></i> Kontakt oss</a>
                     <div id="navbar-contact" class="">
                         <span class="w3-bar-item">Bli oppringt i løpet av 24 timer:</span>
-                        <div class="w3-row w3-padding">
-                            <div class="w3-col m9">
-                                <input class="w3-input w3-bar-item" placeholder="Telefonnr." required name="" type="text" id="inputPhoneBar">
-                            </div>
-                            <div class="w3-col m3">
-                                <button class="red-button w3-bar-item w3-center" onclick="submitPhone()"><i class="fas fa-paper-plane"></i></button>
-                            </div>
-                        </div>
+                        <input class="w3-input w3-bar-item" placeholder="Telefonnr." required name="" type="text" id="inputPhoneBar">
+                        <button class="red-button w3-bar-item w3-center" onclick="submitPhone()"><i class="fas fa-paper-plane"></i></button>
                     </div>
                     <div id="navbar-submit" class="w3-hide">
                         <span class="w3-bar-item w3-right">Takk for henvendelsen!</span>

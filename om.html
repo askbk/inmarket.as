@@ -22,10 +22,10 @@
 
     <!-- Navbar -->
     <div class="w3-top">
-        <div class="w3-bar w3-white w3-xxxlarge navbar-accent">
-            <a href="index.html#hjem" class="w3-bar-item"><img src="img/logos/logo-flat-small.png" height="64px" alt="InMarket logo" id="navbar-img" style="margin:-10px;"></a>
+        <div class="w3-bar w3-xxlarge navbar-accent w3-center" id="navbar">
+            <a href="index.html#hjem" class="w3-bar-item"><img src="img/logos/logo-flat-small.png" height="90px" alt="InMarket logo" id="navbar-img"></a>
             <span class="header-text">InMarket Norge</span>
-            <div class="w3-dropdown-hover w3-right">
+            <div class="w3-dropdown-hover w3-right w3-large">
                 <button class="w3-button header-text" id="navbar-button"> <i class="fas fa-bars"></i> Meny</button>
                 <div class="w3-dropdown-content w3-bar-block w3-card-4 w3-right w3-large" id="navbar-dropdown">
                     <a href="index.html#hjem" class="w3-bar-item red-button"><i class="fas fa-home"></i> Hjem</a>
@@ -35,14 +35,8 @@
                     <a href="index.html#kontakt" class="w3-bar-item red-button w3-hide-small"><i class="fas fa-envelope"></i> Kontakt oss</a>
                     <div id="navbar-contact" class="">
                         <span class="w3-bar-item">Bli oppringt i løpet av 24 timer:</span>
-                        <div class="w3-row w3-padding">
-                            <div class="w3-col m9">
-                                <input class="w3-input w3-bar-item" placeholder="Telefonnr." required name="" type="text" id="inputPhoneBar">
-                            </div>
-                            <div class="w3-col m3">
-                                <button class="red-button w3-bar-item w3-center" onclick="submitPhone()"><i class="fas fa-paper-plane"></i></button>
-                            </div>
-                        </div>
+                        <input class="w3-input w3-bar-item" placeholder="Telefonnr." required name="" type="text" id="inputPhoneBar">
+                        <button class="red-button w3-bar-item w3-center" onclick="submitPhone()"><i class="fas fa-paper-plane"></i></button>
                     </div>
                     <div id="navbar-submit" class="w3-hide">
                         <span class="w3-bar-item w3-right">Takk for henvendelsen!</span>
@@ -83,15 +77,14 @@
         <div class="w3-row about-text" id="about-1">
             <div class="w3-col m5 w3-center">
                 <img src="img/oyvind.png" alt="" class="w3-circle" width="100%">
-                <div onclick="document.getElementById('id01').style.display='block'; document.getElementsByTagName('iframe')[0].setAttribute('src', 'https://player.vimeo.com/video/276584080')" class="w3-button w3-center">Hør hva Øyvind har å si om InMarket <i class="fas fa-play"></i> </div>
+                <div onclick="document.getElementById('id01').style.display='block'; document.getElementsByTagName('iframe')[0].setAttribute('src', 'https://player.vimeo.com/video/276584080?autoplay=1')" class="w3-button w3-center">Hør hva Øyvind har å si om InMarket <i class="fas fa-play"></i> </div>
                 <div id="id01" class="w3-modal">
                     <div class="w3-modal-content w3-animate-opacity w3-card-4" id="about-video">
                         <header class="w3-container">
                             <span onclick="document.getElementById('id01').style.display='none'; document.getElementsByTagName('iframe')[0].setAttribute('src', '')" class="w3-button w3-display-topright">&times;</span>
                         </header>
-                        <div class="w3-container">
-                            <iframe src="https://player.vimeo.com/video/276584080" width="100%" height="720" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
+                        <div class="videoWrapper">
+                            <iframe src="" width="1280" height="720" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
