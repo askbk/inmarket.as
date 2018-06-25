@@ -33,6 +33,25 @@ body, html {
     height: 100%;
 }
 
+.radio {
+    cursor: pointer;
+    color: #d2d2d2;
+}
+
+input[type=radio] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+label:hover .radio {
+    color: #000;
+}
+
+label input:checked ~ .radio {
+    color: #640507;
+}
+
 .w3-theme-text-red {
     color: #ba0a0d !important;
 }
@@ -97,13 +116,9 @@ body, html {
 }
 
 #kontaktRespons {
-    padding-top: 20.4%;
-    padding-bottom: 20.4%;
+
 }
 
-#kontaktHeader {
-    margin-bottom: -16px;
-}
 
 #handwritten {
     font-family: Caveat-Regular;
@@ -144,21 +159,21 @@ body, html {
 .mobile-1, .mobile-2, .mobile-3, .mobile-4 {
     visibility: hidden;
     animation-name: fade;
-    animation-duration: 40s;
+    animation-duration: 32s;
     animation-iteration-count: infinite;
     opacity: 0;
 }
 
 .mobile-2 {
-    animation-delay: 10s;
+    animation-delay: 8s;
 }
 
 .mobile-3 {
-    animation-delay: 20s;
+    animation-delay: 16s;
 }
 
 .mobile-4 {
-    animation-delay: 30s;
+    animation-delay: 24s;
 }
 
 .mySlides-mobile>img {
@@ -417,6 +432,8 @@ textarea {
     background-color: #640507;
     color: white;
 }
+
+
 
 /* latin-ext */
 

@@ -7,20 +7,21 @@ function test_input($data) {
     return $data;
 }
 
-$name = $email = $phone = $headers = "";
+$name = $place = $phone = $headers = "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $name = test_input($_POST["name"]);
-  $email = test_input($_POST["email"]);
+  $place = test_input($_POST["place"]);
   $phone = test_input($_POST["phone"]);
+  $client = test_input($_POST["client"]);
 }
 
 $to = "inmarket@imnor.no, skretteberg@imnor.no";
 $subject = "Henvendelse fra $name";
-$message = "Henvendelse fra $name <$email>, <$phone>";
+$message = "Henvendelse fra $name ved $place, tlf.: <$phone>. Type: $client.";
 $headers = "MIME-Version: 1.0" . "\r\n";
 $headers .= "Content-type:text; charset=UTF-8" . "\r\n";
-$headers .= 'From: Kontaktskjema <' . $email . '>' . "\r\n";
+$headers .= 'From: Kontaktskjema <' . $phone . '>' . "\r\n";
 
 if(preg_match("#[-a-zA-Z0-9éèÉÈäöæøåÄÖÆØÅ._ ]+#",$name) AND
    preg_match("#[-a-zA-Z0-9.@+!=()_:]+#", $email) {

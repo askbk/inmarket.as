@@ -1,17 +1,18 @@
 // Submit form using AJAX
 function submitForm() {
-	var name = encodeURIComponent(document.getElementById("inputName").value);
-	var email = encodeURIComponent(document.getElementById("inputEmail").value);
-	var phone = encodeURIComponent(document.getElementById("inputPhone").value);
-	var data = "name=" + name + "&email=" + email + "&phone=" + phone;
-	var xhttp = new XMLHttpRequest();
+	let client = encodeURIComponent(document.querySelector('input[name="rate"]:checked').value);
+	let name = encodeURIComponent(document.getElementById("inputName").value);
+	let place = encodeURIComponent(document.getElementById("inputPlace").value);
+	let phone = encodeURIComponent(document.getElementById("inputPhone").value);
+	let data = "client=" + client + "&name=" + name + "&place=" + place + "&phone=" + phone;
+	let xhttp = new XMLHttpRequest();
 	xhttp.onreadystatechange = function() {
 		if (this.readyState == 4 && this.status == 200) {
 			if (this.responseText != "Takk for henvendelsen!") {
 				document.getElementById("responseText").innerHTML = this.responseText;
 			} else {
-				document.getElementById("kontaktSkjema").className += " w3-hide ";
-				document.getElementById("kontaktRespons").className += " w3-show";
+				document.getElementById("kontaktSkjema").classList.add("w3-hide");
+				document.getElementById("kontaktRespons").classList.remove("w3-hide");
 			}
 		}
 	}
@@ -21,14 +22,14 @@ function submitForm() {
 }
 
 function submitPhone() {
-	var phone = encodeURIComponent(document.getElementById("inputPhoneBar").value);
+	let phone = encodeURIComponent(document.getElementById("inputPhoneBar").value);
 
 	if(phone.indexOf(' ') >= 0 || phone == '') {
 		return;
 	}
 
-	var data = "phone=" + phone;
-	var xhttp = new XMLHttpRequest();
+	let data = "phone=" + phone;
+	let xhttp = new XMLHttpRequest();
 	xhttp.onreadystatechange = function() {
 		if (this.readyState == 4 && this.status == 200) {
 			if (this.responseText != "Takk for henvendelsen!") {
