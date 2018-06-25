@@ -1,6 +1,12 @@
 // Submit form using AJAX
+let contactForm = document.getElementById("kontaktSkjema");
+
+contactForm.onsubmit = function (event) {
+	event.preventDefault();
+}
+
 function submitForm() {
-	let client = encodeURIComponent(document.querySelector('input[name="rate"]:checked').value);
+	let client = encodeURIComponent(document.querySelector('input[name="klient"]:checked').value);
 	let name = encodeURIComponent(document.getElementById("inputName").value);
 	let place = encodeURIComponent(document.getElementById("inputPlace").value);
 	let phone = encodeURIComponent(document.getElementById("inputPhone").value);
