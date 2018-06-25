@@ -44,10 +44,10 @@
                 <button class="w3-button header-text" id="navbar-button"> <i class="fas fa-bars"></i> Meny</button>
                 <div class="w3-dropdown-content w3-bar-block w3-card-4 w3-right w3-large" id="navbar-dropdown">
                     <a href="index.html#hjem" class="w3-bar-item red-button"><i class="fas fa-home"></i> Hjem</a>
-                    <a href="om.html" class="w3-bar-item red-button w3-hide-small"><i class="fas fa-info-circle"></i> Om InMarket</a>
-                    <a href="index.html#styret" class="w3-bar-item red-button w3-hide-small"><i class="fas fa-user"></i> Ledelsen</a>
-                    <a href="media.html" class="w3-bar-item red-button w3-hide-small"><i class="fas fa-play-circle"></i> Media</a>
-                    <a href="index.html#kontakt" class="w3-bar-item red-button w3-hide-small"><i class="fas fa-envelope"></i> Kontakt oss</a>
+                    <a href="om.html" class="w3-bar-item red-button"><i class="fas fa-info-circle"></i> Om InMarket</a>
+                    <a href="index.html#styret" class="w3-bar-item red-button"><i class="fas fa-user"></i> Ledelsen</a>
+                    <a href="media.html" class="w3-bar-item red-button"><i class="fas fa-play-circle"></i> Media</a>
+                    <a href="index.html#kontakt" class="w3-bar-item red-button" onclick="virksomhetSelected()"><i class="fas fa-envelope"></i> Kontakt oss</a>
                     <div id="navbar-contact" class="">
                         <span class="w3-bar-item">Bli oppringt i løpet av 24 timer:</span>
                         <input class="w3-input w3-bar-item" placeholder="Telefonnr." required name="" type="text" id="inputPhoneBar">
@@ -76,7 +76,7 @@
                     <p>Finn drømmejobben ved å utforske arbeidsmarkedet via InMarket.</p>
                 </a>
             </div>
-            <a href="#kontakt">
+            <a href="#kontakt" onclick="elevSelected()">
                 <div class="w3-card-4 slideshowText w3-hide-small">
                     <h2 class="slideshowHeader">Finn din retning</h2>
                     <p>
@@ -88,11 +88,11 @@
         </div>
         <div class="bgimg-2 mySlides parallax-img">
             <div class="w3-card-4 slideshowText-mobile w3-hide-medium w3-hide-large">
-                <a href="#kontakt">
+                <a href="#kontakt" onclick="virksomhetSelected()">
                     <p>InMarket lar virksomheter og fremtidige arbeidstakere komme i kontakt med hverandre.</p>
                 </a>
             </div>
-            <a href="#kontakt">
+            <a href="#kontakt" onclick="virksomhetSelected()">
                 <div class="w3-card-4 slideshowText w3-hide-small">
                     <h2 class="slideshowHeader">Virksomheter</h2>
                     <p>
@@ -105,12 +105,12 @@
         <div class="bgimg-3 mySlides parallax-img">
             <div class="w3-card-4 slideshowText-mobile w3-hide-medium w3-hide-large">
                 <a href="#kontakt">
-                    <p>Viser veien videre</p>
+                    <p><cite>-Viser Veien Videre</cite></p>
                 </a>
             </div>
-            <a href="#kontakt">
+            <a href="#kontakt" onclick="virksomhetSelected()">
                 <div class="w3-card-4 slideshowText w3-hide-small">
-                    <h2 class="slideshowHeader">Viser veien videre</h2>
+                    <h2 class="slideshowHeader"><cite>-Viser Veien Videre</cite></h2>
                     <p>
                         <link itemprop="url" href="https://no.wikipedia.org/wiki/Elev" /> InMarket knytter sammen studenter, elever, virksomheter og universiteter. På denne måten viser vi veien videre.<br>
                         <b>Klikk her for å kontakte oss</b>
@@ -124,7 +124,7 @@
                     <p>Elevgruppene til InMarket har studenter som veiledere og kontaktpersoner.</p>
                 </a>
             </div>
-            <a href="#kontakt">
+            <a href="#kontakt" onclick="studentSelected()">
                 <div class="w3-card-4 slideshowText w3-hide-small">
                     <h2 class="slideshowHeader">Elever og studenter</h2>
                     <p>
@@ -318,42 +318,47 @@
     <!-- Container (kontakt oss) -->
     <div class="w3-content w3-container w3-padding-64" id="kontakt">
         <h1 class="w3-center" id="kontaktHeader">Kontakt oss</h1>
-        <form class="w3-row w3-large w3-container" action="index.html" method="post" id="kontaktSkjema">
-            <p>Uavhengig av om du er elev, student eller virksomhet så kan du legge igjen kontaktinformasjon under. Det er helt uforpliktende og du hører fra oss innen 24 timer.</p>
-            <div class="w3-col m4">
-                <label>
-                    <input type="radio" name="klient" value="elev" checked onclick="elevSelected()">
-                    <i class="fas fa-user w3-xlarge radio"></i>
-                    Elev
-                </label><br>
-                <label>
-                    <input type="radio" name="klient" value="student" onclick="studentSelected()">
-                    <i class="fas fa-user-graduate w3-xlarge radio"></i>
-                    Student
-                </label><br>
-                <label>
-                    <input type="radio" name="klient" value="virksomhet" onclick="virksomhetSelected()">
-                    <i class="fas fa-user-tie w3-xlarge radio"></i>
-                    Virksomhet
-                </label>
+        <div class="w3-row">
+            <form class="w3-row w3-large w3-container w3-col m9" action="index.html" method="post" id="kontaktSkjema">
+                <p>Uavhengig av om du er elev, student eller virksomhet så kan du legge igjen kontaktinformasjon under. Det er helt uforpliktende og du hører fra oss innen 24 timer.</p>
+                <div class="w3-col m3">
+                    <label>
+                        <input type="radio" name="klient" value="elev" onclick="elevSelected()" class="klient-radio" checked>
+                        <i class="fas fa-user w3-xlarge radio"></i>
+                        Elev
+                    </label><br>
+                    <label>
+                        <input type="radio" name="klient" value="student" onclick="studentSelected()" class="klient-radio">
+                        <i class="fas fa-user-graduate w3-xlarge radio"></i>
+                        Student
+                    </label><br>
+                    <label>
+                        <input type="radio" name="klient" value="virksomhet" onclick="virksomhetSelected()" class="klient-radio">
+                        <i class="fas fa-user-tie w3-xlarge radio"></i>
+                        Virksomhet
+                    </label>
+                </div>
+                <div class="w3-col m9 w3-content">
+                    <input type="text" name="navn" value="" placeholder="Navn" class="w3-input w3-animate-input" required id="inputName"><br>
+                    <input type="text" name="sted" value="" placeholder="Videregående skole" id="inputPlace" class="w3-input w3-animate-input" required id="inputPlace"><br>
+                    <input type="text" name="telefon" value="" placeholder="Telefon" class="w3-input w3-animate-input" required id="inputPhone"><br>
+                    <p class="w3-hide virksomhetSelected w3-medium">
+                        Elever: 500 NOK/mnd per elev<br>
+                        Studenter på Bachelorgradsnivå: 1500 NOK/mnd per student<br>
+                        Studenter på Mastergradsnivå: 2500 NOK/mnd per student<br>
+                    </p>
+                    <input type="checkbox" name="" value="" required> <label>Jeg har lest og godtatt <a href="#" style="text-decoration:underline;">personvernerklæringen</a> </label>
+                    <button class="w3-button w3-right" onclick="submitForm()"><i class="fas fa-paper-plane"></i> SEND</button>
+                    <p id="responseText"></p>
+                </div>
+            </form>
+            <div class="w3-section w3-card w3-container w3-hide w3-col m9" id="kontaktRespons">
+                <h3>Melding sendt</h3>
+                <p class="w3-center">Takk for henvendelsen! Vi tar kontakt med deg så raskt som mulig!</p>
             </div>
-            <div class="w3-col m8 w3-content">
-                <input type="text" name="navn" value="" placeholder="Navn" class="w3-input w3-animate-input" required id="inputName"><br>
-                <input type="text" name="sted" value="" placeholder="Videregående skole" id="inputPlace" class="w3-input w3-animate-input" required id="inputPlace"><br>
-                <input type="text" name="telefon" value="" placeholder="Telefon" class="w3-input w3-animate-input" required id="inputPhone"><br>
-                <p class="w3-hide virksomhetSelected">
-                    Elever: 500 NOK/mnd per elev<br>
-                    Studenter på Bachelorgradsnivå: 1500 NOK/mnd per student<br>
-                    Studenter på Mastergradsnivå: 2500 NOK/mnd per student<br>
-                </p>
-                <input type="checkbox" name="" value="" required> <label>Jeg har lest og godtatt <a href="#" style="text-decoration:underline;">personvernerklæringen</a> </label>
-                <button class="w3-button w3-right" onclick="submitForm()"><i class="fas fa-paper-plane"></i> SEND</button>
-                <p id="responseText"></p>
+            <div class="w3-col m3 w3-panel" style="margin-top: 2.5em;">
+                <div class="fb-page" data-href="https://www.facebook.com/InMarketNorge/" data-tabs="" data-width="200" data-height="500" data-small-header="false" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="true"></div>
             </div>
-        </form>
-        <div class="w3-section w3-card w3-container w3-hide" id="kontaktRespons">
-            <h3>Melding sendt</h3>
-            <p class="w3-center">Takk for henvendelsen! Vi tar kontakt med deg så raskt som mulig!</p>
         </div>
     </div>
 

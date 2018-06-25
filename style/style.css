@@ -44,6 +44,10 @@ input[type=radio] {
     cursor: pointer;
 }
 
+label {
+    line-height: 3;
+}
+
 label:hover .radio {
     color: #000;
 }
@@ -432,8 +436,6 @@ textarea {
     background-color: #640507;
     color: white;
 }
-
-
 
 /* latin-ext */
 
