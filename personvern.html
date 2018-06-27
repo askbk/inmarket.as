@@ -75,19 +75,19 @@
             <ul class="w3-ul">
                 <li>
                     <label>
-                        <input type="checkbox" name="" value="acceptViewTrack" id="viewTrackSetting">
+                        <input type="checkbox" name="" value="acceptViewTrack" id="viewTrackSetting" checked>
                         Sporing av nettsidevisninger
                     </label>
                 </li>
                 <li>
                     <label>
-                        <input type="checkbox" name="" value="acceptClickTrack" id="clickTrackSetting">
+                        <input type="checkbox" name="" value="acceptClickTrack" id="clickTrackSetting" checked>
                         Sporing av hvor du klikker på nettsiden
                     </label>
                 </li>
                 <li>
                     <label>
-                        <input type="checkbox" name="" value="acceptDomTrack" id="domTrackSetting">
+                        <input type="checkbox" name="" value="acceptDomTrack" id="domTrackSetting" checked>
                         Sporing av musebevegelser
                     </label>
                 </li>
@@ -165,43 +165,7 @@
     <script src="js/ajaxSubmit.js" charset="utf-8"></script>
     <script src="js/checkMobile.js" charset="utf-8"></script>
     <script src="js/cookies.js" charset="utf-8"></script>
-    <script type="text/javascript">
-        let viewTrackSetting = document.getElementById("viewTrackSetting");
-        let clickTrackSetting = document.getElementById("clickTrackSetting");
-        let domTrackSetting = document.getElementById("domTrackSetting");
-
-        if(getCookieValue("trackPageView" == "true")) {
-            viewTrackSetting.checked = true;
-        }
-
-        if (getCookieValue("trackClicks") == "true") {
-            clickTrackSetting.checked = true;
-        }
-
-        if (getCookieValue("trackDomStream") == "true") {
-            domTrackSetting.checked = true;
-        }
-
-        function saveSettings() {
-            if (viewTrackSetting.checked) {
-                setCookie("trackPageView", "true", 3650);
-            } else {
-                setCookie("trackPageView", "false", 3650);
-            }
-
-            if (clickTrackSetting.checked) {
-                setCookie("trackClicks", "true", 3650);
-            } else {
-                setCookie("trackClicks", "false", 3650);
-            }
-
-            if (domTrackSetting.checked) {
-                setCookie("trackDomStream", "true", 3650);
-            } else {
-                setCookie("trackDomStream", "false", 3650);
-            }
-        }
-    </script>
+    <script src="js/privacySettings.js" charset="utf-8"></script>
     <script type="text/javascript">
         //<![CDATA[
         var owa_baseUrl = 'http://www.imnor.no/owa/';

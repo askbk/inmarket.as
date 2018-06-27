@@ -75,6 +75,20 @@
             </div>
         </div>
 
+        <!-- Cookie notice -->
+        <div class="w3-bottom w3-hide" id="privacyNotice">
+            <div class="w3-bar w3-black w3-large w3-center">
+                <div class="w3-container">
+                    <a class="w3-button" onclick="acceptTracking()">Jeg aksepterer sporing</a>
+                    <a href="personvern.html" class="w3-button">Gå til personverninstillinger</a>
+                </div>
+                <div class="w3-container">
+                    <p class="">Ved å fortsette bruke dette nettstedet, aksepterer du vår <a href="personvern.html" target="_blank" style="text-decoration:underline;">personvernerklæring</a>.</p>
+                </div>
+
+            </div>
+        </div>
+
         <!-- Navbar on small screens -->
         <div id="smallnav" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
             <a href="#om" class="w3-bar-item w3-button" onclick="toggleFunction()">Om InMarket</a>
@@ -397,14 +411,22 @@
     <script async src="js/checkMobile.js" charset="utf-8"></script>
     <script async src="js/driver-med-slideshow.js" charset="utf-8"></script>
     <script async src="js/contactForm.js" charset="utf-8"></script>
+    <script src="js/cookies.js" charset="utf-8"></script>
+    <script src="js/acceptTracking.js" charset="utf-8"></script>
     <script type="text/javascript">
         //<![CDATA[
         var owa_baseUrl = 'http://www.imnor.no/owa/';
         var owa_cmds = owa_cmds || [];
         owa_cmds.push(['setSiteId', '8e5381be6b97e4ee33610ddc24e8a34a']);
-        owa_cmds.push(['trackPageView']);
-        owa_cmds.push(['trackClicks']);
-        owa_cmds.push(['trackDomStream']);
+        if(getCookieValue("trackPageView") == "true"){
+            owa_cmds.push(['trackPageView']);
+        }
+        if(getCookieValue("trackClicks") == "true"){
+            owa_cmds.push(['trackClicks']);
+        }
+        if(getCookieValue("trackDomStream") == "true"){
+            owa_cmds.push(['trackDomStream']);
+        }
 
         (function() {
             var _owa = document.createElement('script');
