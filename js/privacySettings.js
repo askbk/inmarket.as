@@ -2,15 +2,15 @@ let viewTrackSetting = document.getElementById("viewTrackSetting");
 let clickTrackSetting = document.getElementById("clickTrackSetting");
 let domTrackSetting = document.getElementById("domTrackSetting");
 
-if(getCookieValue("trackPageView" == "true")) {
+if(getCookieValue("trackPageView" != "false")) {
     viewTrackSetting.checked = true;
 }
 
-if (getCookieValue("trackClicks") == "true") {
+if (getCookieValue("trackClicks") != "false") {
     clickTrackSetting.checked = true;
 }
 
-if (getCookieValue("trackDomStream") == "true") {
+if (getCookieValue("trackDomStream") != "false") {
     domTrackSetting.checked = true;
 }
 
