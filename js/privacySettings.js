@@ -2,7 +2,7 @@ let viewTrackSetting = document.getElementById("viewTrackSetting");
 let clickTrackSetting = document.getElementById("clickTrackSetting");
 let domTrackSetting = document.getElementById("domTrackSetting");
 
-if(getCookieValue("trackPageView" != "false")) {
+if(getCookieValue("trackPageView") != "false") {
     viewTrackSetting.checked = true;
 }
 
