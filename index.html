@@ -306,10 +306,10 @@
             </div>
             <div class="w3-col m3">
                 <div class="w3-card-2" itemprop="employee" itemscope itemtype="http://schema.org/Person">
-                    <img src="img/markus.png" alt="Markedsdirektør Markus W. Lunner" style="width:100%" itemprop="image">
+                    <img src="img/markus.png" alt="Markedsføringsdirektør Markus W. Lunner" style="width:100%" itemprop="image">
                     <div class="w3-container">
                         <h3>Markus W. Lunner</h3>
-                        <p class="w3-opacity" itemprop="jobTitle">Markedsdirektør</p>
+                        <p class="w3-opacity" itemprop="jobTitle">Markedsføringsdirektør</p>
                         <p>Tlf.: (+47) <span itemprop="telephone">954 83 823</span><br>E-post: <span itemprop="email">markus.lunner@imnor.no</span></p>
                     </div>
                 </div>
@@ -404,6 +404,7 @@
         owa_cmds.push(['setSiteId', '8e5381be6b97e4ee33610ddc24e8a34a']);
         owa_cmds.push(['trackPageView']);
         owa_cmds.push(['trackClicks']);
+        owa_cmds.push(['trackDomStream']);
 
         (function() {
             var _owa = document.createElement('script');
@@ -414,8 +415,6 @@
             var _owa_s = document.getElementsByTagName('script')[0];
             _owa_s.parentNode.insertBefore(_owa, _owa_s);
         }());
-        OWATracker.trackClicks();
-        OWATracker.trackDomStream();
         //]]>
     </script>
 </body>

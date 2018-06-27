@@ -68,8 +68,36 @@
         </div>
     </div>
 
+    <div class="w3-content w3-container w3-padding-64" id="personvern-instillinger">
+        <h1>Personverninstillinger</h1>
+        <p>Denne nettsiden bruker informasjonskapsler for å forbedre fremtidig brukeropplevelse.</p>
+        <div class="">
+            <ul class="w3-ul">
+                <li>
+                    <label>
+                        <input type="checkbox" name="" value="acceptViewTrack" id="viewTrackSetting">
+                        Sporing av nettsidevisninger
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" name="" value="acceptClickTrack" id="clickTrackSetting">
+                        Sporing av hvor du klikker på nettsiden
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" name="" value="acceptDomTrack" id="domTrackSetting">
+                        Sporing av musebevegelser
+                    </label>
+                </li>
+            </ul>
+            <button type="button" name="button" class="w3-button" onclick="saveSettings()">Lagre instillinger</button>
+        </div>
+    </div>
+
     <!-- Container (profiler)-->
-    <div class="w3-content w3-container w3-padding-64" id="profiler">
+    <div class="w3-content w3-container w3-padding-64" id="personvern">
         <h1>Personvernerklæring</h1>
         <p>Denne personvernerklæringen forteller om hvordan InMarket Samuel Bigirimana, her kalt InMarket, samler inn og bruker personopplysninger.</p>
         <p>InMarket, ved direktøren, er behandlingsansvarlig for virksomhetens behandling av personopplysninger. Der det daglige ansvaret er delegert, kommer det fram under hvert enkelt punkt. Delegeringen omfatter kun oppgavene og ikke ansvaret. Erklæringen inneholder opplysninger du har krav på når det samles inn opplysninger fra nettstedet vårt (personopplysningsloven § 19) og generell informasjon om hvordan vi behandler personopplysninger (personopplysningsloven § 18 1. ledd).</p>
@@ -136,16 +164,59 @@
 
     <script src="js/ajaxSubmit.js" charset="utf-8"></script>
     <script src="js/checkMobile.js" charset="utf-8"></script>
+    <script src="js/cookies.js" charset="utf-8"></script>
+    <script type="text/javascript">
+        let viewTrackSetting = document.getElementById("viewTrackSetting");
+        let clickTrackSetting = document.getElementById("clickTrackSetting");
+        let domTrackSetting = document.getElementById("domTrackSetting");
+
+        if(getCookieValue("trackPageView" == "true")) {
+            viewTrackSetting.checked = true;
+        }
+
+        if (getCookieValue("trackClicks") == "true") {
+            clickTrackSetting.checked = true;
+        }
+
+        if (getCookieValue("trackDomStream") == "true") {
+            domTrackSetting.checked = true;
+        }
+
+        function saveSettings() {
+            if (viewTrackSetting.checked) {
+                setCookie("trackPageView", "true", 3650);
+            } else {
+                setCookie("trackPageView", "false", 3650);
+            }
+
+            if (clickTrackSetting.checked) {
+                setCookie("trackClicks", "true", 3650);
+            } else {
+                setCookie("trackClicks", "false", 3650);
+            }
+
+            if (domTrackSetting.checked) {
+                setCookie("trackDomStream", "true", 3650);
+            } else {
+                setCookie("trackDomStream", "false", 3650);
+            }
+        }
+    </script>
     <script type="text/javascript">
         //<![CDATA[
         var owa_baseUrl = 'http://www.imnor.no/owa/';
         var owa_cmds = owa_cmds || [];
         owa_cmds.push(['setSiteId', '8e5381be6b97e4ee33610ddc24e8a34a']);
-        owa_cmds.push(['trackPageView']);
-        owa_cmds.push(['trackClicks']);
-        OWATracker.trackClicks();
-        OWATracker.trackDomStream();
-        OWATracker.setOption('logDomStreamPercentag', 10)
+
+        if(getCookieValue("trackPageView") == "true"){
+            owa_cmds.push(['trackPageView']);
+        }
+        if(getCookieValue("trackClicks") == "true"){
+            owa_cmds.push(['trackClicks']);
+        }
+        if(getCookieValue("trackDomStream") == "true"){
+            owa_cmds.push(['trackDomStream']);
+        }
 
         (function() {
         	var _owa = document.createElement('script'); _owa.type = 'text/javascript'; _owa.async = true;
@@ -156,6 +227,7 @@
 
         //]]>
     </script>
+
 </body>
 
 </html>
