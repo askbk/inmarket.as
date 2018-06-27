@@ -15,14 +15,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
 
+
 $to = "inmarket@imnor.no, skretteberg@imnor.no";
 $subject = "Henvendelse fra $phone";
 $message = "$phone ønsker å bli kontaktet innen 24 timer.";
 $headers = "MIME-Version: 1.0" . "\r\n";
 $headers .= "Content-type:text; charset=UTF-8" . "\r\n";
 $headers .= 'From: 24-timers kontaktskjema <' . $phone . '>' . "\r\n";
-
-echo "request received";
 
 if(preg_match("#[-a-zA-Z0-9éèÉÈäöæøåÄÖÆØÅ._ ]+#",$phone)){
     if(mail($to, $subject, $message, $headers)){

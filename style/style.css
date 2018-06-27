@@ -15,7 +15,25 @@ footer {
         font-size: 24px!important;
     }
     h3 {
+        font-size: 18px!important;
+    }
+    #navbar-img {
+        margin-left: 0em!important;
+    }
+    .profile-text {
+        margin-left: 0px!important;
+        margin-top: 16px;
+    }
 
+}
+
+@media (min-width: 600px) {
+    #about-1 p {
+        padding-left: 32px;
+    }
+
+    #about-2 p {
+        padding-right: 32px;
     }
 }
 
@@ -207,23 +225,16 @@ label input:checked ~ .radio {
 
 /* First image (Full height) */
 
-.bgimg-1 {
-    background-image: url("../img/jenterpeker.jpg");
-}
+.bgimg-1 {background-image: url("../img/jenterpeker.jpg");}
+.bgimg-2 {animation-delay: 8s;background-image: url("../img/dressmann.jpg");}
+.bgimg-3 {animation-delay: 16s;background-image: url("../img/barcode.jpg");}
+.bgimg-4 {animation-delay: 24s;background-image: url("../img/gladefolk.jpg");}
 
-.bgimg-2 {
-    animation-delay: 8s;
-    background-image: url("../img/dressmann.jpg");
-}
-
-.bgimg-3 {
-    animation-delay: 16s;
-    background-image: url("../img/barcode.jpg");
-}
-
-.bgimg-4 {
-    animation-delay: 24s;
-    background-image: url("../img/gladefolk.jpg");
+@media (max-width:600px) {
+    .bgimg-1 {background-image: url("../img/jenterpeker-mob.jpg")!important;}
+    .bgimg-2 {background-image: url("../img/dressmann-mob.jpg")!important;}
+    .bgimg-3{background-image: url("../img/barcode-mob.jpg")!important;}
+    .bgimg-4 {background-image: url("../img/gladefolk-mob.jpg")!important;}
 }
 
 @keyframes fade {
@@ -286,12 +297,11 @@ label input:checked ~ .radio {
     width: 75px;
     height: 75px;
     margin-top: 50px;
-    margin-left: 12px;
+    margin-left: 20px;
     transform: rotate(45deg);
 }
 
 .profile-text {
-    margin-top: 0 !important;
     margin-left: 30px;
 }
 
@@ -365,7 +375,6 @@ textarea {
 
 .om-oss-text {
     color: white;
-    max-width: 50%;
     background-color: #640507;
 }
 
@@ -378,13 +387,7 @@ textarea {
     margin-top: 100px;
 }
 
-#about-1 p {
-    padding-left: 32px;
-}
-
-#about-2 p {
-    padding-right: 32px;
-}
+/**/
 
 #about-video {
     width: 100%;
