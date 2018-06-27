@@ -9,13 +9,13 @@ footer {
 
 @media (max-width: 600px) {
     h1 {
-        font-size: 30px!important;
+        font-size: 36px!important;
     }
     h2 {
-        font-size: 24px!important;
+        font-size: 30px!important;
     }
     h3 {
-        font-size: 18px!important;
+        font-size: 24px!important;
     }
     #navbar-img {
         margin-left: 0em!important;
