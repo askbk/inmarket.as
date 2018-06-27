@@ -304,10 +304,8 @@ label input:checked ~ .radio {
 }
 
 .profile-icon {
-    display: inline-block;
-    width: 60px;
-    margin-left: 1px;
-    vertical-align: 2px;
+    margin-left: -2px;
+    vertical-align: -3px;
 }
 
 textarea {
