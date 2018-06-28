@@ -439,13 +439,22 @@ textarea {
 }
 
 .red-button {
-    background: #640507;
+    background-color: #640507;
     color: white;
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
 }
 
 .red-button:hover {
-    background: white;
-    color: #640507;
+    background-color: white!important;
+    color: #640507!important;
 }
 
 #navbar {

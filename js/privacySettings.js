@@ -1,6 +1,7 @@
 let viewTrackSetting = document.getElementById("viewTrackSetting");
 let clickTrackSetting = document.getElementById("clickTrackSetting");
 let domTrackSetting = document.getElementById("domTrackSetting");
+let responseText = document.getElementById("responseText");
 
 if(getCookieValue("trackPageView") != "false") {
     viewTrackSetting.checked = true;
@@ -32,4 +33,6 @@ function saveSettings() {
     } else {
         setCookie("trackDomStream", "false", 3650);
     }
+
+    responseText.style.visibility = "visible";
 }
