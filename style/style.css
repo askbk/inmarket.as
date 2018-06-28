@@ -114,11 +114,12 @@ label input:checked ~ .radio {
 }
 
 .slideshowText {
-    position: absolute;
+    /*position: absolute;
     bottom: 10%;
-    /*max-width: 70%;*/
+    max-width: 70%;*/
     padding: 16px;
     padding-left: 20%;
+    margin-bottom: 10%;
     color: #fff;
     background-color: #640507;
 }
