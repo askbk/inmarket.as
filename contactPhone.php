@@ -16,7 +16,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
 
-$to = "inmarket@imnor.no, skretteberg@imnor.no";
+$to = "post@imnor.no, skretteberg@imnor.no";
 $subject = "Henvendelse fra $phone";
 $message = "$phone ønsker å bli kontaktet innen 24 timer.";
 $headers = "MIME-Version: 1.0" . "\r\n";
