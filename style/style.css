@@ -181,6 +181,9 @@ label input:checked ~ .radio {
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
 .slideshow {
@@ -434,7 +437,7 @@ textarea {
 
 #navbar-img {
     margin: -32px;
-    margin-left: 2em;
+    margin-left: 1em;
 }
 
 .header-text {
@@ -472,6 +475,12 @@ textarea {
 
 #personvern-instillinger {
     margin-top: 3em;
+}
+
+#contact-link-about {
+    padding-top: 90vh;
+    text-align: right;
+    padding-right: 2em;
 }
 
 /* latin-ext */
