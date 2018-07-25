@@ -72,6 +72,7 @@ ul {
 body, html {
     line-height: 1.8;
     height: 100%;
+    background-color: white;
 }
 
 .radio {
@@ -184,6 +185,12 @@ label input:checked ~ .radio {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-attachment: fixed;
+}
+
+@media screen and (max-width: 700px), screen and (max-height: 700px) {
+    .parallax-img {
+        background-attachment: scroll !important;
+    }
 }
 
 .slideshow {
