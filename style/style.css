@@ -185,7 +185,7 @@ label input:checked ~ .radio {
     -o-background-size: cover;
 }
 
-.parallax:after{
+.parallax-img:after{
       content:"";
       position:fixed; /* stretch a fixed position to the whole screen */
       top:0;
