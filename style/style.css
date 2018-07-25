@@ -178,7 +178,6 @@ label input:checked ~ .radio {
 .parallax-img {
     min-width: 100vw;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-position: center;
     background-size: cover;
     -webkit-background-size: cover;
