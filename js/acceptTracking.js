@@ -1,14 +1,12 @@
 let privacyNotice = document.getElementById("privacyNotice");
 
 function acceptTracking() {
-    setCookie("trackPageView", "true", 3650);
-    setCookie("trackClicks", "true", 3650);
-    setCookie("trackDomStream", "true", 3650);
+    localStorage.tracking = "true";
     privacyNotice.classList.add("w3-hide");
 }
 
 window.onload = function() {
-    if(getCookieValue("trackPageView") == "") {
+    if(localStorage.tracking == "true") {
         privacyNotice.classList.remove("w3-hide")
     }
 }
