@@ -6,7 +6,7 @@ function acceptTracking() {
 }
 
 window.onload = function() {
-    if(localStorage.tracking != "true" || localStorage.tracking != "false") {
+    if(localStorage.tracking != "true" && localStorage.tracking != "false") {
         privacyNotice.classList.remove("w3-hide")
     }
 }
