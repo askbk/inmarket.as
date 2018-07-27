@@ -110,6 +110,10 @@ label input:checked ~ .radio {
     color: #640507;
 }
 
+.text-underline {
+    text-decoration:underline;
+}
+
 .w3-theme-text-red {
     color: #ba0a0d !important;
 }
@@ -120,6 +124,46 @@ label input:checked ~ .radio {
 
 .red-text {
     color: #640507 !important;
+}
+
+.red-border-img {
+    border-style: solid;
+    border-color: #640507;
+    border-width: 2px;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+.padding-top-32 {
+    padding-top: 32px;
+}
+
+.quote {
+    font-style: italic;
+}
+
+.quote:before {
+    content: open-quote;
+}
+
+.quote:after {
+    content: close-quote;
+}
+
+.quote-source {
+    padding-left: 7em;
+}
+
+.quote-source:before {
+    content: "–";
+    margin-right: 0.1em;
+}
+
+.narrow-content {
+    max-width: 840px;
+    margin: auto;
 }
 
 .slideshowHeader {
