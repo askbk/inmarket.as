@@ -33,6 +33,12 @@ h1,h2,h3,h4,h5 {
         margin-left: 0px!important;
         margin-top: 16px;
     }
+    #contact-link-about {
+        padding-top: 93vh !important;
+    }
+    .om-oss-text {
+        top: 70% !important;
+    }
 
 }
 
