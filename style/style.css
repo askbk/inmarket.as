@@ -350,14 +350,15 @@ label input:checked ~ .radio {
     margin-top: 100px;
 }
 
-/* Second image (styret) */
+.bgimg-happyface {
+    min-height: 400px;
+    background-image: url("../img/happyface.jpg");
+}
 
 .bgimg-music-night {
     min-height: 400px;
     background-image: url("../img/music_night_greyscale.jpg");
 }
-
-/* Third image (Contact) */
 
 .bgimg-nrk {
     min-height: 400px;
