@@ -73,22 +73,27 @@
         </div>
     </div>
 
+
+    <div class="w3-container" style="margin-top:7em;">
+        <a href="#" class="w3-button"> <i class="fas fa-arrow-left"></i> Tilbake til forsiden</a>
+    </div>
+
     <!-- Container -->
-    <div class="narrow-content w3-container w3-padding-64" id="om">
-        <div class="w3-row-padding about-text" >
+    <div class="narrow-content w3-container w3-padding-6" id="om">
+        <div class="w3-row" >
             <div class="w3-col m8">
                 <p>
                     <strong>Glem opplæring etter ansettelse.</strong> Vi har lansert en måte for bedriften din å komme i kontakt med elever og studenter lenge før de er ferdige med studiene, slik at overgangen fra student til selvstendig ansatt blir integrert underveis i studieperioden. På denne måten er studenten klare for jobb umiddelbart etter utdannelsen – dersom dere ønsker å ansette dem på fulltid etter studiene.
                 </p>
             </div>
             <div class="w3-col m4 text-align-right">
-                <img src="img/elever/kameramann.jpg" alt="" class="w3-circle red-border-img">
+                <img src="img/elever/kameramann.jpg" alt="" class="w3-circle red-border-img w3-image">
             </div>
         </div>
 
         <div class="w3-row about-text" >
             <div class="w3-col m4">
-                <img src="img/elever/anniken.jpg" alt="" class="w3-circle red-border-img">
+                <img src="img/elever/anniken.jpg" alt="" class="w3-circle red-border-img w3-image">
             </div>
             <div class="w3-col m8 text-align-right">
                 <p><strong>Vi håndterer utvelgelsen.</strong> Takket være våre kontrakter med høyskoler, universiteter og VGS, kan vi håndplukke de beste kandidatene for dere og knytte dem i direkte kontakt med bedriften. Tilbudet vårt er svært konkurransedyktig på pris og resultat i forhold til andre rekrutteringsmåter.</p>
@@ -100,14 +105,14 @@
                 <p><strong>Vi hjelper <span class="text-underline">alle</span> bransjer.</strong> Det er helt opp til dere hvordan dere benytter studentene og elevene vi disponerer. Det eneste kravet vi stiller er at de får prøvd seg i relevante problemstillinger og prosjekter som dukker opp i bransjen dere jobber i. Vi kommer kontinuerlig til å følge opp og konsultere studentene og bedriften for å passe på at alle er fornøyde.</p>
             </div>
             <div class="w3-col m4 text-align-right">
-                <img src="img/elever/kontordag.jpg" alt="" class="w3-circle red-border-img">
+                <img src="img/elever/kontordag.jpg" alt="" class="w3-circle red-border-img w3-image">
             </div>
         </div>
 
         <h2 class="w3-center w3-padding-top">Andres ord om oss</h2>
         <div class="w3-row about-text" >
             <div class="w3-col m4">
-                <img src="img/partners/chris.jpg" alt="" class="w3-circle red-border-img">
+                <img src="img/partners/chris.jpg" alt="" class="w3-circle red-border-img w3-image">
             </div>
             <div class="w3-col m8 text-align-right">
                 <p class="quote">Samarbeidet med InMarket har gitt oss en super mulighet til å komme tett på og bli bedre kjent med dagens ungdom. Dette har gitt oss ny innsikt, nye og spennende vinklinger på saker og ideer vi ikke ville kommet opp med selv. Vi har også møtt flere unge medietalenter og en av elevene har nå fått kontrakt som tilkallingsvikar hos oss.</p>
@@ -121,22 +126,47 @@
                 <p class="quote-source">Ask Kolltveit, Student Datateknologi NTNU</p>
             </div>
             <div class="w3-col m4 text-align-right">
-                <img src="img/portraits/ask_small.jpg" alt="" class="w3-circle red-border-img">
+                <img src="img/portraits/ask_small.jpg" alt="" class="w3-circle red-border-img w3-image">
             </div>
         </div>
 
         <div class="w3-row about-text" >
             <div class="w3-col m4">
-                <img src="img/partners/sara.jpg" alt="" class="w3-circle red-border-img">
+                <img src="img/partners/sara.jpg" alt="" class="w3-circle red-border-img w3-image">
             </div>
             <div class="w3-col m8 text-align-right">
                 <p class="quote">Med InMarket ønsker Comfort Hotell på Union Brygge å bygge en plattform hvor kreative ungdommer kan utrykke seg og vise hva de er gode til. Her åpner vi dørene for foredrag, privatkonserter, pizzakvelder og andre arrangementer.</p>
                 <p class="quote-source">Sara Jensen, Hotelldirektør Union Brygge</p>
             </div>
         </div>
-        <p class="w3-center padding-top-32">
-            <a href="index.html#kontakt" class="w3-center w3-button" onclick="bedriftClient()">Legg igjen kontaktinformasjon her, så ringer vi deg innen et døgn <i class="fas fa-arrow-down"></i> </a>
-        </p>
+    </div>
+
+    <!-- Container (kontakt oss) -->
+    <div class="w3-content w3-container w3-padding-64" id="kontakt">
+        <h1 class="w3-center inmarket-red" id="kontaktHeader">Kontakt oss</h1>
+        <div class="">
+            <form class="w3-large w3-container" action="index.html" method="post" id="kontaktSkjema">
+                <p class="w3-center">Legg igjen kontaktinformasjon her, så ringer vi deg innen et døgn <i class="fas fa-arrow-down"></i></p>
+
+                <div class="w3-content">
+                    <input type="text" name="navn" value="" placeholder="Navn" class="w3-input w3-animate-input" required id="inputName"><br>
+                    <input type="text" name="sted" value="" placeholder="Virksomhet" id="inputPlace" class="w3-input w3-animate-input" required id="inputPlace"><br>
+                    <input type="text" name="telefon" value="" placeholder="Telefon" class="w3-input w3-animate-input" required id="inputPhone"><br>
+                    <p class="w3-small">
+                        Elever: 500 NOK/mnd per elev ekskl. MVA<br>
+                        Studenter på Bachelorgradsnivå: 1500 NOK/mnd per student ekskl. MVA<br>
+                        Studenter på Mastergradsnivå: 2500 NOK/mnd per student ekskl. MVA<br>
+                    </p>
+                    <input type="checkbox" name="" value="" required> <label>Jeg har lest og godtatt <a href="personvern.html" style="text-decoration:underline;" target="_blank">personvernerklæringen</a> </label>
+                    <button class="w3-button w3-right" onclick="submitForm()"><i class="fas fa-paper-plane"></i> SEND</button>
+                    <p id="responseText"></p>
+                </div>
+            </form>
+            <div class="w3-section w3-card w3-container w3-hide" id="kontaktRespons">
+                <h3 class="inmarket-red w3-center">Melding sendt</h3>
+                <p class="w3-center">Takk for henvendelsen! Vi tar kontakt med deg så raskt som mulig!</p>
+            </div>
+        </div>
     </div>
 
     <!-- Footer -->
@@ -157,7 +187,6 @@
     <script src="js/detectIphone.js" charset="utf-8"></script>
     <script async src="js/ajaxSubmit.js" charset="utf-8"></script>
     <script async src="js/navbar.js" charset="utf-8"></script>
-    <script async src="js/clientType.js" charset="utf-8"></script>
     <script src="js/acceptTracking.js" charset="utf-8"></script>
 </body>
 

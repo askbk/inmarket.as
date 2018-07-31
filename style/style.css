@@ -26,9 +26,6 @@ h1,h2,h3,h4,h5 {
     h3 {
         font-size: 24px!important;
     }
-    #navbar-img {
-        margin-left: 0em!important;
-    }
     .profile-text {
         margin-left: 0px!important;
         margin-top: 16px;
@@ -39,7 +36,12 @@ h1,h2,h3,h4,h5 {
     .om-oss-text {
         top: 70% !important;
     }
+}
 
+@media (max-width: 615px) {
+    #navbar-img {
+        margin-left: 0em!important;
+    }
 }
 
 @media (min-width: 600px) {
