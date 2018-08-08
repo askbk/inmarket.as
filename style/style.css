@@ -55,6 +55,22 @@ h1,h2,h3,h4,h5 {
     .hortizontal-center {
         margin-left: 16.6666%;
     }
+
+    .translatey-50 {
+        transform: translateY(50%);
+    }
+
+    .translatey-40 {
+        transform: translateY(40%);
+    }
+
+    .translatey-20 {
+        transform: translateY(20%);
+    }
+
+    .translatey-10 {
+        transform: translateY(10%);
+    }
 }
 
 @media (min-width:992px) {
@@ -179,6 +195,7 @@ label input:checked ~ .radio {
     max-width: 840px;
     margin: auto;
 }
+
 
 .slideshowHeader {
     line-height: 1.2;
