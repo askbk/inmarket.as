@@ -68,12 +68,20 @@ h1,h2,h3,h4,h5 {
         transform: translateY(40%);
     }
 
+    .translatey-30 {
+        transform: translateY(30%);
+    }
+
     .translatey-20 {
         transform: translateY(20%);
     }
 
     .translatey-10 {
         transform: translateY(10%);
+    }
+
+    .padding-top-100 {
+        padding-top: 100px !important;
     }
 }
 
