@@ -36,6 +36,10 @@ h1,h2,h3,h4,h5 {
     .om-oss-text {
         top: 70% !important;
     }
+
+    .small-center {
+        text-align: center !important;
+    }
 }
 
 @media (max-width: 615px) {
