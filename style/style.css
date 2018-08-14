@@ -87,7 +87,7 @@ h1,h2,h3,h4,h5 {
 
 @media (min-width:992px) {
     .driver-med-forklaring {
-        height: 26em;
+        height: 27em;
     }
 }
 
@@ -528,9 +528,7 @@ textarea {
 
 
 #navbar-button {
-    padding-right: 3em;
-    line-height: 3.5em;
-    padding-left: 4em;
+    width: 7em;
 }
 
 #navbar-img {
@@ -557,8 +555,12 @@ textarea {
     white-space: nowrap;
 }
 
+.margin-right-3em {
+    margin-right: 3em;
+}
+
 .red-button:hover {
-    background-color: white!important;
+    background-color: #f9f9f9!important;
     color: #640507!important;
 }
 
@@ -569,6 +571,7 @@ textarea {
 #navbar-dropdown {
     background-color: #640507;
     color: white;
+    width: 14em;
 }
 
 #personvern-instillinger {
