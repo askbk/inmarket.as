@@ -20,19 +20,24 @@ h1,h2,h3,h4,h5 {
     h1 {
         font-size: 36px!important;
     }
+
     h2 {
         font-size: 30px!important;
     }
+
     h3 {
         font-size: 24px!important;
     }
+
     .profile-text {
         margin-left: 0px!important;
         margin-top: 16px;
     }
+
     #contact-link-about {
         padding-top: 93vh !important;
     }
+
     .om-oss-text {
         top: 70% !important;
     }
@@ -40,6 +45,8 @@ h1,h2,h3,h4,h5 {
     .small-center {
         text-align: center !important;
     }
+
+
 }
 
 @media (max-width: 615px) {
@@ -85,9 +92,30 @@ h1,h2,h3,h4,h5 {
     }
 }
 
+@media (max-width: 350px) {
+    #navbar-button {
+        width: 8em !important;
+    }
+}
+
+@media (min-width: 500px) {
+    .hide-min-500 {
+        display: none;
+    }
+}
+
+@media (max-width: 499px) {
+    .hide-max-500 {
+        display: none;
+    }
+}
+
 @media (min-width:992px) {
     .driver-med-forklaring {
         height: 27em;
+    }
+    .margin-right-7em {
+        margin-right: 7em;
     }
 }
 
@@ -514,6 +542,7 @@ textarea {
 	padding-top: 0px;
 	height: 0;
 }
+
 .videoWrapper iframe {
 	position: absolute;
 	top: 0;
@@ -526,13 +555,13 @@ textarea {
     padding-top: 1%;
 }
 
-
 #navbar-button {
-    width: 7em;
+    width: 9em;
+    line-height: 3em;
 }
 
 #navbar-img {
-    margin: -32px;
+    margin: -10px;
     margin-left: 1em;
 }
 
@@ -555,9 +584,9 @@ textarea {
     white-space: nowrap;
 }
 
-.margin-right-3em {
-    margin-right: 3em;
-}
+/* .margin-right-7em {
+    margin-right: 7em;
+} */
 
 .red-button:hover {
     background-color: #f9f9f9!important;
@@ -571,7 +600,7 @@ textarea {
 #navbar-dropdown {
     background-color: #640507;
     color: white;
-    width: 14em;
+    width: 12em;
 }
 
 #personvern-instillinger {
