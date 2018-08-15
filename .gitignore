@@ -37,4 +37,5 @@ ehthumbs.db
 Thumbs.db
 
 robots.txt
-style/style.min.css
+style/*.min.css
+js/*.min.js
