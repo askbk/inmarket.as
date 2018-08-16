@@ -40,3 +40,4 @@ robots.txt
 style/*.min.css
 js/*.min.js
 prod
+minify.py
