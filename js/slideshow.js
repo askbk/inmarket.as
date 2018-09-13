@@ -8,6 +8,8 @@ let show1Slides = [
 	$(".bgimg-4")
 ];
 
+let slideIndicators = $(".slide-indicator");
+
 let show2Slides = document.getElementsByClassName("driver-med-slides");
 let i1 = 0, i2 = 2, prev1 = 3, prev2 = 1, duration2 = 4000, duration1 = 6000;
 
@@ -36,6 +38,9 @@ function slideshow1() {
 	show1Slides[prev1].fadeOut();
 	show1Slides[i1].fadeIn();
 
+	slideIndicators.slice(prev1, prev1+1).removeClass("red-text");
+	slideIndicators.slice(i1, i1+1).addClass("red-text");
+
 }
 
 function bubbleMouseOver(n) { // stops slideshow
@@ -62,3 +67,19 @@ $(".slideshowText").on("mouseover", function () {
 $(".slideshowText").on("mouseleave", function () {
 	slide1Interval = setInterval(slideshow1, duration1);
 });
+
+$(".slide-indicator").on("click", function (ev) {
+	let index = Number(ev.currentTarget.attributes.n.value);
+
+	clearInterval(slide1Interval);
+	show1Slides[i1].fadeOut();
+	show1Slides[index].fadeIn();
+	slideIndicators.slice(i1, i1+1).removeClass("red-text");
+
+	i1 = index;
+	prev1 = (i1 - 1) % 4;
+
+	slideIndicators.slice(i1, i1+1).addClass("red-text");
+	
+	slide1Interval = setInterval(slideshow1, duration1)
+})

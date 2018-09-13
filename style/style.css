@@ -489,9 +489,25 @@ textarea {
     white-space: nowrap;
 }
 
-/* .margin-right-7em {
-    margin-right: 7em;
-} */
+.white-text {
+    color: white;
+}
+
+.hover-grey-text:hover {
+    color: #ccc;
+}
+
+.transparent-background {
+    background: inherit;
+}
+
+.remove-borders {
+    border: none;
+}
+
+.margin-bottom-5 {
+    margin-bottom: 5px;
+}
 
 .red-button:hover {
     background-color: #f9f9f9 !important;
