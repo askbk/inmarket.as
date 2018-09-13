@@ -237,21 +237,7 @@ label input:checked~.radio {
     background-color: #640507;
 }
 
-.slideshowText-mobile {
-    position: absolute;
-    bottom: 60px;
-    width: 83%;
-    padding: 4px;
-    color: #fff;
-    background-color: RGBA(100, 5, 7, 0.7);
-}
-
 .slideshowText:hover {
-    color: #640507;
-    background-color: rgba(255, 255, 255, 0.7);
-}
-
-.slideshowText-mobile:hover {
     color: #640507;
     background-color: rgba(255, 255, 255, 0.7);
 }
@@ -308,78 +294,18 @@ label input:checked~.radio {
     min-height: 100%;
 }
 
-.mySlides-mobile {
-    position: absolute;
-}
-
-.mobile-1, .mobile-2, .mobile-3, .mobile-4 {
-    visibility: hidden;
-    animation-name: fade;
-    animation-duration: 32s;
-    animation-iteration-count: infinite;
-    opacity: 0;
-}
-
-.mobile-2 {
-    animation-delay: 8s;
-}
-
-.mobile-3 {
-    animation-delay: 16s;
-}
-
-.mobile-4 {
-    animation-delay: 24s;
-}
-
-.mySlides-mobile>img {
-    width: 130%;
-    margin-left: -8%;
-}
-
-.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
-    visibility: hidden;
-    animation-name: fade;
-    animation-duration: 32s;
-    animation-iteration-count: infinite;
-    opacity: 0;
-}
-
 /* First image (Full height) */
 
 .bgimg-1 {background-image: url("../img/jenterpeker.jpg");}
-.bgimg-2 {animation-delay: 8s;background-image: url("../img/dressmann.jpg");}
-.bgimg-3 {animation-delay: 16s;background-image: url("../img/barcode.jpg");}
-.bgimg-4 {animation-delay: 24s;background-image: url("../img/gladefolk.jpg");}
+.bgimg-2 {background-image: url("../img/dressmann.jpg");}
+.bgimg-3 {background-image: url("../img/barcode.jpg");}
+.bgimg-4 {background-image: url("../img/gladefolk.jpg");}
 
 @media (max-width:600px) {
     .bgimg-1 {background-image: url("../img/jenterpeker-mob.jpg")!important;}
     .bgimg-2 {background-image: url("../img/dressmann-mob.jpg")!important;}
     .bgimg-3 {background-image: url("../img/barcode-mob.jpg")!important;}
     .bgimg-4 {background-image: url("../img/gladefolk-mob.jpg")!important;}
-}
-
-@keyframes fade {
-    0% {
-        visibility: visible;
-        opacity: 0;
-    }
-    5% {
-        visibility: visible;
-        opacity: 1;
-    }
-    25% {
-        visibility: visible;
-        opacity: 1;
-    }
-    30% {
-        visibility: hidden;
-        opacity: 0;
-    }
-    100% {
-        visibility: hidden;
-        opacity: 0;
-    }
 }
 
 #partner-div {
@@ -563,9 +489,25 @@ textarea {
     white-space: nowrap;
 }
 
-/* .margin-right-7em {
-    margin-right: 7em;
-} */
+.white-text {
+    color: white;
+}
+
+.hover-grey-text:hover {
+    color: #ccc;
+}
+
+.transparent-background {
+    background: inherit;
+}
+
+.remove-borders {
+    border: none;
+}
+
+.margin-bottom-5 {
+    margin-bottom: 5px;
+}
 
 .red-button:hover {
     background-color: #f9f9f9 !important;
