@@ -1,20 +1,12 @@
-let show1Container = document.getElementById("hjem");
-let show2Container = document.getElementById("driver-med-slideshow");
-// let show1Slides = document.getElementsByClassName("mySlides");
-let show1Slides = [
+let slides = [
 	$(".bgimg-1"),
 	$(".bgimg-2"),
 	$(".bgimg-3"),
 	$(".bgimg-4")
 ];
-
 let slideIndicators = $(".slide-indicator");
-
-let show2Slides = document.getElementsByClassName("driver-med-slides");
-let i1 = 0, i2 = 2, prev1 = 3, prev2 = 1, duration2 = 4000, duration1 = 6000;
-
-let slide1Interval = setInterval(slideshow1, duration1)
-let slide2Interval = setInterval(slideshow2, duration2);
+let i = 0, prev = 3, duration = 6000;
+let slideInterval = setInterval(slideshow, duration)
 
 function resetSlideshow(slides) { // hides all slides
 	for (let j = 0; j < slides.length; ++j) {
@@ -22,64 +14,29 @@ function resetSlideshow(slides) { // hides all slides
 	}
 }
 
-function slideshow2() { // hides previous slide and displays current slide
-	prev2 = (i2++) % 3;
-	i2 %= 3;
+function slideshow() {
+	prev = (i++) % 4;
+	i %= 4;
 
-    resetSlideshow(show2Slides);
+	slides[prev].fadeOut();
+	slides[i].fadeIn();
 
-	show2Slides[i2].style.display = "block";
+	slideIndicators.slice(prev, prev+1).removeClass("golden-text");
+	slideIndicators.slice(i, i+1).addClass("golden-text");
 }
-
-function slideshow1() {
-	prev1 = (i1++) % 4;
-	i1 %= 4;
-
-	show1Slides[prev1].fadeOut();
-	show1Slides[i1].fadeIn();
-
-	slideIndicators.slice(prev1, prev1+1).removeClass("red-text");
-	slideIndicators.slice(i1, i1+1).addClass("red-text");
-
-}
-
-function bubbleMouseOver(n) { // stops slideshow
-    prev2 = (n + 1) % 3;
-    i2 = (n + 2) % 3;
-	clearInterval(slide2Interval);
-	resetSlideshow(show2Slides);
-	show2Slides[n - 1].style.display = "block";
-
-}
-
-show2Container.onmouseover = function() {
-	clearInterval(slide2Interval);
-}
-
-show2Container.onmouseleave = function() {
-	slide2Interval = setInterval(slideshow2, duration2);
-}
-
-$(".slideshowText").on("mouseover", function () {
-	clearInterval(slide1Interval);
-});
-
-$(".slideshowText").on("mouseleave", function () {
-	slide1Interval = setInterval(slideshow1, duration1);
-});
 
 $(".slide-indicator").on("click", function (ev) {
 	let index = Number(ev.currentTarget.attributes.n.value);
 
-	clearInterval(slide1Interval);
-	show1Slides[i1].fadeOut();
-	show1Slides[index].fadeIn();
-	slideIndicators.slice(i1, i1+1).removeClass("red-text");
+	clearInterval(slideInterval);
+	slides[i].fadeOut();
+	slides[index].fadeIn();
+	slideIndicators.slice(i, i+1).removeClass("red-text");
 
-	i1 = index;
-	prev1 = (i1 - 1) % 4;
+	i = index;
+	prev = (i - 1) % 4;
 
-	slideIndicators.slice(i1, i1+1).addClass("red-text");
-	
-	slide1Interval = setInterval(slideshow1, duration1)
+	slideIndicators.slice(i, i+1).addClass("red-text");
+
+	slide1Interval = setInterval(slideshow, duration)
 })

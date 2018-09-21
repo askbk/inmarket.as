@@ -59,30 +59,30 @@
                 <img src="img/logos/logo-flat-text-small.png" height="90px" alt="InMarket logo" id="navbar-img" class="hide-max-500">
                 <img src="img/logos/logo-flat-small.png" height="90px" alt="InMarket logo" id="navbar-img" class="hide-min-500">
             </a>
-            <button class="white-button header-text w3-xlarge golden-text w3-right" id="navbar-button">Meny <i class="fas fa-bars black-text"></i></button>
+            <button class="white-button transparent-background header-text w3-xlarge golden-text w3-right" id="navbar-button">Meny <i class="fas fa-bars black-text"></i></button>
         </div>
     </div>
     <div class="w3-top w3-right w3-large margin-top-100 height-100" id="navbar-dropdown" style="display:none;">
         <ul class="w3-ul w3-right">
-            <li>
-                <a href="index.html#hjem" class="w3-bar-item"><i class="fas fa-home"></i> Hjem</a>
+            <li class="hover-shadow remove-borders hover-white-bg hover-golden-text">
+                <a href="index.html#hjem" class=""><i class="fas fa-home"></i> Hjem</a>
             </li>
-            <li>
-                <a href="om.html" class="w3-bar-item"><i class="fas fa-info-circle"></i> Om oss</a>
+            <li class="hover-shadow remove-borders hover-white-bg hover-golden-text">
+                <a href="om.html" class=""><i class="fas fa-info-circle"></i> Om oss</a>
             </li>
-            <li>
-                <a href="index.html#styret" class="w3-bar-item"><i class="fas fa-user"></i> Vårt team</a>
+            <li class="hover-shadow remove-borders hover-white-bg hover-golden-text">
+                <a href="index.html#styret" class=""><i class="fas fa-user"></i> Vårt team</a>
             </li>
-            <li>
-                <a href="media.html" class="w3-bar-item"><i class="fas fa-play-circle"></i> Media</a>
+            <li class="hover-shadow remove-borders hover-white-bg hover-golden-text">
+                <a href="media.html" class=""><i class="fas fa-play-circle"></i> Media</a>
             </li>
-            <li>
-                <a href="index.html#kontakt" class="w3-bar-item"><i class="fas fa-envelope"></i> Kontakt oss</a>
+            <li class="hover-shadow remove-borders hover-white-bg hover-golden-text">
+                <a href="index.html#kontakt" class=""><i class="fas fa-envelope"></i> Kontakt oss</a>
             </li>
             <li>
                 <div id="navbar-contact" class="">
                     <input class="w3-input w3-bar-item" placeholder="Telefonnr." required name="" type="text" id="inputPhoneBar">
-                    <button class="w3-bar-item w3-center" onclick="submitPhone()"><i class="fas fa-paper-plane"></i></button>
+                    <button class="w3-bar-item w3-center white-button w3-card" onclick="submitPhone()"><i class="fas fa-paper-plane"></i></button>
                 </div>
                 <div id="navbar-submit" class="w3-hide">
                     <span class="w3-bar-item w3-right">Takk for henvendelsen!</span>
@@ -305,15 +305,15 @@
     </footer>
     <script type="text/javascript">
     $("#navbar-button").click(function () {
-        $("#navbar-dropdown").slideToggle( "slow", function() {
+        $("#navbar-dropdown").slideToggle( "fast", function() {
             // Animation complete.
           });
 
-        $("#navbar").css("background-color", "white");
-
         if ($('p,h1,h2,h3,h4,h5').css('visibility') == 'hidden') {
             $('p,h1,h2,h3,h4,h5').css('visibility','visible');
+            $("#navbar").css("background-color", "inherit");
         } else {
+            $("#navbar").css("background-color", "white");
             $('p,h1,h2,h3,h4,h5').css('visibility','hidden');
         }
     });
