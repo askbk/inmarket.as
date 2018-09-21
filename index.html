@@ -59,24 +59,36 @@
                 <img src="img/logos/logo-flat-text-small.png" height="90px" alt="InMarket logo" id="navbar-img" class="hide-max-500">
                 <img src="img/logos/logo-flat-small.png" height="90px" alt="InMarket logo" id="navbar-img" class="hide-min-500">
             </a>
-            <button class="white-button header-text w3-xlarge golden-text" id="navbar-button">Meny <i class="fas fa-bars black-text"></i></button>
-
+            <button class="white-button header-text w3-xlarge golden-text w3-right" id="navbar-button">Meny <i class="fas fa-bars black-text"></i></button>
         </div>
     </div>
     <div class="w3-top w3-right w3-large margin-top-100 height-100" id="navbar-dropdown" style="display:none;">
-        <a href="index.html#hjem" class="w3-bar-item"><i class="fas fa-home"></i> Hjem</a>
-        <a href="om.html" class="w3-bar-item"><i class="fas fa-info-circle"></i> Om InMarket</a>
-        <a href="index.html#styret" class="w3-bar-item"><i class="fas fa-user"></i> Ledelsen</a>
-        <a href="media.html" class="w3-bar-item"><i class="fas fa-play-circle"></i> Media</a>
-        <a href="index.html#kontakt" class="w3-bar-item"><i class="fas fa-envelope"></i> Kontakt oss</a>
-        <div id="navbar-contact" class="">
-            <span class="w3-bar-item w3-medium">Bli oppringt innen 24 timer:</span>
-            <input class="w3-input w3-bar-item" placeholder="Telefonnr." required name="" type="text" id="inputPhoneBar">
-            <button class="w3-bar-item w3-center" onclick="submitPhone()"><i class="fas fa-paper-plane"></i></button>
-        </div>
-        <div id="navbar-submit" class="w3-hide">
-            <span class="w3-bar-item w3-right">Takk for henvendelsen!</span>
-        </div>
+        <ul class="w3-ul w3-right">
+            <li>
+                <a href="index.html#hjem" class="w3-bar-item"><i class="fas fa-home"></i> Hjem</a>
+            </li>
+            <li>
+                <a href="om.html" class="w3-bar-item"><i class="fas fa-info-circle"></i> Om oss</a>
+            </li>
+            <li>
+                <a href="index.html#styret" class="w3-bar-item"><i class="fas fa-user"></i> Vårt team</a>
+            </li>
+            <li>
+                <a href="media.html" class="w3-bar-item"><i class="fas fa-play-circle"></i> Media</a>
+            </li>
+            <li>
+                <a href="index.html#kontakt" class="w3-bar-item"><i class="fas fa-envelope"></i> Kontakt oss</a>
+            </li>
+            <li>
+                <div id="navbar-contact" class="">
+                    <input class="w3-input w3-bar-item" placeholder="Telefonnr." required name="" type="text" id="inputPhoneBar">
+                    <button class="w3-bar-item w3-center" onclick="submitPhone()"><i class="fas fa-paper-plane"></i></button>
+                </div>
+                <div id="navbar-submit" class="w3-hide">
+                    <span class="w3-bar-item w3-right">Takk for henvendelsen!</span>
+                </div>
+            </li>
+        </ul>
     </div>
 
     <!-- Cookie notice -->
@@ -210,7 +222,7 @@
         <p class="w3-center w3-padding-32 w3-large"> <a href="#kontakt" class="red-button w3-card">Kontakt oss i dag du også</a> </p>
 
         <!-- partners -->
-        <div class="w3-content" id="partner-div">
+        <div class="w3-content margin-top-100" id="partner-div">
             <div class="w3-row w3-center w3-hide-small w3-hide-medium">
                 <div class="w3-col m3 s3" itemprop="sponsor" style="padding-right: 50px;">
                     <a href="https://cre8bd.weebly.com/" target="_blank"><img src="img/logos/cre8.jpg" alt="Cre8ive" style="width:90%;margin-top: -10px;"></a>
@@ -275,101 +287,8 @@
     <!-- third parallax image -->
     <div class="bgimg-music-night w3-display-container w3-opacity-min parallax-img"></div>
 
-    <!-- Container (ledelsen) -->
-    <div class="w3-content w3-container w3-padding-64" id="styret">
-        <h1 class="w3-center extra-margin inmarket-red">Ledelsen</h1>
-        <div class="w3-row-padding w3-center">
-            <div class="w3-col m3">
-                <div class="w3-card-2 w3-section" itemprop="founder" itemscope itemtype="http://schema.org/Person">
-                    <img src="img/portraits/samuel.png" alt="Daglig leder Samuel Bigirimana" style="width:100%" itemprop="image">
-                    <div class="w3-container">
-                        <h3 itemprop="name" class="inmarket-red">Samuel Bigirimana</h3>
-                        <p class="w3-opacity" itemprop="jobTitle">Daglig leder</p>
-                        <p>Tlf.: (+47) <span itemprop="telephone">950 01 753</span><br>E-post: <span itemprop="email">samuel@imnor.no</span></p>
-                    </div>
-                </div>
-            </div>
-            <div class="w3-col m3">
-                <div class="w3-card-2 w3-section" itemprop="employee" itemscope itemtype="http://schema.org/Person">
-                    <img src="img/portraits/oyvind.png" alt="Nestleder Øyvind Fjeld" style="width:100%" itemprop="image">
-                    <div class="w3-container">
-                        <h3 itemprop="name" class="inmarket-red">Øyvind<br>Fjeld</h3>
-                        <p class="w3-opacity" itemprop="jobTitle">Nestleder</p>
-                        <p>Tlf.: (+47) <span itemprop="telephone">454 76 037</span><br>E-post: <span itemprop="email">oyvind.fjeld@imnor.no</span></p>
-                    </div>
-                </div>
-            </div>
-            <div class="w3-col m3">
-                <div class="w3-card-2 w3-section" itemprop="employee" itemscope itemtype="http://schema.org/Person">
-                    <img src="img/portraits/samuels.jpg" alt="Personaldirektør Samuel Skretteberg" style="width:100%" itemprop="image">
-                    <div class="w3-container">
-                        <h3 itemprop="name" class="inmarket-red">Samuel Skretteberg</h3>
-                        <p class="w3-opacity" itemprop="jobTitle">Personaldirektør</p>
-                        <p>Tlf.: (+47) <span itemprop="telephone">473 26 426</span><br>E-post: <span itemprop="email">skretteberg@imnor.no</span></p>
-                    </div>
-                </div>
-            </div>
-            <div class="w3-col m3">
-                <div class="w3-card-2 w3-section" itemprop="employee" itemscope itemtype="http://schema.org/Person">
-                    <img src="img/portraits/ask.jpg" alt="Teknologidirektør Ask Berstad Kolltveit" style="width:100%" itemprop="image">
-                    <div class="w3-container">
-                        <h3 itemprop="name" class="inmarket-red">Ask Berstad Kolltveit</h3>
-                        <p class="w3-opacity" itemprop="jobTitle">Teknologidirektør</p>
-                        <p>Tlf.: (+47) <span itemprop="telephone">454 18 864</span><br>E-post: <span itemprop="email">ask.kolltveit@imnor.no</span></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="w3-container w3-center w3-padding-32">
-            <a href="om.html" class="red-button w3-card w3-xlarge" style="">Mer om oss</a>
-        </div>
-    </div>
-
     <!-- fourth Parallax Image -->
     <div class="bgimg-nrk w3-display-container w3-opacity-min parallax-img"></div>
-
-    <!-- Container (kontakt oss) -->
-    <div class="w3-content w3-container w3-padding-64" id="kontakt">
-        <h1 class="w3-center inmarket-red" id="kontaktHeader">Kontakt oss</h1>
-        <div class="w3-row">
-            <form class="w3-row w3-large w3-container w3-col m9" action="index.html" method="post" id="kontaktSkjema">
-                <p>Uavhengig av om du er elev, student eller virksomhet så kan du legge igjen kontaktinformasjon under. Det er helt uforpliktende og du hører fra oss innen 24 timer.</p>
-                <div class="w3-col m3">
-                    <label>
-                        <input type="radio" name="klient" value="elev" onclick="elevSelected()" class="klient-radio" checked>
-                        <i class="fas fa-user w3-xlarge radio"></i>
-                        Elev
-                    </label><br>
-                    <label>
-                        <input type="radio" name="klient" value="student" onclick="studentSelected()" class="klient-radio">
-                        <i class="fas fa-user-graduate w3-xlarge radio"></i>
-                        Student
-                    </label><br>
-                    <label>
-                        <input type="radio" name="klient" value="virksomhet" onclick="virksomhetSelected()" class="klient-radio">
-                        <i class="fas fa-user-tie w3-xlarge radio"></i>
-                        Virksomhet
-                    </label>
-                </div>
-                <div class="w3-col m9 w3-content">
-                    <input type="text" name="navn" value="" placeholder="Navn" class="w3-input w3-animate-input" required id="inputName"><br>
-                    <input type="text" name="sted" value="" placeholder="Videregående skole" id="inputPlace" class="w3-input w3-animate-input" required id="inputPlace"><br>
-                    <input type="text" name="telefon" value="" placeholder="Telefon" class="w3-input w3-animate-input" required id="inputPhone"><br>
-                    <input type="checkbox" name="" value="" required> <label>Jeg har lest og godtatt <a href="personvern.html" style="text-decoration:underline;" target="_blank">personvernerklæringen</a> </label>
-                    <button class="red-button w3-card w3-right" onclick="submitForm()"><i class="fas fa-paper-plane"></i> SEND</button>
-                    <p id="responseText"></p>
-                </div>
-            </form>
-            <div class="w3-section w3-card w3-container w3-hide w3-col m9" id="kontaktRespons">
-                <h3 class="inmarket-red w3-center">Melding sendt</h3>
-                <p class="w3-center">Takk for henvendelsen! Vi tar kontakt med deg så raskt som mulig!</p>
-            </div>
-            <div class="w3-col m3 w3-panel" style="margin-top: 1.5em;">
-                <div class="fb-page" data-href="https://www.facebook.com/InMarketNorge/" data-tabs="" data-width="200" data-height="500" data-small-header="false" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="true"></div>
-            </div>
-        </div>
-    </div>
 
     <!-- Footer -->
     <footer class="w3-row w3-center w3-section w3-large">

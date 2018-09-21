@@ -167,30 +167,16 @@ label input:checked~.radio {
     text-decoration: underline;
 }
 
-.w3-theme-text-red {
-    color: #ba0a0d !important;
-}
-
-.red-background {
-    background: #640507 !important;
-}
-
-.red-text {
-    color: #640507 !important;
-}
-
-.red-border-img {
-    border-style: solid;
-    border-color: #640507;
-    border-width: 2px;
-}
-
 .text-align-right {
     text-align: right;
 }
 
 .padding-top-32 {
     padding-top: 32px;
+}
+
+.width-12em {
+    width: 12em;
 }
 
 .quote {
@@ -223,34 +209,6 @@ label input:checked~.radio {
     height: 100%;
 }
 
-.slideshowHeader {
-    line-height: 1.2;
-    margin: 0;
-    text-align: left;
-    color: inherit;
-}
-
-.slideshowText {
-    /*position: absolute;
-    bottom: 10%;
-    max-width: 70%;*/
-    padding: 16px;
-    padding-left: 20%;
-    margin-bottom: 10%;
-    color: #fff;
-    background-color: #640507;
-}
-
-.slideshowText:hover {
-    color: #640507;
-    background-color: rgba(255, 255, 255, 0.7);
-}
-
-.navbar-accent {
-    border-bottom-style: solid;
-    border-bottom-color: #640507;
-}
-
 #kontaktRespons {}
 
 #handwritten {
@@ -277,12 +235,6 @@ label input:checked~.radio {
     min-height: 75vh;
 }
 
-.slideshow-mobile {
-    min-width: 100vw;
-    min-height: 25%;
-    margin-bottom: 90%;
-}
-
 .mySlides {
     position: absolute;
     min-height: 100%;
@@ -300,10 +252,6 @@ label input:checked~.radio {
     .bgimg-2 {background-image: url("../img/dressmann-mob.jpg")!important;}
     .bgimg-3 {background-image: url("../img/barcode-mob.jpg")!important;}
     .bgimg-4 {background-image: url("../img/gladefolk-mob.jpg")!important;}
-}
-
-#partner-div {
-    margin-top: 100px;
 }
 
 .bgimg-happyface {
@@ -325,11 +273,6 @@ label input:checked~.radio {
     min-height: 100%;
     background-image: url("../img/NRK-anniken.jpg");
 }
-
-.extra-margin {
-    margin-bottom: 80px;
-}
-
 #profiler {
     margin-top: 3em;
 }
@@ -386,32 +329,6 @@ textarea {
 .w3-hover-opacity {
     cursor: pointer;
 }
-
-.driver-med-slides-headers {
-    margin-bottom: -5px;
-}
-
-.driver-med-slides ul {
-    padding-left: 0;
-}
-
-#driver-med-slideshow {
-    position: relative;
-    height: 575px;
-}
-
-#driver-med-slideshow li {
-    font-size: 17px;
-}
-
-.driver-med-slide-2, .driver-med-slide-3 {
-    display: none;
-}
-
-#slideshow-bubble-1, #slideshow-bubble-2, #slideshow-bubble-3 {
-    cursor: pointer;
-}
-
 .om-oss-text {
     color: white;
     background-color: #640507;
@@ -455,7 +372,6 @@ textarea {
 }
 
 #navbar-button {
-    width: 9em;
     line-height: 3em;
 }
 
@@ -491,20 +407,6 @@ textarea {
     line-height: 2;
 }
 
-.red-button {
-    background-color: #640507;
-    color: white;
-    border: none;
-    display: inline-block;
-    padding: 8px 16px;
-    vertical-align: middle;
-    overflow: hidden;
-    text-decoration: none;
-    text-align: center;
-    cursor: pointer;
-    white-space: nowrap;
-}
-
 .white-text {
     color: white;
 }
@@ -531,15 +433,6 @@ textarea {
 
 .z-index-2 {
     z-index: 2 !important;
-}
-
-.red-button:hover {
-    background-color: #f9f9f9 !important;
-    color: #640507 !important;
-}
-
-#navbar {
-    /* background-color: white; */
 }
 
 #navbar-dropdown {
