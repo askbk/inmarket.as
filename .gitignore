@@ -37,6 +37,4 @@ ehthumbs.db
 Thumbs.db
 
 robots.txt
-style/*.min.css
-js/*.min.js
 prod
