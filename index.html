@@ -48,8 +48,6 @@
                 fjs.parentNode.insertBefore(js, fjs);
             }
             (document, 'script', 'facebook-jssdk'));
-
-
     </script>
 
     <!-- Navbar -->
@@ -79,14 +77,19 @@
             <li class="hover-shadow remove-borders hover-white-bg hover-golden-text">
                 <a href="index.html#kontakt" class=""><i class="fas fa-envelope"></i> Kontakt oss</a>
             </li>
-            <li>
-                <div id="navbar-contact" class="">
-                    <input class="w3-input w3-bar-item" placeholder="Telefonnr." required name="" type="text" id="inputPhoneBar">
-                    <button class="w3-bar-item w3-center white-button w3-card" onclick="submitPhone()"><i class="fas fa-paper-plane"></i></button>
-                </div>
+            <li class="remove-borders" id="phone-input">
+                <li class="hover-shadow remove-borders hover-white-bg hover-golden-text">
+                    <input class="w3-input w3-bar-item" placeholder="Telefonnr." type="text" id="inputPhoneBar">
+                </li>
+                <li class="remove-borders">
+                    <button class="white-button hover-shadow w3-center" onclick="submitPhone()"><i class="fas fa-paper-plane"></i> Send</button>
+                </li>
                 <div id="navbar-submit" class="w3-hide">
-                    <span class="w3-bar-item w3-right">Takk for henvendelsen!</span>
+
                 </div>
+            </li>
+            <li class="remove-borders w3-hide" id="navbar-submit">
+                Takk for henvendelsen!
             </li>
         </ul>
     </div>
@@ -104,7 +107,7 @@
         </div>
     </div>
 
-    <!-- First Parallax Image-->
+    <!-- Slideshow-->
     <div class="slideshow w3-display-container margin-top-100" id="hjem">
         <div class="bgimg-1 mySlides parallax-img">
         </div>
@@ -112,66 +115,108 @@
         <div class="bgimg-2 mySlides parallax-img" style="display:none;">
         </div>
 
-        <div class="bgimg-3 mySlides parallax-img" style="display:none;">
-        </div>
+        <div class="bgimg-3 mySlides parallax-img" style="display:none;"></div>
 
-        <div class="bgimg-4 mySlides parallax-img" style="display:none;">
-        </div>
+        <div class="bgimg-4 mySlides parallax-img" style="display:none;"></div>
 
         <div class="w3-center w3-display-bottommiddle margin-bottom-5">
-            <button type="button" name="button" class="white-text transparent-background w3-large remove-borders hover-grey-text w3-circle slide-indicator red-text" n="0">&#9679;</button>
+            <button type="button" name="button" class="white-text transparent-background w3-large remove-borders hover-grey-text w3-circle slide-indicator golden-text" n="0">&#9679;</button>
             <button type="button" name="button" class="white-text transparent-background w3-large remove-borders hover-grey-text w3-circle slide-indicator" n="1">&#9679;</button>
             <button type="button" name="button" class="white-text transparent-background w3-large remove-borders hover-grey-text w3-circle slide-indicator" n="2">&#9679;</button>
             <button type="button" name="button" class="white-text transparent-background w3-large remove-borders hover-grey-text w3-circle slide-indicator" n="3">&#9679;</button>
         </div>
     </div>
 
+    <!-- The four steps of InMarket - Part 1 -->
     <div class="w3-content w3-padding-64">
         <article class="">
             <p>InMarket Norge følger ungdommers utdanning og personlige utvikling fra de går på videregående skole til de er ansatte. Les om de fire stegene ungdommene opplever med oss!</p>
             <div class="w3-row">
-                <div class="w3-col m4">
-                    <img src="" alt="" class="w3-img">
+                <div class="w3-col m4 w3-padding-large">
+                    <img src="img/elever/elias.jpg" alt="" class="w3-img golden-border" width="100%">
                 </div>
                 <div class="w3-col m8">
-                    <h3 class="red-text">Første steg: Elev</h3>
+                    <h3 class="golden-text">Første steg: Elev</h3>
                     <p>Det første steget med oss opplever du som en elev på videregående skole. Her har du fokus på å finne ut av hva du ønsker å bli, du har masse energi og føler at du starter å bli lei skolen.</p>
                     <p>InMarket ønsker å være din følgesvenn gjennom alt dette. Vi kobler deg til enten høyere utdanning eller virksomhet, alt etter hva du ønsker...</p>
+                    <p><button onclick="document.getElementById('elev-modal').style.display='block'" type="button" name="button" class="golden-button white-bg-hover w3-card">Les mer</button></p>
                 </div>
             </div>
             <div class="w3-row">
                 <div class="w3-col m8 text-align-right">
-                    <h3 class="red-text">Andre steg: Frivillig student</h3>
+                    <h3 class="golden-text">Andre steg: Frivillig student</h3>
                     <p>Det andre steget kan du ta når du er under høyere utdanning. Her finner du ut hva du skal bli, ønsker å satse 100% og føler deg motivert til å fullføre det lange utdanningsløpet.</p>
                     <p>InMarket gir deg i denne anledning muligheten til å bli med som frivillig på vårt team. Her vil dufdsafdsafdsafdsafdsa. En attest følger med innsatsen du legger inn.</p>
+                    <p><button type="button" name="button" class="golden-button white-bg-hover w3-card">Les mer</button></p>
                 </div>
-                <div class="w3-col m4">
-                    <img src="" alt="" class="w3-img">
+                <div class="w3-col m4 w3-padding-large">
+                    <img src="img/elever/anniken.jpg" alt="" class="w3-img golden-border" width="100%">
                 </div>
             </div>
         </article>
     </div>
 
+    <div id="elev-modal" class="w3-modal">
+        <div class="width-100 blue-bg golden-text">
+            <span onclick="document.getElementById('elev-modal').style.display='none'" class="blue-button w3-right w3-xlarge">&times;</span>
+            <div class="w3-container w3-content">
+                <div class="w3-row">
+                    <div class="w3-col m4 w3-padding-large">
+                        <img src="img/elever/elias.jpg" alt="" class="w3-img golden-border" width="100%">
+                        <h3 class="golden-text">Elev på Vgs</h3>
+                    </div>
+                    <div class="w3-col m8 w3-padding">
+                        <p>
+                            InMarket ønsker å samarbeide med skolen din for at du skal få utvikle deg på best mulig måte. Dette gjør vi for deg som elev:
+                        </p>
+                        <ol>
+                            <li>Vi informerer lærerne dine om din deltagelse i InMarket og gjør vårt beste for å legge aktiviteter i din normale undervisningstid.</li>
+                            <li>Vi ordner en mentor for deg som kan være kontaktperson.</li>
+                            <li>Vi prioriterer din personlige utvikling og inviterer deg gruppemøter hvor man kan snakke om hverdagsutfordringer.</li>
+                            <li>Vi kobler deg til:
+                                <ul>
+                                    <li>
+                                        En studieplass med linjer du er interessert i. Her får du hospitere studieplassen, snakke med studenter og bygge egen erfaring.
+                                    </li>
+                                    <li>
+                                        En virksomheten innen bransjen du ønsker å satse på. Her blir du koblet til miljøet, du får rom til å utforske og muligheten til å involvere deg i oppgavene som utføres der.
+                                    </li>
+                                </ul>
+                            </li>
+                            <p><button type="button" name="button" class="golden-button white-bg-hover w3-card">Kontakt oss</button></p>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Parallax Christian -->
+    <div class="bgimg-christian w3-display-container parallax-img"></div>
+
+    <!-- The four steps of InMarket - Part two -->
     <div class="w3-content w3-padding-64">
         <article class="">
             <div class="w3-row">
-                <div class="w3-col m4">
-                    <img src="" alt="" class="w3-img">
+                <div class="w3-col m4 w3-padding-large">
+                    <img src="img/elever/kamerajente.jpg" alt="" class="w3-img golden-border" width="100%">
                 </div>
                 <div class="w3-col m8">
-                    <h3 class="red-text">Tredje steg: Trainee</h3>
+                    <h3 class="golden-text">Tredje steg: Trainee</h3>
                     <p>Det tredje steget sammen med oss gjør du som trainee. Her har du klart å fullføre utdanning din, du har imponert oss og våre samarbeidspartnere som frivillig og du har vist gode holdninger.</p>
                     <p>InMarket plukker ut veldig få personer til våre trainee-stillinger. Her får du kontrakt fdsafds som varer i 8-14 mnd. med god lønning. Arbeidet du ...</p>
+                    <p><button type="button" name="button" class="golden-button white-bg-hover w3-card">Les mer</button></p>
                 </div>
             </div>
             <div class="w3-row">
                 <div class="w3-col m8 text-align-right">
-                    <h3 class="red-text">Fjerde steg: ansatt</h3>
+                    <h3 class="golden-text">Fjerde steg: ansatt</h3>
                     <p>Det fjerde og siste steget som markerer at du endelig er i mål er når du får kontrakt med en virksomhet. Her har du allerede gjort en god jobb som trainee, du har klart å bygge et sterkt nettverk og ønsker å etablere deg.</p>
                     <p>fdsafdsa å følge deg i dine første tre år som arbeidstaker. Vi ønsker å være din megler og rådgiver.</p>
+                    <p><button type="button" name="button" class="golden-button white-bg-hover w3-card">Les mer</button></p>
                 </div>
-                <div class="w3-col m4">
-                    <img src="" alt="" class="w3-img">
+                <div class="w3-col m4 w3-padding-large">
+                    <img src="img/partners/estella_sara.jpg" alt="" class="w3-img golden-border" width="100%">
                 </div>
             </div>
         </article>
@@ -182,7 +227,6 @@
 
     <!-- container for quotes -->
     <div class="narrow-content w3-padding-64 w3-container">
-        <h1 class="w3-center w3-padding-top">Hva andre sier om oss</h1>
         <div class="w3-row about-text" >
             <div class="w3-col m8">
                 <div class="translatey-40">
@@ -218,8 +262,6 @@
                 <img src="img/partners/chris.jpg" alt="" class="w3-circle red-border-img w3-image">
             </div>
         </div>
-
-        <p class="w3-center w3-padding-32 w3-large"> <a href="#kontakt" class="red-button w3-card">Kontakt oss i dag du også</a> </p>
 
         <!-- partners -->
         <div class="w3-content margin-top-100" id="partner-div">
@@ -284,23 +326,17 @@
         </div>
     </div>
 
-    <!-- third parallax image -->
-    <div class="bgimg-music-night w3-display-container w3-opacity-min parallax-img"></div>
-
-    <!-- fourth Parallax Image -->
-    <div class="bgimg-nrk w3-display-container w3-opacity-min parallax-img"></div>
-
     <!-- Footer -->
     <footer class="w3-row w3-center w3-section w3-large">
         <div class="w3-col m4">
-            <a href="mailto:post@imnor.no"><i class="fas fa-envelope w3-xxlarge red-text"></i> <br>post@imnor.no</a>
+            <a href="mailto:post@imnor.no"><i class="fas fa-envelope w3-xxlarge golden-text"></i> <br>post@imnor.no</a>
             <br> <span class="w3-tiny">InMarket Samuel Bigirimana Org.nr. 8188 21 522</span>
         </div>
         <div class="w3-col m4">
-            <a href="personvern.html#policy" style="text-decoration:underline;"><i class="fas fa-file-contract w3-xxlarge red-text"></i> <br>Personvernerklæring</a>
+            <a href="personvern.html#policy" style="text-decoration:underline;"><i class="fas fa-file-contract w3-xxlarge golden-text"></i> <br>Personvernerklæring</a>
         </div>
         <div class="w3-col m4">
-            <a href="https://www.instagram.com/inmarketnorge/" target="_blank"><i class="fab fa-instagram w3-hover-opacity w3-xxxlarge red-text"></i></a> <a href="https://www.facebook.com/InMarketNorge/" target="_blank"><i class="fab fa-facebook w3-hover-opacity w3-xxxlarge red-text"></i></a>  <a href="https://www.linkedin.com/company/inmarket" target="_blank"><i class="fab fa-linkedin w3-hover-opacity w3-xxxlarge red-text"></i></a>
+            <a href="https://www.instagram.com/inmarketnorge/" target="_blank"><i class="fab fa-instagram w3-hover-opacity w3-xxxlarge golden-text"></i></a> <a href="https://www.facebook.com/InMarketNorge/" target="_blank"><i class="fab fa-facebook w3-hover-opacity w3-xxxlarge golden-text"></i></a>  <a href="https://www.linkedin.com/company/inmarket" target="_blank"><i class="fab fa-linkedin w3-hover-opacity w3-xxxlarge golden-text"></i></a>
         </div>
     </footer>
     <script type="text/javascript">

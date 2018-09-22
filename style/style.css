@@ -113,13 +113,6 @@ h1, h2, h3, h4, h5 {
 
 @media (max-width:992px) {}
 
-#hva h5 {
-    font-size: 18px;
-    margin-bottom: -8px;
-    margin-left: 25px;
-    text-align: left;
-}
-
 li {
     display: list-item;
     margin-top: 0.5em;
@@ -223,6 +216,10 @@ label input:checked~.radio {
     color: #bca53c;
 }
 
+.width-100 {
+    width: 100%;
+}
+
 #kontaktRespons {}
 
 #handwritten {
@@ -273,11 +270,6 @@ label input:checked~.radio {
     background-image: url("../img/happyface.jpg");
 }
 
-.bgimg-music-night {
-    min-height: 400px;
-    background-image: url("../img/music_night_greyscale.jpg");
-}
-
 .bgimg-nrk {
     min-height: 400px;
     background-image: url("../img/nrk_christian_eirik.jpg");
@@ -286,6 +278,11 @@ label input:checked~.radio {
 .bgimg-nrk-anniken {
     min-height: 100%;
     background-image: url("../img/NRK-anniken.jpg");
+}
+
+.bgimg-christian {
+    min-height: 400px;
+    background-image: url("../img/elever/christian.jpg");
 }
 #profiler {
     margin-top: 3em;
@@ -330,16 +327,6 @@ label input:checked~.radio {
     vertical-align: -3px;
 }
 
-textarea {
-    border: 1px solid #888;
-    background-color: transparent;
-    background-image: url("../img/logo.jpg");
-    /* This ruins default border */
-    background-repeat: no-repeat;
-    background-position: bottom right;
-    background-size: 80px 80px;
-}
-
 .w3-hover-opacity {
     cursor: pointer;
 }
@@ -356,8 +343,6 @@ textarea {
 .about-text {
     margin-top: 100px;
 }
-
-/**/
 
 #about-video {
     width: 100%;
@@ -385,6 +370,10 @@ textarea {
     padding-top: 1%;
 }
 
+#navbar {
+    height: 100px;
+}
+
 #navbar-button {
     line-height: 3em;
 }
@@ -398,22 +387,59 @@ textarea {
     color: #bca53c;
 }
 
+.golden-border {
+    border-color: #bca53c;
+    border-style: solid;
+    border-width: thin;
+}
+
 .black-text {
     color: #000;
 }
 
-.white-button{
+.blue-bg {
+    background-color: #090e23 !important;
+}
+
+.blue-text {
+    color: #090e23;
+}
+
+.white-button, .golden-button, .blue-button {
     border:none;
     display:inline-block;
     outline:0;padding:8px 16px;
     vertical-align:middle;
     overflow:hidden;
     text-decoration:none;
-    color:#bca53c;
-    background-color:white;
     text-align:center;
     cursor:pointer;
     white-space:nowrap
+}
+
+.white-button {
+    background-color:white;
+    color: #bca53c;
+}
+
+.golden-button {
+    color: white;
+    background-color: #bca53c;
+}
+
+.golden-button:hover {
+    color: #bca53c;
+    background-color: white;
+}
+
+.blue-button {
+    color: white;
+    background-color: #090e23;
+}
+
+.blue-button:hover {
+    color: #090e23;
+    background-color: #bca53c;
 }
 
 .header-text {
@@ -462,15 +488,6 @@ textarea {
     padding-top: 90vh;
     text-align: right;
     padding-right: 2em;
-}
-
-/* optima */
-
-@font-face {
-    font-family: "Optima";
-    font-weight: 400;
-    font-style: normal;
-    src: url(../fonts/OptimaNovaLT-Medium.otf);
 }
 
 /* Caveat-Regular */
