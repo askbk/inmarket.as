@@ -16,6 +16,7 @@
     <link rel="manifest" href="site.webmanifest" />
     <script type="application/ld+json" href="json/about.json"></script>
     <script src="js/jquery-3.3.1.min.js" charset="utf-8"></script>
+    <script src="js/jquery.color-2.1.2.min.js" charset="utf-8"></script>
     <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#ffc40d">
     <meta name="theme-color" content="#ffffff">
@@ -50,16 +51,25 @@
             (document, 'script', 'facebook-jssdk'));
     </script>
 
-    <!-- Navbar -->
-    <div class="w3-top z-index-2">
+    <!-- navbar on top of page -->
+    <!-- <div class="w3-bar w3-xxlarge w3-center w3-top z-index-2 white-bg" id="static-navbar">
+        <a href="index.html#hjem" class="w3-bar-item">
+            <img src="img/logos/logo.png" height="90px" alt="InMarket logo" id="" class="hide-scroll">
+        </a>
+        <button class="white-button transparent-background header-text w3-xlarge w3-right" id="static-navbar-button">Meny <i class="fas fa-bars black-text"></i></button>
+    </div> -->
+
+
+    <!-- Fixed navbar-->
+    <div class="w3-top">
         <div class="w3-bar w3-xxlarge w3-center" id="navbar">
             <a href="index.html#hjem" class="w3-bar-item">
-                <img src="img/logos/logo-flat-text-small.png" height="90px" alt="InMarket logo" id="navbar-img" class="hide-max-500">
-                <img src="img/logos/logo-flat-small.png" height="90px" alt="InMarket logo" id="navbar-img" class="hide-min-500">
+                <img src="img/logos/logo.png" height="90px" alt="InMarket logo" id="navbar-img" class="w3-img">
             </a>
-            <button class="white-button transparent-background header-text w3-xlarge w3-right" id="navbar-button">Meny <i class="fas fa-bars black-text"></i></button>
+            <button class="white-button transparent-background header-text w3-xlarge w3-right" id="navbar-button"> <span class="hide-scroll">Meny</span> <i class="fas fa-bars black-text"></i></button>
         </div>
     </div>
+
     <div class="w3-top w3-right w3-large margin-top-100 height-100" id="navbar-dropdown" style="display:none;">
         <ul class="w3-ul w3-right">
             <li class="hover-shadow remove-borders hover-white-bg hover-golden-text">
@@ -95,11 +105,11 @@
     </div>
 
     <!-- Cookie notice -->
-    <div class="w3-bottom w3-hide" id="privacyNotice">
+    <div class="w3-bottom w3-hide golden-text" id="privacyNotice">
         <div class="w3-bar black-bg w3-small w3-center">
             <div class="w3-container">
-                <a class="w3-button" onclick="acceptTracking()">Jeg aksepterer sporing av mitt besøk på denne nettsiden</a>
-                <a href="personvern.html" class="w3-button">Gå til personverninstillinger</a>
+                <a class="black-button" onclick="acceptTracking()">Jeg aksepterer sporing av mitt besøk på denne nettsiden</a>
+                <a href="personvern.html" class="black-button">Gå til personverninstillinger</a>
             </div>
             <div class="w3-container">
                 <p class="">Ved å fortsette bruke dette nettstedet, aksepterer du vår <a href="personvern.html" target="_blank" style="text-decoration:underline;">personvernerklæring</a>.</p>
@@ -389,17 +399,34 @@
     <script type="text/javascript">
     $("#navbar-button").click(function () {
         $("#navbar-dropdown").slideToggle( "fast", function() {
-            // Animation complete.
-          });
-
-        if ($('p,h1,h2,h3,h4,h5').css('visibility') == 'hidden') {
+        });
+        if ($('p,h1,h2,h3,h4,h5').css('visibility') == 'hidden') { // Dropdown was already down
             $('p,h1,h2,h3,h4,h5').css('visibility','visible');
-            $("#navbar").css("background-color", "inherit");
+            if ($(window).scrollTop() > 100) {
+                $(".hide-scroll").fadeOut();
+            }
+            $("#navbar").animate({
+                backgroundColor: "transparent"
+            }, 400);
+
         } else {
-            $("#navbar").css("background-color", "white");
+            $("#navbar").animate({
+                backgroundColor: "#fff"
+            }, 400);
+            $(".hide-scroll").fadeIn();
+
             $('p,h1,h2,h3,h4,h5').css('visibility','hidden');
+            // $(".hide-scroll").show();
         }
     });
+
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+            $(".hide-scroll").fadeOut();
+        } else {
+            $(".hide-scroll").fadeIn();
+        }
+    })
     </script>
     <script src="js/detectIphone.js" charset="utf-8"></script>
     <script src="js/slideshow.js" charset="utf-8"></script>

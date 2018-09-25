@@ -3,6 +3,10 @@ a {
     text-decoration: none;
 }
 
+a, a:active, a:focus, button, button:active. button:focus {
+   outline: 0;
+}
+
 button {
     cursor: pointer;
 }
@@ -379,7 +383,7 @@ label input:checked~.radio {
 }
 
 #navbar-img {
-    margin: -10px;
+    margin: -5px;
     margin-left: 1em;
 }
 
@@ -399,6 +403,10 @@ label input:checked~.radio {
 
 .black-bg {
     background-color: #000 !important;
+}
+
+.white-bg {
+    background-color: #FFF !important;
 }
 
 .white-button, .golden-button, .black-button {
@@ -429,7 +437,7 @@ label input:checked~.radio {
 }
 
 .black-button {
-    color: white;
+    color: #C08D42;
     background-color: #000;
 }
 
