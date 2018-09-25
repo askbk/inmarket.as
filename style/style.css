@@ -384,11 +384,11 @@ label input:checked~.radio {
 }
 
 .golden-text {
-    color: #bca53c;
+    color: #C08D42;
 }
 
 .golden-border {
-    border-color: #bca53c;
+    border-color: #C08D42;
     border-style: solid;
     border-width: thin;
 }
@@ -397,15 +397,11 @@ label input:checked~.radio {
     color: #000;
 }
 
-.blue-bg {
-    background-color: #090e23 !important;
+.black-bg {
+    background-color: #000 !important;
 }
 
-.blue-text {
-    color: #090e23;
-}
-
-.white-button, .golden-button, .blue-button {
+.white-button, .golden-button, .black-button {
     border:none;
     display:inline-block;
     outline:0;padding:8px 16px;
@@ -419,12 +415,12 @@ label input:checked~.radio {
 
 .white-button {
     background-color:white;
-    color: #bca53c;
+    color: #C08D42;
 }
 
 .golden-button {
     color: white;
-    background-color: #bca53c;
+    background-color: #C08D42;
 }
 
 .golden-button:hover {
@@ -432,14 +428,14 @@ label input:checked~.radio {
     background-color: white;
 }
 
-.blue-button {
+.black-button {
     color: white;
-    background-color: #090e23;
+    background-color: #000;
 }
 
-.blue-button:hover {
-    color: #090e23;
-    background-color: #bca53c;
+.black-button:hover {
+    color: #000;
+    background-color: #C08D42;
 }
 
 .header-text {
@@ -476,7 +472,7 @@ label input:checked~.radio {
 }
 
 #navbar-dropdown {
-    background-color: #bca53c99;
+    background-color: #C08D4299;
     color: white;
 }
 
