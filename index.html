@@ -57,7 +57,7 @@
             <a href="index.html#hjem" class="w3-bar-item">
                 <img src="img/logos/logo.png" height="90px" alt="InMarket logo" id="navbar-img" class="w3-img">
                 <img src="img/logos/logo-light.png" height="90px" alt="InMarket logo" id="navbar-img-light" class="w3-img" style="display:none;">
-            </a>
+            </a>x
             <button class="white-button transparent-background header-text w3-xlarge w3-right" id="navbar-button"> <span class="hide-scroll lato-font">Meny</span> <i class="fas fa-bars black-text"></i></button>
         </div>
     </div>
@@ -130,9 +130,9 @@
     </div>
 
     <!-- The four steps of InMarket - Part 1 -->
-    <div class="w3-content w3-padding">
+    <div class="w3-content w3-padding-64">
         <article class="">
-            <p class="w3-panel w3-margin">InMarket Norge følger ungdommers utdanning og personlige utvikling fra de går på videregående skole til de er ansatte. Les om de fire stegene ungdommene opplever med oss!</p>
+            <p>InMarket Norge følger ungdommers utdanning og personlige utvikling fra de går på videregående skole til de er ansatte. Les om de fire stegene ungdommene opplever med oss!</p>
             <div class="w3-row">
                 <div class="w3-col m4 w3-padding-large">
                     <img src="img/elever/elias.jpg" alt="" class="w3-img golden-border" width="100%">
@@ -483,23 +483,34 @@
             if ($(window).scrollTop() > 100) {
                 $(".hide-scroll").fadeOut();
             }
-            $("#navbar").animate({
-                backgroundColor: "transparent"
-            }, 400);
+            if (window.innerWidth >= 900) {
+                $("#navbar").animate({
+                    backgroundColor: "transparent"
+                }, 400);
+            }
+
         } else {
-            $("#navbar").animate({
-                backgroundColor: "#fff"
-            }, 400);
+            if (window.innerWidth >= 900) {
+                $("#navbar").animate({
+                    backgroundColor: "#fff"
+                }, 400);
+            }
 
             $(".hide-scroll").fadeIn();
             $('p,h1,h2,h3,h4,h5').css('visibility','hidden');
         }
     });
 
+    let navbar-img = $("#navbar-img");
+    let brightness = 128;
+
     $(window).scroll(function () {
         if ($(this).scrollTop() > 100) {
             if ($("p").css('visibility') != "hidden") {
                 $(".hide-scroll").fadeOut();
+            }
+            if ($(this).scrollTop() > ) {
+
             }
         } else {
             $(".hide-scroll").fadeIn();

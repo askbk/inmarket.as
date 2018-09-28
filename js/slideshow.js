@@ -21,8 +21,8 @@ function slideshow() {
 	slides[prev].fadeOut();
 	slides[i].fadeIn();
 
-	slideIndicators.slice(prev, prev+1).removeClass("golden-text");
-	slideIndicators.slice(i, i+1).addClass("golden-text");
+	slideIndicators.slice(prev, prev+1).css("color","white")
+	slideIndicators.slice(i, i+1).css("color","black");
 }
 
 $(".slide-indicator").on("click", function (ev) {
@@ -31,12 +31,12 @@ $(".slide-indicator").on("click", function (ev) {
 	clearInterval(slideInterval);
 	slides[i].fadeOut();
 	slides[index].fadeIn();
-	slideIndicators.slice(i, i+1).removeClass("red-text");
+	slideIndicators.slice(i, i+1).css("color","white");
 
 	i = index;
 	prev = (i - 1) % 4;
 
-	slideIndicators.slice(i, i+1).addClass("red-text");
+	slideIndicators.slice(i, i+1).css("color","black");
 
 	slide1Interval = setInterval(slideshow, duration)
 })
