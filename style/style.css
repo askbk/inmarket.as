@@ -16,7 +16,7 @@ footer {
     border-top: solid #C08D42;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, .lato-font {
     font-family: 'Lato', sans-serif !important;
 }
 
