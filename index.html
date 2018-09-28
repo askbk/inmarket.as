@@ -422,7 +422,9 @@
 
     $(window).scroll(function () {
         if ($(this).scrollTop() > 100) {
-            $(".hide-scroll").fadeOut();
+            if ($("p").css('visibility') != "hidden") {
+                $(".hide-scroll").fadeOut();
+            }
         } else {
             $(".hide-scroll").fadeIn();
         }
