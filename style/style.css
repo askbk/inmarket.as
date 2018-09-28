@@ -45,6 +45,8 @@ h1, h2, h3, h4, h5 {
     }
 }
 
+
+
 @media (max-width: 615px) {
     #navbar-img {
         margin-left: 0em !important;
@@ -372,6 +374,12 @@ label input:checked~.radio {
 
 #id01 {
     padding-top: 1%;
+}
+
+@media (max-width: 980px) {
+    #navbar {
+        background-color: #fff;
+    }
 }
 
 #navbar {
