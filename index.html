@@ -130,9 +130,9 @@
     </div>
 
     <!-- The four steps of InMarket - Part 1 -->
-    <div class="w3-content w3-padding-64">
+    <div class="w3-content w3-padding">
         <article class="">
-            <p>InMarket Norge følger ungdommers utdanning og personlige utvikling fra de går på videregående skole til de er ansatte. Les om de fire stegene ungdommene opplever med oss!</p>
+            <p class="w3-panel w3-margin">InMarket Norge følger ungdommers utdanning og personlige utvikling fra de går på videregående skole til de er ansatte. Les om de fire stegene ungdommene opplever med oss!</p>
             <div class="w3-row">
                 <div class="w3-col m4 w3-padding-large">
                     <img src="img/elever/elias.jpg" alt="" class="w3-img golden-border" width="100%">
@@ -483,34 +483,23 @@
             if ($(window).scrollTop() > 100) {
                 $(".hide-scroll").fadeOut();
             }
-            if (window.innerWidth >= 900) {
-                $("#navbar").animate({
-                    backgroundColor: "transparent"
-                }, 400);
-            }
-
+            $("#navbar").animate({
+                backgroundColor: "transparent"
+            }, 400);
         } else {
-            if (window.innerWidth >= 900) {
-                $("#navbar").animate({
-                    backgroundColor: "#fff"
-                }, 400);
-            }
+            $("#navbar").animate({
+                backgroundColor: "#fff"
+            }, 400);
 
             $(".hide-scroll").fadeIn();
             $('p,h1,h2,h3,h4,h5').css('visibility','hidden');
         }
     });
 
-    let navbar-img = $("#navbar-img");
-    let brightness = 128;
-
     $(window).scroll(function () {
         if ($(this).scrollTop() > 100) {
             if ($("p").css('visibility') != "hidden") {
                 $(".hide-scroll").fadeOut();
-            }
-            if ($(this).scrollTop() > ) {
-
             }
         } else {
             $(".hide-scroll").fadeIn();
