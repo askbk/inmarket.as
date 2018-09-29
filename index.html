@@ -129,9 +129,9 @@
     </div>
 
     <!-- The four steps of InMarket - Part 1 -->
-    <div class="w3-content w3-padding">
+    <div class="w3-content w3-padding-64">
         <article class="">
-            <p class="w3-panel w3-margin">InMarket Norge følger ungdommers utdanning og personlige utvikling fra de går på videregående skole til de er ansatte. Les om de fire stegene ungdommene opplever med oss!</p>
+            <p>InMarket Norge følger ungdommers utdanning og personlige utvikling fra de går på videregående skole til de er ansatte. Les om de fire stegene ungdommene opplever med oss!</p>
             <div class="w3-row">
                 <div class="w3-col m4 w3-padding-large">
                     <img src="img/elever/elias.jpg" alt="" class="w3-img golden-border" width="100%">
@@ -485,8 +485,10 @@
     });
 
     $(window).scroll(function () {
-        if ($(this).scrollTop() > 50) {
-            $(".hide-scroll").fadeOut();
+        if ($(this).scrollTop() > 100) {
+            if ($("p").css('visibility') != "hidden") {
+                $(".hide-scroll").fadeOut();
+            }
         } else {
             $(".hide-scroll").fadeIn();
         }
