@@ -477,7 +477,9 @@
         $("#navbar-dropdown").slideToggle("fast");
         if ($('p,h1,h2,h3,h4,h5').css('visibility') == 'hidden') { // Dropdown was already down
             $('p,h1,h2,h3,h4,h5').css('visibility','visible');
-            $(".hide-scroll").fadeOut();
+            if ($(window).scrollTop() > 100) {
+                $(".hide-scroll").fadeOut();
+            }
         } else {
             $('p,h1,h2,h3,h4,h5').css('visibility','hidden');
             $(".hide-scroll").fadeIn();
