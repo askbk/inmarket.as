@@ -161,6 +161,18 @@ label input:checked~.radio {
     color: #640507;
 }
 
+.slideshowText {
+    padding: 16px;
+    padding-left: 20%;
+    margin-bottom: 5%;
+    background-color: #c08d42;
+}
+
+.slideshowText:hover {
+    color: #000;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
 .text-underline {
     text-decoration: underline;
 }
