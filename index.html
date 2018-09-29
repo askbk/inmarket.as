@@ -37,20 +37,6 @@
 </head>
 
 <body itemscope itemtype="http://schema.org/Organization">
-    <!--Facebook plugin-->
-    <div id="fb-root"></div>
-    <script>
-        (function(d, s, id) {
-                var js, fjs = d.getElementsByTagName(s)[0];
-                if (d.getElementById(id)) return;
-                js = d.createElement(s);
-                js.id = id;
-                js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.12';
-                fjs.parentNode.insertBefore(js, fjs);
-            }
-            (document, 'script', 'facebook-jssdk'));
-    </script>
-
     <!-- Fixed navbar-->
     <div class="w3-top">
         <div class="w3-bar w3-xxlarge w3-center line-height-3 white-bg" id="navbar">
@@ -131,23 +117,23 @@
     <!-- The four steps of InMarket - Part 1 -->
     <div class="w3-content w3-padding-64">
         <article class="">
-            <p>InMarket Norge følger ungdommers utdanning og personlige utvikling fra de går på videregående skole til de er ansatte. Les om de fire stegene ungdommene opplever med oss!</p>
+            <p>InMarket Norge følger ungdommens utdanning og personlige utvikling fra de går på videregående skole til de er ansatte. Les om de fire stegene ungdommen opplever med oss!</p>
             <div class="w3-row">
                 <div class="w3-col m4 w3-padding-large">
                     <img src="img/elever/elias.jpg" alt="" class="w3-img golden-border" width="100%">
                 </div>
                 <div class="w3-col m8">
-                    <h3 class="golden-text">Første steg: Elev</h3>
+                    <h3 class="golden-text">Første steg: Elev på Vgs</h3>
                     <p>Det første steget med oss opplever du som en elev på videregående skole. Her har du fokus på å finne ut av hva du ønsker å bli, du har masse energi og føler at du starter å bli lei skolen.</p>
-                    <p>InMarket ønsker å være din følgesvenn gjennom alt dette. Vi kobler deg til enten høyere utdanning eller virksomhet, alt etter hva du ønsker...</p>
+                    <p>InMarket ønsker å være din følgesvenn gjennom alt dette. Vi kobler deg til enten høyere utdanning eller virksomhet alt etter hva du ønsker og hva du evner.</p>
                     <p><button onclick="document.getElementById('elev-modal').style.display='block'" type="button" name="button" class="golden-button white-bg-hover w3-card">Les mer</button></p>
                 </div>
             </div>
             <div class="w3-row">
                 <div class="w3-col m8 text-align-right">
                     <h3 class="golden-text">Andre steg: Frivillig student</h3>
-                    <p>Det andre steget kan du ta når du er under høyere utdanning. Her finner du ut hva du skal bli, ønsker å satse 100% og føler deg motivert til å fullføre det lange utdanningsløpet.</p>
-                    <p>InMarket gir deg i denne anledning muligheten til å bli med som frivillig på vårt team. Her vil dufdsafdsafdsafdsafdsa. En attest følger med innsatsen du legger inn.</p>
+                    <p>Det andre steget kan du ta når du er under høyere utdanning. Her finner du ut hva du skal bli, du ønsker å satse 100% og føler deg motivert til å fullføre det lange utdanningsløpet.</p>
+                    <p>InMarket gir deg i denne anledning muligheten til å bli med som frivillig på vårt team. Her vil du lære, oppleve og oppnå ting som er gull verdt på CV-en. En attest følger med innsatsen du legger inn.</p>
                     <p><button onclick="document.getElementById('student-modal').style.display='block'" type="button" name="button" class="golden-button white-bg-hover w3-card">Les mer</button></p>
                 </div>
                 <div class="w3-col m4 w3-padding-large">
@@ -167,21 +153,15 @@
                         <h3 class="golden-text">Elev på Vgs</h3>
                     </div>
                     <div class="w3-col m8 w3-padding">
-                        <p>
-                            InMarket ønsker å samarbeide med skolen din for at du skal få utvikle deg på best mulig måte. Dette gjør vi for deg som elev:
-                        </p>
+                        <p>InMarket ønsker å samarbeide med skolen din for at du skal få utvikle deg på best mulig måte. Dette gjør vi for deg som elev:</p>
                         <ol>
-                            <li>Vi informerer lærerne dine om din deltagelse i InMarket og gjør vårt beste for å legge aktiviteter i din normale undervisningstid.</li>
+                            <li>Vi informerer lærerne dine om din deltagelse i InMarket og gjør vårt beste for å unngå å bruke fritiden din (tiden etter skolen).</li>
                             <li>Vi ordner en mentor for deg som kan være kontaktperson.</li>
-                            <li>Vi prioriterer din personlige utvikling og inviterer deg gruppemøter hvor man kan snakke om hverdagsutfordringer.</li>
+                            <li>Vi passer på at din personlige utvikling blir prioritert og inviterer deg gruppemøter hvor man kan snakke om hverdagsutfordringer.</li>
                             <li>Vi kobler deg til:
                                 <ul>
-                                    <li>
-                                        En studieplass med linjer du er interessert i. Her får du hospitere studieplassen, snakke med studenter og bygge egen erfaring.
-                                    </li>
-                                    <li>
-                                        En virksomheten innen bransjen du ønsker å satse på. Her blir du koblet til miljøet, du får rom til å utforske og muligheten til å involvere deg i oppgavene som utføres der.
-                                    </li>
+                                    <li>en studieplass med linjer du er interessert i. Her får du hospitere studieplassen, snakke med studenter og bygge egen erfaring.</li>
+                                    <li>en virksomhet innen bransjen du ønsker å satse på. Her blir du koblet til miljøet, du får rom til å utforske og muligheten til å involvere deg i oppgavene som utføres der.</li>
                                 </ul>
                             </li>
                             <p><button type="button" name="button" class="golden-button white-bg-hover w3-card">Kontakt oss</button></p>
@@ -202,9 +182,7 @@
                         <h3 class="golden-text">Frivillig student</h3>
                     </div>
                     <div class="w3-col m8 w3-padding">
-                        <p>
-                            InMarket ønsker å samarbeide med din utdanningsplass for at du skal få den beste muligheten til å forberede deg til arbeidslivet. Som frivillig:
-                        </p>
+                        <p>InMarket ønsker å samarbeide med din utdanningsplass for at du skal få den beste muligheten til å forberede deg til arbeidslivet. Som frivillig:</p>
                         <ol>
                             <li>Får du gode muligheter til å utvikle de egenskapene som får deg til å blomstre.</li>
                             <li>Har du muligheten til å bygge erfaringer og kompetanse som er relevant for studier og karriere.</li>
@@ -219,7 +197,6 @@
         </div>
     </div>
 
-
     <!-- Parallax Christian -->
     <div class="bgimg-christian w3-display-container parallax-img"></div>
 
@@ -232,8 +209,8 @@
                 </div>
                 <div class="w3-col m8">
                     <h3 class="golden-text">Tredje steg: Trainee</h3>
-                    <p>Det tredje steget sammen med oss gjør du som trainee. Her har du klart å fullføre utdanning din, du har imponert oss og våre samarbeidspartnere som frivillig og du har vist gode holdninger.</p>
-                    <p>InMarket plukker ut veldig få personer til våre trainee-stillinger. Her får du kontrakt fdsafds som varer i 8-14 mnd. med god lønning. Arbeidet du ...</p>
+                    <p>Det tredje steget sammen med oss gjør du som trainee. Her har du klart å fullføre utdanningen din, du har imponert oss og våre samarbeidspartnere som frivillig og du har vist gode holdninger.</p>
+                    <p>InMarket plukker ut veldig få personer til våre trainee stillinger. Her får du kontrakt med oss som varer i 8-14 mnd. med god lønning. Arbeidet du gjør som trainee vil være for relevant arbeidsgiver.</p>
                     <p><button onclick="getElementById('trainee-modal').style.display='block'" type="button" name="button" class="golden-button white-bg-hover w3-card">Les mer</button></p>
                 </div>
             </div>
@@ -241,7 +218,7 @@
                 <div class="w3-col m8 text-align-right">
                     <h3 class="golden-text">Fjerde steg: Ansatt</h3>
                     <p>Det fjerde og siste steget som markerer at du endelig er i mål er når du får kontrakt med en virksomhet. Her har du allerede gjort en god jobb som trainee, du har klart å bygge et sterkt nettverk og ønsker å etablere deg.</p>
-                    <p>fdsafdsa å følge deg i dine første tre år som arbeidstaker. Vi ønsker å være din megler og rådgiver.</p>
+                    <p>InMarket ønsker derfor å følge deg i dine første tre år som en arbeidstaker. Vi ønsker å være din megler og rådgiver.</p>
                     <p><button onclick="getElementById('ansatt-modal').style.display='block'" type="button" name="button" class="golden-button white-bg-hover w3-card">Les mer</button></p>
                 </div>
                 <div class="w3-col m4 w3-padding-large">
@@ -249,6 +226,58 @@
                 </div>
             </div>
         </article>
+    </div>
+
+    <div id="trainee-modal" class="w3-modal">
+        <div class="width-100 black-bg golden-text w3-animate-right">
+            <span onclick="document.getElementById('trainee-modal').style.display='none'" class="black-button w3-right w3-xlarge">&times;</span>
+            <div class="w3-container w3-content">
+                <div class="w3-row">
+                    <div class="w3-col m4 w3-padding-large">
+                        <img src="img/elever/kamerajente.jpg" alt="" class="w3-img golden-border" width="100%">
+                        <h3 class="golden-text">Trainee</h3>
+                    </div>
+                    <div class="w3-col m8 w3-padding">
+                        <p>InMarket har samarbeidspartnere som er interessert i å ansette de beste nyutdannede. Som trainee hos oss får du:</p>
+                        <ol>
+                            <li>En kontrakt mellom 8-14 mnd. med en lønn tilsvarende utdanningsgraden din.
+                                <ul>
+                                    <li><em><b>Lønn gjelder bare for tidligere frivillige i InMarket.</b></em></li>
+                                </ul>
+                            </li>
+                            <li>Mulighet til å skaffe deg arbeidskontrakt med våre samarbeidspartnere. De blir da dine arbeidsgivere og må forhandle kontraktbetingelser med deg.</li>
+                            <li>Muligheten til å påvirke ditt arbeidsforhold, velge arbeidsgiver og bygge nettverk.</li>
+                            <li>Veiledning og oppfølging fra InMarket slik at dine sjanser for å få kontrakt ila de 8-14 mnd. øker.</li>
+                            <p><button type="button" name="button" class="golden-button white-bg-hover w3-card">Kontakt oss</button></p>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="ansatt-modal" class="w3-modal">
+        <div class="width-100 black-bg golden-text w3-animate-left">
+            <span onclick="document.getElementById('ansatt-modal').style.display='none'" class="black-button w3-right w3-xlarge">&times;</span>
+            <div class="w3-container w3-content">
+                <div class="w3-row">
+                    <div class="w3-col m4 w3-padding-large">
+                        <img src="img/partners/estella_sara.jpg" alt="" class="w3-img golden-border" width="100%">
+                        <h3 class="golden-text">Ansatt</h3>
+                    </div>
+                    <div class="w3-col m8 w3-padding">
+                        <p>InMarket ønsker å følge med og dokumentere hvordan det går med deg etter at du har blitt ansatt. Som ansatt får du:</p>
+                        <ol>
+                            <li>Tilbud om å ha InMarket som din rådgiver og megler.</li>
+                            <li>Muligheten til å være mentor og rådgiver for elever og studenter som er i steg én eller to.</li>
+                            <li>Tilbud om å være ambassadør for InMarket. Her kan du hjelpe oss med å informere elever og studenter om deres mulighet for fremtidig karriere.</li>
+                            <li>Tilgang til våre kurs, seminarer og arrangementer.</li>
+                            <p><button type="button" name="button" class="golden-button white-bg-hover w3-card">Kontakt oss</button></p>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- partners -->
@@ -313,69 +342,13 @@
             </div>
         </div>
 
-    <div id="trainee-modal" class="w3-modal">
-        <div class="width-100 black-bg golden-text w3-animate-right">
-            <span onclick="document.getElementById('trainee-modal').style.display='none'" class="black-button w3-right w3-xlarge">&times;</span>
-            <div class="w3-container w3-content">
-                <div class="w3-row">
-                    <div class="w3-col m4 w3-padding-large">
-                        <img src="img/elever/kamerajente.jpg" alt="" class="w3-img golden-border" width="100%">
-                        <h3 class="golden-text">Trainee</h3>
-                    </div>
-                    <div class="w3-col m8 w3-padding">
-                        <p>
-                            InMarket har samarbeidspartnere som er interessert i å ansette de beste nyutdannede. Som trainee hos oss får du:
-                        </p>
-                        <ol>
-                            <li>En kontrakt mellom 8-14 mnd. med en lønn tilsvarende utdanningsgraden din.
-                                <ul>
-                                    <li><em><b>Lønn gjelder bare for tidlige frivillige i InMarket.</b></em></li>
-                                </ul>
-                            </li>
-                            <li>Mulighet til å skaffe deg arbeidskontrakt med våre samarbeidspartnere. De blir da dine arbeidsgivere og må forhandle kontraktbetingelser med deg.</li>
-                            <li>Muligheten til å påvirke ditt arbeidsforhold, velge arbeidsgiver og bygge nettverk.</li>
-                            <li>Veiledning og oppfølging fra InMarket slik at dine sjanser for å få kontrakt ila de 8-14 mnd. øker.</li>
-                            <p><button type="button" name="button" class="golden-button white-bg-hover w3-card">Kontakt oss</button></p>
-                        </ol>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div id="ansatt-modal" class="w3-modal">
-        <div class="width-100 black-bg golden-text w3-animate-left">
-            <span onclick="document.getElementById('ansatt-modal').style.display='none'" class="black-button w3-right w3-xlarge">&times;</span>
-            <div class="w3-container w3-content">
-                <div class="w3-row">
-                    <div class="w3-col m4 w3-padding-large">
-                        <img src="img/partners/estella_sara.jpg" alt="" class="w3-img golden-border" width="100%">
-                        <h3 class="golden-text">Ansatt</h3>
-                    </div>
-                    <div class="w3-col m8 w3-padding">
-                        <p>
-                            InMarket ønsker å følge med og dokumentere hvordan det går med deg etter at du har blitt ansatt. Som ansatt får du:
-                        </p>
-                        <ol>
-                            <li>Tilbud om å ha InMarket som din rådgiver og megler.</li>
-                            <li>Muligheten til å være mentor og rådgiver for elever og studenter som er i steg en eller to.</li>
-                            <li>Tilbud om å være ambassadør for InMarket. Her kan du hjelpe oss med å informere elever og studenter om deres mulighet for fremtidig karriere.</li>
-                            <li>Tilgang til våre kurs, seminarer og arrangementer.</li>
-                            <p><button type="button" name="button" class="golden-button white-bg-hover w3-card">Kontakt oss</button></p>
-                        </ol>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <!-- container for quotes -->
     <div class="black-bg golden-text">
         <div class="narrow-content w3-padding-64 w3-container">
             <div class="w3-row about-text" >
                 <div class="w3-col m8">
                     <div class="translatey-40">
-                        <p class="quote">InMarket har latt meg drive med relevante, morsomme prosjekter ved siden av VGS. Jeg har nå større forståelse av hvorfor vi lærer det vi gjør og allerede fått knyttet et arbeidsnettverk.</p>
+                        <p class="quote">InMarket har latt meg drive med relevante, morsomme prosjekter ved siden av VGS. Jeg har nå større forståelse av hvorfor vi lærer det vi gjør og føler meg godt ivaretatt.</p>
                         <p class="quote-source">Anniken, elev 2. klasse Akademiet VGS</p>
                     </div>
                 </div>
@@ -390,7 +363,7 @@
                 </div>
                 <div class="w3-col m8 text-align-right">
                     <div class="translatey-40">
-                        <p class="quote">Jeg synes det var veldig spennende å høre om tilbudet til InMarket (…) På et halvt år har jeg lært masse og er sikrere på videre karrierevalg.</p>
+                        <p class="quote">Jeg synes det var veldig spennende å høre om tilbudet til InMarket. På et halvt år har jeg lært masse og er sikrere på videre karrierevalg.</p>
                         <p class="quote-source">Christian, elev 2. klasse Akademiet VGS</p>
                     </div>
                 </div>
