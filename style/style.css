@@ -16,8 +16,12 @@ footer {
     border-top: solid #C08D42;
 }
 
-h1, h2, h3, h4, h5, .lato-font {
+/* h1, h2, h3, h4, h5, .lato-font {
     font-family: 'Lato', sans-serif !important;
+} */
+
+h1, h2, h3, h4, h5, .lato-font {
+    font-family: GothamRounded-Light !important;
 }
 
 .light-text {
@@ -504,7 +508,6 @@ label input:checked~.radio {
 }
 
 /* Caveat-Regular */
-
 @font-face {
     font-family: "Caveat-Regular";
     font-weight: 400;
@@ -513,10 +516,49 @@ label input:checked~.radio {
 }
 
 /* Caveat-Bold */
-
 @font-face {
     font-family: "Caveat-Bold";
     font-weight: 400;
     font-style: normal;
     src: url(../fonts/Caveat-Bold.ttf);
+}
+
+/* Gotham Black */
+@font-face {
+    font-family: "Gotham-Black";
+    font-weight: 400;
+    font-style: normal;
+    src: url(../fonts/Gotham-Black.otf);
+}
+
+/* GothamCondensed-Medium */
+@font-face {
+    font-family: "GothamCondensed-Medium";
+    font-weight: 400;
+    font-style: normal;
+    src: url(../fonts/GothamCondensed-Medium.otf);
+}
+
+/* GothamCondensed-Light */
+@font-face {
+    font-family: "GothamCondensed-Light";
+    font-weight: 100;
+    font-style: normal;
+    src: url(../fonts/GothamCondensed-Light.otf);
+}
+
+/* GothamRounded-Light */
+@font-face {
+    font-family: "GothamRounded-Light";
+    font-weight: 100;
+    font-style: normal;
+    src: url(../fonts/GothamRounded-Light.otf);
+}
+
+/* GothamRounded-Medium */
+@font-face {
+    font-family: "GothamRounded-Book";
+    font-weight: 400;
+    font-style: normal;
+    src: url(../fonts/GothamRounded-Book.otf);
 }
