@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:300|Raleway:100');
+/* @import url('https://fonts.googleapis.com/css?family=Lato:300|Raleway:100'); */
 a {
     text-decoration: none;
 }
@@ -16,12 +16,17 @@ footer {
     border-top: solid #C08D42;
 }
 
-/* h1, h2, h3, h4, h5, .lato-font {
-    font-family: 'Lato', sans-serif !important;
-} */
+html, body {
+    font-family: Calibri;
+}
 
-h1, h2, h3, h4, h5, .lato-font {
-    font-family: GothamRounded-Light !important;
+h1, h2, h3 {
+    font-family: Gotham !important;
+    font-weight: 100;
+}
+
+h4, h5 {
+    font-family: Calibri !important;
 }
 
 .light-text {
@@ -530,7 +535,7 @@ label input:checked~.radio {
 /* Caveat-Bold */
 @font-face {
     font-family: "Caveat-Bold";
-    font-weight: 400;
+    font-weight: bold;
     font-style: normal;
     src: url(../fonts/Caveat-Bold.ttf);
 }
@@ -543,34 +548,54 @@ label input:checked~.radio {
     src: url(../fonts/Gotham-Black.otf);
 }
 
-/* GothamCondensed-Medium */
+/* Gotham */
 @font-face {
-    font-family: "GothamCondensed-Medium";
-    font-weight: 400;
+    font-family: "Gotham";
+    font-weight: bold;
     font-style: normal;
-    src: url(../fonts/GothamCondensed-Medium.otf);
+    src: url(../fonts/Gotham-Bold.ttf);
 }
 
-/* GothamCondensed-Light */
 @font-face {
-    font-family: "GothamCondensed-Light";
-    font-weight: 100;
-    font-style: normal;
-    src: url(../fonts/GothamCondensed-Light.otf);
-}
-
-/* GothamRounded-Light */
-@font-face {
-    font-family: "GothamRounded-Light";
+    font-family: "Gotham";
     font-weight: 100;
     font-style: normal;
     src: url(../fonts/GothamRounded-Light.otf);
 }
 
-/* GothamRounded-Medium */
+/* Gotham-Book */
 @font-face {
-    font-family: "GothamRounded-Book";
-    font-weight: 400;
+    font-family: "Gotham-Book";
+    font-weight: 100;
     font-style: normal;
-    src: url(../fonts/GothamRounded-Book.otf);
+    src: url(../fonts/GothamCondensed-Light.otf);
+}
+
+/* Calibri */
+@font-face {
+    font-family: "Calibri";
+    font-weight: normal;
+    font-style: normal;
+    src: url(../fonts/Calibri.ttf);
+}
+
+@font-face {
+    font-family: "Calibri";
+    font-weight: bold;
+    font-style: normal;
+    src: url(../fonts/Calibri-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Calibri";
+    font-weight: normal;
+    font-style: italic;
+    src: url(../fonts/Calibri-Italic.ttf);
+}
+
+@font-face {
+    font-family: "Calibri";
+    font-weight: bold;
+    font-style: italic;
+    src: url(../fonts/Calibri-Bold-Italic.ttf);
 }
