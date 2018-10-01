@@ -20,13 +20,10 @@ html, body {
     font-family: Calibri;
 }
 
-h1, h2, h3 {
-    font-family: Gotham !important;
-    font-weight: 100;
-}
-
-h4, h5 {
+h1, h2, h3, h4, h5 {
     font-family: Calibri !important;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 .light-text {
@@ -400,12 +397,6 @@ label input:checked~.radio {
     padding-top: 1%;
 }
 
-@media (max-width: 980px) {
-    #navbar {
-        background-color: #fff;
-    }
-}
-
 #navbar {
     height: 100px;
 }
@@ -427,19 +418,25 @@ label input:checked~.radio {
     border-width: thin;
 }
 
+.white-border {
+    border-color: #fff;
+    border-style: solid;
+    border-width: thin;
+}
+
 .black-text {
     color: #000;
 }
 
-.black-bg {
-    background-color: #000 !important;
+.black-bg-transparent {
+    background-color: rgba(0, 0, 0, 0.57); !important;
 }
 
 .white-bg {
     background-color: #FFF !important;
 }
 
-.white-button, .golden-button, .black-button {
+.white-button, .golden-button, .black-button, .black-transparent-button {
     border:none;
     display:inline-block;
     outline:0;padding:8px 16px;
@@ -453,7 +450,15 @@ label input:checked~.radio {
 
 .white-button {
     background-color:white;
-    color: #C08D42;
+    color: #000;
+}
+
+.white-button:hover {
+    background-color: #aaa;
+}
+
+.white-button#navbar-button:hover {
+    background-color: inherit;
 }
 
 .golden-button {
@@ -474,6 +479,15 @@ label input:checked~.radio {
 .black-button:hover {
     color: #000;
     background-color: #C08D42;
+}
+
+.black-transparent-button {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.0);
+}
+
+.black-transparent-button:hover {
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .header-text {
@@ -497,6 +511,10 @@ label input:checked~.radio {
     border: none !important;
 }
 
+.remove-padding {
+    padding: 0 !important;
+}
+
 .margin-bottom-5 {
     margin-bottom: 5px;
 }
@@ -510,8 +528,12 @@ label input:checked~.radio {
 }
 
 #navbar-dropdown {
-    background-color: #C08D4299;
     color: white;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.golden-transparent-bg {
+    background-color: #C08D4299;
 }
 
 #personvern-instillinger {
