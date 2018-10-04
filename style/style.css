@@ -286,7 +286,7 @@ label input:checked~.radio {
 .bgimg-4 {background-image: url("../img/gladefolk.jpg");}
 
 @media (max-width:600px) {
-    .bgimg-1 {background-image: url("../img/christian-mob.jpg")!important;}
+    .bgimg-1 {background-image: url("../img/elever/christian-mob.jpg")!important;}
     .bgimg-2 {background-image: url("../img/jenterpeker-mob.jpg")!important;}
     .bgimg-3 {background-image: url("../img/dressmann-mob.jpg")!important;}
     .bgimg-4 {background-image: url("../img/gladefolk-mob.jpg")!important;}
@@ -472,13 +472,13 @@ label input:checked~.radio {
 }
 
 .black-button {
-    color: #C08D42;
+    color: #fff;
     background-color: #000;
 }
 
 .black-button:hover {
     color: #000;
-    background-color: #C08D42;
+    background-color: #fff;
 }
 
 .black-transparent-button {
@@ -517,6 +517,10 @@ label input:checked~.radio {
 
 .margin-bottom-5 {
     margin-bottom: 5px;
+}
+
+.margin-bottom-25 {
+    margin-bottom: 25px;
 }
 
 .margin-top-100 {
