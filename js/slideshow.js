@@ -6,7 +6,7 @@ let slides = [
 ];
 let slideIndicators = $(".slide-indicator");
 let i = 0, prev = 3, duration = 6000;
-let slideInterval = setInterval(slideshow, duration)
+let slideInterval = setInterval(slideshow, duration);
 
 function resetSlideshow(slides) { // hides all slides
 	for (let j = 0; j < slides.length; ++j) {
@@ -38,5 +38,5 @@ $(".slide-indicator").on("click", function (ev) {
 
 	slideIndicators.slice(i, i+1).css("color","black");
 
-	slide1Interval = setInterval(slideshow, duration)
+	slideInterval = setInterval(slideshow, duration)
 })
