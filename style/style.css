@@ -176,7 +176,7 @@ label input:checked~.radio {
 }
 
 .text-underline {
-    text-decoration: underline;
+    text-decoration: underline !important;
 }
 
 .text-align-right {
@@ -185,6 +185,10 @@ label input:checked~.radio {
 
 .padding-top-32 {
     padding-top: 32px;
+}
+
+.padding-left-100 {
+    padding-left: 100px;
 }
 
 .hover-shadow:hover {
@@ -216,6 +220,10 @@ label input:checked~.radio {
 .quote-source:before {
     content: "–";
     margin-right: 0.1em;
+}
+
+.margin-right-1em {
+    margin-right: 1em;
 }
 
 .narrow-content {
@@ -428,8 +436,12 @@ label input:checked~.radio {
     color: #000;
 }
 
-.black-bg-transparent {
-    background-color: rgba(0, 0, 0, 0.57); !important;
+.black-bg-opac-57 {
+    background-color: rgba(0, 0, 0, 0.57) !important;
+}
+
+.black-bg-opac-80 {
+    background-color: rgba(0, 0, 0, 0.8) !important;
 }
 
 .white-bg {
