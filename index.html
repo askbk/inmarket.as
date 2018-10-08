@@ -46,41 +46,28 @@
             <a href="index.html#hjem" class="w3-bar-item line-height-1">
                 <img src="img/logos/logo.png" height="90px" alt="InMarket logo" id="navbar-img" class="w3-img">
             </a>
-            <button class="white-button w3-xlarge w3-right light-text" id="navbar-button"> <span class="hide-scroll">Meny</span> <i class="fas fa-bars black-text"></i></button>
+            <button class="white-button w3-xlarge w3-right light-text" id="navbar-button"><span id="menu-closed"><span class="hide-scroll">Meny</span> <i class="fas fa-bars black-text"></i></span> <span id="menu-opened" style="display:none;">Lukk &times;</span> </button>
         </div>
     </div>
 
-    <div class="w3-top w3-right w3-large margin-top-100 height-100" id="navbar-dropdown" style="display:none;">
-        <ul class="w3-ul w3-right golden-transparent-bg">
-            <li class="hover-shadow remove-borders hover-white-bg hover-golden-text">
-                <a href="index.html#hjem" class=""><i class="fas fa-home"></i> Hjem</a>
-            </li>
-            <li class="hover-shadow remove-borders hover-white-bg hover-golden-text">
-                <a href="om.html" class=""><i class="fas fa-info-circle"></i> Om oss</a>
-            </li>
-            <li class="hover-shadow remove-borders hover-white-bg hover-golden-text">
-                <a href="index.html#styret" class=""><i class="fas fa-user"></i> Vårt team</a>
-            </li>
-            <li class="hover-shadow remove-borders hover-white-bg hover-golden-text">
-                <a href="media.html" class=""><i class="fas fa-play-circle"></i> Media</a>
-            </li>
-            <li class="hover-shadow remove-borders hover-white-bg hover-golden-text">
-                <a href="index.html#kontakt" class=""><i class="fas fa-envelope"></i> Kontakt oss</a>
-            </li>
-            <li class="remove-borders" id="phone-input">
-                <ul class="w3-ul">
-                    <li class="hover-shadow remove-borders hover-white-bg hover-golden-text">
-                        <input class="w3-input w3-bar-item" placeholder="Telefonnr." type="text" id="inputPhoneBar">
-                    </li>
-                    <li class="remove-borders">
-                        <button class="white-button hover-shadow w3-center" id="phoneSubmit"><i class="fas fa-paper-plane"></i> Send</button>
-                    </li>
-                </ul>
-            </li>
-            <li class="remove-borders w3-hide" id="navbar-submit">
-                Takk for henvendelsen!
-            </li>
-        </ul>
+    <div class="w3-bar w3-large w3-center height-100 black-bg-opac-57" id="navbar-dropdown" style="display:none;">
+        <div class="white-bg black-text padding-bottom-16">
+            <div class="w3-content w3-row">
+                <hr>
+                <div class="w3-col m3">
+                    <a href="om.html" class="golden-accent-bottom"><i class="fas fa-info-circle"></i> Om oss</a>
+                </div>
+                <div class="w3-col m3">
+                    <a href="index.html#styret" class="golden-accent-bottom"><i class="fas fa-user"></i> Vårt team</a>
+                </div>
+                <div class="w3-col m3">
+                    <a href="media.html" class="golden-accent-bottom"><i class="fas fa-play-circle"></i> Media</a>
+                </div>
+                <div class="w3-col m3">
+                    <a href="index.html#kontakt" class="golden-accent-bottom"><i class="fas fa-envelope"></i> Kontakt oss</a>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- Cookie notice -->
@@ -480,14 +467,18 @@
     $("#navbar-button").click(function () {
         $("#navbar-dropdown").slideToggle("fast");
         if ($('p,h1,h2,h3,h4,h5').css('visibility') == 'hidden') { // Dropdown was already down
+            // $("#navbar-dropdown").hide("slow");
             $('p,h1,h2,h3,h4,h5').css('visibility','visible');
-            navbar.css("background", "inherit");
             if ($(window).scrollTop() > 100) {
                 $(".hide-scroll").fadeOut();
             }
+            $("#menu-opened").hide();
+            $("#menu-closed").show();
         } else {
+            // $("#navbar-dropdown").show("slow");
             $('p,h1,h2,h3,h4,h5').css('visibility','hidden');
-            navbar.css("background", "#fff");
+            $("#menu-closed").hide();
+            $("#menu-opened").show();
             $(".hide-scroll").fadeIn();
         }
     });

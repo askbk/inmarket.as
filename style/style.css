@@ -191,6 +191,10 @@ label input:checked~.radio {
     padding-left: 100px;
 }
 
+.padding-bottom-16 {
+    padding-bottom: 16px;
+}
+
 .hover-shadow:hover {
     -webkit-box-shadow: 0px 0px 34px -11px rgba(0,0,0,0.45);
     -moz-box-shadow: 0px 0px 34px -11px rgba(0,0,0,0.45);
@@ -544,8 +548,14 @@ label input:checked~.radio {
 }
 
 #navbar-dropdown {
-    color: white;
-    background-color: rgba(255, 255, 255, 0.5);
+    z-index: 1;
+    position: fixed;
+}
+
+.golden-accent-bottom:hover{
+    border-bottom-color: #c08d42;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
 }
 
 .golden-transparent-bg {
