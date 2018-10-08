@@ -1,19 +1,33 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:300|Raleway:100');
+/* @import url('https://fonts.googleapis.com/css?family=Lato:300|Raleway:100'); */
 a {
     text-decoration: none;
 }
 
+a, a:active, a:focus, button, button:active. button:focus {
+   outline: 0;
+}
+
 button {
-    cursor: pointer;
+    font-family: Calibri !important;
 }
 
 footer {
     padding-top: 16px;
-    border-top: solid #640507;
+    border-top: solid #C08D42;
+}
+
+html, body {
+    font-family: Calibri;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Lato', sans-serif !important;
+    font-family: Calibri !important;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.light-text {
+    font-weight: 100;
 }
 
 @media (max-width: 600px) {
@@ -104,21 +118,7 @@ h1, h2, h3, h4, h5 {
     }
 }
 
-@media (max-height: 450px) {
-    #navbar-dropdown {
-        line-height: 1.2;
-        font-size: 16px !important;
-    }
-}
-
 @media (max-width:992px) {}
-
-#hva h5 {
-    font-size: 18px;
-    margin-bottom: -8px;
-    margin-left: 25px;
-    text-align: left;
-}
 
 li {
     display: list-item;
@@ -163,26 +163,20 @@ label input:checked~.radio {
     color: #640507;
 }
 
+.slideshowText {
+    padding: 16px;
+    padding-left: 20%;
+    margin-bottom: 5%;
+    background-color: #c08d42;
+}
+
+.slideshowText:hover {
+    color: #000;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
 .text-underline {
-    text-decoration: underline;
-}
-
-.w3-theme-text-red {
-    color: #ba0a0d !important;
-}
-
-.red-background {
-    background: #640507 !important;
-}
-
-.red-text {
-    color: #640507 !important;
-}
-
-.red-border-img {
-    border-style: solid;
-    border-color: #640507;
-    border-width: 2px;
+    text-decoration: underline !important;
 }
 
 .text-align-right {
@@ -191,6 +185,24 @@ label input:checked~.radio {
 
 .padding-top-32 {
     padding-top: 32px;
+}
+
+.padding-left-100 {
+    padding-left: 100px;
+}
+
+.padding-bottom-16 {
+    padding-bottom: 16px;
+}
+
+.hover-shadow:hover {
+    -webkit-box-shadow: 0px 0px 34px -11px rgba(0,0,0,0.45);
+    -moz-box-shadow: 0px 0px 34px -11px rgba(0,0,0,0.45);
+    box-shadow: 0px 0px 34px -11px rgba(0,0,0,0.45);
+}
+
+.width-12em {
+    width: 12em;
 }
 
 .quote {
@@ -214,47 +226,37 @@ label input:checked~.radio {
     margin-right: 0.1em;
 }
 
+.margin-right-1em {
+    margin-right: 1em;
+}
+
 .narrow-content {
     max-width: 840px;
     margin: auto;
 }
 
-.slideshowHeader {
-    line-height: 1.2;
-    margin: 0;
-    text-align: left;
-    color: inherit;
+.line-height-1 {
+    line-height: 1;
 }
 
-.slideshowText {
-    /*position: absolute;
-    bottom: 10%;
-    max-width: 70%;*/
-    padding: 16px;
-    padding-left: 20%;
-    margin-bottom: 10%;
-    color: #fff;
-    background-color: #640507;
+.line-height-3 {
+    line-height: 3;
 }
 
-.slideshowText:hover {
-    color: #640507;
-    background-color: rgba(255, 255, 255, 0.7);
+.height-100 {
+    height: 100%;
 }
 
-.navbar-accent {
-    border-bottom-style: solid;
-    border-bottom-color: #640507;
+.hover-white-bg:hover {
+    background-color: white;
 }
 
-#navbar-mobile {
-    background: none;
+.hover-golden-text:hover {
+    color: #bca53c;
 }
 
-#smallnav {
-    float: right;
-    width: 150px;
-    min-height: 100vh;
+.width-100 {
+    width: 100%;
 }
 
 #kontaktRespons {}
@@ -280,13 +282,7 @@ label input:checked~.radio {
 }
 
 .slideshow {
-    min-height: 100vh;
-}
-
-.slideshow-mobile {
-    min-width: 100vw;
-    min-height: 25%;
-    margin-bottom: 90%;
+    min-height: 75vh;
 }
 
 .mySlides {
@@ -296,30 +292,21 @@ label input:checked~.radio {
 
 /* First image (Full height) */
 
-.bgimg-1 {background-image: url("../img/jenterpeker.jpg");}
-.bgimg-2 {background-image: url("../img/dressmann.jpg");}
-.bgimg-3 {background-image: url("../img/barcode.jpg");}
+.bgimg-1 {background-image: url("../img/elever/christian-kamera.jpg");}
+.bgimg-2 {background-image: url("../img/jenterpeker.jpg");}
+.bgimg-3 {background-image: url("../img/dressmann.jpg");}
 .bgimg-4 {background-image: url("../img/gladefolk.jpg");}
 
 @media (max-width:600px) {
-    .bgimg-1 {background-image: url("../img/jenterpeker-mob.jpg")!important;}
-    .bgimg-2 {background-image: url("../img/dressmann-mob.jpg")!important;}
-    .bgimg-3 {background-image: url("../img/barcode-mob.jpg")!important;}
+    .bgimg-1 {background-image: url("../img/elever/christian-kamera-mob.jpg")!important;}
+    .bgimg-2 {background-image: url("../img/jenterpeker-mob.jpg")!important;}
+    .bgimg-3 {background-image: url("../img/dressmann-mob.jpg")!important;}
     .bgimg-4 {background-image: url("../img/gladefolk-mob.jpg")!important;}
-}
-
-#partner-div {
-    margin-top: 100px;
 }
 
 .bgimg-happyface {
     min-height: 400px;
     background-image: url("../img/happyface.jpg");
-}
-
-.bgimg-music-night {
-    min-height: 400px;
-    background-image: url("../img/music_night_greyscale.jpg");
 }
 
 .bgimg-nrk {
@@ -332,10 +319,10 @@ label input:checked~.radio {
     background-image: url("../img/NRK-anniken.jpg");
 }
 
-.extra-margin {
-    margin-bottom: 80px;
+.bgimg-christian {
+    min-height: 400px;
+    background-image: url("../img/elever/christian.jpg");
 }
-
 #profiler {
     margin-top: 3em;
 }
@@ -379,45 +366,9 @@ label input:checked~.radio {
     vertical-align: -3px;
 }
 
-textarea {
-    border: 1px solid #888;
-    background-color: transparent;
-    background-image: url("../img/logo.jpg");
-    /* This ruins default border */
-    background-repeat: no-repeat;
-    background-position: bottom right;
-    background-size: 80px 80px;
-}
-
 .w3-hover-opacity {
     cursor: pointer;
 }
-
-.driver-med-slides-headers {
-    margin-bottom: -5px;
-}
-
-.driver-med-slides ul {
-    padding-left: 0;
-}
-
-#driver-med-slideshow {
-    position: relative;
-    height: 575px;
-}
-
-#driver-med-slideshow li {
-    font-size: 17px;
-}
-
-.driver-med-slide-2, .driver-med-slide-3 {
-    display: none;
-}
-
-#slideshow-bubble-1, #slideshow-bubble-2, #slideshow-bubble-3 {
-    cursor: pointer;
-}
-
 .om-oss-text {
     color: white;
     background-color: #640507;
@@ -431,8 +382,6 @@ textarea {
 .about-text {
     margin-top: 100px;
 }
-
-/**/
 
 #about-video {
     width: 100%;
@@ -460,33 +409,106 @@ textarea {
     padding-top: 1%;
 }
 
-#navbar-button {
-    width: 9em;
-    line-height: 3em;
+#navbar {
+    height: 100px;
 }
 
+#navbar-button {}
+
 #navbar-img {
-    margin: -10px;
+    margin: -5px;
     margin-left: 1em;
+}
+
+.golden-text {
+    color: #C08D42;
+}
+
+.golden-border {
+    border-color: #C08D42;
+    border-style: solid;
+    border-width: thin;
+}
+
+.white-border {
+    border-color: #fff;
+    border-style: solid;
+    border-width: thin;
+}
+
+.black-text {
+    color: #000;
+}
+
+.black-bg-opac-57 {
+    background-color: rgba(0, 0, 0, 0.57) !important;
+}
+
+.black-bg-opac-80 {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+.white-bg {
+    background-color: #FFF !important;
+}
+
+.white-button, .golden-button, .black-button, .black-transparent-button {
+    border:none;
+    display:inline-block;
+    outline:0;padding:8px 16px;
+    vertical-align:middle;
+    overflow:hidden;
+    text-decoration:none;
+    text-align:center;
+    cursor:pointer;
+    white-space:nowrap
+}
+
+.white-button {
+    background-color:white;
+    color: #000;
+}
+
+.white-button:hover {
+    background-color: #aaa;
+}
+
+.white-button#navbar-button:hover {
+    background-color: inherit;
+}
+
+.golden-button {
+    color: white;
+    background-color: #C08D42;
+}
+
+.golden-button:hover {
+    color: #bca53c;
+    background-color: white;
+}
+
+.black-button {
+    color: #fff;
+    background-color: #000;
+}
+
+.black-button:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+.black-transparent-button {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.0);
+}
+
+.black-transparent-button:hover {
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .header-text {
     font-weight: 100;
     line-height: 2;
-}
-
-.red-button {
-    background-color: #640507;
-    color: white;
-    border: none;
-    display: inline-block;
-    padding: 8px 16px;
-    vertical-align: middle;
-    overflow: hidden;
-    text-decoration: none;
-    text-align: center;
-    cursor: pointer;
-    white-space: nowrap;
 }
 
 .white-text {
@@ -502,26 +524,42 @@ textarea {
 }
 
 .remove-borders {
-    border: none;
+    border: none !important;
+}
+
+.remove-padding {
+    padding: 0 !important;
 }
 
 .margin-bottom-5 {
     margin-bottom: 5px;
 }
 
-.red-button:hover {
-    background-color: #f9f9f9 !important;
-    color: #640507 !important;
+.margin-bottom-25 {
+    margin-bottom: 25px;
 }
 
-#navbar {
-    background-color: RGBA(255, 255, 255, 0.8);
+.margin-top-100 {
+    margin-top: 100px;
+}
+
+.z-index-2 {
+    z-index: 2 !important;
 }
 
 #navbar-dropdown {
-    background-color: #640507;
-    color: white;
-    width: 12em;
+    z-index: 1;
+    position: fixed;
+}
+
+.golden-accent-bottom:hover{
+    border-bottom-color: #c08d42;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.golden-transparent-bg {
+    background-color: #C08D4299;
 }
 
 #personvern-instillinger {
@@ -534,17 +572,7 @@ textarea {
     padding-right: 2em;
 }
 
-/* optima */
-
-@font-face {
-    font-family: "Optima";
-    font-weight: 400;
-    font-style: normal;
-    src: url(../fonts/OptimaNovaLT-Medium.otf);
-}
-
 /* Caveat-Regular */
-
 @font-face {
     font-family: "Caveat-Regular";
     font-weight: 400;
@@ -553,10 +581,69 @@ textarea {
 }
 
 /* Caveat-Bold */
-
 @font-face {
     font-family: "Caveat-Bold";
-    font-weight: 400;
+    font-weight: bold;
     font-style: normal;
     src: url(../fonts/Caveat-Bold.ttf);
+}
+
+/* Gotham Black */
+@font-face {
+    font-family: "Gotham-Black";
+    font-weight: 400;
+    font-style: normal;
+    src: url(../fonts/Gotham-Black.otf);
+}
+
+/* Gotham */
+@font-face {
+    font-family: "Gotham";
+    font-weight: bold;
+    font-style: normal;
+    src: url(../fonts/Gotham-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Gotham";
+    font-weight: 100;
+    font-style: normal;
+    src: url(../fonts/GothamRounded-Light.otf);
+}
+
+/* Gotham-Book */
+@font-face {
+    font-family: "Gotham-Book";
+    font-weight: 100;
+    font-style: normal;
+    src: url(../fonts/GothamCondensed-Light.otf);
+}
+
+/* Calibri */
+@font-face {
+    font-family: "Calibri";
+    font-weight: normal;
+    font-style: normal;
+    src: url(../fonts/Calibri.ttf);
+}
+
+@font-face {
+    font-family: "Calibri";
+    font-weight: bold;
+    font-style: normal;
+    src: url(../fonts/Calibri-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Calibri";
+    font-weight: normal;
+    font-style: italic;
+    src: url(../fonts/Calibri-Italic.ttf);
+}
+
+@font-face {
+    font-family: "Calibri";
+    font-weight: bold;
+    font-style: italic;
+    src: url(../fonts/Calibri-Bold-Italic.ttf);
 }

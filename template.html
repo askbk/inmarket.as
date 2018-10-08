@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Om oss | InMarket Norge</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Rådgivning kombinert med jobbskygging og mentoring. Møt fremtiden din og la den forme deg.">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#c08d42">
+    <link rel="shortcut icon" href="favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="fontawesome-free-5.1.0-web/css/all.css">
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/w3pro.css" />
+    <script type="application/ld+json" href="json/about.json"></script>
+    <script src="js/jquery-3.3.1.min.js" charset="utf-8"></script>
+    <script src="js/jquery.color-2.1.2.min.js" charset="utf-8"></script>
+    <!-- Hotjar Tracking Code for imnor.no -->
+    <script>
+        if (localStorage.tracking == "true") {
+            (function(h,o,t,j,a,r){
+                h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+                h._hjSettings={hjid:959986,hjsv:6};
+                a=o.getElementsByTagName('head')[0];
+                r=o.createElement('script');r.async=1;
+                r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+                a.appendChild(r);
+                console.log("hotjar enabled");
+            })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+        }
+    </script>
+</head>
+
+<body>
+    <!-- Fixed navbar-->
+    <div class="w3-top">
+        <div class="w3-bar w3-xxlarge w3-center line-height-3 white-bg" id="navbar">
+            <a href="index.html#hjem" class="w3-bar-item line-height-1">
+                <img src="img/logos/logo.png" height="90px" alt="InMarket logo" id="navbar-img" class="w3-img">
+            </a>
+            <button class="white-button w3-xlarge w3-right light-text" id="navbar-button"><span id="menu-closed"><span class="hide-scroll">Meny</span> <i class="fas fa-bars black-text"></i></span> <span id="menu-opened" style="display:none;">Lukk &times;</span> </button>
+        </div>
+    </div>
+
+    <div class="w3-bar w3-large w3-center height-100 black-bg-opac-57" id="navbar-dropdown" style="display:none;">
+        <div class="white-bg black-text padding-bottom-16">
+            <div class="w3-content w3-row">
+                <hr>
+                <div class="w3-col m3">
+                    <a href="om.html" class="golden-accent-bottom"><i class="fas fa-info-circle"></i> Om oss</a>
+                </div>
+                <div class="w3-col m3">
+                    <a href="index.html#styret" class="golden-accent-bottom"><i class="fas fa-user"></i> Vårt team</a>
+                </div>
+                <div class="w3-col m3">
+                    <a href="media.html" class="golden-accent-bottom"><i class="fas fa-play-circle"></i> Media</a>
+                </div>
+                <div class="w3-col m3">
+                    <a href="index.html#kontakt" class="golden-accent-bottom"><i class="fas fa-envelope"></i> Kontakt oss</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cookie notice -->
+    <div class="w3-bottom w3-hide white-text" id="privacyNotice">
+        <div class="w3-bar black-bg-opac-80 w3-medium w3-center">
+            <div class="w3-container">
+                <a class="black-transparent-button text-underline" onclick="acceptTracking()">Jeg aksepterer sporing av mitt besøk på denne nettsiden</a>
+                <a href="personvern.html" class="black-transparent-button text-underline">Gå til personverninstillinger</a>
+            </div>
+            <div class="w3-container">
+                <p class="">Ved å fortsette bruke dette nettstedet, aksepterer du vår <a href="personvern.html" target="_blank" class="text-underline">personvernerklæring</a>.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-container">
+        <div class="w3-content w3-row golden-text padding-left-100">
+            <div class="w3-col m4">
+                <h2 class="">Oss</h3>
+                <ul class="w3-ul w3-large">
+                    <li class="remove-borders remove-padding">
+                        <a href="#">Vårt team</a>
+                    </li>
+                    <li class="remove-borders remove-padding">
+                        <a href="#">Bli med</a>
+                    </li>
+                    <li class="remove-borders remove-padding">
+                        <a href="#">Media</a>
+                    </li>
+                    <li class="remove-borders remove-padding">
+                        <a href="#">Prosjekter</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="w3-col m4">
+                <h2 class="golden-text">Kontakt oss</h3>
+                <ul class="w3-ul">
+                    <li class="remove-borders w3-wide remove-padding">
+                        <a href="mailto:post@imnor.no" class="margin-right-1em">
+                            <i class="far fa-envelope-open w3-xxlarge"></i>
+                        </a>
+
+                        <a href="mailto:post@imnor.no" class="margin-right-1em">
+                            <i class="fab fa-facebook-f w3-xxlarge"></i>
+                        </a>
+
+                        <a href="mailto:post@imnor.no" class="margin-right-1em">
+                            <i class="fab fa-instagram w3-xxlarge"></i>
+                        </a>
+
+                        <a href="mailto:post@imnor.no">
+                            <i class="fab fa-linkedin-in w3-xxlarge"></i>
+                        </a>
+                    </li>
+                    <li class="w3-xxlarge remove-padding">
+                        <i class="fas fa-map-marker-alt"></i> Drammen
+                    </li>
+                </ul>
+            </div>
+            <div class="w3-col m4">
+                <h2 class="golden-text">Hjelp</h3>
+                <ul class="w3-ul w3-large">
+                    <li class="remove-borders remove-padding">
+                        <a href="#">Kundeservice</a>
+                    </li>
+                    <li class="remove-borders remove-padding">
+                        <a href="#">Vanlige spørsmål og svar</a>
+                    </li>
+                    <li class="remove-borders remove-padding">
+                        <a href="#">Office 365</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <p class="w3-right w3-section">InMarket Samuel Bigirimana Org.Nr 8188 21 522</p>
+    </footer>
+    <script src="js/navbar.js" charset="utf-8"></script>
+    <script src="js/detectIphone.js" charset="utf-8"></script>
+    <script async src="js/ajaxSubmit.js" charset="utf-8"></script>
+    <script async src="js/navbar.js" charset="utf-8"></script>
+    <script src="js/cookies.js" charset="utf-8"></script>
+    <script src="js/acceptTracking.js" charset="utf-8"></script>
+</body>
+
+</html>

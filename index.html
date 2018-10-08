@@ -7,18 +7,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Rådgivning kombinert med jobbskygging og mentoring. Møt fremtiden din og la den forme deg.">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#c08d42">
+    <link rel="shortcut icon" href="favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
     <link rel="stylesheet" href="fontawesome-free-5.1.0-web/css/all.css">
     <link rel="stylesheet" href="style/style.css" />
     <link rel="stylesheet" href="style/w3pro.css" />
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
-    <link rel="manifest" href="site.webmanifest" />
     <script type="application/ld+json" href="json/about.json"></script>
     <script src="js/jquery-3.3.1.min.js" charset="utf-8"></script>
-    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#ffc40d">
-    <meta name="theme-color" content="#ffffff">
+    <script src="js/jquery.color-2.1.2.min.js" charset="utf-8"></script>
     <!-- Hotjar Tracking Code for imnor.no -->
     <script>
         if (localStorage.tracking == "true") {
@@ -36,427 +40,429 @@
 </head>
 
 <body itemscope itemtype="http://schema.org/Organization">
-    <!--Facebook plugin-->
-    <div id="fb-root"></div>
-    <script>
-        (function(d, s, id) {
-                var js, fjs = d.getElementsByTagName(s)[0];
-                if (d.getElementById(id)) return;
-                js = d.createElement(s);
-                js.id = id;
-                js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.12';
-                fjs.parentNode.insertBefore(js, fjs);
-            }
-            (document, 'script', 'facebook-jssdk'));
-    </script>
-
-    <!-- Navbar -->
+    <!-- Fixed navbar-->
     <div class="w3-top">
-        <div class="w3-bar w3-xxlarge navbar-accent w3-center" id="navbar">
-            <a href="index.html#hjem" class="w3-bar-item">
-                <img src="img/logos/logo-flat-text-small.png" height="90px" alt="InMarket logo" id="navbar-img" class="hide-max-500">
-                <img src="img/logos/logo-flat-small.png" height="90px" alt="InMarket logo" id="navbar-img" class="hide-min-500">
+        <div class="w3-bar w3-xxlarge w3-center line-height-3 white-bg" id="navbar">
+            <a href="index.html#hjem" class="w3-bar-item line-height-1">
+                <img src="img/logos/logo.png" height="90px" alt="InMarket logo" id="navbar-img" class="w3-img">
             </a>
-            <div class="w3-dropdown-hover w3-right w3-large margin-right-7em">
-                <button class="w3-button header-text w3-xlarge" id="navbar-button"> <i class="fas fa-bars"></i> Meny</button>
-                <div class="w3-dropdown-content w3-bar-block w3-card-4 w3-right w3-large" id="navbar-dropdown">
-                    <a href="index.html#hjem" class="w3-bar-item red-button"><i class="fas fa-home"></i> Hjem</a>
-                    <a href="om.html" class="w3-bar-item red-button"><i class="fas fa-info-circle"></i> Om InMarket</a>
-                    <a href="index.html#styret" class="w3-bar-item red-button"><i class="fas fa-user"></i> Ledelsen</a>
-                    <a href="media.html" class="w3-bar-item red-button"><i class="fas fa-play-circle"></i> Media</a>
-                    <a href="index.html#kontakt" class="w3-bar-item red-button"><i class="fas fa-envelope"></i> Kontakt oss</a>
-                    <div id="navbar-contact" class="">
-                        <span class="w3-bar-item w3-medium">Bli oppringt innen 24 timer:</span>
-                        <input class="w3-input w3-bar-item" placeholder="Telefonnr." required name="" type="text" id="inputPhoneBar">
-                        <button class="red-button w3-bar-item w3-center" onclick="submitPhone()"><i class="fas fa-paper-plane"></i></button>
-                    </div>
-                    <div id="navbar-submit" class="w3-hide">
-                        <span class="w3-bar-item w3-right">Takk for henvendelsen!</span>
-                    </div>
+            <button class="white-button w3-xlarge w3-right light-text" id="navbar-button"><span id="menu-closed"><span class="hide-scroll">Meny</span> <i class="fas fa-bars black-text"></i></span> <span id="menu-opened" style="display:none;">Lukk &times;</span> </button>
+        </div>
+    </div>
+
+    <div class="w3-bar w3-large w3-center height-100 black-bg-opac-57" id="navbar-dropdown" style="display:none;">
+        <div class="white-bg black-text padding-bottom-16">
+            <div class="w3-content w3-row">
+                <hr>
+                <div class="w3-col m3">
+                    <a href="om.html" class="golden-accent-bottom"><i class="fas fa-info-circle"></i> Om oss</a>
+                </div>
+                <div class="w3-col m3">
+                    <a href="index.html#styret" class="golden-accent-bottom"><i class="fas fa-user"></i> Vårt team</a>
+                </div>
+                <div class="w3-col m3">
+                    <a href="media.html" class="golden-accent-bottom"><i class="fas fa-play-circle"></i> Media</a>
+                </div>
+                <div class="w3-col m3">
+                    <a href="index.html#kontakt" class="golden-accent-bottom"><i class="fas fa-envelope"></i> Kontakt oss</a>
                 </div>
             </div>
         </div>
     </div>
 
     <!-- Cookie notice -->
-    <div class="w3-bottom w3-hide" id="privacyNotice">
-        <div class="w3-bar black-bg w3-small w3-center">
+    <div class="w3-bottom w3-hide white-text" id="privacyNotice">
+        <div class="w3-bar black-bg-opac-80 w3-medium w3-center">
             <div class="w3-container">
-                <a class="w3-button" onclick="acceptTracking()">Jeg aksepterer sporing av mitt besøk på denne nettsiden</a>
-                <a href="personvern.html" class="w3-button">Gå til personverninstillinger</a>
+                <a class="black-transparent-button text-underline" onclick="acceptTracking()">Jeg aksepterer sporing av mitt besøk på denne nettsiden</a>
+                <a href="personvern.html" class="black-transparent-button text-underline">Gå til personverninstillinger</a>
             </div>
             <div class="w3-container">
-                <p class="">Ved å fortsette bruke dette nettstedet, aksepterer du vår <a href="personvern.html" target="_blank" style="text-decoration:underline;">personvernerklæring</a>.</p>
+                <p class="">Ved å fortsette bruke dette nettstedet, aksepterer du vår <a href="personvern.html" target="_blank" class="text-underline">personvernerklæring</a>.</p>
             </div>
         </div>
     </div>
 
-    <!-- First Parallax Image-->
-    <div class="slideshow w3-display-container" id="hjem">
+    <!-- Slideshow-->
+    <div class="slideshow w3-display-container margin-top-100" id="hjem">
         <div class="bgimg-1 mySlides parallax-img">
-            <a href="#kontakt" onclick="elevSelected()">
-                <div class="w3-card-4 slideshowText w3-threequarter w3-display-bottomleft">
-                    <h2 class="slideshowHeader">Finn din retning</h2>
-                    <p>
-                        <link itemprop="url" href="https://no.wikipedia.org/wiki/Utdannelse" /> Ikke overlat studievalget til tilfeldighetene. Finn og utforsk drømmejobben og drømmestudiet gjennom InMarket.<br>
-                        <b>Klikk her for å kontakte oss</b>
-                    </p>
-                </div>
-            </a>
+            <h1 class="w3-display-bottomright white-text" style="right:10%;">Viser veien videre</h1>
         </div>
 
         <div class="bgimg-2 mySlides parallax-img" style="display:none;">
-            <a href="#kontakt" onclick="virksomhetSelected()">
+            <a href="#">
                 <div class="w3-card-4 slideshowText w3-threequarter w3-display-bottomleft">
-                    <h2 class="slideshowHeader">Virksomheter</h2>
-                    <p>
-                        <link itemprop="url" href="https://no.wikipedia.org/wiki/Arbeidstaker" /> Som virksomhet kan InMarket hjelpe deg med å komme i kontakt med fremtidige arbeidstakere og fylle praksisplasser.<br>
-                        <b>Klikk her for å kontakte oss</b>
-                    </p>
+                    <p>Ikke overlat studievalget til tilfeldighetene. Finn og utforsk drømmejobben og drømmestudiet gjennom InMarket.</p>
+                    <p><b>Klikk her for å kontakte oss</b></p>
                 </div>
             </a>
         </div>
 
         <div class="bgimg-3 mySlides parallax-img" style="display:none;">
-            <a href="#kontakt" onclick="virksomhetSelected()">
+            <a href="#">
                 <div class="w3-card-4 slideshowText w3-threequarter w3-display-bottomleft">
-                    <h2 class="slideshowHeader"><cite>-Viser Veien Videre</cite></h2>
-                    <p>
-                        <link itemprop="url" href="https://no.wikipedia.org/wiki/Elev" /> InMarket knytter sammen studenter, elever, virksomheter og universiteter. På denne måten viser vi veien videre.<br>
-                        <b>Klikk her for å kontakte oss</b>
-                    </p>
+                    <p>Du får møte, informere og påvirke fremtidens arbeidstakere i din bransje</p>
+                    <p><b>Klikk her for å kontakte oss</b></p>
                 </div>
             </a>
         </div>
 
         <div class="bgimg-4 mySlides parallax-img" style="display:none;">
-            <a href="#kontakt" onclick="studentSelected()">
+            <a href="#">
                 <div class="w3-card-4 slideshowText w3-threequarter w3-display-bottomleft">
-                    <h2 class="slideshowHeader">Elever og studenter</h2>
-                    <p>
-                        Studenter ansettes som mentorer for elever i InMarket og kan fortelle om studiet sitt. Er du student kan vi også gi deg praksisplass hos virksomheter.<br><b>Klikk her for å kontakte oss</b>
-                    </p>
+                    <p>Du får frivillig stilling i InMarket hvor du kan være faddere/mentorer for en elev. Dette gir deg muligheten for å bli trainee hos oss.</p>
+                    <p><b>Klikk her for å kontakte oss</b></p>
                 </div>
             </a>
         </div>
 
         <div class="w3-center w3-display-bottommiddle margin-bottom-5">
-            <button type="button" name="button" class="white-text transparent-background w3-large remove-borders hover-grey-text w3-circle slide-indicator red-text" n="0">&#9679;</button>
+            <button type="button" name="button" class="white-text transparent-background w3-large remove-borders hover-grey-text w3-circle slide-indicator" n="0" style="color:#000;">&#9679;</button>
             <button type="button" name="button" class="white-text transparent-background w3-large remove-borders hover-grey-text w3-circle slide-indicator" n="1">&#9679;</button>
             <button type="button" name="button" class="white-text transparent-background w3-large remove-borders hover-grey-text w3-circle slide-indicator" n="2">&#9679;</button>
             <button type="button" name="button" class="white-text transparent-background w3-large remove-borders hover-grey-text w3-circle slide-indicator" n="3">&#9679;</button>
         </div>
     </div>
 
-    <!-- Container (hva vi driver med) -->
-    <div class="w3-content w3-padding-64" id="hva">
-        <h1 class="w3-center inmarket-red">Dette tilbyr vi</h1>
-
-        <!-- slideshow -->
-        <div class="w3-display-container w3-hide-small" id="driver-med-slideshow">
-
-            <div class="w3-row-padding driver-med-slide-1 driver-med-slides">
-                <div class="w3-col l7">
-                    <img src="img/animation/driver_med_1.jpg" alt="" width="550" height="550" usemap="#slideshowMap">
+    <!-- The four steps of InMarket - Part 1 -->
+    <div class="w3-content w3-padding">
+        <article class="w3-margin">
+            <p>InMarket Norge følger ungdommens utdanning og personlige utvikling fra de går på videregående skole til de er ansatte. Les om de fire stegene ungdommen opplever med oss!</p>
+            <div class="w3-row">
+                <div class="w3-col m4 w3-padding-large">
+                    <img src="img/elever/elias.jpg" alt="" class="w3-img white-border w3-circle" width="100%">
                 </div>
-                <div class="w3-col l5 padding-top-100">
-                    <h3 class="driver-med-slides-headers">Som elev får du:</h2>
-                    <ul>
-                        <li>Tett veiledning og oppfølging av en student eller en InMarket ansatt</li>
-                        <li>Jevne møter med enten fremtidig arbeidsplass eller fremtidig studiested</li>
-                        <li>En gruppe med folk fra samme klasse å dele erfaringer med</li>
-                        <li>Muligheten til å vise dine egenskaper via prosjektarbeid gitt av en arbeidsgiver</li>
-                    </ul>
+                <div class="w3-col m8">
+                    <h3 class="">Første steg: Elev på Vgs</h3>
+                    <p>Det første steget med oss opplever du som en elev på videregående skole. Her har du fokus på å finne ut av hva du ønsker å bli, du har masse energi og føler at du starter å bli lei skolen.</p>
+                    <p>InMarket ønsker å være din følgesvenn gjennom alt dette. Vi kobler deg til enten høyere utdanning eller virksomhet alt etter hva du ønsker og hva du evner.</p>
+                    <p><button onclick="document.getElementById('elev-modal').style.display='block'" type="button" name="button" class="black-button white-bg-hover w3-card">Les mer</button></p>
                 </div>
             </div>
-
-            <div class="w3-row-padding driver-med-slide-2 driver-med-slides">
-                <div class="w3-col l7">
-                    <img src="img/animation/driver_med_2.jpg" alt="" width="550" height="550" usemap="#slideshowMap">
+            <div class="w3-row">
+                <div class="w3-col m8 text-align-right">
+                    <h3 class="">Andre steg: Frivillig student</h3>
+                    <p>Det andre steget kan du ta når du er under høyere utdanning. Her finner du ut hva du skal bli, du ønsker å satse 100% og føler deg motivert til å fullføre det lange utdanningsløpet.</p>
+                    <p>InMarket gir deg i denne anledning muligheten til å bli med som frivillig på vårt team. Her vil du lære, oppleve og oppnå ting som er gull verdt på CV-en. En attest følger med innsatsen du legger inn.</p>
+                    <p><button onclick="document.getElementById('student-modal').style.display='block'" type="button" name="button" class="black-button white-bg-hover w3-card">Les mer</button></p>
                 </div>
-                <div class="w3-col l5 padding-top-100">
-                    <h3 class="driver-med-slides-headers">Som student får du:</h2>
-                    <ul>
-                        <li>Tett veiledning og oppfølging av en ansatt i en virksomhet eller en InMarket ansatt</li>
-                        <li>Jevne møter med fremtidig arbeidsplass og muligheten til å utvide ditt nettverk</li>
-                        <li>Muligheten til å koble dine studier til en arbeidsplass</li>
-                        <li>Muligheten til å være mentor for en elev fra videregående skole</li>
-                    </ul>
+                <div class="w3-col m4 w3-padding-large">
+                    <img src="img/elever/anniken.jpg" alt="" class="w3-img white-border w3-circle" width="100%">
                 </div>
             </div>
-
-            <div class="w3-row-padding driver-med-slide-3 driver-med-slides">
-                <div class="w3-col l7">
-                    <img src="img/animation/driver_med_3.jpg" alt="" width="550" height="550" usemap="#slideshowMap">
-                </div>
-                <div class="w3-col l5 padding-top-100">
-                    <h3 class="driver-med-slides-headers">Som virksomhet får du:</h2>
-                    <ul>
-                        <li>Elever og studenter på besøk med jevne mellomrom</li>
-                        <li>Tett oppføling og veiledning vedrørende elevene og studentene fra InMarket</li>
-                        <li>God kontakt med neste generasjon arbeidstakere</li>
-                        <li>Muligheten til å analysere og etter hvert ansette elever og studenter som viser gode ferdigheter og holdninger</li>
-                    </ul>
-                </div>
-            </div>
-
-            <map name="slideshowMap">
-                <area shape="circle" coords="138,157,109" id="slideshow-bubble-1" onmouseover="bubbleMouseOver(1);">
-                <area shape="circle" coords="404,164,109" id="slideshow-bubble-2" onmouseover="bubbleMouseOver(2);">
-                <a href="annonse.html"><area shape="circle" coords="273,397,109" id="slideshow-bubble-3" onmouseover="bubbleMouseOver(3);" onclick="location.href='annonse.html';"></a>
-            </map>
-        </div>
-
-        <!-- explanation -->
-        <div class="w3-content">
-            <div class="w3-row-padding">
-                <div class="w3-col l4">
-                    <div class="w3-card-2 driver-med-forklaring w3-container w3-section">
-                        <h2 class="w3-center inmarket-red">Elev</h2>
-                        <p>Som en elev får du en kostnadsfri mulighet til å utforske fremtidige valgmuligheter. Vi kobler deg til studiet eller til karrieren du ønsker å lære om. Her får du muligheten til å knytte kontakter, vise dine egenskaper og bygge tidlige erfaringer.</p>
-                        <p>Du får karriererådgivning, erfaringer fra arbeidslivet og en attest fra InMarket som bekrefter dine aktiviteter.</p>
-                    </div>
-                </div>
-                <div class="w3-col l4">
-                    <div class="w3-card-2 driver-med-forklaring w3-container w3-section">
-                        <h2 class="w3-center inmarket-red">Student</h2>
-                        <p>Som student får du en kostnadsfri mulighet til å koble deg til en arbeidsplass før du er ferdig med studiet ditt. Dette kan hjelpe deg å bygge erfaring og å videreutvikle din kompetanse.</p>
-                        <p>Våre studenter blir også satt til å veilede én eller flere elever fra videregående skole. Dette vil komme sterkt frem på din CV.</p>
-                    </div>
-                </div>
-                <div class="w3-col l4">
-                    <div class="w3-card-2 driver-med-forklaring w3-container w3-section">
-                        <h2 class="w3-center inmarket-red">Virksomhet</h2>
-                        <p>Som virksomhet får du muligheten til å møte, påvirke og evaluere de som studerer innenfor ditt fagfelt. Her kan du få tilbakemeldinger fra en yngre gruppe og en trygg måte å rekruttere på.</p>
-                        <p>Flere arbeidsgivere sier at studentene er utdaterte før de ferdig med sine studier. Dette unngår dere å oppleve ved å koble dere til InMarket.</p>
-                        <p class="w3-center"><a href="annonse.html" class="red-button w3-card">Les mer her</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
+        </article>
     </div>
 
-    <!-- Second Parallax Image -->
-    <div class="bgimg-happyface w3-display-container w3-opacity-min parallax-img"></div>
+    <div id="elev-modal" class="w3-modal">
+        <div class="width-100 black-bg-opac-57 white-text w3-animate-right">
+            <span onclick="document.getElementById('elev-modal').style.display='none'" class="black-transparent-button w3-right w3-xlarge">&times;</span>
+            <div class="w3-container w3-content">
+                <div class="w3-row">
+                    <div class="w3-col m4 w3-padding-large">
+                        <img src="img/elever/elias.jpg" alt="" class="w3-img white-border w3-circle" width="100%">
+                        <p>Elias fra Akademiet VGS</p>
+                    </div>
+                    <div class="w3-col m8 w3-padding">
+                        <p>InMarket ønsker å samarbeide med skolen din for at du skal få utvikle deg på best mulig måte. Dette gjør vi for deg som elev:</p>
+                        <ol>
+                            <li>Vi informerer lærerne dine om din deltagelse i InMarket og gjør vårt beste for å unngå å bruke fritiden din (tiden etter skolen).</li>
+                            <li>Vi ordner en mentor for deg som kan være kontaktperson.</li>
+                            <li>Vi passer på at din personlige utvikling blir prioritert og inviterer deg gruppemøter hvor man kan snakke om hverdagsutfordringer.</li>
+                            <li>Vi kobler deg til:
+                                <ul>
+                                    <li>en studieplass med linjer du er interessert i. Her får du hospitere studieplassen, snakke med studenter og bygge egen erfaring.</li>
+                                    <li>en virksomhet innen bransjen du ønsker å satse på. Her blir du koblet til miljøet, du får rom til å utforske og muligheten til å involvere deg i oppgavene som utføres der.</li>
+                                </ul>
+                            </li>
+                            <p><button type="button" name="button" class="white-button white-bg-hover w3-card w3-right">Kontakt oss</button></p>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="student-modal" class="w3-modal">
+        <div class="width-100 black-bg-opac-57 white-text w3-animate-left">
+            <span onclick="document.getElementById('student-modal').style.display='none'" class="black-transparent-button w3-right w3-xlarge">&times;</span>
+            <div class="w3-container w3-content">
+                <div class="w3-row">
+                    <div class="w3-col m4 w3-padding-large">
+                        <img src="img/elever/anniken.jpg" alt="" class="w3-img white-border w3-circle" width="100%">
+                        <h3 class="">Frivillig student</h3>
+                    </div>
+                    <div class="w3-col m8 w3-padding">
+                        <p>InMarket ønsker å samarbeide med din utdanningsplass for at du skal få den beste muligheten til å forberede deg til arbeidslivet. Som frivillig:</p>
+                        <ol>
+                            <li>Får du gode muligheter til å utvikle de egenskapene som får deg til å blomstre.</li>
+                            <li>Har du muligheten til å bygge erfaringer og kompetanse som er relevant for studier og karriere.</li>
+                            <li>Har du mulighet til å prøve og faile samtidig som du får hjelp fra InMarket eller InMarkets samarbeidspartnere.</li>
+                            <li>Får du sjansen til å imponere, bygge nettverk og sikre deg en rask start på drømmekarrieren din.</li>
+                            <li>En attest som vil veie tungt når du starter å søke på jobb etter utdanning.</li>
+                            <p><button type="button" name="button" class="white-button white-bg-hover w3-card w3-right">Kontakt oss</button></p>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Parallax Christian -->
+    <div class="bgimg-christian w3-display-container parallax-img"></div>
+
+    <!-- The four steps of InMarket - Part two -->
+    <div class="w3-content w3-padding-64">
+        <article class="w3-margin">
+            <div class="w3-row">
+                <div class="w3-col m4 w3-padding-large">
+                    <img src="img/elever/kamerajente.jpg" alt="" class="w3-img white-border w3-circle" width="100%">
+                </div>
+                <div class="w3-col m8">
+                    <h3 class="">Tredje steg: Trainee</h3>
+                    <p>Det tredje steget sammen med oss gjør du som trainee. Her har du klart å fullføre utdanningen din, du har imponert oss og våre samarbeidspartnere som frivillig og du har vist gode holdninger.</p>
+                    <p>InMarket plukker ut veldig få personer til våre trainee stillinger. Her får du kontrakt med oss som varer i 8-14 mnd. med god lønning. Arbeidet du gjør som trainee vil være for relevant arbeidsgiver.</p>
+                    <p><button onclick="getElementById('trainee-modal').style.display='block'" type="button" name="button" class="black-button white-bg-hover w3-card">Les mer</button></p>
+                </div>
+            </div>
+            <div class="w3-row">
+                <div class="w3-col m8 text-align-right">
+                    <h3 class="">Fjerde steg: Ansatt</h3>
+                    <p>Det fjerde og siste steget som markerer at du endelig er i mål er når du får kontrakt med en virksomhet. Her har du allerede gjort en god jobb som trainee, du har klart å bygge et sterkt nettverk og ønsker å etablere deg.</p>
+                    <p>InMarket ønsker derfor å følge deg i dine første tre år som en arbeidstaker. Vi ønsker å være din megler og rådgiver.</p>
+                    <p><button onclick="getElementById('ansatt-modal').style.display='block'" type="button" name="button" class="black-button white-bg-hover w3-card">Les mer</button></p>
+                </div>
+                <div class="w3-col m4 w3-padding-large">
+                    <img src="img/partners/estella_sara_2_square.jpg" alt="" class="w3-img white-border w3-circle" width="100%">
+                </div>
+            </div>
+        </article>
+    </div>
+
+    <div id="trainee-modal" class="w3-modal">
+        <div class="width-100 black-bg-opac-57 white-text w3-animate-right">
+            <span onclick="document.getElementById('trainee-modal').style.display='none'" class="black-transparent-button w3-right w3-xlarge">&times;</span>
+            <div class="w3-container w3-content">
+                <div class="w3-row">
+                    <div class="w3-col m4 w3-padding-large">
+                        <img src="img/elever/kamerajente.jpg" alt="" class="w3-img white-border w3-circle" width="100%">
+                        <h3 class="">Trainee</h3>
+                    </div>
+                    <div class="w3-col m8 w3-padding">
+                        <p>InMarket har samarbeidspartnere som er interessert i å ansette de beste nyutdannede. Som trainee hos oss får du:</p>
+                        <ol>
+                            <li>En kontrakt mellom 8-14 mnd. med en lønn tilsvarende utdanningsgraden din.
+                                <ul class="w3-ul">
+                                    <l class="remove-borders"i><em><b>Lønn gjelder bare for tidligere frivillige i InMarket.</b></em></li>
+                                </ul>
+                            </li>
+                            <li>Mulighet til å skaffe deg arbeidskontrakt med våre samarbeidspartnere. De blir da dine arbeidsgivere og må forhandle kontraktbetingelser med deg.</li>
+                            <li>Muligheten til å påvirke ditt arbeidsforhold, velge arbeidsgiver og bygge nettverk.</li>
+                            <li>Veiledning og oppfølging fra InMarket slik at dine sjanser for å få kontrakt ila de 8-14 mnd. øker.</li>
+                            <p><button type="button" name="button" class="white-button white-bg-hover w3-card w3-right">Kontakt oss</button></p>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="ansatt-modal" class="w3-modal">
+        <div class="width-100 black-bg-opac-57 white-text w3-animate-left">
+            <span onclick="document.getElementById('ansatt-modal').style.display='none'" class="black-transparent-button w3-right w3-xlarge">&times;</span>
+            <div class="w3-container w3-content">
+                <div class="w3-row">
+                    <div class="w3-col m4 w3-padding-large">
+                        <img src="img/partners/estella_sara.jpg" alt="" class="w3-img white-border w3-circle" width="100%">
+                        <h3 class="">Ansatt</h3>
+                    </div>
+                    <div class="w3-col m8 w3-padding">
+                        <p>InMarket ønsker å følge med og dokumentere hvordan det går med deg etter at du har blitt ansatt. Som ansatt får du:</p>
+                        <ol>
+                            <li>Tilbud om å ha InMarket som din rådgiver og megler.</li>
+                            <li>Muligheten til å være mentor og rådgiver for elever og studenter som er i steg én eller to.</li>
+                            <li>Tilbud om å være ambassadør for InMarket. Her kan du hjelpe oss med å informere elever og studenter om deres mulighet for fremtidig karriere.</li>
+                            <li>Tilgang til våre kurs, seminarer og arrangementer.</li>
+                            <p><button type="button" name="button" class="white-button white-bg-hover w3-card w3-right">Kontakt oss</button></p>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- partners -->
+    <div class="w3-content margin-top-100 w3-padding-64" id="partner-div">
+        <hr>
+        <h2 class="margin-bottom-25">samarbeidspartnere</h2>
+
+        <div class="w3-row w3-center w3-hide-small w3-hide-medium">
+            <div class="w3-col m3 s3" itemprop="sponsor">
+                <a href="https://www.usn.no/" target="_blank"><img src="img/logos/USN.png" alt="Universitetet i Sørøst-Norge" width="100%"></a>
+            </div>
+            <div class="w3-col m3 s3" itemprop="sponsor" >
+                <a href="https://www.akademiet.no" target="_blank"><img src="img/logos/akademiet-logo-svart.png" alt="Akademiet" width="100%"></a>
+            </div>
+            <div class="w3-col m3 s3" itemprop="sponsor">
+                <a href="https://www.drammen.kommune.no/" target="_blank"><img src="img/logos/drammen_kommune.png" alt="Drammen kommune" width="100%"></a>
+            </div>
+            <div class="w3-col m3 s3" itemprop="sponsor">
+                <a href="http://www.nrk.no/buskerud" target="_blank"><img src="img/logos/nrk_svart.png" alt="NRK Buskerud" width="100%"></a>
+            </div>
+        </div>
+        <div class="w3-row w3-center w3-hide-small w3-hide-medium">
+            <div class="w3-col m3 s3" itemprop="sponsor">
+                <a href="http://nfdr.no/om-oss-medlemmer/bedrifter-i-naeringsforeningen?details=21626" target="_blank"><img src="img/logos/nfdr-small.png" alt="Næringsforeningen" width="100%"></a>
+            </div>
+            <div class="w3-col m3 s3" itemprop="sponsor">
+                <a href="https://cre8bd.weebly.com/" target="_blank"><img src="img/logos/cre8.jpg" alt="Cre8ive" width="100%"></a>
+            </div>
+            <div class="w3-col m3 s3" itemprop="sponsor">
+                <a href="http://www.ezinneathletics.no/" target="_blank"><img src="img/logos/ezinne.png" alt="Ezinne Athletics" width="100%"></a>
+            </div>
+            <div class="w3-col m3 s3" itemprop="sponsor">
+                <a href="https://www.nordicchoicehotels.no/hotell/norge/drammen/comfort-hotel-union-brygge/?gclid=Cj0KCQjw37fZBRD3ARIsAJihSr3l1t9G6sH7FO35gTdfXQaN_FdA3OmOVDBvs6Szp1H1QrhZ8uEpgccaAgleEALw_wcB" target="_blank"><img src="img/logos/ub_svart.png" alt="Comfort Hotell Union Brygge" width="100%"></a>
+            </div>
+        </div>
+
+
+
+
+        <div class="w3-row-padding w3-center w3-hide-large">
+            <div class="w3-col m4 s4">
+                <a href="https://cre8bd.weebly.com/" target="_blank"><img src="img/logos/cre82.jpg" alt="Cre8ive" width="100%"></a>
+            </div>
+            <div class="w3-col m4 s4">
+                <a href="http://www.nrk.no/buskerud" target="_blank"><img src="img/logos/nrk_svart2.png" alt="NRK Buskerud" width="100%"></a>
+            </div>
+            <div class="w3-col m4 s4">
+                <a href="http://www.ezinneathletics.no/" target="_blank"><img src="img/logos/ezinne2.png" alt="Ezinne Athletics" width="100%"></a>
+            </div>
+        </div>
+        <div class="w3-row-padding w3-center w3-hide-large">
+            <div class="w3-col m4 s4">
+                <a href="https://www.usn.no/" target="_blank"><img src="img/logos/USN.png" alt="Høgskolen i Sørøst-Norge" width="100%"></a>
+            </div>
+            <div class="w3-col m4 s4">
+                <a href="https://www.drammen.kommune.no/" target="_blank"><img src="img/logos/drammen_kommune2.png" alt="Drammen kommune" width="100%"></a>
+            </div>
+            <div class="w3-col m4 s4">
+                <a href="https://www.akademiet.no" target="_blank"><img src="img/logos/akademiet-logo-svart2.png" alt="Akademiet" width="100%"></a>
+            </div>
+        </div>
+        <div class="w3-row-padding w3-center w3-hide-large">
+            <div class="w3-col m6 s6">
+                <a href="https://www.nordicchoicehotels.no/hotell/norge/drammen/comfort-hotel-union-brygge/?gclid=Cj0KCQjw37fZBRD3ARIsAJihSr3l1t9G6sH7FO35gTdfXQaN_FdA3OmOVDBvs6Szp1H1QrhZ8uEpgccaAgleEALw_wcB" target="_blank"><img src="img/logos/ub_svart.png" alt="Comfort Hotell Union Brygge" width="100%"> </a>
+            </div>
+            <div class="w3-col m6 s6">
+                <a href="http://nfdr.no/om-oss-medlemmer/bedrifter-i-naeringsforeningen?details=21626" target="_blank"><img src="img/logos/nfdr-small2.png" alt="Næringsforeningen" width="100%"></a>
+            </div>
+        </div>
+    </div>
 
     <!-- container for quotes -->
-    <div class="narrow-content w3-padding-64 w3-container">
-        <h1 class="w3-center w3-padding-top">Hva andre sier om oss</h1>
-        <div class="w3-row about-text" >
-            <div class="w3-col m8">
-                <div class="translatey-40">
-                    <p class="quote">InMarket har latt meg drive med relevante, morsomme prosjekter ved siden av VGS. Jeg har nå større forståelse av hvorfor vi lærer det vi gjør og allerede fått knyttet et arbeidsnettverk.</p>
-                    <p class="quote-source">Anniken, elev 2. klasse Akademiet VGS</p>
+    <div class="black-bg-opac-57 white-text">
+        <div class="narrow-content w3-padding-64 w3-container">
+            <div class="w3-row">
+                <div class="w3-col m8">
+                    <div class="translatey-40">
+                        <p class="quote">InMarket har latt meg drive med relevante, morsomme prosjekter ved siden av VGS. Jeg har nå større forståelse av hvorfor vi lærer det vi gjør og føler meg godt ivaretatt.</p>
+                        <p class="quote-source">Anniken, elev 2. klasse Akademiet VGS</p>
+                    </div>
+                </div>
+                <div class="w3-col m4 text-align-right small-center">
+                    <img src="img/elever/anniken.jpg" alt="" class="w3-circle white-border w3-image">
                 </div>
             </div>
-            <div class="w3-col m4 text-align-right small-center">
-                <img src="img/elever/anniken.jpg" alt="" class="w3-circle red-border-img w3-image">
-            </div>
-        </div>
 
-        <div class="w3-row about-text" >
-            <div class="w3-col m4 small-center">
-                <img src="img/elever/kameramann.jpg" alt="" class="w3-circle red-border-img w3-image">
-            </div>
-            <div class="w3-col m8 text-align-right">
-                <div class="translatey-40">
-                    <p class="quote">Jeg synes det var veldig spennende å høre om tilbudet til InMarket (…) På et halvt år har jeg lært masse og er sikrere på videre karrierevalg.</p>
-                    <p class="quote-source">Christian, elev 2. klasse Akademiet VGS</p>
+            <div class="w3-row about-text" >
+                <div class="w3-col m4 small-center">
+                    <img src="img/elever/kameramann.jpg" alt="" class="w3-circle white-border w3-image">
                 </div>
-            </div>
-        </div>
-
-        <div class="w3-row about-text" >
-            <div class="w3-col m8">
-                <div class="translatey-20">
-                    <p class="quote">Samarbeidet med InMarket har gitt oss en super mulighet til å komme tett på og bli bedre kjent med dagens ungdom. Dette har gitt oss ny innsikt, nye og spennende vinklinger på saker og ideer vi ikke ville kommet opp med selv.</p>
-                    <p class="quote-source">Chris Carlsen, Distriktsleder NRK Buskerud</p>
-                </div>
-            </div>
-            <div class="w3-col m4 text-align-right small-center">
-                <img src="img/partners/chris.jpg" alt="" class="w3-circle red-border-img w3-image">
-            </div>
-        </div>
-
-        <p class="w3-center w3-padding-32 w3-large"> <a href="#kontakt" class="red-button w3-card">Kontakt oss i dag du også</a> </p>
-
-        <!-- partners -->
-        <div class="w3-content" id="partner-div">
-            <div class="w3-row w3-center w3-hide-small w3-hide-medium">
-                <div class="w3-col m3 s3" itemprop="sponsor" style="padding-right: 50px;">
-                    <a href="https://cre8bd.weebly.com/" target="_blank"><img src="img/logos/cre8.jpg" alt="Cre8ive" style="width:90%;margin-top: -10px;"></a>
-                </div>
-                <div class="w3-col m3 s3" itemprop="sponsor" style="padding-right: 50px;">
-                    <a href="http://www.nrk.no/buskerud" target="_blank"><img src="img/logos/nrk_svart.png" alt="NRK Buskerud" style="width:100%"></a>
-                </div>
-                <div class="w3-col m3 s3" itemprop="sponsor" style="padding-left: 50px;">
-                    <a href="http://nfdr.no/om-oss-medlemmer/bedrifter-i-naeringsforeningen?details=21626" target="_blank"><img src="img/logos/nfdr-small.png" alt="Næringsforeningen" style="width:100%"></a>
-                </div>
-                <div class="w3-col m3 s3" itemprop="sponsor" style="padding-left: 50px;">
-                    <a href="https://www.usn.no/" target="_blank"><img src="img/logos/USN.png" alt="Universitetet i Sørøst-Norge" style="width:100%;margin-top: 17px;"></a>
-                </div>
-            </div>
-            <div class="w3-row w3-center w3-hide-small w3-hide-medium">
-                <div class="w3-col m3 s3" itemprop="sponsor" style="padding-right: 100px;padding-top: 10px;">
-                    <a href="https://www.drammen.kommune.no/" target="_blank"><img src="img/logos/drammen_kommune.png" alt="Drammen kommune" style="width:100%;margin-top: -10px;"></a>
-                </div>
-                <div class="w3-col m3 s3" itemprop="sponsor" style="padding: 0px 40px;">
-                    <a href="https://www.akademiet.no" target="_blank"><img src="img/logos/akademiet-logo-svart.png" alt="Akademiet" style="width:100%"></a>
-                </div>
-                <div class="w3-col m3 s3" itemprop="sponsor" style="padding-left: 100px;">
-                    <a href="https://www.nordicchoicehotels.no/hotell/norge/drammen/comfort-hotel-union-brygge/?gclid=Cj0KCQjw37fZBRD3ARIsAJihSr3l1t9G6sH7FO35gTdfXQaN_FdA3OmOVDBvs6Szp1H1QrhZ8uEpgccaAgleEALw_wcB" target="_blank"> <img src="" alt=""> <img src="img/logos/comfort-brygge.jpg" alt="Comfort Hotell Union Brygge" width="100%"> </a>
-                </div>
-                <div class="w3-col m3 s3" itemprop="sponsor" style="padding-left: 100px;">
-                    <a href="http://www.ezinneathletics.no/" target="_blank"><img src="img/logos/ezinne.png" alt="Ezinne Athletics" style="width:100%"></a>
-                </div>
-            </div>
-            <div class="w3-row-padding w3-center w3-hide-large">
-                <div class="w3-col m4 s4">
-                    <a href="https://cre8bd.weebly.com/" target="_blank"><img src="img/logos/cre82.jpg" alt="Cre8ive" width="100%"></a>
-                </div>
-                <div class="w3-col m4 s4">
-                    <a href="http://www.nrk.no/buskerud" target="_blank"><img src="img/logos/nrk_svart2.png" alt="NRK Buskerud" width="100%"></a>
-                </div>
-                <div class="w3-col m4 s4">
-                    <a href="http://www.ezinneathletics.no/" target="_blank"><img src="img/logos/ezinne2.png" alt="Ezinne Athletics" width="100%"></a>
-                </div>
-            </div>
-            <div class="w3-row-padding w3-center w3-hide-large">
-                <div class="w3-col m4 s4">
-                    <a href="https://www.usn.no/" target="_blank"><img src="img/logos/USN.png" alt="Høgskolen i Sørøst-Norge" width="100%"></a>
-                </div>
-                <div class="w3-col m4 s4">
-                    <a href="https://www.drammen.kommune.no/" target="_blank"><img src="img/logos/drammen_kommune2.png" alt="Drammen kommune" width="100%"></a>
-                </div>
-                <div class="w3-col m4 s4">
-                    <a href="https://www.akademiet.no" target="_blank"><img src="img/logos/akademiet-logo-svart2.png" alt="Akademiet" width="100%"></a>
-                </div>
-            </div>
-            <div class="w3-row-padding w3-center w3-hide-large">
-                <div class="w3-col m6 s6">
-                    <a href="https://www.nordicchoicehotels.no/hotell/norge/drammen/comfort-hotel-union-brygge/?gclid=Cj0KCQjw37fZBRD3ARIsAJihSr3l1t9G6sH7FO35gTdfXQaN_FdA3OmOVDBvs6Szp1H1QrhZ8uEpgccaAgleEALw_wcB" target="_blank"> <img src="" alt=""> <img src="img/logos/comfort-brygge.jpg" alt="Comfort Hotell Union Brygge" width="100%"> </a>
-                </div>
-                <div class="w3-col m6 s6">
-                    <a href="http://nfdr.no/om-oss-medlemmer/bedrifter-i-naeringsforeningen?details=21626" target="_blank"><img src="img/logos/nfdr-small2.png" alt="Næringsforeningen" width="100%"></a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- third parallax image -->
-    <div class="bgimg-music-night w3-display-container w3-opacity-min parallax-img"></div>
-
-    <!-- Container (ledelsen) -->
-    <div class="w3-content w3-container w3-padding-64" id="styret">
-        <h1 class="w3-center extra-margin inmarket-red">Ledelsen</h1>
-        <div class="w3-row-padding w3-center">
-            <div class="w3-col m3">
-                <div class="w3-card-2 w3-section" itemprop="founder" itemscope itemtype="http://schema.org/Person">
-                    <img src="img/portraits/samuel.png" alt="Daglig leder Samuel Bigirimana" style="width:100%" itemprop="image">
-                    <div class="w3-container">
-                        <h3 itemprop="name" class="inmarket-red">Samuel Bigirimana</h3>
-                        <p class="w3-opacity" itemprop="jobTitle">Daglig leder</p>
-                        <p>Tlf.: (+47) <span itemprop="telephone">950 01 753</span><br>E-post: <span itemprop="email">samuel@imnor.no</span></p>
+                <div class="w3-col m8 text-align-right">
+                    <div class="translatey-40">
+                        <p class="quote">Jeg synes det var veldig spennende å høre om tilbudet til InMarket. På et halvt år har jeg lært masse og er sikrere på videre karrierevalg.</p>
+                        <p class="quote-source">Christian, elev 2. klasse Akademiet VGS</p>
                     </div>
                 </div>
             </div>
-            <div class="w3-col m3">
-                <div class="w3-card-2 w3-section" itemprop="employee" itemscope itemtype="http://schema.org/Person">
-                    <img src="img/portraits/oyvind.png" alt="Nestleder Øyvind Fjeld" style="width:100%" itemprop="image">
-                    <div class="w3-container">
-                        <h3 itemprop="name" class="inmarket-red">Øyvind<br>Fjeld</h3>
-                        <p class="w3-opacity" itemprop="jobTitle">Nestleder</p>
-                        <p>Tlf.: (+47) <span itemprop="telephone">454 76 037</span><br>E-post: <span itemprop="email">oyvind.fjeld@imnor.no</span></p>
+
+            <div class="w3-row about-text" >
+                <div class="w3-col m8">
+                    <div class="translatey-20">
+                        <p class="quote">Samarbeidet med InMarket har gitt oss en super mulighet til å komme tett på og bli bedre kjent med dagens ungdom. Dette har gitt oss ny innsikt, nye og spennende vinklinger på saker og ideer vi ikke ville kommet opp med selv.</p>
+                        <p class="quote-source">Chris Carlsen, Distriktsleder NRK Buskerud</p>
                     </div>
                 </div>
-            </div>
-            <div class="w3-col m3">
-                <div class="w3-card-2 w3-section" itemprop="employee" itemscope itemtype="http://schema.org/Person">
-                    <img src="img/portraits/samuels.jpg" alt="Personaldirektør Samuel Skretteberg" style="width:100%" itemprop="image">
-                    <div class="w3-container">
-                        <h3 itemprop="name" class="inmarket-red">Samuel Skretteberg</h3>
-                        <p class="w3-opacity" itemprop="jobTitle">Personaldirektør</p>
-                        <p>Tlf.: (+47) <span itemprop="telephone">473 26 426</span><br>E-post: <span itemprop="email">skretteberg@imnor.no</span></p>
-                    </div>
+                <div class="w3-col m4 text-align-right small-center">
+                    <img src="img/partners/chris.jpg" alt="" class="w3-circle white-border w3-image">
                 </div>
-            </div>
-            <div class="w3-col m3">
-                <div class="w3-card-2 w3-section" itemprop="employee" itemscope itemtype="http://schema.org/Person">
-                    <img src="img/portraits/ask.jpg" alt="Teknologidirektør Ask Berstad Kolltveit" style="width:100%" itemprop="image">
-                    <div class="w3-container">
-                        <h3 itemprop="name" class="inmarket-red">Ask Berstad Kolltveit</h3>
-                        <p class="w3-opacity" itemprop="jobTitle">Teknologidirektør</p>
-                        <p>Tlf.: (+47) <span itemprop="telephone">454 18 864</span><br>E-post: <span itemprop="email">ask.kolltveit@imnor.no</span></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="w3-container w3-center w3-padding-32">
-            <a href="om.html" class="red-button w3-card w3-xlarge" style="">Mer om oss</a>
-        </div>
-    </div>
-
-    <!-- fourth Parallax Image -->
-    <div class="bgimg-nrk w3-display-container w3-opacity-min parallax-img"></div>
-
-    <!-- Container (kontakt oss) -->
-    <div class="w3-content w3-container w3-padding-64" id="kontakt">
-        <h1 class="w3-center inmarket-red" id="kontaktHeader">Kontakt oss</h1>
-        <div class="w3-row">
-            <form class="w3-row w3-large w3-container w3-col m9" action="index.html" method="post" id="kontaktSkjema">
-                <p>Uavhengig av om du er elev, student eller virksomhet så kan du legge igjen kontaktinformasjon under. Det er helt uforpliktende og du hører fra oss innen 24 timer.</p>
-                <div class="w3-col m3">
-                    <label>
-                        <input type="radio" name="klient" value="elev" onclick="elevSelected()" class="klient-radio" checked>
-                        <i class="fas fa-user w3-xlarge radio"></i>
-                        Elev
-                    </label><br>
-                    <label>
-                        <input type="radio" name="klient" value="student" onclick="studentSelected()" class="klient-radio">
-                        <i class="fas fa-user-graduate w3-xlarge radio"></i>
-                        Student
-                    </label><br>
-                    <label>
-                        <input type="radio" name="klient" value="virksomhet" onclick="virksomhetSelected()" class="klient-radio">
-                        <i class="fas fa-user-tie w3-xlarge radio"></i>
-                        Virksomhet
-                    </label>
-                </div>
-                <div class="w3-col m9 w3-content">
-                    <input type="text" name="navn" value="" placeholder="Navn" class="w3-input w3-animate-input" required id="inputName"><br>
-                    <input type="text" name="sted" value="" placeholder="Videregående skole" id="inputPlace" class="w3-input w3-animate-input" required id="inputPlace"><br>
-                    <input type="text" name="telefon" value="" placeholder="Telefon" class="w3-input w3-animate-input" required id="inputPhone"><br>
-                    <input type="checkbox" name="" value="" required> <label>Jeg har lest og godtatt <a href="personvern.html" style="text-decoration:underline;" target="_blank">personvernerklæringen</a> </label>
-                    <button class="red-button w3-card w3-right" onclick="submitForm()"><i class="fas fa-paper-plane"></i> SEND</button>
-                    <p id="responseText"></p>
-                </div>
-            </form>
-            <div class="w3-section w3-card w3-container w3-hide w3-col m9" id="kontaktRespons">
-                <h3 class="inmarket-red w3-center">Melding sendt</h3>
-                <p class="w3-center">Takk for henvendelsen! Vi tar kontakt med deg så raskt som mulig!</p>
-            </div>
-            <div class="w3-col m3 w3-panel" style="margin-top: 1.5em;">
-                <div class="fb-page" data-href="https://www.facebook.com/InMarketNorge/" data-tabs="" data-width="200" data-height="500" data-small-header="false" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="true"></div>
             </div>
         </div>
     </div>
 
     <!-- Footer -->
-    <footer class="w3-row w3-center w3-section w3-large">
-        <div class="w3-col m4">
-            <a href="mailto:post@imnor.no"><i class="fas fa-envelope w3-xxlarge red-text"></i> <br>post@imnor.no</a>
-            <br> <span class="w3-tiny">InMarket Samuel Bigirimana Org.nr. 8188 21 522</span>
+    <footer class="w3-container">
+        <div class="w3-content w3-row golden-text padding-left-100">
+            <div class="w3-col m4">
+                <h2 class="">Oss</h3>
+                <ul class="w3-ul w3-large">
+                    <li class="remove-borders remove-padding">
+                        <a href="#">Vårt team</a>
+                    </li>
+                    <li class="remove-borders remove-padding">
+                        <a href="#">Bli med</a>
+                    </li>
+                    <li class="remove-borders remove-padding">
+                        <a href="#">Media</a>
+                    </li>
+                    <li class="remove-borders remove-padding">
+                        <a href="#">Prosjekter</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="w3-col m4">
+                <h2 class="golden-text">Kontakt oss</h3>
+                <ul class="w3-ul">
+                    <li class="remove-borders w3-wide remove-padding">
+                        <a href="mailto:post@imnor.no" class="margin-right-1em">
+                            <i class="far fa-envelope-open w3-xxlarge"></i>
+                        </a>
+
+                        <a href="mailto:post@imnor.no" class="margin-right-1em">
+                            <i class="fab fa-facebook-f w3-xxlarge"></i>
+                        </a>
+
+                        <a href="mailto:post@imnor.no" class="margin-right-1em">
+                            <i class="fab fa-instagram w3-xxlarge"></i>
+                        </a>
+
+                        <a href="mailto:post@imnor.no">
+                            <i class="fab fa-linkedin-in w3-xxlarge"></i>
+                        </a>
+                    </li>
+                    <li class="w3-xxlarge remove-padding">
+                        <i class="fas fa-map-marker-alt"></i> Drammen
+                    </li>
+                </ul>
+            </div>
+            <div class="w3-col m4">
+                <h2 class="golden-text">Hjelp</h3>
+                <ul class="w3-ul w3-large">
+                    <li class="remove-borders remove-padding">
+                        <a href="#">Kundeservice</a>
+                    </li>
+                    <li class="remove-borders remove-padding">
+                        <a href="#">Vanlige spørsmål og svar</a>
+                    </li>
+                    <li class="remove-borders remove-padding">
+                        <a href="#">Office 365</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div class="w3-col m4">
-            <a href="personvern.html#policy" style="text-decoration:underline;"><i class="fas fa-file-contract w3-xxlarge red-text"></i> <br>Personvernerklæring</a>
-        </div>
-        <div class="w3-col m4">
-            <a href="https://www.instagram.com/inmarketnorge/" target="_blank"><i class="fab fa-instagram w3-hover-opacity w3-xxxlarge red-text"></i></a> <a href="https://www.facebook.com/InMarketNorge/" target="_blank"><i class="fab fa-facebook w3-hover-opacity w3-xxxlarge red-text"></i></a>  <a href="https://www.linkedin.com/company/inmarket" target="_blank"><i class="fab fa-linkedin w3-hover-opacity w3-xxxlarge red-text"></i></a>
-        </div>
+        <p class="w3-right w3-section">InMarket Samuel Bigirimana Org.Nr 8188 21 522</p>
     </footer>
+    <script src="js/navbar.js" charset="utf-8"></script>
     <script src="js/detectIphone.js" charset="utf-8"></script>
     <script src="js/slideshow.js" charset="utf-8"></script>
     <script async src="js/ajaxSubmit.js" charset="utf-8"></script>
