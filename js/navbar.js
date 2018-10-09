@@ -1,4 +1,5 @@
 $("#navbar-button").click(function () {
+    console.log("hey");
     $("#navbar-dropdown").slideToggle("fast");
     if ($('p,h1,h2,h3,h4,h5').css('visibility') == 'hidden') { // Dropdown was already down
         // $("#navbar-dropdown").hide("slow");
