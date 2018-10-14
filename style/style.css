@@ -359,7 +359,7 @@ label input:checked~.radio {
         padding-left: inherit !important;
     }
     .mobile-large {
-        font-size: 18px;
+        font-size: 20px;
     }
 }
 
@@ -470,6 +470,9 @@ label input:checked~.radio {
 
 #navbar {
     height: 100px;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #navbar-button {}
