@@ -27,7 +27,9 @@ function slideshow() {
 
 $(".slide-indicator").on("click", function (ev) {
 	let index = Number(ev.currentTarget.attributes.n.value);
-
+	if (index === i) {
+		return false;
+	}
 	clearInterval(slideInterval);
 	slides[i].fadeOut();
 	slides[index].fadeIn();
@@ -39,4 +41,4 @@ $(".slide-indicator").on("click", function (ev) {
 	slideIndicators.slice(i, i+1).css("color","black");
 
 	slideInterval = setInterval(slideshow, duration)
-})
+});
