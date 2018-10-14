@@ -59,6 +59,12 @@ h1, h2, h3, h4, h5 {
     #navbar-img {
         margin-left: 0em !important;
     }
+    #navbar-button {
+        margin-right: 0em !important;
+    }
+    .slideshowText {
+        margin-bottom: 9% !important;
+    }
 }
 
 @media (min-width: 600px) {
@@ -211,7 +217,7 @@ label input:checked~.radio {
 .slideshowText {
     padding: 16px;
     padding-left: 20%;
-    margin-bottom: 9%;
+    margin-bottom: 5%;
     background-color: #c08d42;
 }
 
@@ -470,16 +476,19 @@ label input:checked~.radio {
 
 #navbar {
     height: 100px;
-    max-width: 1280px;
+    max-width: 1340px;
     margin-left: auto;
     margin-right: auto;
 }
 
-#navbar-button {}
+#navbar-button {
+    margin-right: 2em;
+
+}
 
 #navbar-img {
     margin: -5px;
-    margin-left: 1em;
+    margin-left: 2em;
 }
 
 .golden-text {
