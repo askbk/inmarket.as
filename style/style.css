@@ -346,11 +346,21 @@ label input:checked~.radio {
 .bgimg-3 {background-image: url("../img/dressmann.jpg");}
 .bgimg-4 {background-image: url("../img/gladefolk.jpg");}
 
+.mobile-large {
+    font-size: 36px;
+}
+
 @media (max-width:600px) {
     .bgimg-1 {background-image: url("../img/elever/christian-kamera-mob.jpg")!important;}
     .bgimg-2 {background-image: url("../img/jenterpeker-mob.jpg")!important;}
     .bgimg-3 {background-image: url("../img/dressmann-mob.jpg")!important;}
     .bgimg-4 {background-image: url("../img/gladefolk-mob.jpg")!important;}
+    .padding-left-100 {
+        padding-left: inherit !important;
+    }
+    .mobile-large {
+        font-size: 18px;
+    }
 }
 
 .bgimg-happyface {
