@@ -98,9 +98,7 @@ h1, h2, h3, h4, h5 {
 }
 
 @media (max-width: 350px) {
-    #navbar-button {
-        width: 8em !important;
-    }
+
 }
 
 @media (min-width: 500px) {
@@ -148,6 +146,10 @@ h1, h2, h3, h4, h5 {
 
 .width-300 {
     width: 300px;
+}
+
+.width-25-percent {
+    width: 25% !important;
 }
 
 .scroll-item {
