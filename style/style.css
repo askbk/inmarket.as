@@ -216,7 +216,9 @@ label input:checked~.radio {
 .horizontal-scroll {
     width: auto;
     overflow-x: scroll;
+    overflow-y: hidden;
     white-space: nowrap;
+    text-align: center;
 }
 
 .hidden-description {
