@@ -46,7 +46,19 @@
             <a href="index.html#hjem" class="w3-bar-item line-height-1">
                 <img src="img/logos/logo.png" height="90px" alt="InMarket logo" id="navbar-img" class="w3-img">
             </a>
-            <button class="white-button w3-xlarge w3-right light-text" id="navbar-button"><span id="menu-closed"><span class="hide-scroll">Meny</span> <i class="fas fa-bars black-text"></i></span> <span id="menu-opened" style="display:none;">Lukk &times;</span> </button>
+            <button class="white-button w3-xlarge w3-right padding-top-1em" id="navbar-button">
+                <!-- <span id="menu-closed">
+                    <span class="hide-scroll">
+                        Meny
+                    </span>
+                </span>
+                <span id="menu-opened" style="display:none;">Lukk</span> -->
+                <div class="menu-container" onclick="menuAnimation(this)">
+                    <div class="menu-bar1"></div>
+                    <div class="menu-bar2"></div>
+                    <div class="menu-bar3"></div>
+                </div>
+            </button>
         </div>
     </div>
 
