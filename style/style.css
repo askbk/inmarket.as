@@ -159,7 +159,7 @@ h1, h2, h3, h4, h5 {
 
 .menu-change .menu-bar1 {
     -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-    transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-8px, 6px);
 }
 
 .menu-change .menu-bar2 {opacity: 0;}
