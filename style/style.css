@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5 {
         font-size: 36px !important;
     }
     h2 {
-        font-size: 30px !important;
+        font-size: 26px !important;
     }
     h3 {
         font-size: 24px !important;
@@ -58,6 +58,12 @@ h1, h2, h3, h4, h5 {
 @media (max-width: 615px) {
     #navbar-img {
         margin-left: 0em !important;
+    }
+    #navbar-button {
+        margin-right: 0em !important;
+    }
+    .slideshowText {
+        margin-bottom: 9% !important;
     }
 }
 
@@ -92,9 +98,7 @@ h1, h2, h3, h4, h5 {
 }
 
 @media (max-width: 350px) {
-    #navbar-button {
-        width: 8em !important;
-    }
+
 }
 
 @media (min-width: 500px) {
@@ -116,9 +120,59 @@ h1, h2, h3, h4, h5 {
     .margin-right-7em {
         margin-right: 7em;
     }
+
+    .hidden-description {
+        width:300px;
+        display:none;
+        opacity: 0;
+    }
+
+    .scroll-item:hover .hidden-description {
+        display: inline-block;
+        opacity: 1;
+    }
+
+    .scroll-item:hover {
+        width: 600px;
+    }
 }
 
-@media (max-width:992px) {}
+.horizontal-scroll {
+    width: auto;
+    overflow-x: scroll;
+    white-space: nowrap;
+    overflow-y: hidden;
+    text-align: center;
+}
+
+.width-300 {
+    width: 300px;
+}
+
+.width-25-percent {
+    width: 25% !important;
+}
+
+.scroll-item {
+    width: 300px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 8px;
+    transition: width 0.2s;
+    height: 460px;
+}
+
+@media (max-width:991px) {
+    .hidden-description {
+        display: none;
+    }
+
+    .scroll-item:hover .hidden-description {
+
+    }
+
+    .scroll-item:hover {}
+}
 
 li {
     display: list-item;
@@ -205,44 +259,8 @@ label input:checked~.radio {
     width: 12em;
 }
 
-.width-400 {
-    width: 400px;
-}
-
 .white-space-normal {
     white-space: normal;
-}
-
-.horizontal-scroll {
-    width: auto;
-    overflow-x: scroll;
-    overflow-y: hidden;
-    white-space: nowrap;
-    text-align: center;
-}
-
-.hidden-description {
-    width:400px;
-    display:none;
-    opacity: 0;
-}
-
-.scroll-item {
-    width: 400px;
-    display: inline-block;
-    vertical-align: middle;
-    margin: 0 8px;
-    transition: width 0.2s;
-    height: 550px;
-}
-
-.scroll-item:hover .hidden-description {
-    display: inline-block;
-    opacity: 1;
-}
-
-.scroll-item:hover {
-    width: 800px;
 }
 
 .quote {
@@ -337,11 +355,21 @@ label input:checked~.radio {
 .bgimg-3 {background-image: url("../img/dressmann.jpg");}
 .bgimg-4 {background-image: url("../img/gladefolk.jpg");}
 
+.mobile-large {
+    font-size: 36px;
+}
+
 @media (max-width:600px) {
     .bgimg-1 {background-image: url("../img/elever/christian-kamera-mob.jpg")!important;}
     .bgimg-2 {background-image: url("../img/jenterpeker-mob.jpg")!important;}
     .bgimg-3 {background-image: url("../img/dressmann-mob.jpg")!important;}
     .bgimg-4 {background-image: url("../img/gladefolk-mob.jpg")!important;}
+    .padding-left-100 {
+        padding-left: inherit !important;
+    }
+    .mobile-large {
+        font-size: 20px;
+    }
 }
 
 .bgimg-happyface {
@@ -451,13 +479,19 @@ label input:checked~.radio {
 
 #navbar {
     height: 100px;
+    max-width: 1340px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#navbar-button {}
+#navbar-button {
+    margin-right: 2em;
+
+}
 
 #navbar-img {
     margin: -5px;
-    margin-left: 1em;
+    margin-left: 2em;
 }
 
 .golden-text {
