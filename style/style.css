@@ -95,6 +95,28 @@ h1, h2, h3, h4, h5 {
     .padding-top-100 {
         padding-top: 100px !important;
     }
+    .margin-right-7em {
+        margin-right: 7em;
+    }
+
+}
+
+@media (min-width: 670px) {
+    .hidden-description {
+        width:300px;
+        display:none;
+        opacity: 0;
+    }
+
+    .scroll-item:hover .hidden-description {
+        display: inline-block;
+        opacity: 1;
+    }
+
+    .scroll-item:hover {
+        width: 600px;
+    }
+
 }
 
 @media (max-width: 350px) {
@@ -114,27 +136,6 @@ h1, h2, h3, h4, h5 {
 }
 
 @media (min-width:992px) {
-    .driver-med-forklaring {
-        height: 27em;
-    }
-    .margin-right-7em {
-        margin-right: 7em;
-    }
-
-    .hidden-description {
-        width:300px;
-        display:none;
-        opacity: 0;
-    }
-
-    .scroll-item:hover .hidden-description {
-        display: inline-block;
-        opacity: 1;
-    }
-
-    .scroll-item:hover {
-        width: 600px;
-    }
 }
 
 .horizontal-scroll {
@@ -187,7 +188,7 @@ h1, h2, h3, h4, h5 {
     height: 460px;
 }
 
-@media (max-width:991px) {
+@media (max-width:600px) {
     .hidden-description {
         display: none;
     }
@@ -639,7 +640,7 @@ label input:checked~.radio {
 }
 
 .margin-bottom-25 {
-    margin-bottom: 25px;
+    margin-bottom: 25px !important;
 }
 
 .margin-top-50 {
