@@ -41,7 +41,7 @@
 
 <body itemscope itemtype="http://schema.org/Organization">
     <!-- Fixed navbar-->
-    <div class="w3-top white-bg white-bg w3-card">
+    <div class="w3-top white-bg white-bg w3-card z-index-3">
         <div class="w3-bar w3-xxlarge w3-center line-height-3" id="navbar">
             <a href="index.html#hjem" class="w3-bar-item line-height-1">
                 <img src="img/logos/logo.png" height="90px" alt="InMarket logo" id="navbar-img" class="w3-img">
@@ -60,26 +60,24 @@
                 </div>
             </button>
         </div>
-    </div>
-
-    <div class="w3-bar w3-large height-100 black-bg-opac-57" id="navbar-dropdown" style="display:none;">
-        <div class="white-bg black-text padding-bottom-16 w3-card">
-            <div class="w3-content w3-bar">
-                <hr>
-                <div class="w3-bar-item w3-mobile width-25-percent w3-center">
-                    <a href="om.html" class="golden-accent-bottom"><i class="fas fa-info-circle"></i> Om oss</a>
-                </div>
-                <div class="w3-bar-item w3-mobile width-25-percent w3-center">
-                    <a href="teamet.html" class="golden-accent-bottom"><i class="fas fa-user"></i> Vårt team</a>
-                </div>
-                <div class="w3-bar-item w3-mobile width-25-percent w3-center">
-                    <a href="media.html" class="golden-accent-bottom"><i class="fas fa-play-circle"></i> Media</a>
-                </div>
-                <div class="w3-bar-item w3-mobile width-25-percent w3-center">
-                    <a href="index.html#kontakt" class="golden-accent-bottom"><i class="fas fa-envelope"></i> Kontakt oss</a>
-                </div>
+        <div id="navbar-dropdown-content" class="w3-content w3-bar white-bg padding-bottom-16 w3-large" style="display:none;">
+            <hr>
+            <div class="w3-bar-item w3-mobile width-25-percent w3-center">
+                <a href="om.html" class="golden-accent-bottom"><i class="fas fa-info-circle"></i> Om oss</a>
+            </div>
+            <div class="w3-bar-item w3-mobile width-25-percent w3-center">
+                <a href="teamet.html" class="golden-accent-bottom"><i class="fas fa-user"></i> Vårt team</a>
+            </div>
+            <div class="w3-bar-item w3-mobile width-25-percent w3-center">
+                <a href="media.html" class="golden-accent-bottom"><i class="fas fa-play-circle"></i> Media</a>
+            </div>
+            <div class="w3-bar-item w3-mobile width-25-percent w3-center">
+                <a href="index.html#kontakt" class="golden-accent-bottom"><i class="fas fa-envelope"></i> Kontakt oss</a>
             </div>
         </div>
+    </div>
+
+    <div class="w3-overlay">
     </div>
 
     <!-- Cookie notice -->
