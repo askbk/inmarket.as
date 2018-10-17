@@ -140,7 +140,7 @@ h1, h2, h3, h4, h5 {
 
 .horizontal-scroll {
     width: auto;
-    overflow-x: scroll;
+    overflow-x: auto;
     white-space: nowrap;
     overflow-y: hidden;
     text-align: center;
