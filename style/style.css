@@ -216,7 +216,6 @@ ul {
 
 body, html {
     line-height: 1.8;
-    height: 100%;
     background-color: white;
 }
 
@@ -554,6 +553,10 @@ label input:checked~.radio {
 
 .white-bg {
     background-color: #FFF !important;
+}
+
+.black-bg {
+    background-color: #000 !important;
 }
 
 .white-button, .golden-button, .black-button, .black-transparent-button {
