@@ -11,9 +11,14 @@ button {
     font-family: Calibri !important;
 }
 
+hr {
+    margin: 48px 0px !important;
+}
+
 footer {
     padding-top: 16px;
     border-top: solid #C08D42;
+    background: #000;
 }
 
 html, body {
@@ -663,6 +668,10 @@ label input:checked~.radio {
 
 .margin-bottom-25 {
     margin-bottom: 25px !important;
+}
+
+.margin-bottom-32 {
+    margin-bottom: 32px;
 }
 
 .margin-top-50 {
