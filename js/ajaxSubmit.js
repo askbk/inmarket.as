@@ -28,3 +28,7 @@ $("#phoneSubmit").click(function (e) {
 	xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded; charset=UTF-8");
 	xhttp.send(data);
 });
+// TODO: gjøre ferdig kontaktSkjema
+$("#kontaktSkjema").submit(function () {
+	$.post("contact.php", )
+})
