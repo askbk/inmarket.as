@@ -48,3 +48,11 @@ function virksomhetSelected() {
     check(2);
     bedriftClient();
 }
+
+$("#kontaktSkjema").submit(function (e) {
+	e.preventDefault();
+	$.post("contact.php", $(this).serialize(), function () {
+		$("#kontaktSkjema").hide();
+		$("#kontaktRespons").show();
+	});
+})

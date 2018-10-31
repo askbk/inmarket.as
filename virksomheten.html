@@ -131,7 +131,45 @@
             </div>
         </div>
 
-        <p>Prøv InTrainee i dag dere også! Vi skreddersyr et opplegg for deres bedrift. Kontakt oss nå for en uforpliktende samtale: (Kontaktskjema)</p>
+        <p class="w3-section">Prøv InTrainee i dag dere også! Vi skreddersyr et opplegg for deres bedrift. Kontakt oss nå for en uforpliktende samtale:</p>
+    </div>
+
+    <!-- Kontaktskjema -->
+    <div class="w3-content w3-container w3-section" id="kontakt">
+        <div class="">
+            <form class="w3-large w3-container" action="index.html" method="post" id="kontaktSkjema">
+                <div class="w3-row">
+                    <div class="w3-col m3">
+                        <label>
+                            <input type="radio" name="client" value="elev" class="klient-radio" onclick="elevSelected()">
+                            <i class="fas fa-user w3-xlarge radio"></i>
+                            Elev
+                        </label><br>
+                        <label>
+                            <input type="radio" name="client" value="student" class="klient-radio" onclick="studentSelected()">
+                            <i class="fas fa-user-graduate w3-xlarge radio"></i>
+                            Student
+                        </label><br>
+                        <label>
+                            <input type="radio" name="client" value="virksomhet" class="klient-radio" checked onclick="virksomhetSelected()">
+                            <i class="fas fa-user-tie w3-xlarge radio"></i>
+                            Virksomhet
+                        </label>
+                    </div>
+                    <div class="w3-col m9">
+                        <input type="text" name="name" value="" placeholder="Navn" class="w3-input w3-animate-input" required id="inputName"><br>
+                        <input type="text" name="place" value="" placeholder="Virksomhet" id="inputPlace" class="w3-input w3-animate-input" required id="inputPlace"><br>
+                        <input type="text" name="phone" value="" placeholder="Telefon" class="w3-input w3-animate-input" required id="inputPhone"><br>
+                        <input type="checkbox" name="" value="" required> <label>Jeg har lest og godtatt <a href="personvern.html" style="text-decoration:underline;" target="_blank">personvernerklæringen</a> </label>
+                        <button class="white-button w3-card w3-right" type="submit"><i class="fas fa-paper-plane"></i> SEND</button>
+                        <p id="responseText"></p>
+                    </div>
+                </div>
+            </form>
+            <div class="w3-section w3-card w3-container w3-hide" id="kontaktRespons">
+                <p class="w3-center">Takk for henvendelsen! Vi tar kontakt med deg så raskt som mulig!</p>
+            </div>
+        </div>
     </div>
 
     <!-- container for quotes -->
@@ -234,6 +272,8 @@
         </div>
         <p class="w3-right w3-section">InMarket Samuel Bigirimana Org.Nr 8188 21 522</p>
     </footer>
+    <script src="js/clientType.js" charset="utf-8"></script>
+    <script src="js/contactForm.js" charset="utf-8"></script>
     <script async src="js/navbar.js" charset="utf-8"></script>
     <script src="js/acceptTracking.js" charset="utf-8"></script>
 </body>

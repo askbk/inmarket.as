@@ -244,7 +244,7 @@ label:hover .radio {
 }
 
 label input:checked~.radio {
-    color: #640507;
+    color: #C08D42;;
 }
 
 .slideshowText {
