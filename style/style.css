@@ -283,6 +283,10 @@ label input:checked~.radio {
     padding-bottom: 16px;
 }
 
+.padding-bottom-64 {
+    padding-bottom: 64px;
+}
+
 .hover-shadow:hover {
     -webkit-box-shadow: 0px 0px 34px -11px rgba(0,0,0,0.45);
     -moz-box-shadow: 0px 0px 34px -11px rgba(0,0,0,0.45);
@@ -402,7 +406,11 @@ label input:checked~.radio {
 .bgimg-2 {background-image: url("../img/jenterpeker.jpg");}
 .bgimg-3 {background-image: url("../img/dressmann.jpg");}
 .bgimg-4 {background-image: url("../img/gladefolk.jpg");}
-.bgimg-5 {background-image: url("../img/elever/editor_test.jpg");}
+.bgimg-5 {
+    background-image: url("../img/elever/trainee-big.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .mobile-large {
     font-size: 36px;
@@ -421,11 +429,6 @@ label input:checked~.radio {
     }
 }
 
-.bgimg-happyface {
-    min-height: 400px;
-    background-image: url("../img/happyface.jpg");
-}
-
 .bgimg-nrk {
     min-height: 400px;
     background-image: url("../img/nrk_christian_eirik.jpg");
@@ -436,9 +439,9 @@ label input:checked~.radio {
     background-image: url("../img/NRK-anniken.jpg");
 }
 
-.bgimg-christian {
-    min-height: 400px;
-    background-image: url("../img/elever/christian.jpg");
+.bgimg-elevgruppe {
+    min-height: 300px;
+    background-image: url("../img/elever/elevgruppe.jpg");
 }
 #profiler {
     margin-top: 3em;
@@ -522,6 +525,12 @@ label input:checked~.radio {
     height: 100%;
 }
 
+.weird-positioning {
+    top: 23%;
+    position: absolute;
+    left: 61%;
+}
+
 #id01 {
     padding-top: 1%;
 }
@@ -541,6 +550,10 @@ label input:checked~.radio {
 #navbar-img {
     margin: -5px;
     margin-left: 2em;
+}
+
+.old-red-text {
+    color: #640507;
 }
 
 .golden-text {
