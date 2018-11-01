@@ -511,8 +511,7 @@ label input:checked~.radio {
 
 .videoWrapper {
     position: relative;
-    padding-bottom: 45%;
-    /* 16:9 */
+    padding-bottom: 60%;
     padding-top: 0px;
     height: 0;
 }
@@ -529,10 +528,6 @@ label input:checked~.radio {
     top: 23%;
     position: absolute;
     left: 61%;
-}
-
-#id01 {
-    padding-top: 1%;
 }
 
 #navbar {
