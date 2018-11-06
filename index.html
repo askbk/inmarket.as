@@ -441,6 +441,26 @@
     <!-- <script src="js/clientType.js" charset="utf-8"></script> -->
     <!-- <script async src="js/contactForm.js" charset="utf-8"></script> -->
     <script src="js/acceptTracking.js" charset="utf-8"></script>
+
+    <script type="text/javascript">
+        let modals = [
+            $("#elev-modal"),
+            $("#student-modal"),
+            $("#trainee-modal"),
+            $("#ansatt-modal")
+        ];
+        let elevModal = $("#elev-modal"),
+            studentModal = $("#student-modal"),
+            traineeModal = $("#trainee-modal"),
+            ansattModal = $("#ansatt-modal");
+
+        $(".w3-modal").click(function (e) {
+            if($(e.target).is(".w3-modal")) {
+                $(e.target).hide();
+            }
+            return false;
+        })
+    </script>
 </body>
 
 </html>
