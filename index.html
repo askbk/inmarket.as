@@ -375,6 +375,47 @@
         </div>
     </div>
 
+    <!-- container for quotes -->
+    <div class="black-bg-opac-57 white-text w3-padding-64">
+        <div class="narrow-content w3-padding-64 w3-container">
+            <div class="w3-row quote-slides w3-animate-left w3-animate-opacity">
+                <div class="w3-col m8">
+                    <div class="translatey-40">
+                        <p class="quote">InMarket har latt meg drive med relevante, morsomme prosjekter ved siden av VGS. Jeg har nå større forståelse for hvorfor vi lærer det vi gjør, og føler meg godt ivaretatt.</p>
+                        <p class="quote-source">Anniken, elev 2. klasse Akademiet VGS</p>
+                    </div>
+                </div>
+                <div class="w3-col m4 text-align-right small-center">
+                    <img src="img/elever/anniken.jpg" alt="" class="w3-circle white-border">
+                </div>
+            </div>
+
+            <div class="w3-row quote-slides w3-animate-left w3-animate-opacity" style="display:none;">
+                <div class="w3-col m4 small-center">
+                    <img src="img/portraits/ask_small.jpg" alt="" class="w3-circle white-border">
+                </div>
+                <div class="w3-col m8 text-align-right">
+                    <div class="translatey-40">
+                        <p class="quote">InMarket lar meg få prøve meg i spennende prosjekter som er svært relevante i forhold til studiet mitt.</p>
+                        <p class="quote-source">Ask Kolltveit, Student Datateknologi NTNU</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-row quote-slides w3-animate-left w3-animate-opacity" style="display:none;">
+                <div class="w3-col m8">
+                    <div class="translatey-20">
+                        <p class="quote">Samarbeidet med InMarket har gitt oss en super mulighet til å komme tett på og bli bedre kjent med dagens ungdom. Dette har gitt oss ny innsikt, nye og spennende vinklinger på saker og ideer vi ikke ville tenkt på selv.</p>
+                        <p class="quote-source">Chris Carlsen, Distriktsleder NRK Buskerud</p>
+                    </div>
+                </div>
+                <div class="w3-col m4 text-align-right small-center">
+                    <img src="img/partners/chris.jpg" alt="" class="w3-circle white-border w3-image">
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Footer -->
     <footer class="w3-container">
         <div class="w3-content w3-row golden-text padding-left-100 w3-row-padding">
@@ -437,9 +478,6 @@
     <script src="js/navbar.js" charset="utf-8"></script>
     <script src="js/detectIphone.js" charset="utf-8"></script>
     <script src="js/slideshow.js" charset="utf-8"></script>
-    <!-- <script async src="js/ajaxSubmit.js" charset="utf-8"></script> -->
-    <!-- <script src="js/clientType.js" charset="utf-8"></script> -->
-    <!-- <script async src="js/contactForm.js" charset="utf-8"></script> -->
     <script src="js/acceptTracking.js" charset="utf-8"></script>
 
     <script type="text/javascript">
@@ -460,6 +498,19 @@
             }
             return false;
         })
+
+        let quoteSlides = $(".quote-slides"),
+            qi = 0, qp = 2,
+            quoteInterval = setInterval(quoteSlideshow, 5000);
+
+        function quoteSlideshow() {
+            console.log("he");
+            qp = (qi++) % 3;
+            qi %= 3
+
+            quoteSlides.slice(qp, qp+1).hide();
+            quoteSlides.slice(qi, qi+1).show();
+        }
     </script>
 </body>
 
