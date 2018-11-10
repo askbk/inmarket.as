@@ -121,7 +121,33 @@ h1, h2, h3, h4, h5 {
     .scroll-item:hover {
         width: 600px;
     }
+    .horizontal-scroll {
+        width: auto;
+        overflow-x: auto;
+        white-space: nowrap;
+        overflow-y: hidden;
+        text-align: center;
+    }
+    .scroll-item {
+        width: 300px;
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0 8px;
+        transition: width 0.2s;
+        height: 460px;
+    }
+}
 
+@media (max-width:669px) {
+    .hidden-description {
+        display: none;
+    }
+
+    .scroll-item:hover .hidden-description {
+        display: none;
+    }
+
+    .scroll-item:hover {}
 }
 
 @media (max-width: 350px) {
@@ -141,14 +167,6 @@ h1, h2, h3, h4, h5 {
 }
 
 @media (min-width:992px) {
-}
-
-.horizontal-scroll {
-    width: auto;
-    overflow-x: auto;
-    white-space: nowrap;
-    overflow-y: hidden;
-    text-align: center;
 }
 
 .width-300 {
@@ -182,27 +200,6 @@ h1, h2, h3, h4, h5 {
 
 .width-25-percent {
     width: 25% !important;
-}
-
-.scroll-item {
-    width: 300px;
-    display: inline-block;
-    vertical-align: middle;
-    margin: 0 8px;
-    transition: width 0.2s;
-    height: 460px;
-}
-
-@media (max-width:600px) {
-    .hidden-description {
-        display: none;
-    }
-
-    .scroll-item:hover .hidden-description {
-
-    }
-
-    .scroll-item:hover {}
 }
 
 li {
@@ -421,6 +418,7 @@ label input:checked~.radio {
     .bgimg-2 {background-image: url("../img/jenterpeker-mob.jpg")!important;}
     .bgimg-3 {background-image: url("../img/dressmann-mob.jpg")!important;}
     .bgimg-4 {background-image: url("../img/gladefolk-mob.jpg")!important;}
+    .bgimg-5 {background-image: url("../img/elever/trainee-big-mob.jpg")!important;}
     .padding-left-100 {
         padding-left: inherit !important;
     }
