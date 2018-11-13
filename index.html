@@ -392,7 +392,7 @@
     <!-- container for quotes -->
     <div class="black-bg-opac-57 white-text w3-padding-64">
         <div class="narrow-content w3-padding-64 w3-container">
-            <div class="w3-row quote-slides w3-animate-left w3-animate-opacity">
+            <div class="w3-row quote-slides w3-animate-opacity">
                 <div class="w3-col m8">
                     <div class="translatey-40">
                         <p class="quote">InMarket har latt meg drive med relevante, morsomme prosjekter ved siden av VGS. Jeg har nå større forståelse for hvorfor vi lærer det vi gjør, og føler meg godt ivaretatt.</p>
@@ -404,7 +404,7 @@
                 </div>
             </div>
 
-            <div class="w3-row quote-slides w3-animate-left w3-animate-opacity" style="display:none;">
+            <div class="w3-row quote-slides w3-animate-opacity" style="display:none;">
                 <div class="w3-col m4 small-center">
                     <img src="img/portraits/ask_small.jpg" alt="" class="w3-circle white-border">
                 </div>
@@ -416,7 +416,7 @@
                 </div>
             </div>
 
-            <div class="w3-row quote-slides w3-animate-left w3-animate-opacity" style="display:none;">
+            <div class="w3-row quote-slides w3-animate-opacity" style="display:none;">
                 <div class="w3-col m8">
                     <div class="translatey-20">
                         <p class="quote">Samarbeidet med InMarket har gitt oss en super mulighet til å komme tett på og bli bedre kjent med dagens ungdom. Dette har gitt oss ny innsikt, nye og spennende vinklinger på saker og ideer vi ikke ville tenkt på selv.</p>
@@ -515,10 +515,9 @@
 
         let quoteSlides = $(".quote-slides"),
             qi = 0, qp = 2,
-            quoteInterval = setInterval(quoteSlideshow, 5000);
+            quoteInterval = setInterval(quoteSlideshow, 7500);
 
         function quoteSlideshow() {
-            console.log("he");
             qp = (qi++) % 3;
             qi %= 3
 
