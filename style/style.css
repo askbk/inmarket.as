@@ -35,6 +35,15 @@ h1, h2, h3, h4, h5 {
     font-weight: 100;
 }
 
+.bold-text {
+    font-weight: bold;
+}
+
+.remove-list-things {
+    list-style-type: none;
+    padding-left: 0;
+}
+
 @media (max-width: 600px) {
     h1 {
         font-size: 36px !important;
@@ -405,6 +414,12 @@ label input:checked~.radio {
 .bgimg-4 {background-image: url("../img/gladefolk.jpg");}
 .bgimg-5 {
     background-image: url("../img/elever/trainee-big.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.comfort-hotel-bg {
+    background-image: url("../img/partners/estella_sara.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }

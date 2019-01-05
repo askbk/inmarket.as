@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Template | InMarket Norge</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <meta name="description" content="Rådgivning kombinert med jobbskygging og mentoring. Møt fremtiden din og la den forme deg.">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#c08d42">
+    <link rel="shortcut icon" href="favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="fontawesome-free-5.1.0-web/css/all.css">
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/w3pro.css" />
+    <script type="application/ld+json" href="json/about.json"></script>
+    <script src="js/jquery-3.3.1.min.js" charset="utf-8"></script>
+    <script src="js/jquery.color-2.1.2.min.js" charset="utf-8"></script>
+    <!-- Hotjar Tracking Code for imnor.no -->
+    <script>
+        if (localStorage.tracking == "true") {
+            (function(h,o,t,j,a,r){
+                h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+                h._hjSettings={hjid:959986,hjsv:6};
+                a=o.getElementsByTagName('head')[0];
+                r=o.createElement('script');r.async=1;
+                r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+                a.appendChild(r);
+                console.log("hotjar enabled");
+            })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+        }
+    </script>
+</head>
+
+<body>
+    <!-- Fixed navbar-->
+    <div class="w3-top white-bg white-bg w3-card z-index-3">
+        <div class="w3-bar w3-xxlarge w3-center line-height-3" id="navbar">
+            <a href="index.html#hjem" class="w3-bar-item line-height-1">
+                <img src="img/logos/logo-text.png" height="90px" alt="InMarket logo" id="navbar-img">
+            </a>
+            <button class="white-button w3-xlarge w3-right padding-top-1em" id="navbar-button">
+                <div class="menu-container" onclick="menuAnimation(this)">
+                    <div class="menu-bar1"></div>
+                    <div class="menu-bar2"></div>
+                    <div class="menu-bar3"></div>
+                </div>
+            </button>
+        </div>
+        <div id="navbar-dropdown-content" class="w3-content w3-bar white-bg padding-bottom-16 w3-large" style="display:none;">
+            <hr>
+            <div class="w3-bar-item w3-mobile width-25-percent w3-center" id="navbar-about-link">
+                <a class="golden-accent-bottom" ><i class="fa fa-caret-right" id="navbar-about-icon"></i> Om </a>
+                <div class="subnav-content" style="display:none;">
+                    <ul class="w3-ul">
+                        <li>
+                            <a href="om.html" class="w3-padding"><i class="fas fa-info-circle"></i> Oss</a>
+                        </li>
+                        <li>
+                            <a href="virksomheten.html" class="w3-padding"><i class="fas fa-info-circle"></i> Virksomheten</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="w3-bar-item w3-mobile width-25-percent w3-center">
+                <a href="teamet.html" class="golden-accent-bottom"><i class="fas fa-user"></i> Vårt team</a>
+            </div>
+            <div class="w3-bar-item w3-mobile width-25-percent w3-center">
+                <a href="aktiviteter.html" class="golden-accent-bottom"><i class="fas fa-play-circle"></i> Aktiviteter</a>
+            </div>
+            <div class="w3-bar-item w3-mobile width-25-percent w3-center">
+                <a href="kontakt.html" class="golden-accent-bottom"><i class="fas fa-envelope"></i> Kontakt oss</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-overlay">
+    </div>
+
+    <!-- Cookie notice -->
+    <div class="w3-bottom w3-hide white-text" id="privacyNotice">
+        <div class="w3-bar black-bg-opac-80 w3-medium w3-center">
+            <div class="w3-container">
+                <a class="black-transparent-button text-underline" onclick="acceptTracking()">Jeg aksepterer sporing av mitt besøk på denne nettsiden</a>
+                <a href="personvern.html" class="black-transparent-button text-underline">Gå til personverninnstillinger</a>
+            </div>
+            <div class="w3-container">
+                <p class="">Ved å fortsette bruke dette nettstedet, aksepterer du vår <a href="personvern.html" target="_blank" class="text-underline">personvernerklæring</a>.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-content w3-padding margin-top-100">
+        <article class="w3-section">
+            <div class="w3-row">
+                <div class="w3-col m2 w3-padding">
+                    <img src="img/fig/ledelse.jpg" alt="" width="100%" class="w3-margin-top w3-opacity">
+                </div>
+                <div class="w3-col m10">
+                    <h2>Ledelsen</h2>
+                    <p>Som leder i InMarket Norge får du ansvar for din egen avdeling. Her har du gode arbeidsvilkår, gode muligheter til å utvikle din kompetanse og kommunikasjonslinje rett opp til styret. Du vil kunne veilede, organisere og følge opp ditt eget team, og du er med på å forme InMarkets mål og arbeidsprosess.</p>
+                </div>
+            </div>
+
+            <div class="w3-row">
+                <div class="w3-col m2 w3-padding">
+                    <img src="img/fig/ansatt.png" alt="" width="100%" class="w3-margin-top w3-opacity">
+                </div>
+                <div class="w3-col m10">
+                    <h2>Ansatt</h2>
+                    <p>Som ansatt i InMarket vil du kunne bruke fagkompetanse din til å løse spesifikke oppgaver i vår drift. Vi ser først og fremst etter deg med forståelse og innblikk i elevenes og studentenes hverdag. Her vil alt man gjør kunne knyttes til vår visjon om å styrke det norske arbeidsmarkedet i internasjonal sammenheng.</p>
+                </div>
+            </div>
+
+            <div class="w3-row">
+                <div class="w3-col m2 w3-padding">
+                    <img src="img/fig/frivillig.svg" alt="" class="w3-margin-top w3-opacity" width="100%">
+                </div>
+                <div class="w3-col m10">
+                    <h2>Frivillig</h2>
+                    <p>Som frivillig ansatt eller verver vil du ha store muligheter til å utvikle deg og gjøre deg til en attraktiv arbeidstaker. InMarket har stort fokus på personlig utvikling, og du vil være først i linjen når det gjelder kursing, samlinger og arbeidsmuligheter hos oss og våre samarbeidspartnere.</p>
+                </div>
+            </div>
+
+
+        </article>
+
+        <div class="w3-row">
+            <article class="w3-col m5 golden-bg black-text w3-card w3-container">
+                <h2>Trainee</h2>
+                <p>Som trainee blir du ansatt av InMarket med en kontrakt som varer mellom 8 og 14 måneder. Her kan du få tilbud om lønn hvis du har vært frivillig i InMarket tidligere.</p>
+                <p>Våre traineer får prøve seg hos 3-5 virksomheter i 1-3 måneder i hver bedrift under trainee perioden. Virksomhetene får muligheten til å tilby deg kontrakt og løsrive deg fra InMarket sin kontrakt. Her kan du som et ungt talent velge hvor du ønsker å jobbe ettersom du får muligheten til å vise din evne og vilje til potensielle arbeidsgivere.</p>
+                <p class="w3-right" ><a href="#blimed"><b>Søk om traineeplass</b></a></p>
+            </article>
+            <div class="w3-col m7">
+                <div class="bgimg-5 height-27em" style="">
+                </div>
+            </div>
+        </div>
+
+        <h2 id="blimed">Bli med på teamet!</h2>
+        <p>Har du lyst til å bli på teamet vårt? Trykk deg inn og se på dine muligheter da vel!</p>
+        <em>Ingen ledige stillinger for øyeblikket, prøv igjen senere!</em>
+        <div class="w3-center w3-card">
+            <div class="w3-row">
+                <div class="w3-col m6 comfort-hotel-bg">
+                    <div class="">
+                        <p id="moving-text" class="w3-xxlarge white-text">ÅPNE PLASSER</p>
+                    </div>
+                </div>
+                <div class="w3-col m6 golden-bg w3-center">
+                    <ul class="remove-list-things">
+                        <li class="trainee-opening">
+                            <div class="w3-xlarge ">
+                                <span class=""><span class="bold-text">NKTQFP AS</span>  - for elever</span>
+                                <br>
+                                (3 plasser)
+                            </div>
+                            <div class="white-bg w3-card" style="display:none;">
+                                <h3>NKTQFP AS</h3>
+                                <p>Ønsker deg som er elev og ønsker å utvikle deg innen robotikk, programmering eller økonomi.</p>
+                                <p>Dette gjør du én gang i måneden med veiledning og oppfølging fra InMarket.</p>
+                                <a href="kontakt.html" class="black-button w3-card">SØK HER</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(".trainee-opening").click(function (ev) {
+            $(".trainee-opening").children().last().slideDown();
+            console.log($(this));
+        });
+    </script>
+
+
+    <!-- Footer -->
+    <footer class="w3-container">
+        <div class="w3-content w3-row golden-text padding-left-100 w3-row-padding">
+            <div class="w3-col s4">
+                <h3 class="">Oss</h3>
+                <ul class="w3-ul w3-large">
+                    <li class="remove-borders remove-padding">
+                        <a href="teamet.html">Vårt team</a>
+                    </li>
+                    <li class="remove-borders remove-padding">
+                        <a href="teamet.html#blimed">Bli med</a>
+                    </li>
+                    <li class="remove-borders remove-padding">
+                        <a href="aktiviteter.html">Aktiviteter</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="w3-col s4">
+                <h3 class="golden-text">Kontakt oss</h3>
+                <ul class="w3-ul">
+                    <li class="remove-borders remove-padding">
+                        <a href="kontakt.html" class="margin-right-1em">
+                            <i class="far fa-envelope-open w3-xlarge"></i>
+                        </a>
+
+                        <a href="https://www.facebook.com/inmarketnorge" class="margin-right-1em">
+                            <i class="fab fa-facebook-f w3-xlarge"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/inmarket_nor/" class="margin-right-1em">
+                            <i class="fab fa-instagram w3-xlarge"></i>
+                        </a>
+
+                        <a href="https://www,linkedin.com/company/inmarket">
+                            <i class="fab fa-linkedin-in w3-xlarge"></i>
+                        </a>
+                    </li>
+                    <li class="w3-large remove-padding">
+                        <i class="fas fa-map-marker-alt"></i> Drammen, Oslo
+                    </li>
+                </ul>
+            </div>
+            <div class="w3-col s4">
+                <h3 class="golden-text">Hjelp</h3>
+                <ul class="w3-ul w3-large">
+                    <!-- <li class="remove-borders remove-padding">
+                        <a href="#">Kundeservice</a>
+                    </li>
+                    <li class="remove-borders remove-padding">
+                        <a href="#">Vanlige spørsmål og svar</a>
+                    </li> -->
+                    <li class="remove-borders remove-padding">
+                        <a href="https://www.office.com/?auth=2&home=1">Office 365</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <p class="w3-right w3-section">InMarket Samuel Bigirimana Org.Nr 8188 21 522</p>
+    </footer>
+    <script src="js/detectIphone.js" charset="utf-8"></script>
+    <script async src="js/navbar.js" charset="utf-8"></script>
+    <script src="js/acceptTracking.js" charset="utf-8"></script>
+</body>
+
+</html>
