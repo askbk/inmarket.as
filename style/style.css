@@ -269,6 +269,10 @@ label input:checked~.radio {
     text-decoration: underline !important;
 }
 
+.text-shadow {
+    text-shadow: 1px 1px 2px black;
+}
+
 .text-align-right {
     text-align: right;
 }
@@ -423,9 +427,10 @@ label input:checked~.radio {
 }
 
 .comfort-hotel-bg {
-    background-image: url("../img/partners/estella_sara.jpg");
+    background-image: url("../img/partners/estella_sara_3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 .mobile-large {
