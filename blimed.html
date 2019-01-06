@@ -158,16 +158,32 @@
                 <div class="w3-col m6 golden-bg w3-center">
                     <ul class="remove-list-things">
                         <li class="trainee-opening">
-                            <div class="w3-xlarge ">
+                            <div class="w3-xlarge closed-state">
                                 <span class=""><span class="bold-text">NKTQFP AS</span>  - for elever</span>
                                 <br>
                                 (3 plasser)
                             </div>
                             <div class="white-bg w3-card" style="display:none;">
+                                <span class="w3-xxlarge w3-right close-openings" style="line-height:1; padding-right:8px; cursor:pointer;">&times</span>
                                 <h3>NKTQFP AS</h3>
                                 <p>Ønsker deg som er elev og ønsker å utvikle deg innen robotikk, programmering eller økonomi.</p>
                                 <p>Dette gjør du én gang i måneden med veiledning og oppfølging fra InMarket.</p>
-                                <a href="kontakt.html" class="black-button w3-card">SØK HER</a>
+                                <a href="kontakt.html" class="black-button w3-card">Søk her</a>
+                            </div>
+                        </li>
+
+                        <li class="trainee-opening">
+                            <div class="w3-xlarge closed-state">
+                                <span class=""><span class="bold-text">NRK Buskerud</span>  - for elever</span>
+                                <br>
+                                (2 plasser)
+                            </div>
+                            <div class="white-bg w3-card" style="display:none;">
+                                <span class="w3-xxlarge w3-right close-openings" style="line-height:1; padding-right:8px; cursor:pointer;">&times</span>
+                                <h3>NKTQFP AS</h3>
+                                <p>Ønsker deg som er elev og ønsker å utvikle deg innen media etc.</p>
+                                <p>Dette gjør du én gang i måneden med veiledning og oppfølging fra InMarket.</p>
+                                <a href="kontakt.html" class="black-button w3-card">Søk her</a>
                             </div>
                         </li>
                     </ul>
@@ -177,10 +193,34 @@
     </div>
 
     <script type="text/javascript">
-        $(".trainee-opening").click(function (ev) {
-            $(".trainee-opening").children().last().slideDown();
-            console.log($(this));
+        $(".closed-state").click(function () {
+            closeAll(this);
+            $(this).siblings().first().slideDown("fast");
+            $(this).slideUp("fast");
         });
+
+        $(".close-openings").click(function () {
+            closeAll();
+        });
+
+        function closeAll(el) {
+            if (el) {
+                let p = $(el).parent();
+                $(".trainee-opening").each(function (i, e) {
+                    if (!$(this).is(p)) {
+                        close($(this));
+                    }
+                });
+            } else {
+                $(".trainee-opening").children().filter(":even").slideDown();
+                $(".trainee-opening").children().filter(":odd").slideUp();
+            }
+        }
+
+        function close(el) {
+            el.children().filter(":even").slideDown();
+            el.children().filter(":odd").slideUp();
+        }
     </script>
 
 
