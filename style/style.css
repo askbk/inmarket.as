@@ -622,7 +622,8 @@ label input:checked~.radio {
     text-decoration:none;
     text-align:center;
     cursor:pointer;
-    white-space:nowrap
+    white-space:nowrap;
+    text-transform: uppercase;
 }
 
 .white-button {
@@ -639,13 +640,17 @@ label input:checked~.radio {
 }
 
 .golden-button {
-    color: white;
+    color: black;
     background-color: #C08D42;
 }
 
 .golden-button:hover {
-    color: #bca53c;
-    background-color: white;
+    background-color: #ac7e39;
+}
+
+.indicator-active {
+    box-shadow: none;
+    background-color: #ac7e39;
 }
 
 .black-button {
