@@ -35,6 +35,15 @@ h1, h2, h3, h4, h5 {
     font-weight: 100;
 }
 
+.bold-text {
+    font-weight: bold;
+}
+
+.remove-list-things {
+    list-style-type: none;
+    padding-left: 0;
+}
+
 @media (max-width: 600px) {
     h1 {
         font-size: 36px !important;
@@ -260,6 +269,10 @@ label input:checked~.radio {
     text-decoration: underline !important;
 }
 
+.text-shadow {
+    text-shadow: 1px 1px 2px black;
+}
+
 .text-align-right {
     text-align: right;
 }
@@ -340,6 +353,10 @@ label input:checked~.radio {
     height: 100%;
 }
 
+.width-100 {
+    width: 100%;
+}
+
 .height-27em {
     height: 27em;
 }
@@ -354,6 +371,12 @@ label input:checked~.radio {
 
 .width-100 {
     width: 100%;
+}
+
+.small-x, .close-openings {
+    line-height: 1;
+    padding-right: 8px;
+    cursor:pointer;
 }
 
 #kontaktRespons {}
@@ -407,6 +430,13 @@ label input:checked~.radio {
     background-image: url("../img/elever/trainee-big.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.comfort-hotel-bg {
+    background-image: url("../img/partners/estella_sara_3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .mobile-large {
