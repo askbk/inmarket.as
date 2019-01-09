@@ -373,6 +373,12 @@ label input:checked~.radio {
     width: 100%;
 }
 
+.small-x, .close-openings {
+    line-height: 1;
+    padding-right: 8px;
+    cursor:pointer;
+}
+
 #kontaktRespons {}
 
 #handwritten {
