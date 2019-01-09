@@ -255,14 +255,7 @@ label input:checked~.radio {
 
 .slideshowText {
     padding: 16px;
-    padding-left: 20%;
     margin-bottom: 5%;
-    background-color: #c08d42;
-}
-
-.slideshowText:hover {
-    color: #000;
-    background-color: rgba(255, 255, 255, 0.8);
 }
 
 .text-underline {
@@ -275,6 +268,10 @@ label input:checked~.radio {
 
 .text-align-right {
     text-align: right;
+}
+
+.uppercase {
+    text-transform: uppercase;
 }
 
 .padding-top-32 {
@@ -351,10 +348,6 @@ label input:checked~.radio {
 
 .height-100 {
     height: 100%;
-}
-
-.width-100 {
-    width: 100%;
 }
 
 .height-27em {
