@@ -721,6 +721,8 @@ label input:checked~.radio {
     padding-right: 2em;
 }
 
+.w3-col.fifth{width:19.99999%}
+
 /* Caveat-Regular */
 @font-face {
     font-family: "Caveat-Regular";
