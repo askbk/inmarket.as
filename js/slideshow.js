@@ -2,7 +2,14 @@ let slides = [
 	$(".bgimg-1"),
 	$(".bgimg-2"),
 	$(".bgimg-3")
-];
+],
+	slideshowBoxes = [
+		$("#elever-studenter"),
+		$("#jobb"),
+		$("#virksomhet")
+],
+	infoContainer = $("#info-container");
+
 let slideIndicators = $(".slide-indicator");
 let i = 0, prev = 2, duration = 6000;
 let slideInterval = setInterval(slideshow, duration);
@@ -26,6 +33,11 @@ function slideshow() {
 
 $(".slide-indicator").on("click", function (ev) {
 	let index = Number(ev.currentTarget.attributes.n.value);
+	infoContainer.show();
+	slideshowBoxes[index].slideDown();
+	slideshowBoxes[(index+1) % 3].slideUp();
+	slideshowBoxes[(index+2) % 3].slideUp();
+
 	if (index === i) {
 		return false;
 	}
@@ -39,5 +51,12 @@ $(".slide-indicator").on("click", function (ev) {
 
 	slideIndicators.slice(i, i+1).css("color","black");
 
-	slideInterval = setInterval(slideshow, duration)
+	// slideInterval = setInterval(slideshow, duration)
 });
+
+$(".mySlides").on("click", function () {
+	infoContainer.slideUp();
+	for (var k = 0; k < slideshowBoxes.length; k++) {
+		slideshowBoxes[k].slideUp();
+	}
+})

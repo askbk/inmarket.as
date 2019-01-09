@@ -254,8 +254,9 @@ label input:checked~.radio {
 }
 
 .slideshowText {
-    padding: 16px;
-    margin-bottom: 5%;
+    padding: 6px;
+    margin-bottom: 10vh;
+    max-width: 75%;
 }
 
 .text-underline {
@@ -405,7 +406,7 @@ label input:checked~.radio {
 }
 
 .slideshow {
-    min-height: 75vh;
+    height: calc(100vh - 100px);
 }
 
 .mySlides {
