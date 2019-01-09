@@ -13,6 +13,7 @@ let slides = [
 let slideIndicators = $(".slide-indicator");
 let i = 0, prev = 2, duration = 6000;
 let slideInterval = setInterval(slideshow, duration);
+let prevButton = -1;
 
 function resetSlideshow(slides) { // hides all slides
 	for (let j = 0; j < slides.length; ++j) {
@@ -33,30 +34,43 @@ function slideshow() {
 
 $(".slide-indicator").on("click", function (ev) {
 	let index = Number(ev.currentTarget.attributes.n.value);
+	if (prevButton === index) {
+		hideInfoBoxes();
+		prevButton = -1;
+		return true;
+	}
 	infoContainer.show();
 	slideshowBoxes[index].slideDown();
 	slideshowBoxes[(index+1) % 3].slideUp();
 	slideshowBoxes[(index+2) % 3].slideUp();
 
-	if (index === i) {
-		return false;
+	if (index !== i) {
+		clearInterval(slideInterval);
+		slides[i].fadeOut();
+		slides[index].fadeIn();
+		slideIndicators.slice(i, i+1).css("color","white");
+
+		i = index;
+		prev = (i - 1) % 3;
+
+		slideIndicators.slice(i, i+1).css("color","black");
 	}
-	clearInterval(slideInterval);
-	slides[i].fadeOut();
-	slides[index].fadeIn();
-	slideIndicators.slice(i, i+1).css("color","white");
 
-	i = index;
-	prev = (i - 1) % 3;
-
-	slideIndicators.slice(i, i+1).css("color","black");
-
-	// slideInterval = setInterval(slideshow, duration)
+	prevButton = index;
 });
 
 $(".mySlides").on("click", function () {
+	prevButton = -1;
+	hideInfoBoxes();
+});
+
+function hideInfoBoxes() {
 	infoContainer.slideUp();
+
 	for (var k = 0; k < slideshowBoxes.length; k++) {
-		slideshowBoxes[k].slideUp();
+		slideshowBoxes[k].hide();
 	}
-})
+
+	clearInterval(slideInterval);
+	slideInterval = setInterval(slideshow, duration)
+}
