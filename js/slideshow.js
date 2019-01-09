@@ -66,10 +66,24 @@ $(".mySlides").on("click", function () {
 function hideInfoBoxes() {
 	infoContainer.slideUp();
 
-	for (var k = 0; k < slideshowBoxes.length; k++) {
+	for (let k = 0; k < slideshowBoxes.length; k++) {
 		slideshowBoxes[k].hide();
 	}
 
 	clearInterval(slideInterval);
 	slideInterval = setInterval(slideshow, duration)
+}
+
+
+let partnerSlides = document.getElementsByClassName("partner-slide"),
+	partnerIndex = 0, partnerSlideInterval = setInterval(partnerSlideshow, 1000);
+
+function partnerSlideshow() {
+	for (let k = 0; k < 6; k++) {
+		let j = (partnerIndex + k) % partnerSlides.length;
+	}
+
+
+	partnerIndex += 3;
+	partnerIndex %= partnerSlides.length;
 }
