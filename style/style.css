@@ -416,6 +416,10 @@ label input:checked~.radio {
     .slideshow {
         height: calc(46vh - 100px) !important;
     }
+
+    .height-5em-mobile {
+        height: 5em;
+    }
 }
 
 .mySlides {
