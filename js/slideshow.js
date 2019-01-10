@@ -74,16 +74,12 @@ function hideInfoBoxes() {
 	slideInterval = setInterval(slideshow, duration)
 }
 
-
-let partnerSlides = document.getElementsByClassName("partner-slide"),
-	partnerIndex = 0, partnerSlideInterval = setInterval(partnerSlideshow, 1000);
-
-function partnerSlideshow() {
-	for (let k = 0; k < 6; k++) {
-		let j = (partnerIndex + k) % partnerSlides.length;
-	}
-
-
-	partnerIndex += 3;
-	partnerIndex %= partnerSlides.length;
-}
+$(document).ready(function(){
+  $("#partner-slideshow").slick({
+    autoplay: true,
+	autoplaySpeed: 1000,
+	arrows: false,
+	slidesToShow: 3,
+	
+  });
+});
