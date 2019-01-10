@@ -409,6 +409,12 @@ label input:checked~.radio {
     height: calc(75vh - 100px);
 }
 
+@media (max-width: 600px) {
+    .slideshow {
+        height: calc(46vh - 100px) !important;
+    }
+}
+
 .mySlides {
     position: absolute;
     min-height: 100%;
@@ -437,6 +443,10 @@ label input:checked~.radio {
     font-size: 36px;
 }
 
+.mobile-medium {
+    font-size: 22px;
+}
+
 @media (max-width:600px) {
     .bgimg-1 {background-image: url("../img/elever/christian-kamera-mob.jpg")!important;}
     .bgimg-2 {background-image: url("../img/jenterpeker-mob.jpg")!important;}
@@ -448,6 +458,10 @@ label input:checked~.radio {
     }
     .mobile-large {
         font-size: 20px;
+    }
+
+    .mobile-medium {
+        font-size: 16px !important;
     }
 }
 
