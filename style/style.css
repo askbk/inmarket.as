@@ -23,6 +23,8 @@ footer {
 
 html, body {
     font-family: Calibri;
+    line-height: 1.8;
+    background-color: white;
 }
 
 h1, h2, h3, h4, h5 {
@@ -227,11 +229,6 @@ ul {
     list-style-type: circle;
 }
 
-body, html {
-    line-height: 1.8;
-    background-color: white;
-}
-
 .radio {
     cursor: pointer;
     color: #d2d2d2;
@@ -358,10 +355,6 @@ label input:checked~.radio {
     height: 27em;
 }
 
-.hover-white-bg:hover {
-    background-color: white;
-}
-
 .hover-golden-text:hover {
     color: #bca53c;
 }
@@ -375,17 +368,6 @@ label input:checked~.radio {
     padding-right: 8px;
     cursor:pointer;
 }
-
-#kontaktRespons {}
-
-#handwritten {
-    font-family: Caveat-Regular;
-    font-size: 57px;
-    line-height: normal;
-    color: #640507;
-}
-
-/* Create a Parallax Effect */
 
 .parallax-img {
     min-width: 100vw;
@@ -472,84 +454,8 @@ label input:checked~.radio {
     }
 }
 
-.bgimg-nrk {
-    min-height: 400px;
-    background-image: url("../img/nrk_christian_eirik.jpg");
-}
-
-.bgimg-nrk-anniken {
-    min-height: 100%;
-    background-image: url("../img/NRK-anniken.jpg");
-}
-
-.bgimg-elevgruppe {
-    min-height: 300px;
-    background-image: url("../img/elever/elevgruppe.jpg");
-}
-#profiler {
-    margin-top: 3em;
-}
-
-.profile-arrow {
-    position: absolute;
-    z-index: -1;
-    width: 75px;
-    height: 75px;
-    margin-top: 50px;
-    margin-left: 20px;
-    transform: rotate(45deg);
-}
-
-.profile-text {
-    margin-left: 30px;
-}
-
-.profile-quote {
-    font-style: italic;
-}
-
-.profile-link {
-    font-size: 13px;
-    font-style: italic;
-    letter-spacing: 1.5px;
-    color: #640507;
-    border-bottom: #555 2px solid;
-}
-
-.profile-link:hover {
-    font-size: 13px;
-    font-style: italic;
-    letter-spacing: 1.5px;
-    color: #684848;
-    border-bottom: #dabdbd 2px solid;
-}
-
-.profile-icon {
-    margin-left: -2px;
-    vertical-align: -3px;
-}
-
 .w3-hover-opacity {
     cursor: pointer;
-}
-.om-oss-text {
-    color: white;
-    background-color: #640507;
-}
-
-.om-oss-text h1 {
-    color: white;
-    text-align: left;
-}
-
-.about-text {
-    margin-top: 100px;
-}
-
-#about-video {
-    width: 100%;
-    padding-top: 1.5em;
-    padding-bottom: 1em;
 }
 
 .videoWrapper {
@@ -582,16 +488,11 @@ label input:checked~.radio {
 
 #navbar-button {
     margin-right: 2em;
-
 }
 
 #navbar-img {
     margin: -5px;
     margin-left: 2em;
-}
-
-.old-red-text {
-    color: #640507;
 }
 
 .golden-text {
@@ -616,10 +517,6 @@ label input:checked~.radio {
 
 .black-text {
     color: #000;
-}
-
-.black-bg-opac-57 {
-    background-color: rgba(0, 0, 0, 0.57) !important;
 }
 
 .black-bg-opac-80 {
@@ -702,10 +599,6 @@ label input:checked~.radio {
     color: white;
 }
 
-.hover-grey-text:hover {
-    color: #ccc;
-}
-
 .transparent-background {
     background: inherit;
 }
@@ -757,68 +650,11 @@ label input:checked~.radio {
     border-bottom-width: 1px;
 }
 
-.golden-transparent-bg {
-    background-color: #C08D4299;
-}
-
 #personvern-innstillinger {
     margin-top: 3em;
 }
 
-#contact-link-about {
-    padding-top: 90vh;
-    text-align: right;
-    padding-right: 2em;
-}
-
 .w3-col.fifth{width:19.99999%}
-
-/* Caveat-Regular */
-@font-face {
-    font-family: "Caveat-Regular";
-    font-weight: 400;
-    font-style: normal;
-    src: url(../fonts/Caveat-Regular.ttf);
-}
-
-/* Caveat-Bold */
-@font-face {
-    font-family: "Caveat-Bold";
-    font-weight: bold;
-    font-style: normal;
-    src: url(../fonts/Caveat-Bold.ttf);
-}
-
-/* Gotham Black */
-@font-face {
-    font-family: "Gotham-Black";
-    font-weight: 400;
-    font-style: normal;
-    src: url(../fonts/Gotham-Black.otf);
-}
-
-/* Gotham */
-@font-face {
-    font-family: "Gotham";
-    font-weight: bold;
-    font-style: normal;
-    src: url(../fonts/Gotham-Bold.ttf);
-}
-
-@font-face {
-    font-family: "Gotham";
-    font-weight: 100;
-    font-style: normal;
-    src: url(../fonts/GothamRounded-Light.otf);
-}
-
-/* Gotham-Book */
-@font-face {
-    font-family: "Gotham-Book";
-    font-weight: 100;
-    font-style: normal;
-    src: url(../fonts/GothamCondensed-Light.otf);
-}
 
 /* Calibri */
 @font-face {
