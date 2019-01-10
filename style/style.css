@@ -257,7 +257,7 @@ label input:checked~.radio {
 
 .slideshowText {
     padding: 6px;
-    margin-bottom: 10vh;
+    margin-bottom: 32px;
     max-width: 75%;
     font-size: 24px;
 }

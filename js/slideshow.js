@@ -77,9 +77,8 @@ function hideInfoBoxes() {
 $(document).ready(function(){
   $("#partner-slideshow").slick({
     autoplay: true,
-	autoplaySpeed: 1000,
+	autoplaySpeed: 2000,
 	arrows: false,
-	slidesToShow: 3,
-	
+	slidesToShow: 3
   });
 });
