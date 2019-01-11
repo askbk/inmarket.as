@@ -24,18 +24,18 @@
 
     </div>
     <!-- Fliser -->
-    <div class="w3-center w3-large w3-card">
+    <div class="w3-center w3-large">
         <div class="w3-row">
             <div class="w3-col m6 flip-card">
                 <div class="flip-card-inner">
-                    <div class="flip-card-front golden-bg dark-golden-hover uppercase w3-xlarge w3-display">
+                    <div class="flip-card-front golden-bg dark-golden-hover hover-shadow-inset uppercase w3-xlarge w3-display">
                         <div class="w3-display-middle">
                             <h2>
                                 Elever
                             </h2>
                         </div>
                     </div>
-                    <div class="flip-card-back white-bg w3-container">
+                    <div class="flip-card-back white-bg w3-container shadow-inset">
                         <h3>Elever</h3>
                         <p>
                             Du kan velge å ha elever fra videregående skole nivå hos deg i 6 til 10 timer i måneden. InMarket har kontakt med skolen og lærerne slik at deres erfaring hos deg kan knyttes til det de lærer på skolen.​
@@ -45,14 +45,14 @@
             </div>
             <div class="w3-col m6 flip-card">
                 <div class="flip-card-inner">
-                    <div class="flip-card-front golden-bg dark-golden-hover uppercase w3-xlarge w3-display">
+                    <div class="flip-card-front golden-bg dark-golden-hover hover-shadow-inset uppercase w3-xlarge w3-display">
                         <div class="w3-display-middle">
                             <h2>
                                 Studenter
                             </h2>
                         </div>
                     </div>
-                    <div class="flip-card-back white-bg w3-container">
+                    <div class="flip-card-back white-bg w3-container shadow-inset">
                         <h3>Studenter</h3>
                         <p>
                             Du kan velge å ha en student som tar sin bachelor eller mastergrad hos deg med jevne mellomrom. Her finner InMarket den relevante kandidaten og ordner med oppmøter.​
@@ -64,14 +64,14 @@
         <div class="w3-row">
             <div class="w3-col m6 flip-card">
                 <div class="flip-card-inner">
-                    <div class="flip-card-front golden-bg dark-golden-hover uppercase w3-xlarge w3-display">
+                    <div class="flip-card-front golden-bg dark-golden-hover hover-shadow-inset uppercase w3-xlarge w3-display">
                         <div class="w3-display-middle">
                             <h2>
                                 Trainees
                             </h2>
                         </div>
                     </div>
-                    <div class="flip-card-back white-bg w3-container">
+                    <div class="flip-card-back white-bg w3-container shadow-inset">
                         <h3>Trainees</h3>
                         <p>
                             Det er ikke alltid lett å finne de rette ansatte. Med traineeprogrammet vårt kan du få en kvalifisert arbeidstaker uten å forplikte deg til å ansette dem.​
@@ -81,14 +81,14 @@
             </div>
             <div class="w3-col m6 flip-card">
                 <div class="flip-card-inner">
-                    <div class="flip-card-front golden-bg dark-golden-hover uppercase w3-xlarge w3-display">
+                    <div class="flip-card-front golden-bg dark-golden-hover hover-shadow-inset uppercase w3-xlarge w3-display">
                         <div class="w3-display-middle">
                             <h2>
                                 Jobbsøkere
                             </h2>
                         </div>
                     </div>
-                    <div class="flip-card-back white-bg w3-container">
+                    <div class="flip-card-back white-bg w3-container shadow-inset">
                         <h3>Jobbsøkere</h3>
                         <p>
                             Noen folk er ute etter å bygge relevant arbeidserfaring, finne gode verktøy og lage seg et godt nettverk. Velger du å ha en arbeidssøker hos deg blir det som å ha en «extended» intervju.​
