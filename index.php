@@ -31,13 +31,13 @@
         </div>
     </div>
     <div class="w3-row width-100 mobile-large">
-        <div class="w3-col m4 w3-card golden-button slide-indicator black-text indicator-active" n="0">
+        <div class="w3-col m4 hover-shadow-inset shadow-inset golden-button slide-indicator black-text indicator-active" n="0">
             Bedrifter
         </div>
-        <div class="w3-col m4 w3-card golden-button slide-indicator black-text" n="1">
+        <div class="w3-col m4 hover-shadow-inset golden-button slide-indicator black-text" n="1">
             Elever og studenter
         </div>
-        <div class="w3-col m4 w3-card golden-button slide-indicator black-text" n="2">
+        <div class="w3-col m4 hover-shadow-inset golden-button slide-indicator black-text" n="2">
             Jobbsøkere
         </div>
     </div>
