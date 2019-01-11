@@ -40,62 +40,10 @@
 </head>
 
 <body class="black-bg">
-    <!-- Fixed navbar-->
-    <div class="w3-top white-bg white-bg w3-card z-index-3">
-        <div class="w3-bar w3-xxlarge w3-center line-height-3" id="navbar">
-            <a href="index.html#hjem" class="w3-bar-item line-height-1">
-                <img src="img/logos/logo-text.png" height="90px" alt="InMarket logo" id="navbar-img">
-            </a>
-            <button class="white-button w3-xlarge w3-right padding-top-1em" id="navbar-button">
-                <div class="menu-container" onclick="menuAnimation(this)">
-                    <div class="menu-bar1"></div>
-                    <div class="menu-bar2"></div>
-                    <div class="menu-bar3"></div>
-                </div>
-            </button>
-        </div>
-        <div id="navbar-dropdown-content" class="w3-content w3-bar white-bg padding-bottom-16 w3-large" style="display:none;">
-            <hr>
-            <div class="w3-bar-item w3-mobile width-25-percent w3-center" id="navbar-about-link">
-                <a class="golden-accent-bottom" ><i class="fa fa-caret-right" id="navbar-about-icon"></i> Om </a>
-                <div class="subnav-content" style="display:none;">
-                    <ul class="w3-ul">
-                        <li>
-                            <a href="om.html" class="w3-padding"><i class="fas fa-info-circle"></i> Oss</a>
-                        </li>
-                        <li>
-                            <a href="bedrift.html" class="w3-padding"><i class="fas fa-info-circle"></i> Bedrift</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="w3-bar-item w3-mobile width-25-percent w3-center">
-                <a href="teamet.html" class="golden-accent-bottom"><i class="fas fa-user"></i> Vårt team</a>
-            </div>
-            <div class="w3-bar-item w3-mobile width-25-percent w3-center">
-                <a href="aktiviteter.html" class="golden-accent-bottom"><i class="fas fa-play-circle"></i> Aktiviteter</a>
-            </div>
-            <div class="w3-bar-item w3-mobile width-25-percent w3-center">
-                <a href="kontakt.html" class="golden-accent-bottom"><i class="fas fa-envelope"></i> Kontakt oss</a>
-            </div>
-        </div>
-    </div>
-
-    <div class="w3-overlay">
-    </div>
-
-    <!-- Cookie notice -->
-    <div class="w3-bottom w3-hide white-text" id="privacyNotice">
-        <div class="w3-bar black-bg-opac-80 w3-medium w3-center">
-            <div class="w3-container">
-                <a class="black-transparent-button text-underline" onclick="acceptTracking()">Jeg aksepterer sporing av mitt besøk på denne nettsiden</a>
-                <a href="personvern.html" class="black-transparent-button text-underline">Gå til personverninnstillinger</a>
-            </div>
-            <div class="w3-container">
-                <p class="">Ved å fortsette bruke dette nettstedet, aksepterer du vår <a href="personvern.html" target="_blank" class="text-underline">personvernerklæring</a>.</p>
-            </div>
-        </div>
-    </div>
+    <?php
+    include_once 'templates/navigation.php';
+    include_once 'templates/cookie_notice.php';
+    ?>
 
     <div class="narrow-content margin-top-100 white-text w3-container">
         <article class="margin-bottom-32">
@@ -154,64 +102,7 @@
     </div>
 
     <!-- Footer -->
-    <footer class="w3-container">
-        <div class="w3-content w3-row golden-text padding-left-100 w3-row-padding">
-            <div class="w3-col s4">
-                <h3 class="">Oss</h3>
-                <ul class="w3-ul w3-large">
-                    <li class="remove-borders remove-padding">
-                        <a href="teamet.html">Vårt team</a>
-                    </li>
-                    <li class="remove-borders remove-padding">
-                        <a href="teamet.html#blimed">Bli med</a>
-                    </li>
-                    <li class="remove-borders remove-padding">
-                        <a href="aktiviteter.html">Aktiviteter</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="w3-col s4">
-                <h3 class="golden-text">Kontakt oss</h3>
-                <ul class="w3-ul">
-                    <li class="remove-borders remove-padding">
-                        <a href="kontakt.html" class="margin-right-1em">
-                            <i class="far fa-envelope-open w3-xlarge"></i>
-                        </a>
-
-                        <a href="https://www.facebook.com/inmarketnorge" class="margin-right-1em">
-                            <i class="fab fa-facebook-f w3-xlarge"></i>
-                        </a>
-
-                        <a href="https://www.instagram.com/inmarket_nor/" class="margin-right-1em">
-                            <i class="fab fa-instagram w3-xlarge"></i>
-                        </a>
-
-                        <a href="https://www,linkedin.com/company/inmarket">
-                            <i class="fab fa-linkedin-in w3-xlarge"></i>
-                        </a>
-                    </li>
-                    <li class="w3-large remove-padding">
-                        <i class="fas fa-map-marker-alt"></i> Drammen, Oslo
-                    </li>
-                </ul>
-            </div>
-            <div class="w3-col s4">
-                <h3 class="golden-text">Hjelp</h3>
-                <ul class="w3-ul w3-large">
-                    <!-- <li class="remove-borders remove-padding">
-                        <a href="#">Kundeservice</a>
-                    </li>
-                    <li class="remove-borders remove-padding">
-                        <a href="#">Vanlige spørsmål og svar</a>
-                    </li> -->
-                    <li class="remove-borders remove-padding">
-                        <a href="https://www.office.com/?auth=2&home=1">Office 365</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <p class="w3-right w3-section">InMarket Samuel Bigirimana Org.Nr 8188 21 522</p>
-    </footer>
+    <?php include_once 'templates/footer.php'; ?>
     <script async src="js/navbar.js" charset="utf-8"></script>
     <script src="js/acceptTracking.js" charset="utf-8"></script>
 </body>
