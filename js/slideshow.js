@@ -1,12 +1,12 @@
 let slides = [
+	$(".bgimg-3"),
 	$(".bgimg-1"),
-	$(".bgimg-2"),
-	$(".bgimg-3")
+	$(".bgimg-2")
 ],
 	slideshowBoxes = [
+		$("#bedrift"),
 		$("#elever-studenter"),
-		$("#jobb"),
-		$("#bedrift")
+		$("#jobb")
 ],
 	infoContainer = $("#info-container");
 
