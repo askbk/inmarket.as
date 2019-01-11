@@ -79,6 +79,6 @@ $(document).ready(function(){
     autoplay: true,
 	autoplaySpeed: 2000,
 	arrows: false,
-	slidesToShow: 3
+	slidesToShow: 4
   });
 });
