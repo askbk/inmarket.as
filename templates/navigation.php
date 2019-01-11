@@ -13,28 +13,88 @@
         </button>
     </div>
     <div id="navbar-dropdown-content" class="w3-content w3-bar white-bg padding-bottom-16 w3-large" style="display:none;">
-        <hr>
-        <div class="w3-bar-item w3-mobile width-25-percent w3-center" id="navbar-about-link">
-            <a class="golden-accent-bottom" ><i class="fa fa-caret-right" id="navbar-about-icon"></i> Om </a>
-            <div class="subnav-content" style="display:none;">
+        <hr style="margin:10px !important;">
+        <div class="row uppercase w3-container">
+            <div class="column">
                 <ul class="w3-ul">
                     <li>
-                        <a href="om.php" class="w3-padding"><i class="fas fa-info-circle"></i> Oss</a>
+                        <b>Våre tilbud</b>
                     </li>
                     <li>
-                        <a href="bedrift.php" class="w3-padding"><i class="fas fa-info-circle"></i> Bedrift</a>
+                        <a href="#" class="golden-accent-bottom">
+                            Bedrifter
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="golden-accent-bottom">
+                            Studenter og elever
+                        </a>
+                        <ul class="w3-ul">
+                            <li style="padding-left:16px !important;">
+                                <a href="#" class="golden-accent-bottom">
+                                    Åpne plasser
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="golden-accent-bottom">
+                            Arbeidssøkere
+                        </a>
+                        <ul class="w3-ul">
+                            <li style="padding-left:16px !important;">
+                                <a href="#" class="golden-accent-bottom">
+                                    Åpne plasser
+                                </a>
+                            </li>
+                        </ul>
                     </li>
                 </ul>
             </div>
-        </div>
-        <div class="w3-bar-item w3-mobile width-25-percent w3-center">
-            <a href="teamet.php" class="golden-accent-bottom"><i class="fas fa-user"></i> Vårt team</a>
-        </div>
-        <div class="w3-bar-item w3-mobile width-25-percent w3-center">
-            <a href="aktiviteter.php" class="golden-accent-bottom"><i class="fas fa-play-circle"></i> Aktiviteter</a>
-        </div>
-        <div class="w3-bar-item w3-mobile width-25-percent w3-center">
-            <a href="kontakt.php" class="golden-accent-bottom"><i class="fas fa-envelope"></i> Kontakt oss</a>
+            <div class="column">
+                <ul class="w3-ul">
+                    <li>
+                        <b>Om</b>
+                    </li>
+                    <li>
+                        <a href="#" class="golden-accent-bottom">
+                            Teamet
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="golden-accent-bottom">
+                            Visjon og mål
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="golden-accent-bottom">
+                            Historie
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="column">
+                <ul class="w3-ul">
+                    <li>
+                        <b>Nyheter</b>
+                    </li>
+                    <li>
+                        <a href="#" class="golden-accent-bottom">
+                            Hva skjer hos oss?
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="golden-accent-bottom">
+                            Arbeidssøkere
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="golden-accent-bottom">
+                            Neste på kalenderen
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
 </div>

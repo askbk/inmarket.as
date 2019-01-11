@@ -1,8 +1,7 @@
 let menuCounter = 0,
     menuContainer = $(".menu-container"),
     overlay = $(".w3-overlay"),
-    dropdown = $("#navbar-dropdown-content"),
-    caret = document.getElementById("navbar-about-icon");
+    dropdown = $("#navbar-dropdown-content");
 
 $("#navbar-button").click(function () {
     if (menuCounter%2===0) {
@@ -12,15 +11,14 @@ $("#navbar-button").click(function () {
     }
 });
 
-$("#navbar-about-link").mouseenter(function () {
-    $(".subnav-content").slideToggle("fast");
-    caret.style.transform="rotate(90deg)";
-}).mouseleave(function () {
-    caret.style.transform="rotate(0deg)";
-    $(".subnav-content").slideToggle("fast");
-}).click(function () {
-    $(".subnav-content").slideToggle("fast");
-});
+// $("#navbar-about-link").mouseenter(function () {
+//     $(".subnav-content").slideToggle("fast");
+// }).mouseleave(function () {
+//     caret.style.transform="rotate(0deg)";
+//     $(".subnav-content").slideToggle("fast");
+// }).click(function () {
+//     $(".subnav-content").slideToggle("fast");
+// });
 
 overlay.click(function () {
     hideMenu();

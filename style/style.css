@@ -186,6 +186,30 @@ h1, h2, h3, h4, h5 {
     width: 300px;
 }
 
+.w3-ul li {
+    border-bottom: none !important;
+    padding: 0 !important;
+}
+
+.column {
+  float: left;
+  width: 33%;
+}
+
+/* Clear floats */
+.row:after {
+  content: "";
+  display: table;
+   clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 50%;
+  }
+}
+
 .menu-bar1, .menu-bar2, .menu-bar3 {
     width: 35px;
     height: 5px;
