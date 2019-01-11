@@ -9,7 +9,7 @@ function submitForm() {
 	let name = encodeURIComponent(document.getElementById("inputName").value);
 	let place = encodeURIComponent(document.getElementById("inputPlace").value);
 	let phone = encodeURIComponent(document.getElementById("inputPhone").value);
-	let data = "client=virksomhet&name=" + name + "&place=" + place + "&phone=" + phone;
+	let data = "client=bedrift&name=" + name + "&place=" + place + "&phone=" + phone;
 	let xhttp = new XMLHttpRequest();
 	xhttp.onreadystatechange = function() {
 		if (this.readyState == 4 && this.status == 200) {

@@ -1,13 +1,13 @@
 let radioButtons = document.getElementsByClassName("klient-radio");
 //let elevElements = document.getElementsByClassName("elevSelected");
-let virksomhetElements = document.getElementsByClassName("virksomhetSelected");
+let bedriftElements = document.getElementsByClassName("bedriftSelected");
 let inputPlace = document.getElementById("inputPlace");
 //let studentElements = document.getElementsByClassName("studentSelected");
 
 let clientType = getClientType();
 
 if (clientType == "bedrift") {
-    virksomhetSelected();
+    bedriftSelected();
 } else if (clientType == "student") {
     studentSelected();
 } else if (clientType == "elev") {
@@ -23,7 +23,7 @@ function check(n) {
 }
 
 function elevSelected() {
-    for(element of virksomhetElements) {
+    for(element of bedriftElements) {
         element.classList.add("w3-hide");
     }
     inputPlace.setAttribute("placeholder", "Videregående skole")
@@ -32,7 +32,7 @@ function elevSelected() {
 }
 
 function studentSelected() {
-    for(element of virksomhetElements) {
+    for(element of bedriftElements) {
         element.classList.add("w3-hide");
     }
     inputPlace.setAttribute("placeholder", "Høyskole/universitet")
@@ -40,11 +40,11 @@ function studentSelected() {
     studentClient();
 }
 
-function virksomhetSelected() {
-    for(element of virksomhetElements) {
+function bedriftSelected() {
+    for(element of bedriftElements) {
         element.classList.remove("w3-hide");
     }
-    inputPlace.setAttribute("placeholder", "Virksomhet")
+    inputPlace.setAttribute("placeholder", "bedrift")
     check(2);
     bedriftClient();
 }

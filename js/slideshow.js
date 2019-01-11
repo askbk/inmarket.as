@@ -6,7 +6,7 @@ let slides = [
 	slideshowBoxes = [
 		$("#elever-studenter"),
 		$("#jobb"),
-		$("#virksomhet")
+		$("#bedrift")
 ],
 	infoContainer = $("#info-container");
 
