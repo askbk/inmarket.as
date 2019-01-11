@@ -5,13 +5,13 @@
             <h3 class="">Oss</h3>
             <ul class="w3-ul w3-large">
                 <li class="remove-borders remove-padding">
-                    <a href="teamet.html">Vårt team</a>
+                    <a href="teamet.php">Vårt team</a>
                 </li>
                 <li class="remove-borders remove-padding">
-                    <a href="teamet.html#blimed">Bli med</a>
+                    <a href="teamet.php#blimed">Bli med</a>
                 </li>
                 <li class="remove-borders remove-padding">
-                    <a href="aktiviteter.html">Aktiviteter</a>
+                    <a href="aktiviteter.php">Aktiviteter</a>
                 </li>
             </ul>
         </div>
@@ -19,7 +19,7 @@
             <h3 class="golden-text">Kontakt oss</h3>
             <ul class="w3-ul">
                 <li class="remove-borders remove-padding">
-                    <a href="kontakt.html" class="margin-right-1em">
+                    <a href="kontakt.php" class="margin-right-1em">
                         <i class="far fa-envelope-open w3-xlarge"></i>
                     </a>
 

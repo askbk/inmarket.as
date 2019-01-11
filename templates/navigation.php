@@ -1,7 +1,7 @@
 <!-- Fixed navbar-->
 <div class="w3-top white-bg white-bg w3-card z-index-3">
     <div class="w3-bar w3-xxlarge w3-center line-height-3" id="navbar">
-        <a href="index.html#hjem" class="w3-bar-item line-height-1">
+        <a href="index.php#hjem" class="w3-bar-item line-height-1">
             <img src="img/logos/logo-text.png" height="90px" alt="InMarket logo" id="navbar-img">
         </a>
         <button class="white-button w3-xlarge w3-right padding-top-1em" id="navbar-button">
@@ -19,22 +19,22 @@
             <div class="subnav-content" style="display:none;">
                 <ul class="w3-ul">
                     <li>
-                        <a href="om.html" class="w3-padding"><i class="fas fa-info-circle"></i> Oss</a>
+                        <a href="om.php" class="w3-padding"><i class="fas fa-info-circle"></i> Oss</a>
                     </li>
                     <li>
-                        <a href="bedrift.html" class="w3-padding"><i class="fas fa-info-circle"></i> Bedrift</a>
+                        <a href="bedrift.php" class="w3-padding"><i class="fas fa-info-circle"></i> Bedrift</a>
                     </li>
                 </ul>
             </div>
         </div>
         <div class="w3-bar-item w3-mobile width-25-percent w3-center">
-            <a href="teamet.html" class="golden-accent-bottom"><i class="fas fa-user"></i> Vårt team</a>
+            <a href="teamet.php" class="golden-accent-bottom"><i class="fas fa-user"></i> Vårt team</a>
         </div>
         <div class="w3-bar-item w3-mobile width-25-percent w3-center">
-            <a href="aktiviteter.html" class="golden-accent-bottom"><i class="fas fa-play-circle"></i> Aktiviteter</a>
+            <a href="aktiviteter.php" class="golden-accent-bottom"><i class="fas fa-play-circle"></i> Aktiviteter</a>
         </div>
         <div class="w3-bar-item w3-mobile width-25-percent w3-center">
-            <a href="kontakt.html" class="golden-accent-bottom"><i class="fas fa-envelope"></i> Kontakt oss</a>
+            <a href="kontakt.php" class="golden-accent-bottom"><i class="fas fa-envelope"></i> Kontakt oss</a>
         </div>
     </div>
 </div>

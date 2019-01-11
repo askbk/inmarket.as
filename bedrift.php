@@ -85,7 +85,7 @@
     <!-- Kontaktskjema -->
     <div class="w3-content w3-container w3-section" id="kontakt">
         <div class="">
-            <form class="w3-large w3-container" action="index.html" method="post" id="kontaktSkjema">
+            <form class="w3-large w3-container" action="index.php" method="post" id="kontaktSkjema">
                 <div class="w3-row">
                     <div class="w3-col m3">
                         <label>
@@ -108,7 +108,7 @@
                         <input type="text" name="name" value="" placeholder="Navn" class="w3-input w3-animate-input" required id="inputName"><br>
                         <input type="text" name="place" value="" placeholder="bedrift" id="inputPlace" class="w3-input w3-animate-input" required id="inputPlace"><br>
                         <input type="text" name="phone" value="" placeholder="Telefon" class="w3-input w3-animate-input" required id="inputPhone"><br>
-                        <input type="checkbox" name="" value="" required> <label>Jeg har lest og godtatt <a href="personvern.html" style="text-decoration:underline;" target="_blank">personvernerklæringen</a> </label>
+                        <input type="checkbox" name="" value="" required> <label>Jeg har lest og godtatt <a href="personvern.php" style="text-decoration:underline;" target="_blank">personvernerklæringen</a> </label>
                         <button class="white-button w3-card w3-right" type="submit"><i class="fas fa-paper-plane"></i> SEND</button>
                         <p id="responseText"></p>
                     </div>

@@ -49,7 +49,7 @@
     <div class="w3-content w3-container w3-padding-64 margin-top-100" id="kontakt" style="min-height: calc(100vh - 300px);">
         <h1 class="w3-center" id="kontaktHeader">Kontakt oss</h1>
         <div class="">
-            <form class="w3-large w3-container" action="index.html" method="post" id="kontaktSkjema">
+            <form class="w3-large w3-container" action="index.php" method="post" id="kontaktSkjema">
                 <p class="w3-center">Legg igjen kontaktinformasjon her, så ringer vi deg innen et døgn <i class="fas fa-arrow-down"></i></p>
                 <div class="w3-row">
                     <div class="w3-col m3">
@@ -73,7 +73,7 @@
                         <input type="text" name="name" value="" placeholder="Navn" class="w3-input w3-animate-input" required id="inputName"><br>
                         <input type="text" name="place" value="" placeholder="Videregående skole" id="inputPlace" class="w3-input w3-animate-input" required id="inputPlace"><br>
                         <input type="text" name="phone" value="" placeholder="Telefon" class="w3-input w3-animate-input" required id="inputPhone"><br>
-                        <input type="checkbox" name="" value="" required> <label>Jeg har lest og godtatt <a href="personvern.html" style="text-decoration:underline;" target="_blank">personvernerklæringen</a> </label>
+                        <input type="checkbox" name="" value="" required> <label>Jeg har lest og godtatt <a href="personvern.php" style="text-decoration:underline;" target="_blank">personvernerklæringen</a> </label>
                         <button class="white-button w3-card w3-right" type="submit"><i class="fas fa-paper-plane"></i> SEND</button>
                         <p id="responseText"></p>
                     </div>

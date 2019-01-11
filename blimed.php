@@ -122,7 +122,7 @@
                                     <h3>NKTQFP AS - for elever</h3>
                                     <p>Ønsker deg som er elev og ønsker å utvikle deg innen robotikk, programmering eller økonomi.</p>
                                     <p>Dette gjør du én gang i måneden med veiledning og oppfølging fra InMarket.</p>
-                                    <a href="kontakt.html" class="black-button w3-card">Søk her</a>
+                                    <a href="kontakt.php" class="black-button w3-card">Søk her</a>
                                 </div>
                             </li>
 
@@ -137,7 +137,7 @@
                                     <h3>NRK Buskerud - for elever</h3>
                                     <p>Ønsker deg som er elev og ønsker å utvikle deg innen media etc.</p>
                                     <p>Dette gjør du én gang i måneden med veiledning og oppfølging fra InMarket.</p>
-                                    <a href="kontakt.html" class="black-button w3-card">Søk her</a>
+                                    <a href="kontakt.php" class="black-button w3-card">Søk her</a>
                                 </div>
                             </li>
                         </ul>
