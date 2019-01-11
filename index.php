@@ -132,6 +132,11 @@
             <a href="http://www.charge.no" target="_blank"><img src="img/logos/charge.png" alt="Charge" width="100%"></a>
         </div>
     </div>
+    <div class="w3-content text-align-right w3-padding-16 w3-container">
+        <a href="#" class="black-button w3-card">
+            Alle våre kunder og partnere
+        </a>
+    </div>
 
     <?php include_once 'templates/footer.php'; ?>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
