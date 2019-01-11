@@ -12,8 +12,12 @@
     include_once 'templates/cookie_notice.php';
     ?>
     <!-- Toppbilde -->
-    <div class="margin-top-100 bgimg-int_drammen height-27em parallax-img">
+    <div class="margin-top-100 bgimg-int_drammen height-27em parallax-img uppercase w3-display-container">
+        <h1 class="w3-display-bottomleft white-text w3-jumbo" style="left:10%;padding: 6px;margin-bottom: 32px;">
+            Din bedrift
+        </h1>
     </div>
+
     <div class="w3-content w3-xlarge">
         <!-- Tekst -->
         <article class="w3-container">
@@ -99,12 +103,11 @@
         </div>
     </div>
 
-    <script type="text/javascript">
-        $(".flip-card").on("click", function () {
-            $(".flipped-card").removeClass("flipped-card")
-            $(this).children().first().addClass("flipped-card");
-        });
-    </script>
+    <div class="w3-xxlarge">
+        <a href="#" class="black-button width-100 w3-card">Kontakt oss</a>
+    </div>
+
+
 
     <!-- Kontaktskjema -->
     <div class="w3-content w3-container w3-section" id="kontakt">
@@ -144,8 +147,16 @@
         </div>
     </div>
 
+
     <!-- Footer -->
     <?php include_once 'templates/footer.php'; ?>
+
+    <script type="text/javascript">
+    $(".flip-card").on("click", function () {
+        $(".flipped-card").removeClass("flipped-card")
+        $(this).children().first().addClass("flipped-card");
+    });
+    </script>
     <script src="js/clientType.js" charset="utf-8"></script>
     <script src="js/contactForm.js" charset="utf-8"></script>
     <script async src="js/navbar.js" charset="utf-8"></script>
