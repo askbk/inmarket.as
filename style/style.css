@@ -458,6 +458,31 @@ label input:checked~.radio {
     background-image: url("../img/events/int_drammen.jpg");
 }
 
+.bgimg-glade-pt1 {
+    background-image: url("../img/glade-pt1.png");
+    background-position-x: right;
+}
+
+.bgimg-glade-pt2 {
+    background-image: url("../img/glade-pt2.png");
+    background-position-x: left;
+}
+
+.bgimg-glade-pt1, .bgimg-glade-pt2 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.full-height {
+    height: calc(100vh - 100px);
+}
+
+.max-width-500 {
+    max-width: 500px;
+}
+
 .comfort-hotel-bg {
     background-image: url("../img/partners/estella_sara_3.jpg");
     background-repeat: no-repeat;
