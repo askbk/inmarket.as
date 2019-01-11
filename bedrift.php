@@ -12,17 +12,19 @@
     include_once 'templates/cookie_notice.php';
     ?>
     <!-- Toppbilde -->
-    <div class="margin-top-100">
+    <div class="margin-top-100 bgimg-int_drammen height-27em parallax-img">
+    </div>
+    <div class="w3-content w3-xlarge">
+        <!-- Tekst -->
+        <article class="w3-container">
+            <p>Bruker bedriften din <b>mye tid</b> på opplæring og rekruttering?</p>
+            <p>Da bør dere sjekke ut InMarkets tilbud. Vi lar dere prøve ut elever, studenter, nyutdannede og andre arbeidssøkere.</p>
+            <p>Liker dere kandidaten, kan vedkommende ansettes.</p>
+        </article>
 
     </div>
-    <!-- Tekst -->
-    <div class="w3-content w3-xlarge">
-        <p>Bruker bedriften din <b>mye tid</b> på opplæring og rekruttering?</p>
-        <p>Da bør dere sjekke ut InMarkets tilbud. Vi lar dere prøve ut elever, studenter, nyutdannede og andre arbeidssøkere.</p>
-        <p>Liker dere kandidaten, kan vedkommende ansettes.</p>
-    </div>
     <!-- Fliser -->
-    <div class="w3-content w3-center w3-padding-64">
+    <div class="w3-center w3-large w3-card">
         <div class="w3-row">
             <div class="w3-col m6 flip-card">
                 <div class="flip-card-inner">
@@ -33,8 +35,8 @@
                             </h2>
                         </div>
                     </div>
-                    <div class="flip-card-back w3-card white-bg w3-container">
-                        <h2>Elever</h2>
+                    <div class="flip-card-back white-bg w3-container">
+                        <h3>Elever</h3>
                         <p>
                             Du kan velge å ha elever fra videregående skole nivå hos deg i 6 til 10 timer i måneden. InMarket har kontakt med skolen og lærerne slik at deres erfaring hos deg kan knyttes til det de lærer på skolen.​
                         </p>
@@ -50,8 +52,8 @@
                             </h2>
                         </div>
                     </div>
-                    <div class="flip-card-back w3-card white-bg w3-container">
-                        <h2>Studenter</h2>
+                    <div class="flip-card-back white-bg w3-container">
+                        <h3>Studenter</h3>
                         <p>
                             Du kan velge å ha en student som tar sin bachelor eller mastergrad hos deg med jevne mellomrom. Her finner InMarket den relevante kandidaten og ordner med oppmøter.​
                         </p>
@@ -69,8 +71,8 @@
                             </h2>
                         </div>
                     </div>
-                    <div class="flip-card-back w3-card white-bg w3-container">
-                        <h2>Trainees</h2>
+                    <div class="flip-card-back white-bg w3-container">
+                        <h3>Trainees</h3>
                         <p>
                             Det er ikke alltid lett å finne de rette ansatte. Med traineeprogrammet vårt kan du få en kvalifisert arbeidstaker uten å forplikte deg til å ansette dem.​
                         </p>
@@ -86,8 +88,8 @@
                             </h2>
                         </div>
                     </div>
-                    <div class="flip-card-back w3-card white-bg w3-container">
-                        <h2>Jobbsøkere</h2>
+                    <div class="flip-card-back white-bg w3-container">
+                        <h3>Jobbsøkere</h3>
                         <p>
                             Noen folk er ute etter å bygge relevant arbeidserfaring, finne gode verktøy og lage seg et godt nettverk. Velger du å ha en arbeidssøker hos deg blir det som å ha en «extended» intervju.​
                         </p>

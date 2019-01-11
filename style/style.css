@@ -422,6 +422,10 @@ label input:checked~.radio {
     background-size: cover;
 }
 
+.bgimg-int_drammen {
+    background-image: url("../img/events/int_drammen.jpg");
+}
+
 .comfort-hotel-bg {
     background-image: url("../img/partners/estella_sara_3.jpg");
     background-repeat: no-repeat;
