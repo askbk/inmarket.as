@@ -1,7 +1,7 @@
 <!-- Fixed navbar-->
 <div class="w3-top white-bg white-bg w3-card z-index-3">
     <div class="w3-bar w3-xxlarge w3-center line-height-3" id="navbar">
-        <a href="index.php#hjem" class="w3-bar-item line-height-1">
+        <a href="index.php" class="w3-bar-item line-height-1">
             <img src="img/logos/logo-text.png" height="90px" alt="InMarket logo" id="navbar-img">
         </a>
         <button class="white-button w3-xlarge w3-right padding-top-1em" id="navbar-button">
@@ -21,7 +21,7 @@
                         <b>Våre tilbud</b>
                     </li>
                     <li>
-                        <a href="#" class="golden-accent-bottom">
+                        <a href="bedrift.php" class="golden-accent-bottom">
                             Bedrifter
                         </a>
                     </li>
@@ -57,7 +57,7 @@
                         <b>Om</b>
                     </li>
                     <li>
-                        <a href="#" class="golden-accent-bottom">
+                        <a href="teamet.php" class="golden-accent-bottom">
                             Teamet
                         </a>
                     </li>
@@ -79,7 +79,7 @@
                         <b>Nyheter</b>
                     </li>
                     <li>
-                        <a href="#" class="golden-accent-bottom">
+                        <a href="aktiviteter.php" class="golden-accent-bottom">
                             Hva skjer hos oss?
                         </a>
                     </li>
@@ -89,7 +89,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="golden-accent-bottom">
+                        <a href="https://www.facebook.com/pg/InMarketNorge/events/" class="golden-accent-bottom">
                             Neste på kalenderen
                         </a>
                     </li>
