@@ -15,7 +15,7 @@
     <div class="narrow-content margin-top-100 white-text w3-container">
         <article class="margin-bottom-32">
             <h1 class="golden-text">Om InMarket</h1>
-            <p>InMarket Norge vil være mellomleddet elevene trenger for å kunne oppleve vekst, trygghet og motivasjon i tråd med arbeidsmarkedet og fremtidige karriereønsker. Dette vil vi klare å gjøre ved å fysisk være tilstede og holde aktiv kommunikasjon med alle ledd som er involvert. Derfor ønsker vi å være et mellomledd mellom arbeidsmarkedet og utdanning.</p>
+            <p>InMarket Norge vil være mellomleddet elevene trenger for å kunne oppleve vekst, trygghet og motivasjon i tråd med arbeidsmarkedet og fremtidige karriereønsker. Dette vil vi klare å gjøre ved å fysisk være tilstede og holde aktiv kommunikasjon med alle ledd som er involvert. Derfor ønsker vi å være et mellomledd mellom arbeidsmarkedet og utdanning.</p>
             <h3 class="golden-text">Vår visjon</h3>
             <p><em>InMarket skal påvirke det norske skole- og arbeidsmiljøet slik at en naturlig utvikling innen fagkompetanse, mestringstro og innovasjon kan løfte det norske markedet i en global sammenheng.</em></p>
             <hr>
