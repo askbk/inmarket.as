@@ -461,6 +461,7 @@ label input:checked~.radio {
 .bgimg-glade-pt1 {
     background-image: url("../img/glade-pt1.png");
     background-position-x: right;
+    transition: transform 1s;
 }
 
 .bgimg-glade-pt2 {
@@ -473,14 +474,33 @@ label input:checked~.radio {
     background-size: cover;
     height: 100%;
     width: 100%;
+    transform: translateX(0px);
+    z-index: 1;
+}
+
+.sliding-text-right {
+    right: -500px !important;
+    position: absolute;
+    top: 50%;
+    transform: translate(0%,-50%);
+    -ms-transform: translate(0%,-50%);
+    transition: right 1s;
 }
 
 .full-height {
     height: calc(100vh - 100px);
 }
 
-.max-width-500 {
-    max-width: 500px;
+.width-500 {
+    width: 500px;
+}
+
+.translateX-n500 {
+    transform: translateX(-500px);
+}
+
+.right-0 {
+    right: 0px !important;
 }
 
 .comfort-hotel-bg {
@@ -694,6 +714,14 @@ label input:checked~.radio {
 
 .margin-top-100 {
     margin-top: 100px !important;
+}
+
+.z-index-0 {
+    z-index: 0 !important;
+}
+
+.z-index-1 {
+    z-index: 1 !important;
 }
 
 .z-index-2 {
