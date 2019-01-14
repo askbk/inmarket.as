@@ -31,7 +31,7 @@
                         </a>
                         <ul class="w3-ul">
                             <li style="padding-left:16px !important;">
-                                <a href="#" class="golden-accent-bottom">
+                                <a href="openings.php" class="golden-accent-bottom">
                                     Åpne plasser
                                 </a>
                             </li>
@@ -43,7 +43,7 @@
                         </a>
                         <ul class="w3-ul">
                             <li style="padding-left:16px !important;">
-                                <a href="#" class="golden-accent-bottom">
+                                <a href="openings.php" class="golden-accent-bottom">
                                     Åpne plasser
                                 </a>
                             </li>
