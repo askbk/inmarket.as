@@ -13,7 +13,7 @@
     ?>
     <div class="margin-top-100 mobile-full-height w3-row" style="">
         <div class="w3-col m6 mobile-height-100 w3-display-container">
-            <div class="bgimg-glade-pt1 z-index-2 cursor-pointer">
+            <div class="bgimg-glade-pt1 z-index-2 cursor-pointer w3-hover-grayscale">
                 <h1 class="w3-display-bottommiddle w3-padding-32 white-text w3-jumbo uppercase w3-padding text-shadow">
                     Elever
                 </h1>
@@ -38,7 +38,7 @@
                     <a href="#" class="black-button w3-card" style="white-space:normal;">SØK PÅ ÅPNE PROSJEKTPLASSER</a>
                 </div>
             </div>
-            <div class="bgimg-glade-pt2 z-index-2 cursor-pointer">
+            <div class="bgimg-glade-pt2 z-index-2 cursor-pointer w3-hover-grayscale">
                 <h1 class="w3-display-topmiddle w3-padding-32 white-text w3-jumbo uppercase w3-padding text-shadow">
                     Studenter
                 </h1>

@@ -26,7 +26,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="golden-accent-bottom">
+                        <a href="elever-studenter.php" class="golden-accent-bottom">
                             Studenter og elever
                         </a>
                         <ul class="w3-ul">

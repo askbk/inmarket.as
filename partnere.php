@@ -13,9 +13,8 @@
     ?>
 
     <!-- partners -->
-    <div class="w3-content w3-padding-64 w3-container" id="partner-div">
-        <hr>
-        <h2 class="margin-bottom-25">samarbeidspartnere</h2>
+    <div class="w3-content w3-padding-64 w3-container margin-top-100" id="partner-div" style="min-height: calc(100vh - 300px);">
+        <h1 class="margin-bottom-25">Samarbeidspartnere</h1>
 
         <div class="w3-row w3-center w3-hide-small w3-row-padding">
             <div class="w3-col fifth" itemprop="sponsor">

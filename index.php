@@ -47,12 +47,12 @@
             <p class="height-5em-mobile">Jobb med oss slik at flere kan finne sin plass i det norske arbeidsmarkedet. Med InMarket får du tilgang til potensielle eller klare arbeidstakere. </p>
             <div class="w3-row w3-center">
                 <div class="w3-col m6 w3-padding-small" style="padding: 0 2px;">
-                    <a href="#" class="black-button w3-card white-border width-100">
+                    <a href="kontakt.php" class="black-button w3-card white-border width-100">
                         Kontakt oss
                     </a>
                 </div>
                 <div class="w3-col m6 w3-padding-small" style="padding: 0 2px;">
-                    <a href="#" class="black-button w3-card white-border width-100">
+                    <a href="bedrift.php" class="black-button w3-card white-border width-100">
                         Mer
                     </a>
                 </div>
@@ -67,7 +67,7 @@
                     </a>
                 </div>
                 <div class="w3-col m6 w3-padding-small" style="padding: 0 2px;">
-                    <a href="#" class="black-button w3-card white-border width-100">
+                    <a href="elever-studenter.php" class="black-button w3-card white-border width-100">
                         Mer
                     </a>
                 </div>
@@ -133,7 +133,7 @@
         </div>
     </div>
     <div class="w3-content text-align-right w3-padding-16 w3-container">
-        <a href="#" class="black-button w3-card">
+        <a href="partnere.php" class="black-button w3-card">
             Alle våre kunder og partnere
         </a>
     </div>
