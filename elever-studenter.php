@@ -18,7 +18,7 @@
                     Elever
                 </h1>
             </div>
-            <div class="height-100 w3-large w3-padding white-bg width-500 sliding-text-right" id="student-text">
+            <div class="height-100 w3-large w3-padding white-bg width-500 sliding-text-left" id="student-text">
                 <span class="small-x w3-right w3-xlarge" id="close-student">&times</span>
                 <p>InMarket ønsker å samarbeide med din utdanningsplass for at du skal få den beste muligheten til å forberede deg til arbeidslivet.​</p>
                 <p>Med oss kan du utvikle de egenskapene som får deg til å blomstre. Vi hjelper deg med å bygge erfaringer og kompetanse som er relevant for studier og karriere.​</p>
@@ -29,7 +29,7 @@
             </div>
         </div>
         <div class="w3-col m6 mobile-height-100 w3-display-container z-index-2 overflow-hidden">
-            <div class="height-100 w3-large w3-padding white-bg width-500 sliding-text-left" id="pupil-text">
+            <div class="height-100 w3-large w3-padding white-bg width-500 sliding-text-right" id="pupil-text">
                 <span class="small-x w3-right w3-xlarge" id="close-pupil">&times</span>
                 <p>Vi holder oss tett koblet til utdanningsplassen din slik at du ikke behøver å bortprioritere dine studier. Ved å gjøre noe som aktivt kan kobles til studie ditt, vil du stå sterk til å velge veien din videre.​</p>
                 <p>Som elev kan du kobles til høyere studier som kan være av interesse å få informasjon om tjenester og verv, erfaring i relevant virksomhet med mer.</p>
@@ -45,6 +45,7 @@
             </div>
         </div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
 
     <script type="text/javascript">
         let glade1 = $(".bgimg-glade-pt1"),
@@ -53,60 +54,72 @@
             studentText = $("#student-text");
 
 
-        $(".bgimg-glade-pt2").on("click", function () {
+        glade2.on("click", function () {
             closePupil();
             openStudent();
-            console.log("student click");
         });
 
-        $(".bgimg-glade-pt1").on("click", function () {
+        glade1.on("click", function () {
             closeStudent();
             openPupil();
-            console.log("pupil click");
         });
 
         $("#close-student").on("click", function () {
             closeStudent();
-            console.log("student x click");
         });
 
         $("#close-pupil").on("click", function () {
             closePupil();
-            console.log("pupil x click");
         });
 
         function openStudent() {
-            studentText.addClass("right-0 z-index-2");
-            $(".bgimg-glade-pt1").addClass("translateX-n500");
-            glade2.addClass("w3-grayscale-max");
-            glade1.removeClass("w3-grayscale-max");
+            studentText.addClass("z-index-2 student-open");
+            glade2.addClass("student-open");
+            // $(".bgimg-glade-pt1").addClass("translateX-n500");
+            TweenMax.to(studentText, 0.5, {right: 0, opacity:1})
+            TweenMax.to(glade1, 0.5, {x:-500});
+            // glade2.addClass("w3-grayscale-max");
+            // glade1.removeClass("w3-grayscale-max");
 
-            $('html, body').animate({
-                scrollTop: $("#student-text").offset().top - 100
-            }, 1000);
+            // $('html, body').animate({
+            //     scrollTop: $("#student-text").offset().top - 100
+            // }, 1000);
         }
 
         function openPupil() {
-            pupilText.addClass("left-0 z-index-1");
-            $(".bgimg-glade-pt2").addClass("translateX-500");
-            glade1.addClass("w3-grayscale-max");
-            glade2.removeClass("w3-grayscale-max");
+            pupilText.addClass(" z-index-1 pupil-open");
+            glade1.addClass("pupil-open");
+            // $(".bgimg-glade-pt2").addClass("translateX-500");
+            TweenMax.to(pupilText, 0.5, {left: 0, opacity:1})
+            TweenMax.to(glade2, 0.5, {x:500});
+            // glade1.addClass("w3-grayscale-max");
+            // glade2.removeClass("w3-grayscale-max");
 
-            $('html, body').animate({
-                scrollTop: $("#pupil-text").offset().top - 100
-            }, 1000);
+            // $('html, body').animate({
+            //     scrollTop: $("#pupil-text").offset().top - 100
+            // }, 1000);
         }
 
         function closeStudent() {
-            studentText.removeClass("right-0 z-index-2").addClass("z-index-1");
-            $(".bgimg-glade-pt1").removeClass("translateX-n500");
-            glade2.removeClass("w3-grayscale-max");
+            if (studentText.hasClass("student-open")) {
+                glade2.removeClass("student-open");
+                studentText.removeClass("z-index-2 studentTex student-opent").addClass("z-index-1");
+                // $(".bgimg-glade-pt1").removeClass("translateX-n500");
+                TweenMax.to(studentText, 0.5, {right: -500, opacity:0});
+                TweenMax.to(glade1, 0.5, {x: 0});
+                // glade2.removeClass("w3-grayscale-max");
+            }
         }
 
         function closePupil() {
-            pupilText.removeClass("left-0 z-index-1");
-            $(".bgimg-glade-pt2").removeClass("translateX-500");
-            glade1.removeClass("w3-grayscale-max");
+            if (pupilText.hasClass("pupil-open")) {
+                glade1.removeClass("pupil-open");
+                pupilText.removeClass("z-index-1 pupil-open");
+                // $(".bgimg-glade-pt2").removeClass("translateX-500");
+                TweenMax.to(glade2, 0.5, {x:0});
+                TweenMax.to(pupilText, 0.1, {left: -500, opacity:0});
+                // glade1.removeClass("w3-grayscale-max");
+            }
         }
 
     </script>
