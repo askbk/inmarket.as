@@ -12,191 +12,83 @@
     include_once 'templates/cookie_notice.php';
     ?>
 
-    <div class="margin-top-100 mobile-full-height w3-row" style="">
-        <div class="w3-col m6 mobile-height-100 w3-display-container">
-            <div class="bgimg-glade-pt1 z-index-2 cursor-pointer w3-hover-grayscale">
-                <h1 class="w3-display-bottommiddle w3-padding-32 white-text w3-jumbo uppercase w3-padding text-shadow">
-                    Elever
-                </h1>
-            </div>
-            <div class="height-100 w3-large w3-padding golden-bg width-500 sliding-text-right w3-center" id="student-text">
-                <div class="w3-display-container height-100">
-                    <span class="small-x w3-right w3-xxlarge" id="close-student">&times</span>
-                    <!-- <ul class="remove-list-things w3-display-middle width-100">
-                        <li class="trainee-opening">
-                            <div class="w3-xlarge closed-state hover-shadow-inset cursor-pointer">
-                                <span class=""><span class="bold-text">NKTQFP AS</span>  - for elever</span>
-                                <br>
-                                (3 plasser)
-                            </div>
-                            <div class="white-bg w3-card" style="display:none;">
-                                <span class="w3-xxlarge w3-right close-openings">&times</span>
-                                <h3>NKTQFP AS - for elever</h3>
-                                <p>Ønsker deg som er elev og ønsker å utvikle deg innen robotikk, programmering eller økonomi.</p>
-                                <p>Dette gjør du én gang i måneden med veiledning og oppfølging fra InMarket.</p>
-                                <a href="kontakt.php" class="black-button w3-card">Søk her</a>
-                            </div>
-                        </li>
-
-                        <li class="trainee-opening">
-                            <div class="w3-xlarge closed-state hover-shadow-inset cursor-pointer">
-                                <span class=""><span class="bold-text">NRK Buskerud</span>  - for elever</span>
-                                <br>
-                                (2 plasser)
-                            </div>
-                            <div class="white-bg w3-card" style="display:none;">
-                                <span class="w3-xxlarge w3-right close-openings">&times</span>
-                                <h3>NRK Buskerud - for elever</h3>
-                                <p>Ønsker deg som er elev og ønsker å utvikle deg innen media etc.</p>
-                                <p>Dette gjør du én gang i måneden med veiledning og oppfølging fra InMarket.</p>
-                                <a href="kontakt.php" class="black-button w3-card">Søk her</a>
-                            </div>
-                        </li>
-                    </ul> -->
-                    <div class="w3-display-middle width-100">
-                        <h2>Hello!</h2>
-                        <p>InMarket har foreløpig ingen ledige stillinger. Vi jobber med å skaffe oss flere samarbeidspartnere slik at du kan oppleve arbeidslivet.​</p>
-                        <p>Du kan fortsatt kontakte oss og fortelle oss litt om deg selv og hva du ønsker. På denne måten vet vi litt bedre hvilke arbeidsplass vi skal se etter.​</p>
-
+    <div class="w3-display-container margin-top-100" id="hjem">
+        <div class="comfort-hotel-bg parallax-img" style="height: calc(100vh - 100px);">
+            <div class="w3-display-bottommiddle width-100 white-bg w3-card">
+                <div class="w3-row width-100 mobile-large">
+                    <div class="w3-col m6 hover-shadow-inset golden-button black-text open-info-box" id="plasser-button">
+                        Åpne plasser
+                    </div>
+                    <div class="w3-col m6 hover-shadow-inset golden-button black-text open-info-box" id="stillinger-button">
+                        Ledige stillinger
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="w3-col m6 mobile-height-100 w3-display-container z-index-2 overflow-hidden">
-            <div class="height-100 w3-large w3-padding golden-bg width-500 sliding-text-left w3-center" id="pupil-text">
-                <div class="w3-display-container height-100">
-                    <span class="small-x w3-right w3-xxlarge" id="close-pupil">&times</span>
-                    <ul class="remove-list-things w3-display-middle width-100">
-                        <li class="trainee-opening">
-                            <div class="w3-xlarge closed-state hover-shadow-inset cursor-pointer">
+
+                <div class="w3-center w3-content w3-large" id="plasser" style="display:none;">
+                    <ul class="remove-list-things" style="">
+                        <li class="listing hover-shadow-inset w3-container">
+                            <div class="w3-xlarge cursor-pointer">
                                 <span class=""><span class="bold-text">NKTQFP AS</span>  - for elever</span>
                                 <br>
                                 (3 plasser)
                             </div>
-                            <div class="white-bg w3-card" style="display:none;">
-                                <span class="w3-xxlarge w3-right close-openings">&times</span>
-                                <h3>NKTQFP AS - for elever</h3>
-                                <p>Ønsker deg som er elev og ønsker å utvikle deg innen robotikk, programmering eller økonomi.</p>
-                                <p>Dette gjør du én gang i måneden med veiledning og oppfølging fra InMarket.</p>
-                                <a href="kontakt.php" class="black-button w3-card width-100">Søk her</a>
+                            <div class="open-text" style="display:none;">
+                                <p class="margin-0">Ønsker deg som er elev og ønsker å utvikle deg innen robotikk, programmering eller økonomi. Dette gjør du én gang i måneden med veiledning og oppfølging fra InMarket.</p>
+                                <a href="kontakt.php" class="black-button w3-card bold-text w3-margin">Søk her</a>
                             </div>
                         </li>
 
-                        <li class="trainee-opening">
-                            <div class="w3-xlarge closed-state hover-shadow-inset cursor-pointer">
+                        <li class="listing hover-shadow-inset w3-container">
+                            <div class="w3-xlarge cursor-pointer">
                                 <span class=""><span class="bold-text">NRK Buskerud</span>  - for elever</span>
                                 <br>
                                 (2 plasser)
                             </div>
-                            <div class="white-bg w3-card" style="display:none;">
-                                <span class="w3-xxlarge w3-right close-openings">&times</span>
-                                <h3>NRK Buskerud - for elever</h3>
-                                <p>Ønsker deg som er elev og ønsker å utvikle deg innen media etc.</p>
-                                <p>Dette gjør du én gang i måneden med veiledning og oppfølging fra InMarket.</p>
-                                <a href="kontakt.php" class="black-button w3-card width-100">Søk her</a>
+                            <div class="open-text" style="display:none;">
+                                <p class="margin-0">Ønsker deg som er elev og ønsker å utvikle deg innen media etc. Dette gjør du én gang i måneden med veiledning og oppfølging fra InMarket.</p>
+                                <a href="kontakt.php" class="black-button w3-card bold-text w3-margin">Søk her</a>
                             </div>
                         </li>
                     </ul>
                 </div>
-            </div>
-            <div class="bgimg-glade-pt2 z-index-2 cursor-pointer w3-hover-grayscale">
-                <h1 class="w3-display-topmiddle w3-padding-32 white-text w3-jumbo uppercase w3-padding text-shadow">
-                    Studenter
-                </h1>
+
+                <div class="w3-center w3-content w3-large" id="stillinger" style="display:none;">
+                    <ul class="remove-list-things" style="">
+                        <li class="listing w3-container">
+                            <h2>Hello!</h2>
+                            <p>InMarket har foreløpig ingen ledige stillinger. Vi jobber med å skaffe oss flere samarbeidspartnere slik at du kan oppleve arbeidslivet.​</p>
+                            <p>Du kan fortsatt kontakte oss og fortelle oss litt om deg selv og hva du ønsker. På denne måten vet vi litt bedre hvilke arbeidsplass vi skal se etter.​</p>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
 
     <script type="text/javascript">
-        let glade1 = $(".bgimg-glade-pt1"),
-            glade2 = $(".bgimg-glade-pt2"),
-            pupilText = $("#pupil-text"),
-            studentText = $("#student-text");
-
-
-        $(".bgimg-glade-pt2").on("click", function () {
-            closePupil();
-            openStudent();
-            console.log("student click");
-        });
-
-        $(".bgimg-glade-pt1").on("click", function () {
-            closeStudent();
-            openPupil();
-            console.log("pupil click");
-        });
-
-        $("#close-student").on("click", function () {
-            closeStudent();
-            console.log("student x click");
-        });
-
-        $("#close-pupil").on("click", function () {
-            closePupil();
-            console.log("pupil x click");
-        });
-
-        function openStudent() {
-            studentText.addClass("right-0 z-index-2");
-            $(".bgimg-glade-pt1").addClass("translateX-n500");
-            glade2.addClass("w3-grayscale-max");
-            glade1.removeClass("w3-grayscale-max");
-
-            $('html, body').animate({
-                scrollTop: $("#student-text").offset().top - 100
-            }, 1000);
-        }
-
-        function openPupil() {
-            pupilText.addClass("left-0 z-index-1");
-            $(".bgimg-glade-pt2").addClass("translateX-500");
-            glade1.addClass("w3-grayscale-max");
-            glade2.removeClass("w3-grayscale-max");
-
-            $('html, body').animate({
-                scrollTop: $("#pupil-text").offset().top - 100
-            }, 1000);
-        }
-
-        function closeStudent() {
-            studentText.removeClass("right-0 z-index-2").addClass("z-index-1");
-            $(".bgimg-glade-pt1").removeClass("translateX-n500");
-            glade2.removeClass("w3-grayscale-max");
-        }
-
-        function closePupil() {
-            pupilText.removeClass("left-0 z-index-1");
-            $(".bgimg-glade-pt2").removeClass("translateX-500");
-            glade1.removeClass("w3-grayscale-max");
-        }
-
-        $(".closed-state").click(function () {
-            closeAll(this);
-            $(this).siblings().first().slideDown("fast");
-            $(this).slideUp("fast");
-        });
-
-        $(".close-openings").click(function () {
-            closeAll();
-        });
-
-        function closeAll(el) {
-            if (el) {
-                let p = $(el).parent();
-                $(".trainee-opening").each(function (i, e) {
-                    if (!$(this).is(p)) {
-                        close($(this));
-                    }
-                });
-            } else {
-                $(".trainee-opening").children().filter(":even").slideDown();
-                $(".trainee-opening").children().filter(":odd").slideUp();
+        $(".open-info-box").on("click", function () {
+            console.log($(this).attr("id"));
+            closeListings();
+            if ($(this).attr("id") == "plasser-button") {
+                $("#stillinger").slideUp();
+                $("#plasser").slideDown();
+            } else if ($(this).attr("id") == "stillinger-button") {
+                $("#plasser").slideUp();
+                $("#stillinger").slideDown();
             }
-        }
+        });
 
-        function close(el) {
-            el.children().filter(":even").slideDown();
-            el.children().filter(":odd").slideUp();
+        $(".listing").on("click", function () {
+            if (!$(this).hasClass("open")) {
+                closeListings();
+                $(this).children(".open-text").slideDown();
+                $(this).addClass("open shadow-inset golden-bg");
+            }
+        });
+
+        function closeListings() {
+            $(".listing").removeClass("golden-bg shadow-inset open");
+            $(".open-text").slideUp();
         }
     </script>
 
