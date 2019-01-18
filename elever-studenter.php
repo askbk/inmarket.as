@@ -59,6 +59,27 @@
             </div>
         </div>
     </div>
+    <div class="golden-bg">
+        <div class="w3-row golden-bg w3-xlarge w3-content">
+            <div class="w3-col l6 w3-container mobile-medium">
+                <p class="quote">InMarket har latt meg drive med relevante, morsomme prosjekter ved siden av VGS. Jeg har nå større forståelse for hvorfor vi lærer det vi gjør, og føler meg godt ivaretatt.</p>
+                <p class="quote-source">Anniken, elev 2. klasse Akademiet VGS</p>
+            </div>
+            <div class="w3-col l6 shadow-inset">
+                <img src="img/elever/anniken-2.jpg" alt="" style="width:100%;">
+            </div>
+        </div>
+
+        <div class="w3-row golden-bg w3-xlarge w3-content">
+            <div class="w3-col l6 shadow-inset">
+                <img src="img/portraits/ask_smal.jpg" alt="" style="width:100%;">
+            </div>
+            <div class="w3-col l6 w3-container mobile-medium">
+                <p class="quote">InMarket lar meg få prøve meg i spennende prosjekter som er svært relevante i forhold til studiet mitt.</p>
+                <p class="quote-source">Ask Berstad Kolltveit, student datateknologi NTNU</p>
+            </div>
+        </div>
+    </div>
 
     <script type="text/javascript">
         $(".open-info-box").on("click", function (e) {

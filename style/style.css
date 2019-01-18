@@ -363,7 +363,7 @@ label input:checked~.radio {
 }
 
 .quote-source {
-    padding-left: 7em;
+    padding-left: 2em;
 }
 
 .quote-source:before {
