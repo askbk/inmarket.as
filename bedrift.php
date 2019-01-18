@@ -32,7 +32,7 @@
         <div class="w3-row">
             <div class="w3-col m6 flip-card">
                 <div class="flip-card-inner">
-                    <div class="flip-card-front golden-bg dark-golden-hover hover-shadow-inset uppercase w3-xlarge w3-display">
+                    <div class="flip-card-front golden-bg dark-golden-hover hover-shadow-inset uppercase w3-xlarge w3-display cursor-pointer">
                         <div class="w3-display-middle">
                             <h2>
                                 Elever
@@ -49,7 +49,7 @@
             </div>
             <div class="w3-col m6 flip-card">
                 <div class="flip-card-inner">
-                    <div class="flip-card-front golden-bg dark-golden-hover hover-shadow-inset uppercase w3-xlarge w3-display">
+                    <div class="flip-card-front golden-bg dark-golden-hover hover-shadow-inset uppercase w3-xlarge w3-display cursor-pointer">
                         <div class="w3-display-middle">
                             <h2>
                                 Studenter
@@ -68,7 +68,7 @@
         <div class="w3-row">
             <div class="w3-col m6 flip-card">
                 <div class="flip-card-inner">
-                    <div class="flip-card-front golden-bg dark-golden-hover hover-shadow-inset uppercase w3-xlarge w3-display">
+                    <div class="flip-card-front golden-bg dark-golden-hover hover-shadow-inset uppercase w3-xlarge w3-display cursor-pointer">
                         <div class="w3-display-middle">
                             <h2>
                                 Trainees
@@ -85,7 +85,7 @@
             </div>
             <div class="w3-col m6 flip-card">
                 <div class="flip-card-inner">
-                    <div class="flip-card-front golden-bg dark-golden-hover hover-shadow-inset uppercase w3-xlarge w3-display">
+                    <div class="flip-card-front golden-bg dark-golden-hover hover-shadow-inset uppercase w3-xlarge w3-display cursor-pointer">
                         <div class="w3-display-middle">
                             <h2>
                                 Jobbsøkere
@@ -104,49 +104,129 @@
     </div>
 
     <div class="w3-xxlarge">
-        <a href="#" class="black-button width-100 w3-card">Kontakt oss</a>
+        <a href="kontakt.php" class="black-button width-100 w3-card">Kontakt oss</a>
     </div>
 
+    <div class="golden-bg w3-card w3-content">
+        <div class="w3-row w3-xlarge">
+            <div class="w3-col l6 w3-container mobile-medium">
+                <p class="quote">Samarbeidet med InMarket har gitt oss en super mulighet til å komme tett på og bli bedre kjent med dagens ungdom. Dette har gitt oss ny innsikt, nye og spennende vinklinger på saker og ideer vi ikke ville tenkt på selv. Vi har også møtt flere unge medietalenter og en av elevene har nå fått kontrakt som tilkallingsvikar hos oss.</p>
+                <p class="quote-source">Chris Carlsen, distriktsleder NRK Buskerud</p>
+            </div>
+            <div class="w3-col l6">
+                <img src="img/partners/chris.jpg" alt="" style="width:100%;">
+            </div>
+        </div>
 
-
-    <!-- Kontaktskjema -->
-    <div class="w3-content w3-container w3-section" id="kontakt">
-        <div class="">
-            <form class="w3-large w3-container" action="index.php" method="post" id="kontaktSkjema">
-                <div class="w3-row">
-                    <div class="w3-col m3">
-                        <label>
-                            <input type="radio" name="client" value="elev" class="klient-radio" onclick="elevSelected()">
-                            <i class="fas fa-user w3-xlarge radio"></i>
-                            Elev
-                        </label><br>
-                        <label>
-                            <input type="radio" name="client" value="student" class="klient-radio" onclick="studentSelected()">
-                            <i class="fas fa-user-graduate w3-xlarge radio"></i>
-                            Student
-                        </label><br>
-                        <label>
-                            <input type="radio" name="client" value="bedrift" class="klient-radio" checked onclick="bedriftSelected()">
-                            <i class="fas fa-user-tie w3-xlarge radio"></i>
-                            bedrift
-                        </label>
-                    </div>
-                    <div class="w3-col m9">
-                        <input type="text" name="name" value="" placeholder="Navn" class="w3-input w3-animate-input" required id="inputName"><br>
-                        <input type="text" name="place" value="" placeholder="bedrift" id="inputPlace" class="w3-input w3-animate-input" required id="inputPlace"><br>
-                        <input type="text" name="phone" value="" placeholder="Telefon" class="w3-input w3-animate-input" required id="inputPhone"><br>
-                        <input type="checkbox" name="" value="" required> <label>Jeg har lest og godtatt <a href="personvern.php" style="text-decoration:underline;" target="_blank">personvernerklæringen</a> </label>
-                        <button class="white-button w3-card w3-right" type="submit"><i class="fas fa-paper-plane"></i> SEND</button>
-                        <p id="responseText"></p>
-                    </div>
-                </div>
-            </form>
-            <div class="w3-section w3-card w3-container" id="kontaktRespons" style="display:none;">
-                <p class="w3-center">Takk for henvendelsen! Vi tar kontakt med deg så raskt som mulig!</p>
+        <div class="w3-row w3-xlarge">
+            <div class="w3-col l6">
+                <img src="img/partners/sara.jpg" alt="" style="width:100%;">
+            </div>
+            <div class="w3-col l6 w3-container mobile-medium">
+                <p class="quote">Med InMarket ønsker Comfort Hotell på Union Brygge å bygge en plattform hvor kreative ungdommer kan utrykke seg og vise hva de er gode til. Her åpner vi dørene for foredrag, privatkonserter, pizzakvelder og andre arrangementer.</p>
+                <p class="quote-source">Sara Jensen, hotelldirektør Union Brygge</p>
             </div>
         </div>
     </div>
 
+    <!-- partners -->
+    <div class="w3-content w3-padding-64 w3-container margin-top-100" id="partner-div" style="min-height: calc(100vh - 300px);">
+        <h1 class="margin-bottom-25">Samarbeidspartnere</h1>
+
+        <div class="w3-row w3-center w3-hide-small w3-row-padding">
+            <div class="w3-col fifth" itemprop="sponsor">
+                <a href="https://www.usn.no/" target="_blank"><img src="img/logos/usn.png" alt="Universitetet i Sørøst-Norge" width="100%"></a>
+            </div>
+            <div class="w3-col fifth" itemprop="sponsor" >
+                <a href="https://www.akademiet.no" target="_blank"><img src="img/logos/akademiet.png" alt="Akademiet" width="100%"></a>
+            </div>
+            <div class="w3-col fifth" itemprop="sponsor">
+                <a href="https://www.drammen.kommune.no/" target="_blank"><img src="img/logos/kommune.png" alt="Drammen kommune" width="100%"></a>
+            </div>
+            <div class="w3-col fifth" itemprop="sponsor">
+                <a href="http://www.nrk.no/buskerud" target="_blank"><img src="img/logos/nrk.png" alt="NRK Buskerud" width="100%"></a>
+            </div>
+            <div class="w3-col fifth" itemprop="sponsor">
+                <a href="https://www.sparkntnu.no/" target="_blank"><img src="img/logos/spark.jpg" alt="NTNU Spark" width="100%"></a>
+            </div>
+        </div>
+        <div class="w3-row w3-center w3-hide-small w3-row-padding">
+            <div class="w3-col m3 s3" itemprop="sponsor">
+                <a href="http://nfdr.no/om-oss-medlemmer/bedrifter-i-naeringsforeningen?details=21626" target="_blank"><img src="img/logos/naeringsforeningen.png" alt="Næringsforeningen" width="100%"></a>
+            </div>
+            <div class="w3-col m3 s3" itemprop="sponsor">
+                <a href="https://cre8bd.weebly.com/" target="_blank"><img src="img/logos/cre8.png" alt="Cre8ive" width="100%"></a>
+            </div>
+            <div class="w3-col m3 s3" itemprop="sponsor">
+                <a href="https://www.allinclusivetalk.com/" target="_blank"><img src="img/logos/allinclusive.png" alt="All Inclusive Talk" width="100%"></a>
+            </div>
+            <div class="w3-col m3 s3" itemprop="sponsor">
+                <a href="https://nfdr.no/annet-internasjonale-drammen-aktuelt/" target="_blank"><img src="img/logos/int_dram.jpg" alt="" width="100%"></a>
+            </div>
+        </div>
+        <div class="w3-row w3-center w3-hide-small w3-row-padding">
+            <div class="w3-col m3 s3" itemprop="sponsor">
+                <a href="https://etablererveiledning.no/" target="_blank"><img src="img/logos/etablererveiledning.png" alt="" width="100%"></a>
+            </div>
+            <div class="w3-col m3 s3" itemprop="sponsor">
+                <a href="http://www.nktqfp.no" target="_blank"><img src="img/logos/nktqfp.png" alt="NKTQFP" width="100%"></a>
+            </div>
+            <div class="w3-col m3 s3" itemprop="sponsor">
+                <a href="https://www.nordicchoicehotels.no/hotell/norge/drammen/comfort-hotel-union-brygge/?gclid=Cj0KCQjw37fZBRD3ARIsAJihSr3l1t9G6sH7FO35gTdfXQaN_FdA3OmOVDBvs6Szp1H1QrhZ8uEpgccaAgleEALw_wcB" target="_blank"><img src="img/logos/unionbrygge.png" alt="Comfort Hotell Union Brygge" width="100%"></a>
+            </div>
+            <div class="w3-col m3 s3" itemprop="sponsor">
+                <a href="http://www.charge.no" target="_blank"><img src="img/logos/charge.png" alt="Charge" width="100%"></a>
+            </div>
+        </div>
+
+        <div class="w3-row w3-center w3-row-padding w3-hide-medium w3-hide-large">
+            <div class="w3-col s3" itemprop="sponsor">
+                <a href="https://www.usn.no/" target="_blank"><img src="img/logos/usn.png" alt="Universitetet i Sørøst-Norge" width="100%"></a>
+            </div>
+            <div class="w3-col s3" itemprop="sponsor" >
+                <a href="https://www.akademiet.no" target="_blank"><img src="img/logos/akademiet.png" alt="Akademiet" width="100%"></a>
+            </div>
+            <div class="w3-col s3" itemprop="sponsor">
+                <a href="https://www.drammen.kommune.no/" target="_blank"><img src="img/logos/kommune.png" alt="Drammen kommune" width="100%"></a>
+            </div>
+            <div class="w3-col s3" itemprop="sponsor">
+                <a href="https://www.sparkntnu.no/" target="_blank"><img src="img/logos/spark.jpg" alt="NTNU Spark" width="100%"></a>
+            </div>
+        </div>
+        <div class="w3-row w3-center w3-row-padding w3-hide-medium w3-hide-large">
+            <div class="w3-col s4" itemprop="sponsor">
+                <a href="http://nfdr.no/om-oss-medlemmer/bedrifter-i-naeringsforeningen?details=21626" target="_blank"><img src="img/logos/naeringsforeningen.png" alt="Næringsforeningen" width="100%"></a>
+            </div>
+            <div class="w3-col s4" itemprop="sponsor">
+                <a href="https://cre8bd.weebly.com/" target="_blank"><img src="img/logos/cre8.png" alt="Cre8ive" width="100%"></a>
+            </div>
+            <div class="w3-col s4" itemprop="sponsor">
+                <a href="http://www.nrk.no/buskerud" target="_blank"><img src="img/logos/nrk.png" alt="NRK Buskerud" width="100%"></a>
+            </div>
+        </div>
+        <div class="w3-row w3-center w3-row-padding w3-hide-medium w3-hide-large">
+            <div class="w3-col s4" itemprop="sponsor">
+                <a href="https://www.allinclusivetalk.com/" target="_blank"><img src="img/logos/allinclusive.png" alt="All Inclusive Talk" width="100%"></a>
+            </div>
+            <div class="w3-col s4" itemprop="sponsor">
+                <a href="https://www.nordicchoicehotels.no/hotell/norge/drammen/comfort-hotel-union-brygge/?gclid=Cj0KCQjw37fZBRD3ARIsAJihSr3l1t9G6sH7FO35gTdfXQaN_FdA3OmOVDBvs6Szp1H1QrhZ8uEpgccaAgleEALw_wcB" target="_blank"><img src="img/logos/unionbrygge.png" alt="Comfort Hotell Union Brygge" width="100%"></a>
+            </div>
+            <div class="w3-col s4" itemprop="sponsor">
+                <a href="https://etablererveiledning.no/" target="_blank"><img src="img/logos/etablererveiledning.png" alt="" width="100%"></a>
+            </div>
+        </div>
+        <div class="w3-row w3-center w3-row-padding w3-hide-medium w3-hide-large">
+            <div class="w3-col s4" itemprop="sponsor">
+                <a href="http://www.charge.no" target="_blank"><img src="img/logos/charge.png" alt="Charge" width="100%"></a>
+            </div>
+            <div class="w3-col s4" itemprop="sponsor">
+                <a href="https://nfdr.no/annet-internasjonale-drammen-aktuelt/" target="_blank"><img src="img/logos/int_dram.jpg" alt="" width="100%"></a>
+            </div>
+            <div class="w3-col s4" itemprop="sponsor">
+                <a href="http://www.nktqfp.com" target="_blank"><img src="img/logos/nktqfp.png" alt="NKTQFP" width="100%"></a>
+            </div>
+        </div>
+    </div>
 
     <!-- Footer -->
     <?php include_once 'templates/footer.php'; ?>

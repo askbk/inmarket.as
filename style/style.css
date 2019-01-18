@@ -790,6 +790,20 @@ label input:checked~.radio {
   transform: rotateY(180deg);
 }
 
+.vignette {
+	-webkit-box-shadow: inset 0px 0px 85px rgba(0,0,0,0.4);
+	-moz-box-shadow:    inset 0px 0px 85px rgba(0,0,0,0.4);
+	box-shadow:         inset 0px 0px 85px rgba(0,0,0,0.4);
+
+	line-height: 0;         /* ensure no space between bottom */
+
+	display: inline-block;  /* don't go wider than image */
+}
+.vignette img {
+	position: relative;
+	z-index: -1;            /* position beneath */
+}
+
 /* Calibri */
 @font-face {
     font-family: "Calibri";
