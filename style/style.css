@@ -375,6 +375,10 @@ label input:checked~.radio {
     margin-right: 1em;
 }
 
+.margin-0 {
+    margin: 0;
+}
+
 .narrow-content {
     max-width: 840px;
     margin: auto;
@@ -467,70 +471,8 @@ label input:checked~.radio {
     background-image: url("../img/events/int_drammen.jpg");
 }
 
-.bgimg-glade-pt1 {
-    background-image: url("../img/glade-pt1.png");
-    background-position-x: right;
-}
-
-.mobile-height-100 {
-    height: 100%;
-}
-
-@media (min-width:601px) {
-    .mobile-full-height {
-        height: calc(100vh - 100px) !important;
-        /* height: 95vh !important; */
-    }
-}
-
-@media (max-width: 600px) {
-    .bgimg-glade-pt1, .bgimg-glade-pt2 {
-        /* height: 50% !important; */
-    }
-
-    .mobile-height-100 {
-        height: 50% !important;
-    }
-}
-
-.mobile-full-height {
-    height: calc(150vh - 100px);
-    /* height: 140vh; */
-}
-
-.bgimg-glade-pt2 {
-    background-image: url("../img/glade-pt2.png");
-    background-position-x: left;
-}
-
-.bgimg-glade-pt1, .bgimg-glade-pt2 {
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-    width: 100%;
-    transform: translateX(0px);
-    z-index: 1;
-    transition: filter 0.5s;
-}
-
-.sliding-text-right {
-    left: -500px;
-}
-
-.sliding-text-left {
-    right: -500px;
-}
-
-.sliding-text-left, .sliding-text-right {
-    position: absolute;
-    top: 50%;
-    transform: translate(0%,-50%);
-    -ms-transform: translate(0%,-50%);
-    z-index: 0;
-}
-
-.student-open, .pupil-open {
-    filter: grayscale(100%);
+.bgimg-glade-flip {
+    background-image: url("../img/gladefolk_flip.jpg");
 }
 
 .full-height {
