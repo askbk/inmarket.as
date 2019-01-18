@@ -8,10 +8,10 @@
                     <a href="teamet.php">Vårt team</a>
                 </li>
                 <li class="remove-borders remove-padding">
-                    <a href="teamet.php#blimed">Hva skjer hos oss?</a>
+                    <a href="aktiviteter.php">Hva skjer hos oss?</a>
                 </li>
                 <li class="remove-borders remove-padding">
-                    <a href="aktiviteter.php">Visjon og mål</a>
+                    <a href="#">Visjon og mål</a>
                 </li>
             </ul>
         </div>

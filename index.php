@@ -62,8 +62,8 @@
             <p class="height-5em-mobile">Vi ønsker å hjelpe deg med å utforske dine muligheter når du enten skal ta høyere utdanning, gå ut i arbeid eller oppleve verden.</p>
             <div class="w3-row w3-center">
                 <div class="w3-col m6 w3-padding-small" style="padding: 0 2px;">
-                    <a href="#" class="black-button w3-card white-border width-100">
-                        Ledige stillinger
+                    <a href="openings.php" class="black-button w3-card white-border width-100">
+                        Åpne plasser
                     </a>
                 </div>
                 <div class="w3-col m6 w3-padding-small" style="padding: 0 2px;">
@@ -77,8 +77,8 @@
             <p class="height-5em-mobile">Vi vil gi deg muligheten til å etablere deg i din bransje samtidig som du får tett oppfølging og godt nettverk. Vi har samarbeidspartnere som ønsker å møte deg.​</p>
             <div class="w3-row w3-center">
                 <div class="w3-col m6 w3-padding-small" style="padding: 0 2px;">
-                    <a href="#" class="black-button w3-card white-border width-100">
-                        Åpne plasser
+                    <a href="openings.php" class="black-button w3-card white-border width-100">
+                        Ledige stillinger
                     </a>
                 </div>
                 <div class="w3-col m6 w3-padding-small" style="padding: 0 2px;">
