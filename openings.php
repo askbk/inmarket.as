@@ -67,8 +67,15 @@
 
     <script type="text/javascript">
         $(".open-info-box").on("click", function () {
-            console.log($(this).attr("id"));
             closeListings();
+            if ($(this).hasClass("open")) {
+                $("#stillinger").slideUp();
+                $("#plasser").slideUp();
+                $(".open").removeClass("open shadow-inset");
+                return;
+            }
+            $(".open").removeClass("open shadow-inset");
+            $(this).addClass("open shadow-inset");
             if ($(this).attr("id") == "plasser-button") {
                 $("#stillinger").slideUp();
                 $("#plasser").slideDown();
