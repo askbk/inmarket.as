@@ -107,7 +107,7 @@
         <a href="kontakt.php" class="black-button width-100 w3-card">Kontakt oss</a>
     </div>
 
-    <div class="golden-bg w3-card w3-content">
+    <div class="golden-bg w3-card">
         <div class="w3-row w3-xlarge">
             <div class="w3-col l6 w3-container mobile-medium">
                 <p class="quote">Samarbeidet med InMarket har gitt oss en super mulighet til å komme tett på og bli bedre kjent med dagens ungdom. Dette har gitt oss ny innsikt, nye og spennende vinklinger på saker og ideer vi ikke ville tenkt på selv. Vi har også møtt flere unge medietalenter og en av elevene har nå fått kontrakt som tilkallingsvikar hos oss.</p>
@@ -129,104 +129,20 @@
         </div>
     </div>
 
-    <!-- partners -->
-    <div class="w3-content w3-padding-64 w3-container margin-top-100" id="partner-div" style="min-height: calc(100vh - 300px);">
-        <h1 class="margin-bottom-25">Samarbeidspartnere</h1>
-
-        <div class="w3-row w3-center w3-hide-small w3-row-padding">
-            <div class="w3-col fifth" itemprop="sponsor">
-                <a href="https://www.usn.no/" target="_blank"><img src="img/logos/usn.png" alt="Universitetet i Sørøst-Norge" width="100%"></a>
-            </div>
-            <div class="w3-col fifth" itemprop="sponsor" >
-                <a href="https://www.akademiet.no" target="_blank"><img src="img/logos/akademiet.png" alt="Akademiet" width="100%"></a>
-            </div>
-            <div class="w3-col fifth" itemprop="sponsor">
-                <a href="https://www.drammen.kommune.no/" target="_blank"><img src="img/logos/kommune.png" alt="Drammen kommune" width="100%"></a>
-            </div>
-            <div class="w3-col fifth" itemprop="sponsor">
-                <a href="http://www.nrk.no/buskerud" target="_blank"><img src="img/logos/nrk.png" alt="NRK Buskerud" width="100%"></a>
-            </div>
-            <div class="w3-col fifth" itemprop="sponsor">
-                <a href="https://www.sparkntnu.no/" target="_blank"><img src="img/logos/spark.jpg" alt="NTNU Spark" width="100%"></a>
-            </div>
-        </div>
-        <div class="w3-row w3-center w3-hide-small w3-row-padding">
-            <div class="w3-col m3 s3" itemprop="sponsor">
-                <a href="http://nfdr.no/om-oss-medlemmer/bedrifter-i-naeringsforeningen?details=21626" target="_blank"><img src="img/logos/naeringsforeningen.png" alt="Næringsforeningen" width="100%"></a>
-            </div>
-            <div class="w3-col m3 s3" itemprop="sponsor">
-                <a href="https://cre8bd.weebly.com/" target="_blank"><img src="img/logos/cre8.png" alt="Cre8ive" width="100%"></a>
-            </div>
-            <div class="w3-col m3 s3" itemprop="sponsor">
-                <a href="https://www.allinclusivetalk.com/" target="_blank"><img src="img/logos/allinclusive.png" alt="All Inclusive Talk" width="100%"></a>
-            </div>
-            <div class="w3-col m3 s3" itemprop="sponsor">
-                <a href="https://nfdr.no/annet-internasjonale-drammen-aktuelt/" target="_blank"><img src="img/logos/int_dram.jpg" alt="" width="100%"></a>
-            </div>
-        </div>
-        <div class="w3-row w3-center w3-hide-small w3-row-padding">
-            <div class="w3-col m3 s3" itemprop="sponsor">
-                <a href="https://etablererveiledning.no/" target="_blank"><img src="img/logos/etablererveiledning.png" alt="" width="100%"></a>
-            </div>
-            <div class="w3-col m3 s3" itemprop="sponsor">
-                <a href="http://www.nktqfp.no" target="_blank"><img src="img/logos/nktqfp.png" alt="NKTQFP" width="100%"></a>
-            </div>
-            <div class="w3-col m3 s3" itemprop="sponsor">
-                <a href="https://www.nordicchoicehotels.no/hotell/norge/drammen/comfort-hotel-union-brygge/?gclid=Cj0KCQjw37fZBRD3ARIsAJihSr3l1t9G6sH7FO35gTdfXQaN_FdA3OmOVDBvs6Szp1H1QrhZ8uEpgccaAgleEALw_wcB" target="_blank"><img src="img/logos/unionbrygge.png" alt="Comfort Hotell Union Brygge" width="100%"></a>
-            </div>
-            <div class="w3-col m3 s3" itemprop="sponsor">
-                <a href="http://www.charge.no" target="_blank"><img src="img/logos/charge.png" alt="Charge" width="100%"></a>
-            </div>
-        </div>
-
-        <div class="w3-row w3-center w3-row-padding w3-hide-medium w3-hide-large">
-            <div class="w3-col s3" itemprop="sponsor">
-                <a href="https://www.usn.no/" target="_blank"><img src="img/logos/usn.png" alt="Universitetet i Sørøst-Norge" width="100%"></a>
-            </div>
-            <div class="w3-col s3" itemprop="sponsor" >
-                <a href="https://www.akademiet.no" target="_blank"><img src="img/logos/akademiet.png" alt="Akademiet" width="100%"></a>
-            </div>
-            <div class="w3-col s3" itemprop="sponsor">
-                <a href="https://www.drammen.kommune.no/" target="_blank"><img src="img/logos/kommune.png" alt="Drammen kommune" width="100%"></a>
-            </div>
-            <div class="w3-col s3" itemprop="sponsor">
-                <a href="https://www.sparkntnu.no/" target="_blank"><img src="img/logos/spark.jpg" alt="NTNU Spark" width="100%"></a>
-            </div>
-        </div>
-        <div class="w3-row w3-center w3-row-padding w3-hide-medium w3-hide-large">
-            <div class="w3-col s4" itemprop="sponsor">
-                <a href="http://nfdr.no/om-oss-medlemmer/bedrifter-i-naeringsforeningen?details=21626" target="_blank"><img src="img/logos/naeringsforeningen.png" alt="Næringsforeningen" width="100%"></a>
-            </div>
-            <div class="w3-col s4" itemprop="sponsor">
-                <a href="https://cre8bd.weebly.com/" target="_blank"><img src="img/logos/cre8.png" alt="Cre8ive" width="100%"></a>
-            </div>
-            <div class="w3-col s4" itemprop="sponsor">
-                <a href="http://www.nrk.no/buskerud" target="_blank"><img src="img/logos/nrk.png" alt="NRK Buskerud" width="100%"></a>
-            </div>
-        </div>
-        <div class="w3-row w3-center w3-row-padding w3-hide-medium w3-hide-large">
-            <div class="w3-col s4" itemprop="sponsor">
-                <a href="https://www.allinclusivetalk.com/" target="_blank"><img src="img/logos/allinclusive.png" alt="All Inclusive Talk" width="100%"></a>
-            </div>
-            <div class="w3-col s4" itemprop="sponsor">
-                <a href="https://www.nordicchoicehotels.no/hotell/norge/drammen/comfort-hotel-union-brygge/?gclid=Cj0KCQjw37fZBRD3ARIsAJihSr3l1t9G6sH7FO35gTdfXQaN_FdA3OmOVDBvs6Szp1H1QrhZ8uEpgccaAgleEALw_wcB" target="_blank"><img src="img/logos/unionbrygge.png" alt="Comfort Hotell Union Brygge" width="100%"></a>
-            </div>
-            <div class="w3-col s4" itemprop="sponsor">
-                <a href="https://etablererveiledning.no/" target="_blank"><img src="img/logos/etablererveiledning.png" alt="" width="100%"></a>
-            </div>
-        </div>
-        <div class="w3-row w3-center w3-row-padding w3-hide-medium w3-hide-large">
-            <div class="w3-col s4" itemprop="sponsor">
-                <a href="http://www.charge.no" target="_blank"><img src="img/logos/charge.png" alt="Charge" width="100%"></a>
-            </div>
-            <div class="w3-col s4" itemprop="sponsor">
-                <a href="https://nfdr.no/annet-internasjonale-drammen-aktuelt/" target="_blank"><img src="img/logos/int_dram.jpg" alt="" width="100%"></a>
-            </div>
-            <div class="w3-col s4" itemprop="sponsor">
-                <a href="http://www.nktqfp.com" target="_blank"><img src="img/logos/nktqfp.png" alt="NKTQFP" width="100%"></a>
-            </div>
+    <div class="w3-display-container parallax-img bgimg-allinclusive-2" style="height:450px;">
+        <div class="w3-display-bottommiddle text-shadow w3-jumbo white-text">
+            WORKSHOP MED ALL INCLUSIVE TALK
         </div>
     </div>
+
+    <article class="w3-content mobile-medium w3-container">
+        <p>Alle lærer seg teknikker for å skape seg en trygg grunnmur, som kan adapteres på alle scener og i alle situasjoner.​</p>
+        <p>Vi gir din bedrift konkrete verktøy og løsninger for å mestre det å kommunisere.</p>
+    </article>
+
+    <a href="workshop.php" class="mobile-large width-100 w3-card w3-center golden-button">
+        FORM DIN WORKSHOP
+    </a>
 
     <!-- Footer -->
     <?php include_once 'templates/footer.php'; ?>
