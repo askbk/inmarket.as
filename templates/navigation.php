@@ -38,7 +38,7 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="#" class="golden-accent-bottom">
+                        <a href="arbeidssoker.php" class="golden-accent-bottom">
                             Arbeidssøkere
                         </a>
                         <ul class="w3-ul">

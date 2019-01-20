@@ -82,7 +82,7 @@
                     </a>
                 </div>
                 <div class="w3-col m6 w3-padding-small" style="padding: 0 2px;">
-                    <a href="#" class="black-button w3-card white-border width-100">
+                    <a href="arbeidssoker.php" class="black-button w3-card white-border width-100">
                         Mer
                     </a>
                 </div>
