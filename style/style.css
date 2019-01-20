@@ -455,17 +455,24 @@ label input:checked~.radio {
     min-height: 100%;
 }
 
-/* First image (Full height) */
+.bg-properties {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 
-.bgimg-1 {background-image: url("../img/elever/christian-kamera.jpg");}
-.bgimg-2 {background-image: url("../img/jenterpeker.jpg");}
-.bgimg-3 {background-image: url("../img/partners/allinclusive.jpg");}
-.bgimg-4 {background-image: url("../img/gladefolk.jpg");}
+.bgimg-christian-kamera {background-image: url("../img/elever/christian-kamera.jpg");}
+.bgimg-jenterpeker {background-image: url("../img/jenterpeker.jpg");}
+.bgimg-allinclusive-1 {background-image: url("../img/partners/allinclusive.jpg");}
+.bgimg-allinclusive-2 {background-image: url("../img/partners/allinclusive-2.jpg");}
+.bgimg-gladefolk {background-image: url("../img/gladefolk.jpg");}
 .bgimg-5 {
     background-image: url("../img/elever/trainee-big.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.bgimg-dressmann {background-image: url("../img/dressmann.jpg");}
 
 .bgimg-int_drammen {
     background-image: url("../img/events/int_drammen.jpg");
@@ -523,10 +530,10 @@ label input:checked~.radio {
     .parallax-img {
         background-attachment: scroll;
     }
-    /* .bgimg-1 {background-image: url("../img/elever/christian-kamera-mob.jpg")!important;}
-    .bgimg-2 {background-image: url("../img/jenterpeker-mob.jpg")!important;}
-    .bgimg-3 {background-image: url("../img/dressmann-mob.jpg")!important;}
-    .bgimg-4 {background-image: url("../img/gladefolk-mob.jpg")!important;}
+    /* .bgimg-christian-kamera {background-image: url("../img/elever/christian-kamera-mob.jpg")!important;}
+    .bgimg-jenterpeker {background-image: url("../img/jenterpeker-mob.jpg")!important;}
+    .bgimg-allinclusive-1 {background-image: url("../img/dressmann-mob.jpg")!important;}
+    .bgimg-gladefolk {background-image: url("../img/gladefolk-mob.jpg")!important;}
     .bgimg-5 {background-image: url("../img/elever/trainee-big-mob.jpg")!important;} */
     .padding-left-100 {
         padding-left: inherit !important;

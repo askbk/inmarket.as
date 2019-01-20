@@ -14,17 +14,17 @@
 
     <!-- Slideshow-->
     <div class="slideshow w3-display-container margin-top-100 white-text" id="hjem">
-        <div class="bgimg-3 mySlides parallax-img">
+        <div class="bgimg-allinclusive-1 mySlides parallax-img">
             <div class="w3-card-4 slideshowText w3-display-bottomright black-bg-opac-80 uppercase">
                 DU FÅR TILGANG TIL ENGASJERTE OG DYKTIGE UNGDOMMER.​ SE HVA VI KAN TILBY OG BLI VÅR PARTNER!
             </div>
         </div>
 
-        <div class="bgimg-1 mySlides parallax-img" style="display:none;">
+        <div class="bgimg-christian-kamera mySlides parallax-img" style="display:none;">
             <h1 class="w3-display-bottomright" style="right:10%;padding: 6px;margin-bottom: 32px;">Viser veien videre</h1>
         </div>
 
-        <div class="bgimg-2 mySlides parallax-img" style="display:none;">
+        <div class="bgimg-jenterpeker mySlides parallax-img" style="display:none;">
             <div class="w3-card-4 black-bg-opac-80 slideshowText w3-display-bottomright uppercase">
                 HVORDAN VET DU AT JOBBEN ER RIKTIG FOR DEG VED Å BARE SE PÅ EN ANNONSE? LA OSS HJELPE DEG.
             </div>

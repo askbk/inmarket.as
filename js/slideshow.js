@@ -1,7 +1,7 @@
 let slides = [
-	$(".bgimg-3"),
-	$(".bgimg-1"),
-	$(".bgimg-2")
+	$(".bgimg-allinclusive-1"),
+	$(".bgimg-christian-kamera"),
+	$(".bgimg-jenterpeker")
 ],
 	slideshowBoxes = [
 		$("#bedrift"),
