@@ -108,21 +108,21 @@
     </div>
 
     <div class="golden-bg w3-card">
-        <div class="w3-row w3-xlarge">
-            <div class="w3-col l6 w3-container mobile-medium">
+        <div class="w3-row w3-xlarge w3-content">
+            <div class="w3-col m6 w3-container mobile-medium">
                 <p class="quote">Samarbeidet med InMarket har gitt oss en super mulighet til å komme tett på og bli bedre kjent med dagens ungdom. Dette har gitt oss ny innsikt, nye og spennende vinklinger på saker og ideer vi ikke ville tenkt på selv. Vi har også møtt flere unge medietalenter og en av elevene har nå fått kontrakt som tilkallingsvikar hos oss.</p>
                 <p class="quote-source">Chris Carlsen, distriktsleder NRK Buskerud</p>
             </div>
-            <div class="w3-col l6">
+            <div class="w3-col m6">
                 <img src="img/partners/chris.jpg" alt="" style="width:100%;">
             </div>
         </div>
 
-        <div class="w3-row w3-xlarge">
-            <div class="w3-col l6">
+        <div class="w3-row w3-xlarge w3-content">
+            <div class="w3-col m6">
                 <img src="img/partners/sara.jpg" alt="" style="width:100%;">
             </div>
-            <div class="w3-col l6 w3-container mobile-medium">
+            <div class="w3-col m6 w3-container mobile-medium">
                 <p class="quote">Med InMarket ønsker Comfort Hotell på Union Brygge å bygge en plattform hvor kreative ungdommer kan utrykke seg og vise hva de er gode til. Her åpner vi dørene for foredrag, privatkonserter, pizzakvelder og andre arrangementer.</p>
                 <p class="quote-source">Sara Jensen, hotelldirektør Union Brygge</p>
             </div>
