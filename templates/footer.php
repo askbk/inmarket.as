@@ -30,10 +30,6 @@
                     <a href="https://www.instagram.com/inmarket_nor/" class="margin-right-1em">
                         <i class="fab fa-instagram w3-xlarge"></i>
                     </a>
-
-                    <a href="https://www,linkedin.com/company/inmarket">
-                        <i class="fab fa-linkedin-in w3-xlarge"></i>
-                    </a>
                 </li>
                 <li class="w3-large remove-padding">
                     <i class="fas fa-map-marker-alt"></i> Drammen, Oslo

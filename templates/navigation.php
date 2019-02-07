@@ -44,7 +44,7 @@
                         <ul class="w3-ul">
                             <li style="padding-left:16px !important;">
                                 <a href="openings.php" class="golden-accent-bottom">
-                                    Åpne plasser
+                                    Ledige stillinger
                                 </a>
                             </li>
                         </ul>
@@ -62,7 +62,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="golden-accent-bottom">
+                        <a href="om.php" class="golden-accent-bottom">
                             Visjon og mål
                         </a>
                     </li>
@@ -81,11 +81,6 @@
                     <li>
                         <a href="aktiviteter.php" class="golden-accent-bottom">
                             Hva skjer hos oss?
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="golden-accent-bottom">
-                            Arbeidssøkere
                         </a>
                     </li>
                     <li>
