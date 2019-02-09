@@ -218,17 +218,17 @@
             </div>
             <div class="w3-card-2 scroll-item" itemprop="employee" itemscope itemtype="http://schema.org/Person">
                 <div class="width-300 w3-left">
-                    <img src="img/portraits/kine.jpg" alt="Grafiker Kine Thue" width="100%" itemprop="image">
+                    <img src="img/portraits/filip.jpg" alt="Utvikler Filip Østervold Tangen" width="100%" itemprop="image">
                     <div class="w3-container">
-                        <h4 itemprop="name" class="">Kine Thue</h4>
-                        <p class="w3-opacity" itemprop="jobTitle">Grafiker</p>
-                        <p>Tlf.: (+47) <span itemprop="telephone">454 18 864</span><br>E-post: <span itemprop="email">kine.thue@imnor.no</span></p>
+                        <h4 itemprop="name" class="">Filip Østervold Tangen</h4>
+                        <p class="w3-opacity" itemprop="jobTitle">Utvikler</p>
+                        <p>Tlf.: (+47) <span itemprop="telephone">454 18 864</span><br>E-post: <span itemprop="email">filip.tangen@imnor.no</span></p>
                     </div>
                 </div>
                 <div class="hidden-description w3-right">
                     <div class="w3-padding">
-                        <p class="white-space-normal w3-large">Kine har bachelorgrad i eventplanlegging og kommunikasjon. Hun har erfaring fra Oslo Spektrum og Studentkortet hvor hun har utviklet sin forståelse for menneskelig kontakt og interaksjon. Kine er opptatt av estetikken tilknyttet kommunikasjonsmidler og arbeidsplattformer.</p>
-                        <p><a href="https://www.linkedin.com/in/kine-thue-b8605094/" class="text-underline hover-golden-text">Kine sin profil på LinkedIn</a></p>
+                        <p class="white-space-normal w3-large">Filip tar bachelor i informatikk ved NTNU i Trondheim og er også studentassistent i faget Objektorientert programmering. Han har drevet med spillutvikling fra ung alder, og er nå motivert til å gjøre en forskjell for utdanningssystemet i Norge.</p>
+                        <p><a href="https://www.linkedin.com/in/filip-tangen-61614015b/" class="text-underline hover-golden-text">Filip sin profil på LinkedIn</a></p>
                     </div>
                 </div>
             </div>
