@@ -11,7 +11,7 @@
                     <a href="aktiviteter.php">Hva skjer hos oss?</a>
                 </li>
                 <li class="remove-borders remove-padding">
-                    <a href="#">Visjon og mål</a>
+                    <a href="om.php">Visjon og mål</a>
                 </li>
             </ul>
         </div>
@@ -29,10 +29,6 @@
 
                     <a href="https://www.instagram.com/inmarket_nor/" class="margin-right-1em">
                         <i class="fab fa-instagram w3-xlarge"></i>
-                    </a>
-
-                    <a href="https://www,linkedin.com/company/inmarket">
-                        <i class="fab fa-linkedin-in w3-xlarge"></i>
                     </a>
                 </li>
                 <li class="w3-large remove-padding">

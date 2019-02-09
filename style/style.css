@@ -538,14 +538,18 @@ label input:checked~.radio {
     .padding-left-100 {
         padding-left: inherit !important;
     }
-    .mobile-large {
-        font-size: 20px;
-    }
 
     .mobile-medium {
         font-size: 16px !important;
     }
 }
+
+@media (max-width:1090px) {
+    .mobile-large {
+        font-size: 20px;
+    }
+}
+
 
 .w3-hover-opacity {
     cursor: pointer;
