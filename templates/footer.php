@@ -11,7 +11,7 @@
                     <a href="aktiviteter.php">Hva skjer hos oss?</a>
                 </li>
                 <li class="remove-borders remove-padding">
-                    <a href="#">Visjon og mål</a>
+                    <a href="om.php">Visjon og mål</a>
                 </li>
             </ul>
         </div>
