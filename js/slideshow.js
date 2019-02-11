@@ -11,7 +11,7 @@ let slides = [
 	infoContainer = $("#info-container");
 
 let slideIndicators = $(".slide-indicator");
-let i = 0, prev = 2, duration = 6000;
+let i = 0, prev = 2, duration = 3000;
 let slideInterval = setInterval(slideshow, duration);
 let prevButton = -1;
 

@@ -616,6 +616,10 @@ label input:checked~.radio {
     color: #000;
 }
 
+.white-bg-opac-90 {
+    background-color: rgba(255, 255, 255, 0.9) !important;
+}
+
 .black-bg-opac-80 {
     background-color: rgba(0, 0, 0, 0.8) !important;
 }
@@ -628,7 +632,7 @@ label input:checked~.radio {
     background-color: #000 !important;
 }
 
-.white-button, .golden-button, .black-button, .black-transparent-button {
+.white-button, .golden-button, .black-button, .black-transparent-button, .feint-button {
     border:none;
     display:inline-block;
     outline:0;padding:8px 16px;
@@ -648,6 +652,16 @@ label input:checked~.radio {
 
 .white-button:hover {
     background-color: #aaa;
+}
+
+.feint-button {
+    color: #555;
+    white-space: normal;
+}
+
+.feint-button:hover {
+    background-color: white;
+    color: #000;
 }
 
 .white-button#navbar-button:hover {
