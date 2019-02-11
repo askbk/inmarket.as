@@ -15,19 +15,19 @@
     <!-- Slideshow-->
     <div class="slideshow w3-display-container margin-top-100 white-text" id="hjem">
         <div class="bgimg-allinclusive-1 mySlides parallax-img">
-            <div class="w3-card-4 slideshowText w3-display-bottomright black-bg-opac-80 uppercase">
+            <!-- <div class="w3-card-4 slideshowText w3-display-bottomright black-bg-opac-80 uppercase">
                 DU FÅR TILGANG TIL ENGASJERTE OG DYKTIGE UNGDOMMER.​ SE HVA VI KAN TILBY OG BLI VÅR PARTNER!
-            </div>
+            </div> -->
         </div>
 
         <div class="bgimg-christian-kamera mySlides parallax-img" style="display:none;">
-            <h1 class="w3-display-bottomright" style="right:10%;padding: 6px;margin-bottom: 32px;">Viser veien videre</h1>
+            <!-- <h1 class="w3-display-bottomright" style="right:10%;padding: 6px;margin-bottom: 32px;">Viser veien videre</h1> -->
         </div>
 
         <div class="bgimg-jenterpeker mySlides parallax-img" style="display:none;">
-            <div class="w3-card-4 black-bg-opac-80 slideshowText w3-display-bottomright uppercase">
+            <!-- <div class="w3-card-4 black-bg-opac-80 slideshowText w3-display-bottomright uppercase">
                 HVORDAN VET DU AT JOBBEN ER RIKTIG FOR DEG VED Å BARE SE PÅ EN ANNONSE? LA OSS HJELPE DEG.
-            </div>
+            </div> -->
         </div>
     </div>
     <div class="w3-row width-100 mobile-large">
@@ -136,6 +136,13 @@
         <a href="partnere.php" class="black-button w3-card">
             Alle våre kunder og partnere
         </a>
+    </div>
+    <div class="w3-content w3-container">
+        <h2>Hvordan det funker</h2>
+        <p>InMarket er en plattform hvor bedrifter og organisasjoner får kontakt med elever, studenter og andre jobbsøkere. Målet er å få partene til å utveksle informasjon slik at de lettere kan se hvordan å samarbeide om en bedre fremtid for alle.</p>
+        <div class="w3-row">
+
+        </div>
     </div>
 
     <?php include_once 'templates/footer.php'; ?>
