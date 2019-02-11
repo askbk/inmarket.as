@@ -304,6 +304,10 @@ label input:checked~.radio {
     text-align: right;
 }
 
+.text-align-left {
+    text-align: left;
+}
+
 .uppercase {
     text-transform: uppercase;
 }

@@ -19,113 +19,19 @@
         </div>
     </div>
 
-    <div class="w3-content w3-xlarge">
-        <!-- Tekst -->
-        <article class="w3-container">
-            <p>Bruker bedriften din <b>mye tid</b> på opplæring og rekruttering?</p>
-            <p>Da bør dere sjekke ut InMarkets tilbud. Vi lar dere prøve ut elever, studenter, nyutdannede og andre arbeidssøkere.</p>
-            <p>Liker dere kandidaten, kan vedkommende ansettes.</p>
-        </article>
-
-    </div>
-    <!-- Fliser -->
-    <div class="w3-center w3-large">
+    <div class="w3-content w3-xlarge w3-center">
         <div class="w3-row">
-            <div class="w3-col m6 flip-card">
-                <div class="flip-card-inner">
-                    <div class="flip-card-front golden-bg dark-golden-hover hover-shadow-inset uppercase w3-xlarge w3-display cursor-pointer">
-                        <div class="w3-display-middle">
-                            <h2>
-                                Elever
-                            </h2>
-                        </div>
-                    </div>
-                    <div class="flip-card-back white-bg w3-container shadow-inset">
-                        <h3>Elever</h3>
-                        <p>
-                            Du kan velge å ha elever fra videregående skole nivå hos deg i 6 til 10 timer i måneden. InMarket har kontakt med skolen og lærerne slik at deres erfaring hos deg kan knyttes til det de lærer på skolen.​
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="w3-col m6 flip-card">
-                <div class="flip-card-inner">
-                    <div class="flip-card-front golden-bg dark-golden-hover hover-shadow-inset uppercase w3-xlarge w3-display cursor-pointer">
-                        <div class="w3-display-middle">
-                            <h2>
-                                Studenter
-                            </h2>
-                        </div>
-                    </div>
-                    <div class="flip-card-back white-bg w3-container shadow-inset">
-                        <h3>Studenter</h3>
-                        <p>
-                            Du kan velge å ha en student som tar sin bachelor eller mastergrad hos deg med jevne mellomrom. Her finner InMarket den relevante kandidaten og ordner med oppmøter.​
-                        </p>
-                    </div>
-                </div>
-            </div>
+            <!-- TODO: Legge til figurer-->
         </div>
-        <div class="w3-row">
-            <div class="w3-col m6 flip-card">
-                <div class="flip-card-inner">
-                    <div class="flip-card-front golden-bg dark-golden-hover hover-shadow-inset uppercase w3-xlarge w3-display cursor-pointer">
-                        <div class="w3-display-middle">
-                            <h2>
-                                Trainees
-                            </h2>
-                        </div>
-                    </div>
-                    <div class="flip-card-back white-bg w3-container shadow-inset">
-                        <h3>Trainees</h3>
-                        <p>
-                            Det er ikke alltid lett å finne de rette ansatte. Med traineeprogrammet vårt kan du få en kvalifisert arbeidstaker uten å forplikte deg til å ansette dem.​
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="w3-col m6 flip-card">
-                <div class="flip-card-inner">
-                    <div class="flip-card-front golden-bg dark-golden-hover hover-shadow-inset uppercase w3-xlarge w3-display cursor-pointer">
-                        <div class="w3-display-middle">
-                            <h2>
-                                Jobbsøkere
-                            </h2>
-                        </div>
-                    </div>
-                    <div class="flip-card-back white-bg w3-container shadow-inset">
-                        <h3>Jobbsøkere</h3>
-                        <p>
-                            Noen folk er ute etter å bygge relevant arbeidserfaring, finne gode verktøy og lage seg et godt nettverk. Velger du å ha en arbeidssøker hos deg blir det som å ha en «extended» intervju.​
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="w3-xxlarge">
-        <a href="kontakt.php" class="black-button width-100 w3-card">Kontakt oss</a>
-    </div>
-
-    <div class="golden-bg w3-card">
-        <div class="w3-row w3-xlarge w3-content">
-            <div class="w3-col m6 w3-container mobile-medium">
-                <p class="quote">Samarbeidet med InMarket har gitt oss en super mulighet til å komme tett på og bli bedre kjent med dagens ungdom. Dette har gitt oss ny innsikt, nye og spennende vinklinger på saker og ideer vi ikke ville tenkt på selv. Vi har også møtt flere unge medietalenter og en av elevene har nå fått kontrakt som tilkallingsvikar hos oss.</p>
-                <p class="quote-source">Chris Carlsen, distriktsleder NRK Buskerud</p>
-            </div>
-            <div class="w3-col m6">
+        <p class="w3-large">InMarket lar din bedrift legge ut og invitere elever, studenter og arbeidsledige. Her bestemmer du selv hva du inviterer til, og du oppnår kontakt med de som har relevant faglig kompetanse eller interesse.</p>
+        <hr>
+        <div class="w3-row w3-row-padding w3-medium w3-padding-64">
+            <div class="w3-col m2">
                 <img src="img/partners/chris.jpg" alt="" style="width:100%;">
             </div>
-        </div>
-
-        <div class="w3-row w3-xlarge w3-content">
-            <div class="w3-col m6">
-                <img src="img/partners/sara.jpg" alt="" style="width:100%;">
-            </div>
-            <div class="w3-col m6 w3-container mobile-medium">
-                <p class="quote">Med InMarket ønsker Comfort Hotell på Union Brygge å bygge en plattform hvor kreative ungdommer kan utrykke seg og vise hva de er gode til. Her åpner vi dørene for foredrag, privatkonserter, pizzakvelder og andre arrangementer.</p>
-                <p class="quote-source">Sara Jensen, hotelldirektør Union Brygge</p>
+            <div class="w3-col m10 w3-container text-align-left">
+                <p class="quote">Samarbeidet med InMarket har gitt oss en super mulighet til å komme tett på og bli bedre kjent med dagens ungdom. Dette har gitt oss ny innsikt, nye og spennende vinklinger på saker og ideer vi ikke ville tenkt på selv. Vi har også møtt flere unge medietalenter og en av elevene har nå fått kontrakt som tilkallingsvikar hos oss.</p>
+                <p class="quote-source">Chris Carlsen, distriktsleder <strong>NRK Buskerud</strong></p>
             </div>
         </div>
     </div>
