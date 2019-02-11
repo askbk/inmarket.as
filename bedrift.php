@@ -12,10 +12,11 @@
     include_once 'templates/cookie_notice.php';
     ?>
     <!-- Toppbilde -->
-    <div class="margin-top-100 bgimg-int_drammen height-27em parallax-img uppercase w3-display-container">
-        <h1 class="w3-display-bottomleft white-text w3-jumbo" style="left:10%;padding: 6px;margin-bottom: 32px;">
-            Din bedrift
-        </h1>
+    <div class="margin-top-100 bgimg-einar_samuel full-height parallax-img w3-display-container">
+        <div class="w3-display-middle white-text w3-xxlarge w3-center">
+            <p>Med InMarket kan du påvirke potensialet i det norske arbeidsmarked.​</p>
+            <p>Du styrer og vi hjelper.</p>
+        </div>
     </div>
 
     <div class="w3-content w3-xlarge">
