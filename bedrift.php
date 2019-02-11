@@ -23,8 +23,10 @@
         <div class="w3-row">
             <!-- TODO: Legge til figurer-->
         </div>
-        <p class="w3-large">InMarket lar din bedrift legge ut og invitere elever, studenter og arbeidsledige. Her bestemmer du selv hva du inviterer til, og du oppnår kontakt med de som har relevant faglig kompetanse eller interesse.</p>
-        <hr>
+        <div class="narrow-content">
+            <p class="w3-xlarge">InMarket lar din bedrift legge ut og invitere elever, studenter og arbeidsledige. Her bestemmer du selv hva du inviterer til, og du oppnår kontakt med de som har relevant faglig kompetanse eller interesse.</p>
+            <hr>
+        </div>
         <div class="w3-row w3-row-padding w3-medium w3-padding-64">
             <div class="w3-col m2">
                 <img src="img/partners/chris.jpg" alt="" style="width:100%;">
