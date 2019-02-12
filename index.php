@@ -111,9 +111,6 @@
             <a href="http://nfdr.no/om-oss-medlemmer/bedrifter-i-naeringsforeningen?details=21626" target="_blank"><img src="img/logos/naeringsforeningen.png" alt="Næringsforeningen" width="100%"></a>
         </div>
         <div class="partner-slide" itemprop="sponsor">
-            <a href="https://cre8bd.weebly.com/" target="_blank"><img src="img/logos/cre8.png" alt="Cre8ive" width="100%"></a>
-        </div>
-        <div class="partner-slide" itemprop="sponsor">
             <a href="https://www.allinclusivetalk.com/" target="_blank"><img src="img/logos/allinclusive.png" alt="All Inclusive Talk" width="100%"></a>
         </div>
         <div class="partner-slide" itemprop="sponsor">
@@ -121,9 +118,6 @@
         </div>
         <div class="partner-slide" itemprop="sponsor">
             <a href="https://etablererveiledning.no/" target="_blank"><img src="img/logos/etablererveiledning.png" alt="" width="100%"></a>
-        </div>
-        <div class="partner-slide" itemprop="sponsor">
-            <a href="http://www.nktqfp.no" target="_blank"><img src="img/logos/nktqfp.png" alt="NKTQFP" width="100%"></a>
         </div>
         <div class="partner-slide" itemprop="sponsor">
             <a href="https://www.nordicchoicehotels.no/hotell/norge/drammen/comfort-hotel-union-brygge/?gclid=Cj0KCQjw37fZBRD3ARIsAJihSr3l1t9G6sH7FO35gTdfXQaN_FdA3OmOVDBvs6Szp1H1QrhZ8uEpgccaAgleEALw_wcB" target="_blank"><img src="img/logos/unionbrygge.png" alt="Comfort Hotell Union Brygge" width="100%"></a>
