@@ -131,11 +131,34 @@
             Alle våre kunder og partnere
         </a>
     </div>
-    <div class="w3-content w3-container">
-        <h2>Hvordan det funker</h2>
-        <p>InMarket er en plattform hvor bedrifter og organisasjoner får kontakt med elever, studenter og andre jobbsøkere. Målet er å få partene til å utveksle informasjon slik at de lettere kan se hvordan å samarbeide om en bedre fremtid for alle.</p>
-        <div class="w3-row">
 
+    <div class="w3-container w3-center mobile-medium">
+        <h2>Hvordan det funker</h2>
+        <p class="w3-content">InMarket er en plattform hvor bedrifter og organisasjoner får kontakt med elever, studenter og andre jobbsøkere. Målet er å få partene til å utveksle informasjon slik at de lettere kan se hvordan å samarbeide om en bedre fremtid for alle.</p>
+    </div>
+
+    <div class="w3-padding-64 w3-container w3-center mobile-medium">
+        <div class="w3-left w3-mobile" style="width:300px;">
+            <img src="" alt="Figure">
+            <p>InMarket møter, informerer og rekrutterer bedrifter og organisasjoner inn i systemet. </p>
+        </div>
+        <div class="w3-left w3-mobile" style="width:450px;">
+            <div class="w3-row">
+                <div class="w3-col m3 w3-hide-small">
+                    <object type="image/svg+xml" data="img/fig/arrow-right.svg" class="w3-left" style="width:100%">
+                        Kiwi Logo <!-- fallback image in CSS -->
+                    </object>
+                </div>
+                <div class="w3-col m3 w3-hide-medium w3-hide-large">
+                    <object type="image/svg+xml" data="img/fig/arrow-down.svg" class="" style="width:90px">
+                        Kiwi Logo <!-- fallback image in CSS -->
+                    </object>
+                </div>
+                <div class="w3-col m9">
+                    <img src="" alt="Figure">
+                    <p>InMarket møter, informerer og rekrutterer bedrifter og organisasjoner inn i systemet. </p>
+                </div>
+            </div>
         </div>
     </div>
 
