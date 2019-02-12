@@ -44,7 +44,7 @@
 
     <div class="w3-card w3-bar white-bg w3-padding mobile-medium" style="display:none;" id="info-container">
         <div class="w3-content" id="bedrift" style="display:none;">
-            <p class="height-5em-mobile">Jobb med oss slik at flere kan finne sin plass i det norske arbeidsmarkedet. Med InMarket får du tilgang til potensielle eller klare arbeidstakere. </p>
+            <p class="height-5em-mobile w3-padding-small">Jobb med oss slik at flere kan finne sin plass i det norske arbeidsmarkedet. Med InMarket får du tilgang til potensielle eller klare arbeidstakere. </p>
             <div class="w3-row w3-center">
                 <div class="w3-col m6 w3-padding-small" style="padding: 0 2px;">
                     <a href="kontakt.php" class="black-button w3-card white-border width-100">
@@ -59,7 +59,7 @@
             </div>
         </div>
         <div class="w3-content" id="elever-studenter" style="display:none;">
-            <p class="height-5em-mobile">Vi ønsker å hjelpe deg med å utforske dine muligheter når du enten skal ta høyere utdanning, gå ut i arbeid eller oppleve verden.</p>
+            <p class="height-5em-mobile w3-padding-small">Vi ønsker å hjelpe deg med å utforske dine muligheter når du enten skal ta høyere utdanning, gå ut i arbeid eller oppleve verden.</p>
             <div class="w3-row w3-center">
                 <div class="w3-col m6 w3-padding-small" style="padding: 0 2px;">
                     <a href="openings.php" class="black-button w3-card white-border width-100">
@@ -74,7 +74,7 @@
             </div>
         </div>
         <div class="w3-content" id="jobb" style="display:none;">
-            <p class="height-5em-mobile">Vi vil gi deg muligheten til å etablere deg i din bransje samtidig som du får tett oppfølging og godt nettverk. Vi har samarbeidspartnere som ønsker å møte deg.​</p>
+            <p class="height-5em-mobile w3-padding-small">Vi vil gi deg muligheten til å etablere deg i din bransje samtidig som du får tett oppfølging og godt nettverk. Vi har samarbeidspartnere som ønsker å møte deg.​</p>
             <div class="w3-row w3-center">
                 <div class="w3-col m6 w3-padding-small" style="padding: 0 2px;">
                     <a href="openings.php" class="black-button w3-card white-border width-100">
