@@ -126,7 +126,7 @@
             <a href="http://www.charge.no" target="_blank"><img src="img/logos/charge.png" alt="Charge" width="100%"></a>
         </div>
     </div>
-    <div class="w3-content text-align-right w3-padding-16 w3-container">
+    <div class="w3-content text-align-right w3-padding-16 w3-container w3-large">
         <a href="partnere.php" class="black-button w3-card">
             Alle våre kunder og partnere
         </a>
@@ -137,26 +137,70 @@
         <p class="w3-content">InMarket er en plattform hvor bedrifter og organisasjoner får kontakt med elever, studenter og andre jobbsøkere. Målet er å få partene til å utveksle informasjon slik at de lettere kan se hvordan å samarbeide om en bedre fremtid for alle.</p>
     </div>
 
-    <div class="w3-padding-64 w3-container w3-center mobile-medium">
-        <div class="w3-left w3-mobile" style="width:300px;">
-            <img src="" alt="Figure">
-            <p>InMarket møter, informerer og rekrutterer bedrifter og organisasjoner inn i systemet. </p>
-        </div>
-        <div class="w3-left w3-mobile" style="width:450px;">
-            <div class="w3-row">
-                <div class="w3-col m3 w3-hide-small">
-                    <object type="image/svg+xml" data="img/fig/arrow-right.svg" class="w3-left" style="width:100%">
-                        Kiwi Logo <!-- fallback image in CSS -->
-                    </object>
+    <div class="w3-center" style="max-width:1460px;margin:auto;">
+        <div class="w3-padding-64 w3-container w3-center mobile-medium">
+            <div class="w3-left w3-mobile" style="width:225px;">
+                <img src="img/fig/business1.png" alt="Figure" style="width:35%;">
+                <p>InMarket møter, informerer og rekrutterer bedrifter og organisasjoner inn i systemet. </p>
+            </div>
+
+            <div class="w3-left w3-mobile testt">
+                <div class="w3-row">
+                    <div class="w3-col m3 w3-hide-small">
+                        <object type="image/svg+xml" data="img/fig/arrow-right.svg" class="w3-left" style="width:100%"></object>
+                    </div>
+                    <div class="w3-col m3 w3-hide-medium w3-hide-large">
+                        <object type="image/svg+xml" data="img/fig/arrow-down.svg" class="" style="width:90px"></object>
+                    </div>
+                    <div class="w3-col m9">
+                        <img src="img/fig/school2.png" alt="Figure" style="width:35%;">
+                        <p>InMarket møter informerer og rekrutterer elever, studenter og jobbsøkere inn i systemet.</p>
+                    </div>
                 </div>
-                <div class="w3-col m3 w3-hide-medium w3-hide-large">
-                    <object type="image/svg+xml" data="img/fig/arrow-down.svg" class="" style="width:90px">
-                        Kiwi Logo <!-- fallback image in CSS -->
-                    </object>
+            </div>
+
+            <div class="w3-left w3-mobile testt">
+                <div class="w3-row">
+                    <div class="w3-col m3 w3-hide-small">
+                        <object type="image/svg+xml" data="img/fig/arrow-right.svg" class="w3-left" style="width:100%"></object>
+                    </div>
+                    <div class="w3-col m3 w3-hide-medium w3-hide-large">
+                        <object type="image/svg+xml" data="img/fig/arrow-down.svg" class="" style="width:90px"></object>
+                    </div>
+                    <div class="w3-col m9">
+                        <img src="img/fig/user3.png" alt="Figure" style="width:35%;">
+                        <p>Bedrifter og organisasjoner oppnår kontakt og kommuniserer med brukerne i systemet.</p>
+                    </div>
                 </div>
-                <div class="w3-col m9">
-                    <img src="" alt="Figure">
-                    <p>InMarket møter, informerer og rekrutterer bedrifter og organisasjoner inn i systemet. </p>
+            </div>
+
+            <div class="w3-left w3-mobile testt">
+                <div class="w3-row">
+                    <div class="w3-col m3 w3-hide-small">
+                        <object type="image/svg+xml" data="img/fig/arrow-right.svg" class="w3-left" style="width:100%"></object>
+                    </div>
+                    <div class="w3-col m3 w3-hide-medium w3-hide-large">
+                        <object type="image/svg+xml" data="img/fig/arrow-down.svg" class="" style="width:90px"></object>
+                    </div>
+                    <div class="w3-col m9">
+                        <img src="img/fig/business4.png" alt="Figure" style="width:35%;">
+                        <p>Partene møtes for å utveksle erfaringer, kunnskap og kompetanse.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-left w3-mobile testt">
+                <div class="w3-row">
+                    <div class="w3-col m3 w3-hide-small">
+                        <object type="image/svg+xml" data="img/fig/arrow-right.svg" class="w3-left" style="width:100%"></object>
+                    </div>
+                    <div class="w3-col m3 w3-hide-medium w3-hide-large">
+                        <object type="image/svg+xml" data="img/fig/arrow-down.svg" class="" style="width:90px"></object>
+                    </div>
+                    <div class="w3-col m9">
+                        <img src="img/fig/rating5.png" alt="Figure" style="width:35%;">
+                        <p>Etter møtene kan man gi hverandre faglig og mellommenneskelig vurdering.</p>
+                    </div>
                 </div>
             </div>
         </div>
