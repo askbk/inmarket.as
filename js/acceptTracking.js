@@ -10,3 +10,6 @@ window.onload = function() {
         privacyNotice.classList.remove("w3-hide")
     }
 }
+
+
+// Test
