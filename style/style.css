@@ -506,9 +506,8 @@ label input:checked~.radio {
     background-image: url("../img/events/int_drammen.jpg");
 }
 
-.bgimg-glade-flip {
-    background-image: url("../img/gladefolk_flip.jpg");
-}
+.bgimg-glade-flip {background-image: url("../img/gladefolk_flip.jpg");}
+.bgimg-glade-flip-dark {background-image: url("../img/gladefolk_flip_dark.jpg");}
 
 .full-height {
     height: calc(100vh - 100px);
