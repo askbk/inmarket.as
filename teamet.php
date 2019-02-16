@@ -12,8 +12,8 @@
     include_once 'templates/cookie_notice.php';
     ?>
 
-    <div class="w3-display-container parallax-img bgimg-sammy-oyvind-ask full-height" style="max-width:1200px;">
-        <article class="w3-display-bottommiddle white-text w3-xlarge w3-content">
+    <div class="w3-display-container parallax-img bgimg-sammy-oyvind-ask full-height margin-top-100">
+        <article class="w3-display-bottommiddle white-text w3-xlarge width-100 w3-container" style="max-width:1200px;">
             <p>Som et team jobber vi sammen. Vi vil oppnå store ting for norsk ungdom, norsk næring og internasjonal vekst. Vi vil selv være en del av løsning Norge benytter seg av for å øke i mangfold og ha større internasjonal vekst.​</p>
             <p>InMarket sitt team består av unge ledere og medarbeidere som sammen skal skape Norges største møteplass for arbeidsgivere og resten av samfunnet.</p>
             <p>Vi vil at prosessen med å skaffe seg ansatte ikke bare skal handle om den lille tiden det tar å legge ut stilling og finne ansatte. Vi vil at ansettelsesprosessen skal starte tidligere.</p>
