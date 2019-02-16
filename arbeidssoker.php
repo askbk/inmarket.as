@@ -12,15 +12,70 @@
     include_once 'templates/cookie_notice.php';
     ?>
 
-    <div class="w3-display-container parallax-img bgimg-dressmann" style="height:700px; max-height:100vh;">
-        <div class="w3-display-right text-shadow w3-jumbo white-text w3-padding">
-            Søker du jobb?
+    <div class="margin-top-100 bgimg-dressmannsvart full-height parallax-img w3-display-container">
+        <div class="w3-display-bottommiddle white-text w3-xxlarge w3-center max-width-1200 width-100 w3-container" style="bottom :20px; line-height:1.2;text-shadow: 1px 1px 2px rgba(0,0,0, 0.3)">
+            <p>
+                Det er ikke alltid like lett å komme seg ut i arbeidsmarkedet. Noen arbeidsoppgaver blir overtatt av automatiserte roboter, og globaliseringen presser på.​
+            </p>
+            <p>
+                Med InMarket får du muligheten til å utforske arbeidsmarkedet på nytt. Sammen med våre samarbeidspartnere åpner vi dørene for at du skal ha bedre spillerom.​
+            </p>
+            <p>
+                Vi hjelper deg å bygge et solid nettverk via våre workshop, jevne bedriftsbesøk, kurs og trainee stillinger.
+            </p>
         </div>
     </div>
 
-    <div class="w3-card">
+    <div class="" style="max-width:870px;margin:auto; zoom:1.2;">
+        <div class="w3-padding-64 w3-container w3-center mobile-medium" style="padding-left:25px;">
+            <div class="w3-left w3-mobile" style="width:225px; padding-top:30px;">
+                <img src="img/fig/arbeidssokere.png" alt="Figure" style="width:100%;">
+            </div>
+
+
+            <div class="w3-left w3-mobile testt" >
+                <div class="w3-row">
+                    <div class="w3-col m3 w3-hide-small" style="padding-top:30px;">
+                        <object type="image/svg+xml" data="img/fig/arrow-right.svg" class="w3-left" style="width:100%"></object>
+                    </div>
+                    <div class="w3-col m3 w3-hide-medium w3-hide-large">
+                        <object type="image/svg+xml" data="img/fig/arrow-down.svg" class="" style="width:90px"></object>
+                    </div>
+                    <div class="w3-col m9" style = "line-height: 0.5; ">
+                        <p>Aktiviteter</p> <p>Prosjekter</p> <p>Ledige stillinger</p> <p>Workshop og kurs</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-left w3-mobile testt" >
+                <div class="w3-row">
+                    <div class="w3-col m3 w3-hide-small" style="padding-top:30px;">
+                        <object type="image/svg+xml" data="img/fig/arrow-right.svg" class="w3-left" style="width:100%"></object>
+                    </div>
+                    <div class="w3-col m3 w3-hide-medium w3-hide-large">
+                        <object type="image/svg+xml" data="img/fig/arrow-down.svg" class="" style="width:90px"></object>
+                    </div>
+                    <div class="w3-col m9" style="padding-top:30px;">
+                        <img src="img/fig/ledelse.jpg" alt="Figure" style="width:35%;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="">
+
+        <article class="w3-content mobile-medium w3-container w3-padding-large" style="max-width:50vw; text-align:center;">
+            <p>Med InMarket kan du søke deg inn hos relevante aktører i ditt nærområde. Her har de lagt ut eller invitert deg, eller så kan du oppsøke dem og sende en forespørsel.</p>
+        </article>
+
+
+        <hr class = "w3-content mobile-medium w3-container golden-hr" style ="width:50%; margin:auto!important;">
+
         <article class="w3-content mobile-medium w3-container w3-padding-large">
-            <p>Det er ikke alltid like lett å komme seg ut i arbeidsmarkedet. Noen arbeidsoppgaver blir overtatt av automatiserte roboter, og globaliseringen presser på.​</p>
+            <p>Det er ikke alltid like lett å komme seg ut i arbeid2smarkedet. Noen arbeidsoppgaver blir overtatt av automatiserte roboter, og globaliseringen presser på.​</p>
             <p>Med InMarket får du muligheten til å utforske arbeidsmarkedet på nytt. Sammen med våre samarbeidspartnere åpner vi dørene for at du skal ha bedre spillerom.​</p>
             <p>Vi hjelper deg å bygge et solid nettverk via våre workshop, jevne bedriftsbesøk, kurs og trainee stillinger.</p>
         </article>

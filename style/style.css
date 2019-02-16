@@ -615,6 +615,10 @@ label input:checked~.radio {
     margin-left: 2em;
 }
 
+.golden-hr{
+    border-color:#C08D42;
+}
+
 .golden-text {
     color: #C08D42;
 }
