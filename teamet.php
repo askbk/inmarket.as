@@ -149,37 +149,66 @@
         <a href="om.php" class="w3-right black-button w3-card">Visjon og mål</a>
     </div>
 
-    <div class="w3-content w3-xlarge">
-        <div class="golden-button w3-card width-100">
-            Webdesigner
-        </div>
+    <div class="w3-content w3-xlarge w3-padding-32">
         <div class="width-100">
-            <div class="golden-button w3-card width-100">
+            <div class="golden-button w3-card width-100 job-opening-button" data-job-opening="webdesigner">
+                Webdesigner
+            </div>
+            <div class="golden-button w3-card width-100 job-opening-button" data-job-opening="developer">
                 Utvikler
             </div>
-            <div class="">
-                <div class="w3-row w3-container">
-                    <div class="w3-col m6">
-                        <h3>Utvikler</h3>
-                        <p>Heltid/deltid/prosjekt</p>
-                        <p>Stillingsbeskrivelse</p>
-                        <p>Kvalifikasjoner</p>
-                        <p>Hva vi kan tilby</p>
-                        <p>Antall ledige stillinger</p>
-                    </div>
-                    <div class="w3-col m6">
-                        <div class="videoWrapper">
-                            <iframe src="https://player.vimeo.com/video/315308002" width="1920" height="1080" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                        </div>
+        </div>
+        <div class="job-opening w3-padding-32" style="display:none;" id="webdesigner">
+            <div class="w3-row w3-container">
+                <div class="w3-col m6">
+                    <h3>Webdesigner</h3>
+                    <p>Heltid/deltid/prosjekt</p>
+                    <p>Stillingsbeskrivelse</p>
+                    <p>Kvalifikasjoner</p>
+                    <p>Hva vi kan tilby</p>
+                    <p>Antall ledige stillinger</p>
+                </div>
+                <div class="w3-col m6">
+                    <div class="videoWrapper">
+                        <iframe src="https://player.vimeo.com/video/315308002" width="1920" height="1080" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                     </div>
                 </div>
-                <div class="w3-center">
-
-                    <a href="#" class="black-button w3-card">Søk her</a>
+            </div>
+            <div class="w3-center">
+                <a href="kontakt.php" class="black-button w3-card">Søk her</a>
+            </div>
+        </div>
+        <div class="job-opening w3-padding-32" style="display:none;" id="developer">
+            <div class="w3-row w3-container">
+                <div class="w3-col m6">
+                    <h3>Utvikler</h3>
+                    <p>Heltid/deltid/prosjekt</p>
+                    <p>Stillingsbeskrivelse</p>
+                    <p>Kvalifikasjoner</p>
+                    <p>Hva vi kan tilby</p>
+                    <p>Antall ledige stillinger</p>
                 </div>
+                <div class="w3-col m6">
+                    <div class="videoWrapper">
+                        <iframe src="https://player.vimeo.com/video/315308002" width="1920" height="1080" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-center">
+                <a href="kontakt.php" class="black-button w3-card">Søk her</a>
             </div>
         </div>
     </div>
+
+    <script type="text/javascript">
+        $(".job-opening-button").on("click", e => {
+            const openingId = e.currentTarget.dataset.jobOpening;
+            $(".job-opening").hide();
+            $(".job-opening-button").show()
+            $(e.currentTarget).hide();
+            $("#" + openingId).show();
+        });
+    </script>
 
     <!-- Footer -->
     <?php include_once 'templates/footer.php'; ?>
