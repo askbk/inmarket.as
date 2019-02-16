@@ -34,139 +34,9 @@
             </p>
         </div>
     </div>
-    <div class="w3-content w3-padding">
-        <article class="">
-            <h1>Vårt team</h1>
-            <p>Som et team jobber vi sammen. Vi vil oppnå store ting for norsk ungdom, norsk næring og internasjonal vekst. Vi vil selv være en del av løsning Norge benytter seg av for å oppnå større suksess og internasjonal vekst.</p>
-            <p>InMarket sitt team består av unge ledere, medarbeidere og frivillige som sammen skal skape Norges største rekrutteringsbyrå. Vi vil at prosessen med å skaffe seg ansatte ikke bare skal handle om den lille tiden det tar å legge ut stilling og finne ansatte. Vi vil at ansettelsesprosessen skal starte veldig tidlig.</p>
-        </article>
-        <div class="w3-card w3-row">
-            <div class="w3-col m7">
-                <img src="img/employees/samuel3.jpg" alt="" width="100%">
-            </div>
-            <div class="w3-col m5 w3-container">
-                <p>Vi er et team som vokser i kvalitet og kvantitet. Vi pusher oss selv til å tenke nytt, enkelt og langsiktig.</p>
-                <p class="quote">Jeg får glede av å se den interne utviklingen vi har. Det gir meg roen på at bedriften beveger seg i riktig retning.</p>
-                <p class="quote-source">Samuel Bigirimana, Daglig leder</p>
-            </div>
-        </div>
-        <article class="w3-section">
-            <div class="w3-row">
-                <div class="w3-col m2 w3-padding">
-                    <img src="img/fig/ledelse.jpg" alt="" width="100%" class="w3-margin-top w3-opacity">
-                </div>
-                <div class="w3-col m10">
-                    <h2>Ledelsen</h2>
-                    <p>Som leder i InMarket Norge får du ansvar for din egen avdeling. Her har du gode arbeidsvilkår, gode muligheter til å utvikle din kompetanse og kommunikasjonslinje rett opp til styret. Du vil kunne veilede, organisere og følge opp ditt eget team, og du er med på å forme InMarkets mål og arbeidsprosess.</p>
-                </div>
-            </div>
 
-            <div class="w3-row">
-                <div class="w3-col m2 w3-padding">
-                    <img src="img/fig/ansatt.png" alt="" width="100%" class="w3-margin-top w3-opacity">
-                </div>
-                <div class="w3-col m10">
-                    <h2>Ansatt</h2>
-                    <p>Som ansatt i InMarket vil du kunne bruke fagkompetanse din til å løse spesifikke oppgaver i vår drift. Vi ser først og fremst etter deg med forståelse og innblikk i elevenes og studentenes hverdag. Her vil alt man gjør kunne knyttes til vår visjon om å styrke det norske arbeidsmarkedet i internasjonal sammenheng.</p>
-                </div>
-            </div>
-
-            <div class="w3-row">
-                <div class="w3-col m2 w3-padding">
-                    <img src="img/fig/frivillig.svg" alt="" class="w3-margin-top w3-opacity" width="100%">
-                </div>
-                <div class="w3-col m10">
-                    <h2>Frivillig</h2>
-                    <p>Som frivillig ansatt eller verver vil du ha store muligheter til å utvikle deg og gjøre deg til en attraktiv arbeidstaker. InMarket har stort fokus på personlig utvikling, og du vil være først i linjen når det gjelder kursing, samlinger og arbeidsmuligheter hos oss og våre samarbeidspartnere.</p>
-                </div>
-            </div>
-
-
-        </article>
-
-        <div class="w3-row">
-            <article class="w3-col m5 golden-bg black-text w3-card w3-container">
-                <h2>Trainee</h2>
-                <p>Som trainee blir du ansatt av InMarket med en kontrakt som varer mellom 8 og 14 måneder. Her kan du få tilbud om lønn hvis du har vært frivillig i InMarket tidligere.</p>
-                <p>Våre traineer får prøve seg hos 3-5 bedrifter i 1-3 måneder i hver bedrift under trainee perioden. Bedriftene får muligheten til å tilby deg kontrakt og løsrive deg fra InMarket sin kontrakt. Her kan du som et ungt talent velge hvor du ønsker å jobbe ettersom du får muligheten til å vise din evne og vilje til potensielle arbeidsgivere.</p>
-                <p class="w3-right" ><a href="#blimed"><b>Søk om traineeplass</b></a></p>
-            </article>
-            <div class="w3-col m7">
-                <div class="bgimg-5 height-27em" style="">
-                </div>
-            </div>
-        </div>
-
-        <h2 id="blimed">Bli med på teamet!</h2>
-        <p>Har du lyst til å bli på teamet vårt? Trykk deg inn og se på dine muligheter da vel!</p>
-        <em>Ingen ledige stillinger for øyeblikket, prøv igjen senere!</em>
-        <!-- <ul class="w3-ul">
-            <li class="w3-row">
-                <div class="w3-col m6">
-                    <h4>Ledige stillinger</h4>
-                </div>
-                <div class="w3-col m3">
-                    <h4>Antall stillinger</h4>
-                </div>
-                <div class="w3-col m3">
-                </div>
-            </li>
-            <li class="w3-row">
-                <div class="w3-col m6">
-                    Frivillig stilling som fotograf
-                </div>
-                <div class="w3-col m3">
-                    1
-                </div>
-                <div class="w3-col m3">
-                    <button type="button" name="button" class="black-button w3-card">Les mer her...</button>
-                </div>
-            </li>
-            <li class="w3-row">
-                <div class="w3-col m6">
-                    Frivillig stilling som mentor/fadder
-                </div>
-                <div class="w3-col m3">
-                    10
-                </div>
-                <div class="w3-col m3">
-                    <button type="button" name="button" class="black-button w3-card">Les mer her...</button>
-                </div>
-            </li>
-            <li class="w3-row">
-                <div class="w3-col m6">
-                    Åpne plasser for elever ut mot bedrifter
-                </div>
-                <div class="w3-col m3">
-                    2
-                </div>
-                <div class="w3-col m3">
-                    <button type="button" name="button" class="black-button w3-card">Les mer her...</button>
-                </div>
-            </li>
-            <li class="w3-row">
-                <div class="w3-col m6">
-                    Trainee bachelorgrad i mediabransjen
-                </div>
-                <div class="w3-col m3">
-                    1
-                </div>
-                <div class="w3-col m3">
-                    <button type="button" name="button" class="black-button w3-card">Les mer her...</button>
-                </div>
-            </li>
-            <li class="w3-row">
-                <div class="w3-col m6">
-                    Åpne plasser for elever ut mot studier
-                </div>
-                <div class="w3-col m3">
-                    10
-                </div>
-                <div class="w3-col m3">
-                    <button type="button" name="button" class="black-button w3-card">Les mer her...</button>
-                </div>
-            </li>
-        </ul> -->
+    <div class="w3-content">
+        <hr>
     </div>
 
     <div class="w3-container w3-padding-64">
@@ -271,6 +141,10 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class="w3-content">
+        <h1>Bli med på teamet</h1>
     </div>
 
     <!-- Footer -->
