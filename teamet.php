@@ -12,139 +12,31 @@
     include_once 'templates/cookie_notice.php';
     ?>
 
-    <div class="w3-content w3-padding margin-top-100">
-        <article class="">
-            <h1>Vårt team</h1>
-            <p>Som et team jobber vi sammen. Vi vil oppnå store ting for norsk ungdom, norsk næring og internasjonal vekst. Vi vil selv være en del av løsning Norge benytter seg av for å oppnå større suksess og internasjonal vekst.</p>
-            <p>InMarket sitt team består av unge ledere, medarbeidere og frivillige som sammen skal skape Norges største rekrutteringsbyrå. Vi vil at prosessen med å skaffe seg ansatte ikke bare skal handle om den lille tiden det tar å legge ut stilling og finne ansatte. Vi vil at ansettelsesprosessen skal starte veldig tidlig.</p>
+    <div class="w3-display-container parallax-img bgimg-sammy-oyvind-ask full-height margin-top-100">
+        <article class="w3-display-bottommiddle white-text w3-xlarge width-100 w3-container max-width-1200" style="">
+            <p>Som et team jobber vi sammen. Vi vil oppnå store ting for norsk ungdom, norsk næring og internasjonal vekst. Vi vil selv være en del av løsning Norge benytter seg av for å øke i mangfold og ha større internasjonal vekst.​</p>
+            <p>InMarket sitt team består av unge ledere og medarbeidere som sammen skal skape Norges største møteplass for arbeidsgivere og resten av samfunnet.</p>
+            <p>Vi vil at prosessen med å skaffe seg ansatte ikke bare skal handle om den lille tiden det tar å legge ut stilling og finne ansatte. Vi vil at ansettelsesprosessen skal starte tidligere.</p>
         </article>
-        <div class="w3-card w3-row">
-            <div class="w3-col m7">
-                <img src="img/employees/samuel3.jpg" alt="" width="100%">
-            </div>
-            <div class="w3-col m5 w3-container">
-                <p>Vi er et team som vokser i kvalitet og kvantitet. Vi pusher oss selv til å tenke nytt, enkelt og langsiktig.</p>
-                <p class="quote">Jeg får glede av å se den interne utviklingen vi har. Det gir meg roen på at bedriften beveger seg i riktig retning.</p>
-                <p class="quote-source">Samuel Bigirimana, Daglig leder</p>
-            </div>
+    </div>
+
+    <div class="w3-row w3-center w3-container w3-xlarge w3-center w3-padding-32 max-width-1200" style=" margin:auto;">
+        <div class="w3-col m6">
+            <img src="img/fig/ledelse.jpg" alt="" class="width-35-percent">
+            <p>
+                Som leder i InMarket Norge får du ansvar for din egen avdeling. Her har du gode arbeidsvilkår, gode muligheter til å utvikle din kompetanse og kommunikasjonslinje rett opp til styret. Du vil kunne veilede, organisere og følge opp ditt eget team, og du er med på å forme InMarkets mål og arbeidsprosess.
+            </p>
         </div>
-        <article class="w3-section">
-            <div class="w3-row">
-                <div class="w3-col m2 w3-padding">
-                    <img src="img/fig/ledelse.jpg" alt="" width="100%" class="w3-margin-top w3-opacity">
-                </div>
-                <div class="w3-col m10">
-                    <h2>Ledelsen</h2>
-                    <p>Som leder i InMarket Norge får du ansvar for din egen avdeling. Her har du gode arbeidsvilkår, gode muligheter til å utvikle din kompetanse og kommunikasjonslinje rett opp til styret. Du vil kunne veilede, organisere og følge opp ditt eget team, og du er med på å forme InMarkets mål og arbeidsprosess.</p>
-                </div>
-            </div>
-
-            <div class="w3-row">
-                <div class="w3-col m2 w3-padding">
-                    <img src="img/fig/ansatt.png" alt="" width="100%" class="w3-margin-top w3-opacity">
-                </div>
-                <div class="w3-col m10">
-                    <h2>Ansatt</h2>
-                    <p>Som ansatt i InMarket vil du kunne bruke fagkompetanse din til å løse spesifikke oppgaver i vår drift. Vi ser først og fremst etter deg med forståelse og innblikk i elevenes og studentenes hverdag. Her vil alt man gjør kunne knyttes til vår visjon om å styrke det norske arbeidsmarkedet i internasjonal sammenheng.</p>
-                </div>
-            </div>
-
-            <div class="w3-row">
-                <div class="w3-col m2 w3-padding">
-                    <img src="img/fig/frivillig.svg" alt="" class="w3-margin-top w3-opacity" width="100%">
-                </div>
-                <div class="w3-col m10">
-                    <h2>Frivillig</h2>
-                    <p>Som frivillig ansatt eller verver vil du ha store muligheter til å utvikle deg og gjøre deg til en attraktiv arbeidstaker. InMarket har stort fokus på personlig utvikling, og du vil være først i linjen når det gjelder kursing, samlinger og arbeidsmuligheter hos oss og våre samarbeidspartnere.</p>
-                </div>
-            </div>
-
-
-        </article>
-
-        <div class="w3-row">
-            <article class="w3-col m5 golden-bg black-text w3-card w3-container">
-                <h2>Trainee</h2>
-                <p>Som trainee blir du ansatt av InMarket med en kontrakt som varer mellom 8 og 14 måneder. Her kan du få tilbud om lønn hvis du har vært frivillig i InMarket tidligere.</p>
-                <p>Våre traineer får prøve seg hos 3-5 bedrifter i 1-3 måneder i hver bedrift under trainee perioden. Bedriftene får muligheten til å tilby deg kontrakt og løsrive deg fra InMarket sin kontrakt. Her kan du som et ungt talent velge hvor du ønsker å jobbe ettersom du får muligheten til å vise din evne og vilje til potensielle arbeidsgivere.</p>
-                <p class="w3-right" ><a href="#blimed"><b>Søk om traineeplass</b></a></p>
-            </article>
-            <div class="w3-col m7">
-                <div class="bgimg-5 height-27em" style="">
-                </div>
-            </div>
+        <div class="w3-col m6">
+            <img src="img/fig/ledelse.jpg" alt="" class="width-35-percent">
+            <p>
+                Som ansatt i InMarket vil du kunne bruke fagkompetanse din til å løse spesifikke oppgaver i vår drift. Vi ser først og fremst etter deg med forståelse og innblikk i norsk arbeidsmarked. Her vil alt man gjør kunne knyttes til vår visjon om å styrke det norske arbeidsmarkedet i internasjonal sammenheng.​
+            </p>
         </div>
+    </div>
 
-        <h2 id="blimed">Bli med på teamet!</h2>
-        <p>Har du lyst til å bli på teamet vårt? Trykk deg inn og se på dine muligheter da vel!</p>
-        <em>Ingen ledige stillinger for øyeblikket, prøv igjen senere!</em>
-        <!-- <ul class="w3-ul">
-            <li class="w3-row">
-                <div class="w3-col m6">
-                    <h4>Ledige stillinger</h4>
-                </div>
-                <div class="w3-col m3">
-                    <h4>Antall stillinger</h4>
-                </div>
-                <div class="w3-col m3">
-                </div>
-            </li>
-            <li class="w3-row">
-                <div class="w3-col m6">
-                    Frivillig stilling som fotograf
-                </div>
-                <div class="w3-col m3">
-                    1
-                </div>
-                <div class="w3-col m3">
-                    <button type="button" name="button" class="black-button w3-card">Les mer her...</button>
-                </div>
-            </li>
-            <li class="w3-row">
-                <div class="w3-col m6">
-                    Frivillig stilling som mentor/fadder
-                </div>
-                <div class="w3-col m3">
-                    10
-                </div>
-                <div class="w3-col m3">
-                    <button type="button" name="button" class="black-button w3-card">Les mer her...</button>
-                </div>
-            </li>
-            <li class="w3-row">
-                <div class="w3-col m6">
-                    Åpne plasser for elever ut mot bedrifter
-                </div>
-                <div class="w3-col m3">
-                    2
-                </div>
-                <div class="w3-col m3">
-                    <button type="button" name="button" class="black-button w3-card">Les mer her...</button>
-                </div>
-            </li>
-            <li class="w3-row">
-                <div class="w3-col m6">
-                    Trainee bachelorgrad i mediabransjen
-                </div>
-                <div class="w3-col m3">
-                    1
-                </div>
-                <div class="w3-col m3">
-                    <button type="button" name="button" class="black-button w3-card">Les mer her...</button>
-                </div>
-            </li>
-            <li class="w3-row">
-                <div class="w3-col m6">
-                    Åpne plasser for elever ut mot studier
-                </div>
-                <div class="w3-col m3">
-                    10
-                </div>
-                <div class="w3-col m3">
-                    <button type="button" name="button" class="black-button w3-card">Les mer her...</button>
-                </div>
-            </li>
-        </ul> -->
+    <div class="w3-content">
+        <hr>
     </div>
 
     <div class="w3-container w3-padding-64">
@@ -250,6 +142,73 @@
             </div>
         </div>
     </div>
+
+    <div class="w3-content w3-center w3-xlarge w3-container w3-padding-32">
+        <h1>Bli med på teamet</h1>
+        <p>InMarket ønsker å hjelpe det norske arbeidsmarkedet med å øke i mangfold. Vår visjon er: «Å påvirke det norske utdannings- og arbeidsmiljø slik at en felles innsats for økt kompetanse, kultur og mangfold kan løfte det norske markedet i den globale sammenhengen». </p>
+        <a href="om.php" class="w3-right black-button w3-card">Visjon og mål</a>
+    </div>
+
+    <div class="w3-content w3-xlarge w3-padding-32">
+        <div class="width-100">
+            <a href="#webdesigner" class="golden-button w3-card width-100 job-opening-button" data-job-opening="webdesigner">
+                Webdesigner
+            </a>
+            <a href="#developer" class="golden-button w3-card width-100 job-opening-button" data-job-opening="developer">
+                Utvikler
+            </a>
+        </div>
+        <div class="job-opening w3-padding-32" style="display:none;" id="webdesigner">
+            <div class="w3-row w3-container">
+                <div class="w3-col m6">
+                    <h3>Webdesigner</h3>
+                    <p>Heltid/deltid/prosjekt</p>
+                    <p>Stillingsbeskrivelse</p>
+                    <p>Kvalifikasjoner</p>
+                    <p>Hva vi kan tilby</p>
+                    <p>Antall ledige stillinger</p>
+                </div>
+                <div class="w3-col m6">
+                    <div class="videoWrapper">
+                        <iframe src="https://player.vimeo.com/video/315308002" width="1920" height="1080" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-center">
+                <a href="kontakt.php" class="black-button w3-card">Søk her</a>
+            </div>
+        </div>
+        <div class="job-opening w3-padding-32" style="display:none;" id="developer">
+            <div class="w3-row w3-container">
+                <div class="w3-col m6">
+                    <h3>Utvikler</h3>
+                    <p>Heltid/deltid/prosjekt</p>
+                    <p>Stillingsbeskrivelse</p>
+                    <p>Kvalifikasjoner</p>
+                    <p>Hva vi kan tilby</p>
+                    <p>Antall ledige stillinger</p>
+                </div>
+                <div class="w3-col m6">
+                    <div class="videoWrapper">
+                        <iframe src="https://player.vimeo.com/video/315308002" width="1920" height="1080" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-center">
+                <a href="kontakt.php" class="black-button w3-card">Søk her</a>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(".job-opening-button").on("click", e => {
+            const openingId = e.currentTarget.dataset.jobOpening;
+            $(".job-opening").hide();
+            $(".job-opening-button").show()
+            $(e.currentTarget).hide();
+            $("#" + openingId).show();
+        });
+    </script>
 
     <!-- Footer -->
     <?php include_once 'templates/footer.php'; ?>
