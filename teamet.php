@@ -143,8 +143,42 @@
         </div>
     </div>
 
-    <div class="w3-content">
+    <div class="w3-content w3-center w3-xlarge w3-container w3-padding-32">
         <h1>Bli med på teamet</h1>
+        <p>InMarket ønsker å hjelpe det norske arbeidsmarkedet med å øke i mangfold. Vår visjon er: «Å påvirke det norske utdannings- og arbeidsmiljø slik at en felles innsats for økt kompetanse, kultur og mangfold kan løfte det norske markedet i den globale sammenhengen». </p>
+        <a href="om.php" class="w3-right black-button w3-card">Visjon og mål</a>
+    </div>
+
+    <div class="w3-content w3-xlarge">
+        <div class="golden-button w3-card width-100">
+            Webdesigner
+        </div>
+        <div class="width-100">
+            <div class="golden-button w3-card width-100">
+                Utvikler
+            </div>
+            <div class="">
+                <div class="w3-row w3-container">
+                    <div class="w3-col m6">
+                        <h3>Utvikler</h3>
+                        <p>Heltid/deltid/prosjekt</p>
+                        <p>Stillingsbeskrivelse</p>
+                        <p>Kvalifikasjoner</p>
+                        <p>Hva vi kan tilby</p>
+                        <p>Antall ledige stillinger</p>
+                    </div>
+                    <div class="w3-col m6">
+                        <div class="videoWrapper">
+                            <iframe src="https://player.vimeo.com/video/315308002" width="1920" height="1080" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="w3-center">
+
+                    <a href="#" class="black-button w3-card">Søk her</a>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- Footer -->
