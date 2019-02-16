@@ -151,12 +151,12 @@
 
     <div class="w3-content w3-xlarge w3-padding-32">
         <div class="width-100">
-            <div class="golden-button w3-card width-100 job-opening-button" data-job-opening="webdesigner">
+            <a href="#webdesigner" class="golden-button w3-card width-100 job-opening-button" data-job-opening="webdesigner">
                 Webdesigner
-            </div>
-            <div class="golden-button w3-card width-100 job-opening-button" data-job-opening="developer">
+            </a>
+            <a href="#developer" class="golden-button w3-card width-100 job-opening-button" data-job-opening="developer">
                 Utvikler
-            </div>
+            </a>
         </div>
         <div class="job-opening w3-padding-32" style="display:none;" id="webdesigner">
             <div class="w3-row w3-container">
