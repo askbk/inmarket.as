@@ -53,6 +53,11 @@ h1, h2, h3, h4, h5 {
 .overflow-hidden {
     overflow: hidden;
 }
+/*FOR ARBEIDSSØKERSIDEN :)))*/
+@media (max-width:600px){
+
+}
+
 
 @media (max-width: 600px) {
     h1 {
@@ -545,8 +550,18 @@ label input:checked~.radio {
     font-size: 36px;
 }
 
+.mobile-width{
+    width:50%;
+}
+.mobile-xxlarge {
+    font-size: 22px;
+}
 .mobile-medium {
     font-size: 22px;
+}
+
+.mobile-zoom{
+    zoom:1.0;
 }
 
 @media (max-width:600px) {
@@ -570,6 +585,16 @@ label input:checked~.radio {
 @media (max-width:1090px) {
     .mobile-large {
         font-size: 20px;
+    }
+
+    .mobile-xxlarge {
+        font-size: 40px;
+    }
+    .mobile-zoom{
+        zoom:0.4;
+    }
+    .mobile-width{
+        width:75%;
     }
 }
 
