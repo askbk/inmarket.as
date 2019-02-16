@@ -117,8 +117,8 @@
 
         <a href="openings.php" class="black-button w3-card w3-bar w3-xxlarge"><b>LEDIGE STILLINGER</b></a>
     </div>
-
-    <div class="w3-display-container parallax-img bgimg-allinclusive-2" style="height:300px;">
+    <?php include_once 'templates/workshop.php'; ?>
+    <!--<div class="w3-display-container parallax-img bgimg-allinclusive-2" style="height:300px;">
         <div class="w3-display-bottommiddle text-shadow w3-jumbo white-text">
             WORKSHOP NEXT
         </div>
@@ -127,7 +127,7 @@
     <article class="w3-content mobile-medium w3-container">
         <p>All Inclusive Talk er etablert av to skuespillere som ønsker å hjelpe deg med å utvikle dine kommunikasjonsevner. Her snakker vi om masse moro, solide verktøy og mye praksis.​</p>
         <p>Snakk med din arbeidsgiver og be dem ta kontakt med oss angående påmelding.</p>
-    </article>
+    </article>-->
 
     <!-- Footer -->
     <?php include_once 'templates/footer.php'; ?>
