@@ -483,6 +483,8 @@ label input:checked~.radio {
 
 .bgimg-dressmann {background-image: url("../img/dressmann.jpg");}
 
+.bgimg-dressmannsvart {background-image: url("../img/dressmannsvart.jpg");}
+
 .bgimg-int_drammen {
     background-image: url("../img/events/int_drammen.jpg");
 }
