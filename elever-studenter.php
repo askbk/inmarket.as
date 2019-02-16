@@ -43,21 +43,17 @@
                     </ul>
                 </div>
 
-                <div class="w3-center w3-content w3-large" id="stillinger" style="display:none;">
-                    <ul class="remove-list-things" style="">
-                        <article class="w3-container">
-                            <p>
-                                Vi holder oss tett koblet til utdanningsplassen din slik at du ikke behøver å bortprioritere dine studier. Ved å gjøre noe som aktivt kan kobles til studie ditt, vil du stå sterk til å velge veien din videre.
-                            </p>
-                            <p>
-                                Som elev kan du kobles til høyere studier som kan være av interesse å få informasjon om tjenester og verv, erfaring i relevant virksomhet med mer.​
-                            </p>
-                            <p>
-                                Vi kommuniserer med skolen din slik at du kan få faste tidspunkter i uken eller i måneden sammen med oss og våre samarbeidspartnere.
-                            </p>
-                            <a href="kontakt.php" class="black-button w3-card" style="white-space:normal;">SE OG SØK PÅ ÅPNE PROSJEKTPLASSER I DITT OMRÅDE</a>
-                        </article>
-                    </ul>
+                <div class="w3-content w3-large" id="stillinger" style="display:none;">
+                    <article class="w3-container w3-section w3-row">
+                        <div class="w3-col m3">
+                            <?php // TEMP: bruker her ?>
+                        </div>
+                        <div class="w3-col m9">
+                            <p>Lag deg en profil som kan dokumentere din aktivitet ute i virksomhetene.​</p>
+                            <p>Med oss kan du utvikle de egenskapene som får deg til å blomstre. Vi hjelper deg med å bygge erfaringer og kompetanse som er relevant for studier og karriere.​</p>
+                        </div>
+                        <a href="kontakt.php" class="black-button w3-card" style="white-space:normal;">SE OG SØK PÅ ÅPNE PROSJEKTPLASSER I DITT OMRÅDE</a>
+                    </article>
                 </div>
             </div>
         </div>
