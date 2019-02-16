@@ -481,6 +481,8 @@ label input:checked~.radio {
     background-size: cover;
 }
 
+.bgimg-sammy-oyvind-ask {background-image: url("../img/employees/sammy_oyvind_ask.jpg");}
+
 .bgimg-dressmann {background-image: url("../img/dressmann.jpg");}
 
 .bgimg-int_drammen {
