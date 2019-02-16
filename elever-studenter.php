@@ -12,7 +12,10 @@
     include_once 'templates/cookie_notice.php';
     ?>
     <div class="w3-display-container margin-top-100" id="hjem">
-        <div class="bgimg-glade-flip parallax-img" style="height: calc(100vh - 100px);">
+        <div class="bgimg-glade-flip-dark parallax-img" style="height: calc(100vh - 100px);">
+            <div class="w3-display-topmiddle w3-xxlarge white-text margin-top-100 width-100 w3-content w3-container">
+                <p>Bygg opp din kompetanse og skaff deg erfaringer slik at du lettere kan bli klar til å jobbe.</p>
+            </div>
             <div class="w3-display-bottommiddle width-100 white-bg w3-card">
                 <div class="w3-row width-100 mobile-large">
                     <div class="w3-col s6 hover-shadow-inset golden-button black-text open-info-box" id="plasser-button">
@@ -40,44 +43,29 @@
                     </ul>
                 </div>
 
-                <div class="w3-center w3-content w3-large" id="stillinger" style="display:none;">
-                    <ul class="remove-list-things" style="">
-                        <article class="w3-container">
-                            <p>
-                                Vi holder oss tett koblet til utdanningsplassen din slik at du ikke behøver å bortprioritere dine studier. Ved å gjøre noe som aktivt kan kobles til studie ditt, vil du stå sterk til å velge veien din videre.
-                            </p>
-                            <p>
-                                Som elev kan du kobles til høyere studier som kan være av interesse å få informasjon om tjenester og verv, erfaring i relevant virksomhet med mer.​
-                            </p>
-                            <p>
-                                Vi kommuniserer med skolen din slik at du kan få faste tidspunkter i uken eller i måneden sammen med oss og våre samarbeidspartnere.
-                            </p>
-                            <a href="kontakt.php" class="black-button w3-card" style="white-space:normal;">SE OG SØK PÅ ÅPNE PROSJEKTPLASSER I DITT OMRÅDE</a>
-                        </article>
-                    </ul>
+                <div class="w3-content w3-large" id="stillinger" style="display:none;">
+                    <article class="w3-container w3-section w3-row">
+                        <div class="w3-col m3">
+                            <?php // TEMP: bruker her ?>
+                        </div>
+                        <div class="w3-col m9">
+                            <p>Lag deg en profil som kan dokumentere din aktivitet ute i virksomhetene.​</p>
+                            <p>Med oss kan du utvikle de egenskapene som får deg til å blomstre. Vi hjelper deg med å bygge erfaringer og kompetanse som er relevant for studier og karriere.​</p>
+                        </div>
+                        <a href="kontakt.php" class="black-button w3-card" style="white-space:normal;">SE OG SØK PÅ ÅPNE PROSJEKTPLASSER I DITT OMRÅDE</a>
+                    </article>
                 </div>
             </div>
         </div>
     </div>
-    <div class="golden-bg">
-        <div class="w3-row golden-bg w3-xlarge w3-content">
-            <div class="w3-col l6 w3-container mobile-medium">
-                <p class="quote">InMarket har latt meg drive med relevante, morsomme prosjekter ved siden av VGS. Jeg har nå større forståelse for hvorfor vi lærer det vi gjør, og føler meg godt ivaretatt.</p>
-                <p class="quote-source">Anniken, elev 2. klasse Akademiet VGS</p>
-            </div>
-            <div class="w3-col l6 shadow-inset">
-                <img src="img/elever/anniken-2.jpg" alt="" style="width:100%;">
-            </div>
-        </div>
 
-        <div class="w3-row golden-bg w3-xlarge w3-content">
-            <div class="w3-col l6 shadow-inset">
-                <img src="img/portraits/ask_smal.jpg" alt="" style="width:100%;">
-            </div>
-            <div class="w3-col l6 w3-container mobile-medium">
-                <p class="quote">InMarket lar meg få prøve meg i spennende prosjekter som er svært relevante i forhold til studiet mitt.</p>
-                <p class="quote-source">Ask Berstad Kolltveit, student datateknologi NTNU</p>
-            </div>
+    <div class="w3-row w3-xlarge w3-content w3-padding-32">
+        <div class="w3-col m2">
+            <img src="img/elever/anniken-square.jpg" alt="" style="width:100%;">
+        </div>
+        <div class="w3-col m10 w3-container mobile-medium text-align-right">
+            <p class="quote">InMarket har latt meg drive med relevante, morsomme prosjekter ved siden av VGS. Jeg har nå større forståelse for hvorfor vi lærer det vi gjør, og føler meg godt ivaretatt.</p>
+            <p class="quote-source">Anniken, elev 2. klasse Akademiet VGS</p>
         </div>
     </div>
 
