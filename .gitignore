@@ -39,3 +39,5 @@ Thumbs.db
 robots.txt
 prod
 minify.py
+
+.idea
