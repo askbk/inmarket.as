@@ -13,7 +13,7 @@
     ?>
 
     <div class="margin-top-100 bgimg-dressmannsvart full-height parallax-img w3-display-container">
-        <div class="w3-display-bottommiddle white-text w3-xxlarge w3-center max-width-1200 width-100 w3-container" style="zoom: 0.8;bottom :40px; line-height:1.2;text-shadow: 1px 1px 2px rgba(0,0,0, 0.3)">
+        <div class="w3-display-bottommiddle white-text mobile-large w3-center max-width-1200 width-100 w3-container" style="bottom :40px; line-height:1.2;text-shadow: 1px 1px 2px rgba(0,0,0, 0.3)">
             <p>
                 Det er ikke alltid like lett å komme seg ut i arbeidsmarkedet. Noen arbeidsoppgaver blir overtatt av automatiserte roboter, og globaliseringen presser på.​​
             </p>
@@ -44,7 +44,10 @@
                         <object type="image/svg+xml" data="img/fig/arrow-down.svg" class="" style="width:90px"></object>
                     </div>
                     <div class="w3-col m9" style = "line-height: 0.5; ">
-                        <p>Aktiviteter</p> <p>Prosjekter</p> <p>Ledige stillinger</p> <p>Workshop og kurs</p>
+                        <p>Aktiviteter</p>
+                        <p>Prosjekter</p>
+                        <p>Ledige stillinger</p>
+                        <p>Workshop og kurs</p>
                     </div>
                 </div>
             </div>
@@ -71,24 +74,25 @@
 
     <div class="">
 
-        <article class="w3-content mobile-medium w3-container w3-padding-large mobile-width" style="max-width:75%; text-align:center;">
+        <article class="narrow-content mobile-large w3-container w3-padding-large w3-center">
             <p>Med InMarket kan du søke deg inn hos relevante aktører i ditt nærområde. Her har de lagt ut eller invitert deg, eller så kan du oppsøke dem og sende en forespørsel.</p>
         </article>
 
+        <div class="narrow-content">
+            <hr class="w3-container golden-hr">
+        </div>
 
-        <hr class = "w3-content mobile-medium w3-container golden-hr" style ="width:50%; margin:auto!important;">
+        ​​<article class="narrow-content mobile-large w3-container w3-padding-large w3-center">
+            <!-- <div class="w3-half w3-container">
 
-        ​​<article class="w3-content mobile-medium w3-container w3-padding-large w3-row">
-            <div class="w3-half w3-container">
-
-            </div>
-            <div class="w3-half w3-container ">
-                <p >Lag deg en profil som kan dokumentere din aktivitet ute i virksomhetene.​ ​</p>
-                <p>Vi fyller på med relevante arbeidsplasser og aktiviteter, slik at du får mye å velge mellom. Bygg deg inn i arbeidsmarkedet.</p>
-            </div>
-            <div class="w3-center w3-padding-16">
-                <a href="" class="black-button w3-card w3-bar w3-xlarge" ><b>FORHÅNDS REGISTRER</b></a>
-            </div>
+            </div> -->
+            <p>Lag deg en profil som kan dokumentere din aktivitet ute i virksomhetene.​ ​</p>
+            <p>Vi fyller på med relevante arbeidsplasser og aktiviteter, slik at du får mye å velge mellom. Bygg deg inn i arbeidsmarkedet.</p>
+            <!-- <div class="w3-half w3-container ">
+            </div> -->
+            <!-- <div class="w3-center w3-padding-16">
+                <a href="" class="black-button w3-card w3-bar w3-xlarge">FORHÅNDSREGISTRER</a>
+            </div> -->
         </article>
 
         <!--
@@ -115,9 +119,12 @@
         </div>-->
 
 
-        <a href="openings.php" class="black-button w3-card w3-bar w3-xxlarge"><b>LEDIGE STILLINGER</b></a>
+        <a href="openings.php" class="black-button w3-card w3-bar w3-xxlarge">LEDIGE STILLINGER</a>
     </div>
-    <?php include_once 'templates/workshop.php'; ?>
+    <?php
+    $bedrift = false;
+    include_once 'templates/workshop.php';
+    ?>
     <!--<div class="w3-display-container parallax-img bgimg-allinclusive-2" style="height:300px;">
         <div class="w3-display-bottommiddle text-shadow w3-jumbo white-text">
             WORKSHOP NEXT
