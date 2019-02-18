@@ -1,4 +1,4 @@
-<div class="w3-display-container parallax-img bgimg-allinclusive-2" style="height:70vh;">
+<div class="w3-display-container parallax-img bgimg-allinclusive-3" style="height:70vh;">
     <div class="w3-display-bottomright text-shadow w3-jumbo white-text" style="right:5%;bottom:5%;">
         WORKSHOP
     </div>
