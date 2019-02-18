@@ -53,6 +53,11 @@ h1, h2, h3, h4, h5 {
 .overflow-hidden {
     overflow: hidden;
 }
+/*FOR ARBEIDSSØKERSIDEN :)))*/
+@media (max-width:600px){
+
+}
+
 
 @media (max-width: 600px) {
     h1 {
@@ -495,6 +500,8 @@ label input:checked~.radio {
 
 .bgimg-dressmann {background-image: url("../img/dressmann.jpg");}
 
+.bgimg-dressmannsvart {background-image: url("../img/dressmannsvart.jpg");}
+
 .bgimg-int_drammen {
     background-image: url("../img/events/int_drammen.jpg");
 }
@@ -542,10 +549,15 @@ label input:checked~.radio {
     font-size: 36px;
 }
 
+.mobile-width{
+    width:50%;
+}
+.mobile-xxlarge {
+    font-size: 22px;
+}
 .mobile-medium {
     font-size: 22px;
 }
-
 @media (max-width:600px) {
     .parallax-img {
         background-attachment: scroll;
@@ -562,12 +574,22 @@ label input:checked~.radio {
     .mobile-medium {
         font-size: 16px !important;
     }
+
+    .mobile-xxlarge {
+        font-size: 40px;
+    }
+
+    .mobile-width{
+        width:75%;
+    }
 }
 
 @media (max-width:1090px) {
     .mobile-large {
         font-size: 20px;
     }
+
+
 }
 
 
@@ -610,6 +632,10 @@ label input:checked~.radio {
 #navbar-img {
     margin: -5px;
     margin-left: 2em;
+}
+
+.golden-hr{
+    border-color:#C08D42;
 }
 
 .golden-text {
