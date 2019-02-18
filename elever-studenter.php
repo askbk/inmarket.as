@@ -26,34 +26,77 @@
                     </div>
                 </div>
 
-                <div class="w3-center w3-content w3-large" id="plasser" style="display:none;">
-                    <ul class="remove-list-things" style="">
-                        <article class="w3-container">
-                            <p>
-                                InMarket ønsker å samarbeide med din utdanningsplass for at du skal få den beste muligheten til å forberede deg til arbeidslivet.​
-                            </p>
-                            <p>
-                                Med oss kan du utvikle de egenskapene som får deg til å blomstre. Vi hjelper deg med å bygge erfaringer og kompetanse som er relevant for studier og karriere.​
-                            </p>
-                            <p>
-                                Vi tilbyr frivillige stillinger som praktikanter i bedrifter, eller lønnede trainee stillinger. Arbeidstiden vil varier mellom 5 arbeidstimer i uken til 22 arbeidstimer i uken.
-                            </p>
-                            <a href="kontakt.php" class="black-button w3-card" style="white-space:normal;">SE OG SØK PÅ ÅPNE PROSJEKTPLASSER I DITT OMRÅDE</a>
-                        </article>
-                    </ul>
-                </div>
-
-                <div class="w3-content w3-large" id="stillinger" style="display:none;">
+                <div class="w3-content mobile-medium" id="plasser" style="display:none;">
                     <article class="w3-container w3-section w3-row">
-                        <div class="w3-col m3">
+                        <!-- <div class="w3-col m3">
                             <?php // TEMP: bruker her ?>
                         </div>
                         <div class="w3-col m9">
+                        </div> -->
+                        <div class="w3-center">
+                            <p>Lag deg en profil som kan dokumentere din aktivitet ute i virksomhetene.​</p>
+                            <p>​Vi holder oss tett koblet til utdanningsplassen din slik at du ikke behøver å bortprioritere dine studier. Ved å gjøre noe som aktivt kan kobles til studie ditt, vil du stå sterk til å velge veien din videre.</p>
+                            <a href="kontakt.php" class="black-button w3-card" style="white-space:normal;">SØK PÅ ÅPNE PROSJEKTPLASSER I DITT OMRÅDE</a>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="w3-content mobile-medium" id="stillinger" style="display:none;">
+                    <article class="w3-container w3-section w3-row">
+                        <!-- <div class="w3-col m3">
+                            <?php // TEMP: bruker her ?>
+                        </div>
+                        <div class="w3-col m9">
+                        </div> -->
+                        <div class="w3-center">
                             <p>Lag deg en profil som kan dokumentere din aktivitet ute i virksomhetene.​</p>
                             <p>Med oss kan du utvikle de egenskapene som får deg til å blomstre. Vi hjelper deg med å bygge erfaringer og kompetanse som er relevant for studier og karriere.​</p>
+                            <a href="kontakt.php" class="black-button w3-card" style="white-space:normal;">SØK PÅ ÅPNE PROSJEKTPLASSER I DITT OMRÅDE</a>
                         </div>
-                        <a href="kontakt.php" class="black-button w3-card" style="white-space:normal;">SE OG SØK PÅ ÅPNE PROSJEKTPLASSER I DITT OMRÅDE</a>
                     </article>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-section" style="max-width:870px;margin:auto;">
+        <div class="w3-padding-32 w3-container w3-center mobile-xxlarge" style="padding-left:25px;">
+            <div class="w3-left w3-mobile" style="width:225px; padding-top:30px;">
+                <img src="img/fig/arbeidssokere.png" alt="Figure" style="width:100%;">
+                <p>Elever og studenter</p>
+            </div>
+
+
+            <div class="w3-left w3-mobile testt" >
+                <div class="w3-row">
+                    <div class="w3-col m3 w3-hide-small" style="padding-top:30px;">
+                        <object type="image/svg+xml" data="img/fig/arrow-right.svg" class="w3-left" style="width:100%"></object>
+                    </div>
+                    <div class="w3-col m3 w3-hide-medium w3-hide-large">
+                        <object type="image/svg+xml" data="img/fig/arrow-down.svg" class="" style="width:90px"></object>
+                    </div>
+                    <div class="w3-col m9" style = "line-height: 0.5; ">
+                        <p>Aktiviteter</p>
+                        <p>Prosjekter</p>
+                        <p>Ledige stillinger</p>
+                        <p>Workshop og kurs</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-left w3-mobile testt" >
+                <div class="w3-row">
+                    <div class="w3-col m3 w3-hide-small" style="padding-top:30px;">
+                        <object type="image/svg+xml" data="img/fig/arrow-right.svg" class="w3-left" style="width:100%"></object>
+                    </div>
+                    <div class="w3-col m3 w3-hide-medium w3-hide-large">
+                        <object type="image/svg+xml" data="img/fig/arrow-down.svg" class="" style="width:90px"></object>
+                    </div>
+                    <div class="w3-col m9" style="padding-top:30px;">
+                        <img src="img/fig/ledelse.jpg" alt="Figure" style="width:35%;">
+                        <p>Arbeidsgivere</p>
+                    </div>
+
                 </div>
             </div>
         </div>
