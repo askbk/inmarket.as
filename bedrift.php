@@ -75,7 +75,10 @@
         </a>
     </div>
 
-    <?php include_once 'templates/workshop.php'; ?>
+    <?php
+    $bedrift = true;
+    include_once 'templates/workshop.php';
+    ?>
 
     <!-- Footer -->
     <?php include_once 'templates/footer.php'; ?>
@@ -114,7 +117,6 @@
         }
     </script>
     <script src="js/clientType.js" charset="utf-8"></script>
-    <script src="js/contactForm.js" charset="utf-8"></script>
     <script async src="js/navbar.js" charset="utf-8"></script>
     <script src="js/acceptTracking.js" charset="utf-8"></script>
 </body>

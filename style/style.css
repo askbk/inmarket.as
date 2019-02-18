@@ -274,9 +274,11 @@ ul {
     list-style-type: circle;
 }
 
+.checkbox:
+
 .radio {
     cursor: pointer;
-    color: #d2d2d2;
+    color: #ddd;
 }
 
 input[type=radio] {
@@ -289,12 +291,20 @@ label {
     line-height: 3;
 }
 
+label input~.radio::before {
+    content: "\f0c8";
+}
+
 label:hover .radio {
-    color: #000;
+    color: #C08D42;
 }
 
 label input:checked~.radio {
-    color: #C08D42;;
+    color: #000;
+}
+
+label input:checked~.radio::before {
+    content: "\f14a";
 }
 
 .slideshowText {
@@ -488,6 +498,7 @@ label input:checked~.radio {
 .bgimg-jenterpeker {background-image: url("../img/jenterpeker.jpg");}
 .bgimg-allinclusive-1 {background-image: url("../img/partners/allinclusive.jpg");}
 .bgimg-allinclusive-2 {background-image: url("../img/partners/allinclusive-2.jpg");}
+.bgimg-allinclusive-3 {background-image: url("../img/partners/allinclusive-3.jpg");}
 .bgimg-gladefolk {background-image: url("../img/gladefolk.jpg");}
 .bgimg-einar_samuel {background-image: url("../img/einar_samuel.jpg");}
 .bgimg-5 {
