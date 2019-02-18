@@ -107,7 +107,7 @@
             <div class="w3-row">
                 <input type="checkbox" name="" value="" required> <label>Jeg har lest og godtatt <a href="personvern.php" style="text-decoration:underline;" target="_blank">personvernerklæringen</a> </label>
                 <p>Dette er en uforpliktende bestilling. Vi ringer deg og gir deg forslag på opplegg sammen med pris.</p>
-                <button class="black-button w3-card w3-right" type="submit"><i class="fas fa-paper-plane"></i> SEND</button>
+                <button class="black-button w3-card w3-right" type="submit"><i class="fas fa-paper-plane"></i> Bestill</button>
             </div>
         </form>
         <div class="w3-section w3-card w3-container w3-xlarge" id="kontaktRespons" style="display:none;">
