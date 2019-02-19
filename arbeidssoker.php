@@ -95,52 +95,27 @@
             </div> -->
         </article>
 
-        <!--
-
-        <article class="w3-content mobile-medium w3-container w3-padding-large ">
-
-            <p >Det er ikke alltid like lett å komme seg ut i arbeid2smarkedet. Noen arbeidsoppgaver blir overtatt av automatiserte roboter, og globaliseringen presser på.​</p>
-            <p>Med InMarket får du muligheten til å utforske arbeidsmarkedet på nytt. Sammen med våre samarbeidspartnere åpner vi dørene for at du skal ha bedre spillerom.​</p>
-            <p>Vi hjelper deg å bygge et solid nettverk via våre workshop, jevne bedriftsbesøk, kurs og trainee stillinger.</p>
-        </article>
-
-        <div class="golden-bg">
-            <div class="w3-row golden-bg bgimg-jenterpeker bg-properties">
-                <article class="w3-col m6 w3-container golden-bg mobile-medium w3-padding-large">
-                    <h2>Trainee</h2>
-                    <p>Som trainee blir du ansatt av InMarket med en kontrakt som varer mellom 8 og 14 måneder. Her kan du få tilbud om lønn.​</p>
-                    <p>Du blir dermed utplassert i en virksomhet som igjen får muligheten til å tilby deg kontrakt og løsrive deg fra InMarket sin kontrakt.</p>
-                    <p>Her kan du velge hvor du ønsker å jobbe ettersom du får muligheten til å vise din evne og vilje til flere arbeidsgivere.</p>
-                </article>
-                <div class="w3-col m6 bgimg-jenterpeker height-100 bg-properties w3-hide-medium w3-hide-large" style="height:300px;">
-
-                </div>
-            </div>
-        </div>-->
-
-
         <a href="openings.php" class="black-button w3-card w3-bar w3-xxlarge">LEDIGE STILLINGER</a>
     </div>
-    <?php
-    $bedrift = false;
-    include_once 'templates/workshop.php';
-    ?>
-    <!--<div class="w3-display-container parallax-img bgimg-allinclusive-2" style="height:300px;">
-        <div class="w3-display-bottommiddle text-shadow w3-jumbo white-text">
-            WORKSHOP NEXT
+    <div class="w3-display-container parallax-img bgimg-allinclusive-3" style="height:70vh;">
+        <div class="w3-display-bottomright text-shadow w3-jumbo white-text" style="right:5%;bottom:5%;">
+            WORKSHOP
         </div>
     </div>
 
-    <article class="w3-content mobile-medium w3-container">
-        <p>All Inclusive Talk er etablert av to skuespillere som ønsker å hjelpe deg med å utvikle dine kommunikasjonsevner. Her snakker vi om masse moro, solide verktøy og mye praksis.​</p>
-        <p>Snakk med din arbeidsgiver og be dem ta kontakt med oss angående påmelding.</p>
-    </article>-->
+    <div class="black-bg">
+        <article class="w3-content w3-xlarge w3-container white-text">
+            <p>Alle lærer seg teknikker for å skape seg en trygg grunnmur som kan adapteres på alle scener og i alle situasjoner.​</p>
+            <p>Gjennom praktiske øvelser gir vi deg konkrete verktøy og løsninger for å mestre det å kommunisere.</p>
+        </article>
+    </div>
+    <article class="w3-content w3-xlarge w3-container w3-center w3-padding">
+        <p>OBS! Har du lyst til å delta på Workshop med All Inclusive Talk og InMarket? Be arbeidsgiveren din om å bestille fra oss.</p>
+        <a href="bedrift.php#workshop-anchor" class="black-button w3-card" style="white-space:normal;">Bestillingsskjema for bedrifter</a>
+    </article>
 
     <!-- Footer -->
     <?php include_once 'templates/footer.php'; ?>
-    <script src="js/detectIphone.js" charset="utf-8"></script>
-    <script async src="js/navbar.js" charset="utf-8"></script>
-    <script src="js/acceptTracking.js" charset="utf-8"></script>
 </body>
 
 </html>

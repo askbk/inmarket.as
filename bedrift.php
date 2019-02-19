@@ -116,9 +116,6 @@
             $(".open-text").slideUp();
         }
     </script>
-    <script src="js/clientType.js" charset="utf-8"></script>
-    <script async src="js/navbar.js" charset="utf-8"></script>
-    <script src="js/acceptTracking.js" charset="utf-8"></script>
 </body>
 
 </html>
