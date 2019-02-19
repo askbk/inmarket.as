@@ -40,4 +40,8 @@ robots.txt
 prod
 minify.py
 
+# created by jetbrains IDE
 .idea
+
+# continuous integration script
+pushdev.sh
