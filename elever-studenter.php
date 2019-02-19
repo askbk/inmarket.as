@@ -62,10 +62,9 @@
     <div class="w3-section" style="max-width:870px;margin:auto;">
         <div class="w3-padding-32 w3-container w3-center w3-xlarge" style="padding-left:25px;">
             <div class="w3-left w3-mobile" style="width:225px; padding-top:30px;">
-                <img src="img/fig/arbeidssokere.png" alt="Figure" style="width:100%;">
+                <img src="img/fig/arbeidssokere.png" alt="Figure" style="width:75%;">
                 <p>Elever og studenter</p>
             </div>
-
 
             <div class="w3-left w3-mobile testt" >
                 <div class="w3-row">
@@ -93,7 +92,7 @@
                         <object type="image/svg+xml" data="img/fig/arrow-down.svg" class="" style="width:90px"></object>
                     </div>
                     <div class="w3-col m9" style="padding-top:30px;">
-                        <img src="img/fig/ledelse.jpg" alt="Figure" style="width:35%;">
+                        <img src="img/fig/ledelse.jpg" alt="Figure" style="" class="width-25-percent">
                         <p>Arbeidsgivere</p>
                     </div>
 
