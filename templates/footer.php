@@ -1,9 +1,9 @@
 <!-- Footer -->
-<footer class="w3-container uppercase">
+<footer class="w3-container mobile-container uppercase ">
     <div class="w3-content w3-row golden-text padding-left-100 w3-row-padding">
         <div class="w3-col s4">
-            <h3 class="">Oss</h3>
-            <ul class="w3-ul w3-large">
+            <h3 class="mobile-w3-xlarge">Oss</h3>
+            <ul class="w3-ul mobile-small">
                 <li class="remove-borders remove-padding">
                     <a href="teamet.php">Vårt team</a>
                 </li>
@@ -16,29 +16,29 @@
             </ul>
         </div>
         <div class="w3-col s4">
-            <h3 class="golden-text">Kontakt oss</h3>
+            <h3 class="golden-text mobile-w3-xlarge">Kontakt oss</h3>
             <ul class="w3-ul">
                 <li class="remove-borders remove-padding">
                     <a href="kontakt.php" class="margin-right-1em">
-                        <i class="far fa-envelope-open w3-xlarge"></i>
+                        <i class="far fa-envelope-open mobile-small"></i>
                     </a>
 
                     <a href="https://www.facebook.com/inmarketnorge" class="margin-right-1em">
-                        <i class="fab fa-facebook-f w3-xlarge"></i>
+                        <i class="fab fa-facebook-f mobile-small"></i>
                     </a>
 
                     <a href="https://www.instagram.com/inmarket_nor/" class="margin-right-1em">
-                        <i class="fab fa-instagram w3-xlarge"></i>
+                        <i class="fab fa-instagram mobile-small"></i>
                     </a>
                 </li>
-                <li class="w3-large remove-padding">
+                <li class="mobile-small remove-padding">
                     <i class="fas fa-map-marker-alt"></i> Drammen, Oslo
                 </li>
             </ul>
         </div>
         <div class="w3-col s4">
-            <h3 class="golden-text">Hjelp</h3>
-            <ul class="w3-ul w3-large">
+            <h3 class="golden-text mobile-w3-xlarge">Hjelp</h3>
+            <ul class="w3-ul mobile-small">
                 <li class="remove-borders remove-padding">
                     <a href="#">Vanlige spørsmål og svar</a>
                 </li>
