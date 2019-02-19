@@ -170,7 +170,7 @@
                 </div>
                 <div class="w3-col m6">
                     <div class="videoWrapper">
-                        <iframe src="https://player.vimeo.com/video/315308002" width="1920" height="1080" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        <iframe src="https://player.vimeo.com/video/315308002" width="1920" height="1080" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="vimeo-video"></iframe>
                     </div>
                 </div>
             </div>
@@ -190,7 +190,7 @@
                 </div>
                 <div class="w3-col m6">
                     <div class="videoWrapper">
-                        <iframe src="https://player.vimeo.com/video/315308002" width="1920" height="1080" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        <iframe src="https://player.vimeo.com/video/315308002" width="1920" height="1080" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="vimeo-video"></iframe>
                     </div>
                 </div>
             </div>
@@ -199,7 +199,8 @@
             </div>
         </div>
     </div>
-
+    <script src="https://player.vimeo.com/api/player.js"></script>
+    <script src="js/videos.js" charset="utf-8"></script>
     <script type="text/javascript">
         $(".job-opening-button").on("click", e => {
             const openingId = e.currentTarget.dataset.jobOpening;
