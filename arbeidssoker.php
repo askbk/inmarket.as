@@ -28,7 +28,7 @@
     <br>
     <br>
     <div class="w3-card" style="max-width:870px;margin:auto;">
-        <div class="w3-padding-32 w3-container w3-center mobile-xxlarge" style="padding-left:25px;">
+        <div class="w3-padding-32 w3-container w3-center w3-xlarge" style="padding-left:25px;">
             <div class="w3-left w3-mobile" style="width:225px; padding-top:30px;">
                 <img src="img/fig/arbeidssokere.png" alt="Figure" style="width:100%;">
                 <p>Jobbsøkere</p>
