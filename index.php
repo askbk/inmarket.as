@@ -140,7 +140,7 @@
     <div class="w3-center" style="max-width:1460px;margin:auto;">
         <div class="w3-padding-64 w3-container w3-center mobile-medium">
             <div class="w3-left w3-mobile" style="width:225px;">
-                <img src="img/fig/business1.png" alt="Figure" style="width:35%;">
+                <img src="img/fig/business1.png" alt="Figure" style="" class="width-25-percent">
                 <p>InMarket møter, informerer og rekrutterer bedrifter og organisasjoner inn i systemet. </p>
             </div>
 
@@ -153,7 +153,7 @@
                         <object type="image/svg+xml" data="img/fig/arrow-down.svg" class="" style="width:90px"></object>
                     </div>
                     <div class="w3-col m9">
-                        <img src="img/fig/school2.png" alt="Figure" style="width:35%;">
+                        <img src="img/fig/school2.png" alt="Figure" class="width-25-percent">
                         <p>InMarket møter informerer og rekrutterer elever, studenter og jobbsøkere inn i systemet.</p>
                     </div>
                 </div>
@@ -168,7 +168,7 @@
                         <object type="image/svg+xml" data="img/fig/arrow-down.svg" class="" style="width:90px"></object>
                     </div>
                     <div class="w3-col m9">
-                        <img src="img/fig/user3.png" alt="Figure" style="width:35%;">
+                        <img src="img/fig/user3.png" alt="Figure" class="width-25-percent">
                         <p>Bedrifter og organisasjoner oppnår kontakt og kommuniserer med brukerne i systemet.</p>
                     </div>
                 </div>
@@ -183,7 +183,7 @@
                         <object type="image/svg+xml" data="img/fig/arrow-down.svg" class="" style="width:90px"></object>
                     </div>
                     <div class="w3-col m9">
-                        <img src="img/fig/business4.png" alt="Figure" style="width:35%;">
+                        <img src="img/fig/business4.png" alt="Figure" class="width-25-percent">
                         <p>Partene møtes for å utveksle erfaringer, kunnskap og kompetanse.</p>
                     </div>
                 </div>
@@ -198,7 +198,7 @@
                         <object type="image/svg+xml" data="img/fig/arrow-down.svg" class="" style="width:90px"></object>
                     </div>
                     <div class="w3-col m9">
-                        <img src="img/fig/rating5.png" alt="Figure" style="width:35%;">
+                        <img src="img/fig/rating5.png" alt="Figure" class="width-25-percent">
                         <p>Etter møtene kan man gi hverandre faglig og mellommenneskelig vurdering.</p>
                     </div>
                 </div>
