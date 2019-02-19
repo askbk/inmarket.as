@@ -134,7 +134,7 @@
 
     <div class="w3-container w3-center mobile-medium">
         <h2>Hvordan det funker</h2>
-        <p class="w3-content">InMarket er en plattform hvor bedrifter og organisasjoner får kontakt med elever, studenter og andre jobbsøkere. Målet er å få partene til å utveksle informasjon slik at de lettere kan se hvordan å samarbeide om en bedre fremtid for alle.</p>
+        <p class="w3-content">InMarket er en brukerstyrt plattform som ved hjelp av automatiserte systemer kobler arbeidsplasser med relevante kandidater.</p>
     </div>
 
     <div class="w3-center" style="max-width:1460px;margin:auto;">
