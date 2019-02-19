@@ -13,14 +13,14 @@
     ?>
 
     <div class="w3-display-container parallax-img bgimg-sammy-oyvind-ask full-height margin-top-100">
-        <article class="w3-display-bottommiddle white-text w3-xlarge width-100 w3-container max-width-1200" style="">
+        <article class="w3-display-bottommiddle white-text mobile-medium width-100 w3-container max-width-1200" style="">
             <p>Som et team jobber vi sammen. Vi vil oppnå store ting for norsk ungdom, norsk næring og internasjonal vekst. Vi vil selv være en del av løsning Norge benytter seg av for å øke i mangfold og ha større internasjonal vekst.​</p>
             <p>InMarket sitt team består av unge ledere og medarbeidere som sammen skal skape Norges største møteplass for arbeidsgivere og resten av samfunnet.</p>
             <p>Vi vil at prosessen med å skaffe seg ansatte ikke bare skal handle om den lille tiden det tar å legge ut stilling og finne ansatte. Vi vil at ansettelsesprosessen skal starte tidligere.</p>
         </article>
     </div>
 
-    <div class="w3-row w3-center w3-container w3-xlarge w3-center w3-padding-32 max-width-1200" style=" margin:auto;">
+    <div class="w3-row w3-center w3-container mobile-medium w3-center w3-padding-32 max-width-1200" style=" margin:auto;">
         <div class="w3-col m6">
             <img src="img/fig/ledelse.jpg" alt="" class="width-35-percent">
             <p>
