@@ -29,9 +29,6 @@
             <div class="w3-row">
                 <div class="w3-col m4 w3-container w3-padding w3-jumbo w3-relative w3-display-container">
                     <img src="img/logos/logo-old.png" alt="" style="height:200px" class="w3-left">
-                    <!-- <span class="old-red-text w3-display-middle">
-                        <i class="fas fa-arrow-right" class="w3-right"></i>
-                    </span> -->
                     <span class="golden-text weird-positioning">
                         <i class="fas fa-arrow-right" class="w3-right"></i>
                     </span>
@@ -51,27 +48,6 @@
             <div class="videoWrapper">
                 <iframe src="https://player.vimeo.com/video/313534023?autoplay=1" width="1920" height="1080" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="vimeo-video"></iframe>
             </div>
-            <!-- <div class="w3-row w3-row-padding">
-                <div class="w3-col m6">
-                    <img src="img/employees/sammy_izzy.jpg" alt="" style="width:100%;">
-                </div>
-                <div class="w3-col m6">
-                    <img src="img/employees/sammy_izzy2.jpg" alt="" style="width:100%;">
-                </div>
-            </div>
-            <p>
-                2018 har vært et innholdsrikt år og vi gleder oss til hva fremtiden har å by på! Snart er dette året ferdig og 2019 er rett rundt hjørne men, først er det jul!🧣🎁🎅🏼
-            </p>
-            <p>
-                Med blikket festet fremover tar InMarket nå juleferie!😊☺️🙌🏾
-            </p>
-            <p>
-                Vi ønsker ALLE en riktig god og varm feiring, selv om det kan være minusgrader ute 😬❄️🧣
-            </p>
-            <p>
-                God jul og godt nytt år! ♥️🙌🏾🎉🎊 <br>
-                #jul #juleferie #business #InMarket #inmarketnorge
-            </p> -->
         </article>
         <div class="w3-section w3-container">
             <h3>Sosiale media</h3>
