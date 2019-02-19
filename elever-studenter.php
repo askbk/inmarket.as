@@ -36,7 +36,7 @@
                         <div class="w3-center">
                             <p>Lag deg en profil som kan dokumentere din aktivitet ute i virksomhetene.​</p>
                             <p>​Vi holder oss tett koblet til utdanningsplassen din slik at du ikke behøver å bortprioritere dine studier. Ved å gjøre noe som aktivt kan kobles til studie ditt, vil du stå sterk til å velge veien din videre.</p>
-                            <a href="kontakt.php" class="black-button w3-card" style="white-space:normal;">SØK PÅ ÅPNE PROSJEKTPLASSER I DITT OMRÅDE</a>
+                            <a href="kontakt.php" class="black-button w3-card" style="white-space:normal;" onclick="elevSelected()">SØK PÅ ÅPNE PROSJEKTPLASSER I DITT OMRÅDE</a>
                         </div>
                     </article>
                 </div>
@@ -51,7 +51,7 @@
                         <div class="w3-center">
                             <p>Lag deg en profil som kan dokumentere din aktivitet ute i virksomhetene.​</p>
                             <p>Med oss kan du utvikle de egenskapene som får deg til å blomstre. Vi hjelper deg med å bygge erfaringer og kompetanse som er relevant for studier og karriere.​</p>
-                            <a href="kontakt.php" class="black-button w3-card" style="white-space:normal;">SØK PÅ ÅPNE PROSJEKTPLASSER I DITT OMRÅDE</a>
+                            <a href="kontakt.php" class="black-button w3-card" style="white-space:normal;" onclick="studentClient();">SØK PÅ ÅPNE PROSJEKTPLASSER I DITT OMRÅDE</a>
                         </div>
                     </article>
                 </div>
@@ -146,6 +146,7 @@
 
     <!-- Footer -->
     <?php include_once 'templates/footer.php'; ?>
+    <script src="js/clientType.js" charset="utf-8"></script>
 </body>
 
 </html>
