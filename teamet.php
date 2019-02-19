@@ -159,14 +159,14 @@
             </a>
         </div>
         <div class="job-opening w3-padding-32" style="display:none;" id="webdesigner">
-            <div class="w3-row w3-container">
+            <div class="w3-row w3-container w3-large">
                 <div class="w3-col m6">
-                    <h3>Webdesigner</h3>
-                    <p>Heltid/deltid/prosjekt</p>
-                    <p>Stillingsbeskrivelse</p>
-                    <p>Kvalifikasjoner</p>
-                    <p>Hva vi kan tilby</p>
-                    <p>Antall ledige stillinger</p>
+                    <h3>UX- og UI-designer</h3>
+                    <p>Deltid</p>
+                    <p>Som UX- og UI-designer hos oss vil du være med på å forme utseendet og brukeropplevelsen både på plattformen vår og nettsidene våre.</p>
+                    <p>Vi ser etter deg som klarer å sette deg selv i brukerens posisjon, er kreativ og kan samarbeide godt i et team.</p>
+                    <p>Jobben er per dags dato ikke lønnet, vi belønner heller ansatte med opsjoner til aksjeandeler i selskapet.</p>
+                    <p>1 ledig stilling</p>
                 </div>
                 <div class="w3-col m6">
                     <div class="videoWrapper">
@@ -179,14 +179,14 @@
             </div>
         </div>
         <div class="job-opening w3-padding-32" style="display:none;" id="developer">
-            <div class="w3-row w3-container">
+            <div class="w3-row w3-container w3-large">
                 <div class="w3-col m6">
                     <h3>Utvikler</h3>
-                    <p>Heltid/deltid/prosjekt</p>
-                    <p>Stillingsbeskrivelse</p>
-                    <p>Kvalifikasjoner</p>
-                    <p>Hva vi kan tilby</p>
-                    <p>Antall ledige stillinger</p>
+                    <p>Deltid</p>
+                    <p>Som utvikler vil du hovedsakelig jobbe med den kommende plattformen vår. Her er det muligheter både til å jobbe på frontend, backend eller fullstack, alt etter eget ønske.</p>
+                    <p>Vi jobber med fullstack JavaScript. Hvis du har erfaring med dette er det et stort pluss, men ta gjerne kontakt selv om du ikke har det! Vi trenger deg som kan tenke systematisk, jobbe selvstendig og har høyt motivasjonsnivå.</p>
+                    <p>Jobben er per dags dato ikke lønnet, vi belønner heller ansatte med opsjoner til aksjeandeler i selskapet.</p>
+                    <p>3 ledige stillinger</p>
                 </div>
                 <div class="w3-col m6">
                     <div class="videoWrapper">
