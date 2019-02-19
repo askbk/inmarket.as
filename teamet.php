@@ -20,7 +20,7 @@
         </article>
     </div>
 
-    <div class="w3-row w3-center w3-container mobile-medium w3-center w3-padding-32 max-width-1200" style=" margin:auto;">
+    <div class="w3-row w3-center w3-container mobile-large w3-center w3-padding-32 max-width-1200" style=" margin:auto;">
         <div class="w3-col m6">
             <img src="img/fig/ledelse.jpg" alt="" class="width-35-percent">
             <p>
