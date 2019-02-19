@@ -13,7 +13,7 @@
     ?>
     <div class="w3-display-container margin-top-100" id="hjem">
         <div class="bgimg-glade-flip-dark parallax-img" style="height: calc(100vh - 100px);">
-            <div class="w3-middle w3-xxlarge white-text margin-top-100 width-100 w3-content w3-container">
+            <div class="w3-display-middle w3-xxlarge white-text margin-top-100 width-100 w3-content w3-container">
                 <p>Bygg opp din kompetanse og skaff deg erfaringer slik at du lettere kan bli klar til å jobbe.</p>
             </div>
             <div class="w3-display-bottommiddle width-100 white-bg w3-card">
