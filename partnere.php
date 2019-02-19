@@ -14,7 +14,7 @@
 
     <!-- partners -->
     <div class="w3-content w3-container margin-top-100" id="partner-div" style="min-height: calc(100vh - 300px);">
-        <h1 class="margin-bottom-25">Partnere, kunder og Inkubatorer</h1>
+        <h1 class="margin-bottom-25 w3-xxlarge">Partnere, kunder og Inkubatorer</h1>
 
         <div class="w3-row w3-center w3-hide-small w3-row-padding">
             <div class="w3-col m3 s3" itemprop="sponsor">
