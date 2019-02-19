@@ -44,7 +44,7 @@ function bedriftSelected() {
     for(element of bedriftElements) {
         element.classList.remove("w3-hide");
     }
-    inputPlace.setAttribute("placeholder", "bedrift")
+    inputPlace.setAttribute("placeholder", "Bedrift")
     check(2);
     bedriftClient();
 }
