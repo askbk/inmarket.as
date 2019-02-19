@@ -19,7 +19,7 @@
         </div>
     </div>
 
-    <div class="w3-content w3-xlarge w3-center">
+    <div class="w3-content w3-xlarge w3-center w3-container">
         <div class="w3-row">
             <!-- TODO: Legge til figurer-->
         </div>
