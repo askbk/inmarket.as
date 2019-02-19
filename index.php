@@ -126,7 +126,7 @@
             <a href="http://www.charge.no" target="_blank"><img src="img/logos/charge.png" alt="Charge" width="100%"></a>
         </div>
     </div>
-    <div class="w3-content text-align-right w3-padding-16 w3-container w3-large">
+    <div class="w3-content w3-center w3-padding-16 w3-container w3-large">
         <a href="partnere.php" class="black-button w3-card">
             Alle våre kunder og partnere
         </a>
