@@ -170,7 +170,7 @@
                 </div>
                 <div class="w3-col m6">
                     <div class="videoWrapper">
-                        <iframe src="https://player.vimeo.com/video/315308002" width="1920" height="1080" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="vimeo-video"></iframe>
+                        <iframe src="https://player.vimeo.com/video/315308002?autoplay=1" width="1920" height="1080" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="vimeo-video"></iframe>
                     </div>
                 </div>
             </div>
@@ -190,7 +190,7 @@
                 </div>
                 <div class="w3-col m6">
                     <div class="videoWrapper">
-                        <iframe src="https://player.vimeo.com/video/315308002" width="1920" height="1080" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="vimeo-video"></iframe>
+                        <iframe src="https://player.vimeo.com/video/315308002?autoplay=1" width="1920" height="1080" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="vimeo-video"></iframe>
                     </div>
                 </div>
             </div>

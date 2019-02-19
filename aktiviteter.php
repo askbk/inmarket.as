@@ -49,7 +49,7 @@
         <article class="w3-container w3-section">
             <h2>Månedens blogg</h2>
             <div class="videoWrapper">
-                <iframe src="https://player.vimeo.com/video/313534023" width="1920" height="1080" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="vimeo-video"></iframe>
+                <iframe src="https://player.vimeo.com/video/313534023?autoplay=1" width="1920" height="1080" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="vimeo-video"></iframe>
             </div>
             <!-- <div class="w3-row w3-row-padding">
                 <div class="w3-col m6">
