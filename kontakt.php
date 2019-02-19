@@ -33,7 +33,7 @@
                         <label>
                             <input type="radio" name="client" value="bedrift" class="klient-radio" onclick="bedriftSelected()">
                             <i class="fas fa-user-tie w3-xlarge radio"></i>
-                            bedrift
+                            Bedrift
                         </label>
                     </div>
                     <div class="w3-col m9">
