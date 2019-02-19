@@ -17,7 +17,7 @@ window.addEventListener('scroll', function() {
             b = elRect.bottom;
         const elHeight = b - t;
         // console.log(`${h} ${t} ${b}`);
-        const shouldPause = b < (elHeight * 0.55) || h - t < elHeight * 0.55;
+        const shouldPause = b - 100 < (elHeight * 0.55) || h - t < elHeight * 0.55;
         if (shouldPause) {
             videos[i].pause()
         } else {
