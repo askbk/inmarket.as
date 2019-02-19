@@ -13,21 +13,21 @@
     ?>
 
     <div class="w3-display-container parallax-img bgimg-sammy-oyvind-ask full-height margin-top-100">
-        <article class="w3-display-bottommiddle white-text mobile-large width-100 w3-container max-width-1200 w3-center" style="">
+        <article class="w3-display-bottommiddle white-text mobile-medium width-100 w3-container max-width-1200 w3-center" style="padding-bottom:50px;">
             <p>Som et team jobber vi sammen. Vi vil oppnå store ting for norsk ungdom, norsk næring og internasjonal vekst. Vi vil selv være en del av løsning Norge benytter seg av for å øke i mangfold og ha større internasjonal vekst.​</p>
             <p>InMarket sitt team består av unge ledere og medarbeidere som sammen skal skape Norges største møteplass for arbeidsgivere og resten av samfunnet.</p>
             <p>Vi vil at prosessen med å skaffe seg ansatte ikke bare skal handle om den lille tiden det tar å legge ut stilling og finne ansatte. Vi vil at ansettelsesprosessen skal starte tidligere.</p>
         </article>
     </div>
 
-    <div class="w3-row w3-center w3-container mobile-medium w3-center w3-padding-32 max-width-1200" style=" margin:auto;">
-        <div class="w3-col m6">
+    <div class="w3-row w3-center w3-container w3-large w3-center w3-padding-32 max-width-1200" style=" margin:auto;">
+        <div class="w3-col m6 w3-padding-large w3-container">
             <img src="img/fig/ledelse.jpg" alt="" class="width-25-percent">
             <p>
                 Som leder i InMarket Norge får du ansvar for din egen avdeling. Her har du gode arbeidsvilkår, gode muligheter til å utvikle din kompetanse og kommunikasjonslinje rett opp til styret. Du vil kunne veilede, organisere og følge opp ditt eget team, og du er med på å forme InMarkets mål og arbeidsprosess.
             </p>
         </div>
-        <div class="w3-col m6">
+        <div class="w3-col m6 w3-padding-large w3-container">
             <img src="img/fig/ledelse.jpg" alt="" class="width-25-percent">
             <p>
                 Som ansatt i InMarket vil du kunne bruke fagkompetanse din til å løse spesifikke oppgaver i vår drift. Vi ser først og fremst etter deg med forståelse og innblikk i norsk arbeidsmarked. Her vil alt man gjør kunne knyttes til vår visjon om å styrke det norske arbeidsmarkedet i internasjonal sammenheng.​
@@ -36,7 +36,7 @@
     </div>
 
     <div class="w3-content">
-        <hr>
+        <hr class="golden-hr">
     </div>
 
     <div class="w3-container w3-padding-64">
