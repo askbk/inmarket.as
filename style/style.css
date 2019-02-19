@@ -569,6 +569,10 @@ label input:checked~.radio::before {
 .mobile-medium {
     font-size: 22px;
 }
+
+.mobile-zoom{
+    zoom:1.0;
+}
 @media (max-width:600px) {
     .parallax-img {
         background-attachment: scroll;
@@ -592,6 +596,15 @@ label input:checked~.radio::before {
 
     .mobile-width{
         width:75%;
+    }
+    .mobile-zoom{
+        zoom:0.7;
+    }
+}
+
+@media (max-width:374px) {
+    .mobile-zoom{
+        zoom:0.6;
     }
 }
 

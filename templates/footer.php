@@ -1,5 +1,5 @@
 <!-- Footer -->
-<footer class="w3-container uppercase">
+<footer class="w3-container uppercase mobile-zoom">
     <div class="w3-content w3-row golden-text padding-left-100 w3-row-padding">
         <div class="w3-col s4">
             <h3 class="">Oss</h3>
