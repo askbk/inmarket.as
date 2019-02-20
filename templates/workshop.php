@@ -25,7 +25,7 @@
         }
          ?>
     </a>
-    <a href="https://www.allinclusivetalk.com/" target="_blank" class="hover-shadow-inset mobile-large w3-col m6 w3-card w3-center golden-button">
+    <a href="https://www.allinclusivetalk.com/" target="_blank" class="black-button mobile-large w3-col m6 w3-card w3-center">
         OM «ALL INCLUSIVE TALK»
     </a>
 </div>
