@@ -125,16 +125,16 @@
         <p class="w3-content">InMarket er en brukerstyrt plattform som ved hjelp av automatiserte systemer kobler arbeidsplasser med relevante kandidater.</p>
     </div>
 
-    <div class="w3-center" style="max-width:1460px;margin:auto;">
-        <div  class="w3-padding-64 w3-container w3-center mobile-medium">
-            <div class="w3-left w3-mobile" style="width:225px;">
+    <div class="w3-center" style="max-width:1172px;margin:auto;">
+        <div  class="w3-padding-64 w3-container w3-center w3-large">
+            <div class="w3-left w3-mobile" style="width:180px;">
                 <img src="img/fig/business1.png" alt="Figure" style="" class="width-25-percent">
                 <p>InMarket møter, informerer og rekrutterer bedrifter og organisasjoner inn i systemet. </p>
             </div>
 
             <div class="w3-left w3-mobile testt">
                 <div class="w3-row">
-                    <div class="w3-col m3 w3-hide-small">
+                    <div class="w3-col m2 w3-hide-small">
                         <object type="image/svg+xml" data="img/fig/arrow-right.svg" class="w3-left" style="width:100%"></object>
                     </div>
                     <div class="w3-col m3 w3-hide-medium w3-hide-large">
@@ -149,7 +149,7 @@
 
             <div class="w3-left w3-mobile testt">
                 <div class="w3-row">
-                    <div class="w3-col m3 w3-hide-small">
+                    <div class="w3-col m2 w3-hide-small">
                         <object type="image/svg+xml" data="img/fig/arrow-right.svg" class="w3-left" style="width:100%"></object>
                     </div>
                     <div class="w3-col m3 w3-hide-medium w3-hide-large">
@@ -164,7 +164,7 @@
 
             <div class="w3-left w3-mobile testt">
                 <div class="w3-row">
-                    <div class="w3-col m3 w3-hide-small">
+                    <div class="w3-col m2 w3-hide-small">
                         <object type="image/svg+xml" data="img/fig/arrow-right.svg" class="w3-left" style="width:100%"></object>
                     </div>
                     <div class="w3-col m3 w3-hide-medium w3-hide-large">
@@ -179,7 +179,7 @@
 
             <div class="w3-left w3-mobile testt">
                 <div class="w3-row">
-                    <div class="w3-col m3 w3-hide-small">
+                    <div class="w3-col m2 w3-hide-small">
                         <object type="image/svg+xml" data="img/fig/arrow-right.svg" class="w3-left" style="width:100%"></object>
                     </div>
                     <div class="w3-col m3 w3-hide-medium w3-hide-large">
