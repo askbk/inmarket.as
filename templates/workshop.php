@@ -7,29 +7,20 @@
 <div class="black-bg">
     <article class="w3-content w3-xlarge w3-container white-text">
         <p>Alle lærer seg teknikker for å skape seg en trygg grunnmur som kan adapteres på alle scener og i alle situasjoner.​</p>
-        <p>Gjennom praktiske øvelser gir vi <?php if ($bedrift) {
-            echo "din bedrift";
-        } else {
-            echo "deg";
-        }
-         ?> konkrete verktøy og løsninger for å mestre det å kommunisere.</p>
+        <p>Gjennom praktiske øvelser gir vi din bedrift konkrete verktøy og løsninger for å mestre det å kommunisere.</p>
     </article>
 </div>
 <div class="" id="workshop-anchor"></div>
 <div class="w3-row">
-    <a href="#workshop-anchor" class="hover-shadow-inset mobile-large w3-col m6 w3-card w3-center golden-button">
-        <?php if ($bedrift) {
-            echo "Form din workshop";
-        } else {
-            echo "Søk plass på workshop";
-        }
-         ?>
+    <a class="hover-shadow-inset mobile-large w3-col m6 w3-card w3-center golden-button" id="workshop-button">
+        Form din workshop
     </a>
     <a href="https://www.allinclusivetalk.com/" target="_blank" class="black-button mobile-large w3-col m6 w3-card w3-center">
         OM «ALL INCLUSIVE TALK»
     </a>
 </div>
-<div class="w3-content w3-container w3-padding-32">
+
+<div class="w3-content w3-container w3-padding-32" style="display:none;" id="workshop-form">
     <div class="">
         <form class="w3-xlarge w3-container" action="index.php" method="post" id="workshop">
             <div class="w3-row">
@@ -106,12 +97,7 @@
             </div>
             <div class="w3-row w3-row-padding">
                 <div class="w3-col m6">
-                    <input type="text" name="name" placeholder="<?php if ($bedrift) {
-                        echo "Bedrift";
-                    } else {
-                        echo "Navn";
-                    }
-                     ?>" class="w3-input w3-animate-input" required><br>
+                    <input type="text" name="name" placeholder="Bedrift" class="w3-input w3-animate-input" required><br>
                     <input type="text" name="phone" placeholder="Telefon" class="w3-input w3-animate-input" required><br>
                 </div>
                 <div class="w3-col m6">
@@ -121,11 +107,7 @@
             <div class="w3-row">
                 <input type="checkbox" name="" value="" required> <label>Jeg har lest og godtatt <a href="personvern.php" style="text-decoration:underline;" target="_blank">personvernerklæringen</a> </label>
                 <p>Dette er en uforpliktende bestilling. Vi ringer deg og gir deg forslag på opplegg sammen med pris.</p>
-                <button class="black-button w3-card w3-right" type="submit"><i class="fas fa-paper-plane"></i> <?php if ($bedrift) {
-                    echo "Bestill";
-                } else {
-                    echo "Søk plass";
-                } ?> </button>
+                <button class="black-button w3-card w3-right" type="submit"><i class="fas fa-paper-plane"></i> Bestill</button>
             </div>
         </form>
         <div class="w3-section w3-card w3-container w3-xlarge" id="kontaktRespons" style="display:none;">
@@ -135,6 +117,10 @@
 </div>
 
 <script type="text/javascript">
+$("#workshop-button").on("click", function() {
+    $("#workshop-form").slideToggle();
+})
+
 
 $("#workshop").submit(function (e) {
     e.preventDefault();
