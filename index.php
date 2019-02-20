@@ -138,7 +138,7 @@
     </div>
 
     <div class="w3-center" style="max-width:1460px;margin:auto;">
-        <div class="w3-padding-64 w3-container w3-center mobile-medium">
+        <div  class="w3-padding-64 w3-container w3-center mobile-medium">
             <div class="w3-left w3-mobile" style="width:225px;">
                 <img src="img/fig/business1.png" alt="Figure" style="" class="width-25-percent">
                 <p>InMarket møter, informerer og rekrutterer bedrifter og organisasjoner inn i systemet. </p>
@@ -206,9 +206,34 @@
         </div>
     </div>
 
+    <div class="w3-content w3-center w3-padding-64 w3-container w3-xlarge">
+        <div class="outerdot">
+            <div class="dot"> <span class="golden-text">0</span></div>
+            <p>BEDRIFTER</p>
+        </div>
+        <div class="outerdot">
+            <div class="dot"> <span class="golden-text">0</span></div>
+            <p>ELEVER</p>
+        </div>
+        <div class="outerdot">
+            <div class="dot"> <span class="golden-text">0</span></div>
+            <p>STUDENTER</p>
+        </div>
+        <div class="outerdot">
+            <div class="dot"> <span class="golden-text">0</span></div>
+            <p>JOBBSØKERE</p>
+        </div>
+    </div>
+
+
+
+
+
     <?php include_once 'templates/footer.php'; ?>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="js/slideshow.js" charset="utf-8"></script>
+
+
 </body>
 
 </html>
