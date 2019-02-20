@@ -14,21 +14,9 @@
 
     <!-- Slideshow-->
     <div class="slideshow w3-display-container margin-top-100 white-text" id="hjem">
-        <div class="bgimg-allinclusive-1 mySlides parallax-img">
-            <!-- <div class="w3-card-4 slideshowText w3-display-bottomright black-bg-opac-80 uppercase">
-                DU FÅR TILGANG TIL ENGASJERTE OG DYKTIGE UNGDOMMER.​ SE HVA VI KAN TILBY OG BLI VÅR PARTNER!
-            </div> -->
-        </div>
-
-        <div class="bgimg-christian-kamera mySlides parallax-img" style="display:none;">
-            <!-- <h1 class="w3-display-bottomright" style="right:10%;padding: 6px;margin-bottom: 32px;">Viser veien videre</h1> -->
-        </div>
-
-        <div class="bgimg-jenterpeker mySlides parallax-img" style="display:none;">
-            <!-- <div class="w3-card-4 black-bg-opac-80 slideshowText w3-display-bottomright uppercase">
-                HVORDAN VET DU AT JOBBEN ER RIKTIG FOR DEG VED Å BARE SE PÅ EN ANNONSE? LA OSS HJELPE DEG.
-            </div> -->
-        </div>
+        <div class="bgimg-allinclusive-1 mySlides parallax-img"></div>
+        <div class="bgimg-christian-kamera mySlides parallax-img" style="display:none;"></div>
+        <div class="bgimg-jenterpeker mySlides parallax-img" style="display:none;"></div>
     </div>
     <div class="w3-row width-100 mobile-large">
         <div class="w3-col m4 hover-shadow-inset shadow-inset golden-button slide-indicator black-text indicator-active" n="0">
@@ -225,15 +213,8 @@
         </div>
     </div>
 
-
-
-
-
     <?php include_once 'templates/footer.php'; ?>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="js/slideshow.js" charset="utf-8"></script>
-
-
 </body>
-
 </html>
