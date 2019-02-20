@@ -196,19 +196,19 @@
 
     <div class="w3-content w3-center w3-padding-64 w3-container w3-xlarge">
         <div class="outerdot">
-            <div class="dot"> <span class="golden-text">0</span></div>
+            <div class="dot"> <span class="golden-text">11</span></div>
             <p>BEDRIFTER</p>
         </div>
         <div class="outerdot">
-            <div class="dot"> <span class="golden-text">0</span></div>
+            <div class="dot"> <span class="golden-text">16</span></div>
             <p>ELEVER</p>
         </div>
         <div class="outerdot">
-            <div class="dot"> <span class="golden-text">0</span></div>
+            <div class="dot"> <span class="golden-text">12</span></div>
             <p>STUDENTER</p>
         </div>
         <div class="outerdot">
-            <div class="dot"> <span class="golden-text">0</span></div>
+            <div class="dot"> <span class="golden-text">15</span></div>
             <p>JOBBSØKERE</p>
         </div>
     </div>
