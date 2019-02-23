@@ -19,7 +19,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 }
 
-$to = "post@imnor.no, skretteberg@imnor.no, kontakt@inmarket.as";
+$to = "kontakt@inmarket.as";
 $subject = "Henvendelse fra $name";
 $message = "Workshop\nFra: $name, $email, $phone\nKonflikt: $conflict\nPlass: $location\nAntall: $headcount";
 $headers = "MIME-Version: 1.0" . "\r\n";

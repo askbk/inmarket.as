@@ -48,7 +48,7 @@
                     <div class="w3-container">
                         <h4 itemprop="name" class="">Samuel Bigirimana</h4>
                         <p class="w3-opacity" itemprop="jobTitle">Daglig leder</p>
-                        <p>Tlf.: (+47) <span itemprop="telephone">950 01 753</span><br>E-post: <span itemprop="email">samuel@imnor.no</span></p>
+                        <p>Tlf.: (+47) <span itemprop="telephone">950 01 753</span><br>E-post: <span itemprop="email">samuel@inmarket.as</span></p>
                     </div>
                 </div>
                 <div style="" class="hidden-description w3-right">
@@ -64,7 +64,7 @@
                     <div class="w3-container">
                         <h4 itemprop="name" class="">Øyvind Fjeld</h4>
                         <p class="w3-opacity" itemprop="jobTitle">Nestleder</p>
-                        <p>Tlf.: (+47) <span itemprop="telephone">454 76 037</span><br>E-post: <span itemprop="email">oyvind.fjeld@imnor.no</span></p>
+                        <p>Tlf.: (+47) <span itemprop="telephone">454 76 037</span><br>E-post: <span itemprop="email">oyvind@inmarket.as</span></p>
                     </div>
                 </div>
                 <div class="hidden-description w3-right">
@@ -80,7 +80,7 @@
                     <div class="w3-container">
                         <h4 itemprop="name" class="">Samuel Skretteberg</h4>
                         <p class="w3-opacity" itemprop="jobTitle">Personaldirektør</p>
-                        <p>Tlf.: (+47) <span itemprop="telephone">473 26 426</span><br>E-post: <span itemprop="email">skretteberg@imnor.no</span></p>
+                        <p>Tlf.: (+47) <span itemprop="telephone">473 26 426</span><br>E-post: <span itemprop="email">skretteberg@inmarket.as</span></p>
                     </div>
                 </div>
                 <div class="hidden-description w3-right">
@@ -98,7 +98,7 @@
                     <div class="w3-container">
                         <h4 itemprop="name" class="">Ask Berstad Kolltveit</h4>
                         <p class="w3-opacity" itemprop="jobTitle">Teknologidirektør</p>
-                        <p>Tlf.: (+47) <span itemprop="telephone">454 18 864</span><br>E-post: <span itemprop="email">ask.kolltveit@imnor.no</span></p>
+                        <p>Tlf.: (+47) <span itemprop="telephone">454 18 864</span><br>E-post: <span itemprop="email">ask@inmarket.as</span></p>
                     </div>
                 </div>
                 <div class="hidden-description w3-right">
@@ -114,7 +114,7 @@
                     <div class="w3-container">
                         <h4 itemprop="name" class="">Filip Østervold Tangen</h4>
                         <p class="w3-opacity" itemprop="jobTitle">Utvikler</p>
-                        <p>Tlf.: (+47) <span itemprop="telephone">454 18 864</span><br>E-post: <span itemprop="email">filip.tangen@imnor.no</span></p>
+                        <p>Tlf.: (+47) <span itemprop="telephone">454 18 864</span><br>E-post: <span itemprop="email">filip@inmarket.as</span></p>
                     </div>
                 </div>
                 <div class="hidden-description w3-right">
@@ -130,7 +130,7 @@
                     <div class="w3-container">
                         <h4 itemprop="name" class="">Izraeli Boneza</h4>
                         <p class="w3-opacity" itemprop="jobTitle">Mediaansvarlig</p>
-                        <p>Tlf.: (+47) <span itemprop="telephone">484 02 836</span><br>E-post: <span itemprop="email">izraeli@imnor.no</span></p>
+                        <p>Tlf.: (+47) <span itemprop="telephone">484 02 836</span><br>E-post: <span itemprop="email">izraeli@inmarket.as</span></p>
                     </div>
                 </div>
                 <div class="hidden-description w3-right">

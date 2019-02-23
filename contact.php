@@ -16,7 +16,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $phone = test_input($_POST["phone"]);
 }
 
-$to = "post@imnor.no, skretteberg@imnor.no";
+$to = "kontakt@inmarket.as";
 $subject = "Henvendelse fra $name";
 $message = "Henvendelse fra $name ved $place, tlf.: <$phone>. Type: $client.";
 $headers = "MIME-Version: 1.0" . "\r\n";
