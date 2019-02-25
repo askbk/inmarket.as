@@ -194,6 +194,10 @@
         </div>
     </div>
 
+    <div class="w3-content w3-center">
+        <h2>Nøkkeltall for InMarket</h2>
+    </div>
+
     <div class="w3-content w3-center w3-padding-64 w3-container w3-xlarge">
         <div class="outerdot">
             <div class="dot"> <span class="golden-text">11</span></div>
