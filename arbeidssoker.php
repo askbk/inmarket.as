@@ -95,6 +95,12 @@
             </div> -->
         </article>
 
+        <div class="w3-content w3-center w3-padding-16 w3-container w3-xlarge">
+            <a href="forhandsregistrering.php" class="black-button w3-card" onclick="arbeidssokerClient();">
+                FORHÅNDS REGISTRER​
+            </a>
+        </div>
+
         <a href="openings.php" class="black-button w3-card w3-bar w3-xxlarge">LEDIGE STILLINGER</a>
     </div>
     <div class="w3-display-container parallax-img bgimg-allinclusive-3" style="height:70vh;">

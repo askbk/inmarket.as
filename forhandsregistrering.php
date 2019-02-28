@@ -30,8 +30,6 @@
 
 
 
-
-    <!-- Container (kontakt oss) -->
     <div class="w3-content w3-container w3-padding-64 margin-top-100" id="kontakt" style="min-height: calc(100vh - 300px);">
         <h1 class="w3-center forhandsregistrer-tittel" id="kontaktHeader">Forhåndsregistrering </h1>
         <div class="">
@@ -40,7 +38,6 @@
                 <div class="w3-row">
                     <div class="w3-col m3 w3-card w3-padding">
 
-                        <!-- Type, Født (dropdown meny, måned, år), epost, vilkår  -->
                         <label>
                             <input type="radio" name="client" value="bedrift" class="klient-radio" checked onclick="bedriftSelected()">
                             <i class="fas fa-user w3-xlarge radio"></i>

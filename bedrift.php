@@ -30,6 +30,9 @@
         <div class="">
             <p>Vil du knytte kontakt med potensielle arbeidstakere og hjelpe dem med å bygge relevant kompetanse og erfaring?​ Du bestemmer aktivitet, sted, dato, tid og kandidat.​</p>
             <p class="w3-xxlarge"> <strong>VI LANSERER PLATTFORMEN I LØPET AV SOMMER 2019!​</strong> </p>
+            <div>
+                <a href="forhandsregistrering.php" class="black-button w3-card" style="white-space:normal;margin:1px;" onclick="bedriftClient();">FORHÅNDS REGISTRER​</a>
+            </div>
         </div>
         <div class="w3-row w3-row-padding w3-medium w3-padding-64">
             <div class="w3-col m2">
@@ -74,6 +77,8 @@
             Kontakt oss
         </a>
     </div>
+
+
 
     <?php
     $bedrift = true;

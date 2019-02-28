@@ -3,7 +3,7 @@ let radioButtons = document.getElementsByClassName("klient-radio");
 let bedriftElements = document.getElementsByClassName("bedriftSelected");
 let inputPlace = document.getElementById("inputPlace");
 //let studentElements = document.getElementsByClassName("studentSelected");
-/*
+
 let clientType = getClientType();
 
 if (clientType == "bedrift") {
@@ -12,8 +12,12 @@ if (clientType == "bedrift") {
     studentSelected();
 } else if (clientType == "elev") {
     elevSelected();
+} else if (clientType == "arbeidssoker") {
+    arbeidsledigSelected();
+} else if (clientType == "ansatt") {
+    ansattSelected();
 }
-*/
+
 function check(n) {
     for(let i = 0; i < 5; ++i) {
         radioButtons[i].checked = false;
