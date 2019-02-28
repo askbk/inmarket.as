@@ -114,11 +114,15 @@
             <a href="http://www.charge.no" target="_blank"><img src="img/logos/charge.png" alt="Charge" width="100%"></a>
         </div>
     </div>
-    <div class="w3-content w3-center w3-padding-16 w3-container w3-large">
+    <div class="w3-content w3-center w3-padding-8 w3-container w3-large">
         <a href="partnere.php" class="black-button w3-card">
             Alle våre kunder og partnere
         </a>
     </div>
+
+    <div class = "w3-padding-64" style=""></div>
+
+
 
     <div class="w3-container w3-center mobile-medium">
         <h2>Hvordan det funker</h2>
@@ -194,7 +198,29 @@
         </div>
     </div>
 
-    <div class="w3-content w3-center w3-padding-64 w3-container w3-xlarge">
+
+    <div class="w3-container w3-center mobile-medium">
+        <!--
+        <h2>VIL DU:​</h2>
+        <p class="w3-content"> Bedrifter - knytte kontakt med potensielle arbeidstakere og hjelpe dem med å bygge relevant kompetanse og erfaring?​</p>
+        <p class="w3-content"> Brukere - møte  arbeidsgivere, bygge erfaring og etablere seg i en bransje?​</p>
+        <br> -->
+        <h2 class="w3-content"> VI LANSERER PLATTFORMEN I LØPET AV SOMMER 2019!</h2>
+    </div>
+
+    <div class="w3-content w3-center w3-padding-16 w3-container w3-xlarge">
+        <a href="forhandsregistrering.php" class="black-button w3-card">
+            Forhåndsregistrer
+        </a>
+    </div>
+
+    <div class = "w3-padding-64" style=""></div>
+
+    <div class="w3-content w3-center w3-padding-16">
+        <h2>Nøkkeltall for InMarket</h2>
+    </div>
+
+    <div class="w3-content w3-center w3-padding-16 w3-container w3-xlarge">
         <div class="outerdot">
             <div class="dot"> <span class="golden-text">11</span></div>
             <p>BEDRIFTER</p>
@@ -212,6 +238,10 @@
             <p>JOBBSØKERE</p>
         </div>
     </div>
+
+
+
+
 
     <?php include_once 'templates/footer.php'; ?>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

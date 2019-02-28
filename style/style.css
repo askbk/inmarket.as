@@ -276,6 +276,9 @@ ul {
 /*
 .checkbox:*/
 
+
+
+
 .radio {
     cursor: pointer;
     color: #ddd;
@@ -556,6 +559,11 @@ label input:checked~.radio::before {
     background-position: center;
 }
 
+
+.forhandsregistrer-tittel{
+    font-size:60px;
+}
+
 .mobile-large {
     font-size: 36px;
 }
@@ -590,6 +598,10 @@ label input:checked~.radio::before {
     .bgimg-5 {background-image: url("../img/elever/trainee-big-mob.jpg")!important;} */
     .padding-left-100 {
         padding-left: inherit !important;
+    }
+
+    .forhandsregistrer-tittel{
+        font-size:25px !important;
     }
 
     .mobile-medium {
