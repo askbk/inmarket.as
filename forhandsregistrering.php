@@ -16,9 +16,13 @@
     <script>
         $( function() {
             //$( ".selector" ).datepicker(;
-            $( "#datepicker" ).datepicker({ dateFormat: 'yy-mm-dd',  defaultDate: new Date('1998-01-01')});
-
-        } );
+            $( "#datepicker" ).datepicker({
+                dateFormat: 'yy-mm-dd',
+                defaultDate: new Date('1998-01-01'),
+                changeMonth: true,
+                changeYear: true
+            });
+        });
     </script>
 </head>
 
