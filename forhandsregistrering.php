@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Kontakt oss | InMarket Norge</title>
+    <title>Registrer | InMarket Norge</title>
     <?php include_once 'templates/head.php'; ?>
 
 
@@ -12,12 +12,11 @@
     <title>jQuery UI Datepicker - Default functionality</title>
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <link rel="stylesheet" href="/resources/demos/style.css">
-    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script>
         $( function() {
             //$( ".selector" ).datepicker(;
-            $( "#datepicker" ).datepicker({ dateFormat: 'yy-mm-dd' });
+            $( "#datepicker" ).datepicker({ dateFormat: 'yy-mm-dd',  defaultDate: new Date('1998-01-01')});
 
         } );
     </script>
@@ -34,7 +33,7 @@
 
     <!-- Container (kontakt oss) -->
     <div class="w3-content w3-container w3-padding-64 margin-top-100" id="kontakt" style="min-height: calc(100vh - 300px);">
-        <h1 class="w3-center" id="kontaktHeader">Forhåndsregistrering </h1>
+        <h1 class="w3-center forhandsregistrer-tittel" id="kontaktHeader">Forhåndsregistrering </h1>
         <div class="">
             <form class="w3-large w3-container" action="index.php" method="post" id="kontaktSkjema">
                 <p class="w3-center"> Registrer brukeren din på forhånd  <i class="fas fa-arrow-down"></i></p>
@@ -69,16 +68,13 @@
                         </label>
                     </div>
                     <div class="w3-col m9">
-                        <input type="text" name="email" value="" placeholder="Email" class="w3-input w3-animate-input w3-margin w3-padding-16" required id="email" >
-                        <input type="text" name="birthdate" value="" placeholder="Fødselsdato" class="w3-input w3-animate-input w3-margin w3-padding-16" required id="datepicker" >
-<!--
-                        <input type="checkbox"  class="fas fa-user w3-xlarge radio w3-margin" style="display:none;"name="" value="" required> <label>Jeg har lest og godtatt <a href="personvern.php" style="text-decoration:underline;" target="_blank">personvernerklæringen</a> </label>
-                        -->
-                        <label>
-                            <input type="checkbox" name="" value=""  class="w3-margin" style="display:none;" required">
-                            <i class="fas fa-user-tie w3-xlarge radio w3-margin" ></i>
-                            Jeg har lest og godtatt <a href="personvern.php" style="text-decoration:underline;" target="_blank">personvernerklæringen</a>
-                        </label>
+                        <input type="text" name="email" value="" placeholder="Email" class="w3-input w3-animate-input w3-margin " required id="email" >
+                        <input type="text" name="birthdate" value="" placeholder="Fødselsdato" class="w3-input w3-animate-input w3-margin " required id="datepicker" >
+                        <br>
+                        <br>
+                        <br>
+
+                        <input type="checkbox" name="" value="" required class = "w3-margin" style="width:25px;height:25px;position:relative; top:6px;"> <label>Jeg har lest og godtatt <a href="personvern.php" style="text-decoration:underline;" target="_blank">personvernerklæringen</a> </label>
 
                         <button class="black-button w3-card w3-right" type="submit"><b class="fas fa-paper-plane"></b> <b>REGISTRER</b></button>
                         <p id="responseText"></p>

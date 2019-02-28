@@ -26,7 +26,6 @@ function elevSelected() {
     for(element of bedriftElements) {
         element.classList.add("w3-hide");
     }
-    inputPlace.setAttribute("placeholder", "Videregående skole")
     check(4);
     elevClient();
 }
@@ -35,7 +34,6 @@ function ansattSelected() {
     for(element of bedriftElements) {
         element.classList.add("w3-hide");
     }
-    inputPlace.setAttribute("placeholder", "Videregående skole")
     check(1);
     elevClient();
 }
@@ -44,7 +42,6 @@ function arbeidsledigSelected() {
     for(element of bedriftElements) {
         element.classList.add("w3-hide");
     }
-    inputPlace.setAttribute("placeholder", "Videregående skole")
     check(2);
     elevClient();
 }
@@ -52,7 +49,6 @@ function studentSelected() {
     for(element of bedriftElements) {
         element.classList.add("w3-hide");
     }
-    inputPlace.setAttribute("placeholder", "Høyskole/universitet")
     check(3);
     studentClient();
 }
@@ -61,7 +57,6 @@ function bedriftSelected() {
     for(element of bedriftElements) {
         element.classList.remove("w3-hide");
     }
-    inputPlace.setAttribute("placeholder", "Bedrift")
     check(0);
     bedriftClient();
 }
