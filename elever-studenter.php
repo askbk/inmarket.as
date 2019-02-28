@@ -52,7 +52,7 @@
                             <p>Lag deg en profil som kan dokumentere din aktivitet ute i virksomhetene.​</p>
                             <p>Med oss kan du utvikle de egenskapene som får deg til å blomstre. Vi hjelper deg med å bygge erfaringer og kompetanse som er relevant for studier og karriere.​</p>
                             <div>
-                            <a href="forhandsregistrering.php" class="black-button w3-card" style="white-space:normal;margin:1px;" onclick="studentClient();">FORHÅNDS REGISTRER​</a>
+                            <a href="forhandsregistrering.php" class="black-button w3-card" style="white-space:normal;margin:1px;" onclick="studentClient();">FORHÅNDSREGISTRER​</a>
                             </div>
                             <a href="kontakt.php" class="black-button w3-card" style="white-space:normal;" onclick="studentClient();">SØK PÅ ÅPNE PROSJEKTPLASSER I DITT OMRÅDE</a>
                         </div>

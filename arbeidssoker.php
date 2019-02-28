@@ -97,7 +97,7 @@
 
         <div class="w3-content w3-center w3-padding-16 w3-container w3-xlarge">
             <a href="forhandsregistrering.php" class="black-button w3-card" onclick="arbeidssokerClient();">
-                FORHÅNDS REGISTRER​
+                FORHÅNDSREGISTRER​
             </a>
         </div>
 

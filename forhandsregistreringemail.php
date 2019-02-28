@@ -1,8 +1,4 @@
 <?php
-
-
-
-
 function test_input($data) {
     $data = trim($data);
     $data = stripslashes($data);
@@ -25,25 +21,22 @@ function debug_to_console( $data ) {
 
     echo "<script>console.log( 'Debug Objects: " . $output . "' );</script>";
 }
+
 debug_to_console( $client);
 debug_to_console( $email);
 debug_to_console( $birthdate);
-
 
 $to = "kontakt@inmarket.as";
 $subject = "Forhåndsregistrering for $name";
 $message = "
 Forhåndsregistrering:
-Email: $email 
+Email: $email
 Fødselsdato: $birthdate
-Type: $client
+Type: $client";
 
-Fortell Filip Tangen hvis dette fungerer :)))
-";
 $headers = "MIME-Version: 1.0" . "\r\n";
 $headers .= "Content-type:text; charset=UTF-8" . "\r\n";
 $headers .= 'From: forhåndsregistrering' . "\r\n";
-
 
 if (true/*preg_match("/^((((19|[2-9]\d)\d{2})\-(0[13578]|1[02])\-(0[1-9]|[12]\d|3[01]))|(((19|[2-9]\d)\d{2})\-(0[13456789]|1[012])\-(0[1-9]|[12]\d|30))|(((19|[2-9]\d)\d{2})\-02\-(0[1-9]|1\d|2[0-8]))|(((1[6-9]|[2-9]\d)(0[48]|[2468][048]|[13579][26])|((16|[2468][048]|[3579][26])00))\-02\-29))$/g",$birthdate) AND
     preg_match("/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,})$/i", $email)*/){
