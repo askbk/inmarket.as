@@ -27,7 +27,7 @@ debug_to_console( $email);
 debug_to_console( $birthdate);
 
 $to = "kontakt@inmarket.as";
-$subject = "Forhåndsregistrering for $name";
+$subject = "Forhåndsregistrering";
 $message = "
 Forhåndsregistrering:
 Email: $email
