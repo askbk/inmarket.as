@@ -4,26 +4,6 @@
 <head>
     <title>Registrer | InMarket Norge</title>
     <?php include_once 'templates/head.php'; ?>
-
-
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>jQuery UI Datepicker - Default functionality</title>
-    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-    <link rel="stylesheet" href="/resources/demos/style.css">
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-    <script>
-        $( function() {
-            //$( ".selector" ).datepicker(;
-            $( "#datepicker" ).datepicker({
-                dateFormat: 'yy-mm-dd',
-                defaultDate: new Date('1998-01-01'),
-                changeMonth: true,
-                changeYear: true
-            });
-        });
-    </script>
 </head>
 
 <body>
