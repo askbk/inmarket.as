@@ -30,7 +30,7 @@ function elevSelected() {
     for(element of bedriftElements) {
         element.classList.add("w3-hide");
     }
-    check(4);
+    check(0);
     elevClient();
 }
 
@@ -38,7 +38,7 @@ function ansattSelected() {
     for(element of bedriftElements) {
         element.classList.add("w3-hide");
     }
-    check(1);
+    check(3);
     elevClient();
 }
 
@@ -53,7 +53,7 @@ function studentSelected() {
     for(element of bedriftElements) {
         element.classList.add("w3-hide");
     }
-    check(3);
+    check(1);
     studentClient();
 }
 
@@ -61,7 +61,7 @@ function bedriftSelected() {
     for(element of bedriftElements) {
         element.classList.remove("w3-hide");
     }
-    check(0);
+    check(4);
     bedriftClient();
 }
 

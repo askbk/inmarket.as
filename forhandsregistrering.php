@@ -4,26 +4,6 @@
 <head>
     <title>Registrer | InMarket Norge</title>
     <?php include_once 'templates/head.php'; ?>
-
-
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>jQuery UI Datepicker - Default functionality</title>
-    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-    <link rel="stylesheet" href="/resources/demos/style.css">
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-    <script>
-        $( function() {
-            //$( ".selector" ).datepicker(;
-            $( "#datepicker" ).datepicker({
-                dateFormat: 'yy-mm-dd',
-                defaultDate: new Date('1998-01-01'),
-                changeMonth: true,
-                changeYear: true
-            });
-        });
-    </script>
 </head>
 
 <body>
@@ -43,39 +23,45 @@
                     <div class="w3-col m3 w3-card w3-padding">
 
                         <label>
-                            <input type="radio" name="client" value="bedrift" class="klient-radio" checked onclick="bedriftSelected()">
-                            <i class="fas fa-user w3-xlarge radio"></i>
-                            Bedrift
-                        </label><br>
-                        <label>
-                            <input type="radio" name="client" value="ansatt" class="klient-radio" onclick="ansattSelected()">
-                            <i class="fas fa-user-graduate w3-xlarge radio"></i>
-                            Ansatt
-                        </label><br>
-                        <label>
-                            <input type="radio" name="client" value="arbeidsledig" class="klient-radio" onclick="arbeidsledigSelected()">
+                            <input type="radio" name="client" value="elev" class="klient-radio" onclick="elevSelected()">
                             <i class="fas fa-user-tie w3-xlarge radio"></i>
-                            Arbeidsledig
+                            Videregående elev
                         </label>
+
                         <label><br>
                             <input type="radio" name="client" value="student" class="klient-radio" onclick="studentSelected()">
                             <i class="fas fa-user-tie w3-xlarge radio"></i>
                             Student
                         </label>
-                        <label><br>
-                            <input type="radio" name="client" value="elev" class="klient-radio" onclick="elevSelected()">
+                        <label> <br>
+                            <input type="radio" name="client" value="arbeidsledig" class="klient-radio" onclick="arbeidsledigSelected()">
                             <i class="fas fa-user-tie w3-xlarge radio"></i>
-                            Elev
+                            Arbeidssøkere
                         </label>
+                        <label> <br>
+                            <input type="radio" name="client" value="ansatt" class="klient-radio" onclick="ansattSelected()">
+                            <i class="fas fa-user-graduate w3-xlarge radio"></i>
+                            Ansatt
+                        </label>
+
+                        <label> <br>
+                            <input type="radio" name="client" value="bedrift" class="klient-radio" checked onclick="bedriftSelected()">
+                            <i class="fas fa-user w3-xlarge radio"></i>
+                            Bedrift
+                        </label>
+
+
+
+
                     </div>
                     <div class="w3-col m9">
+                        <input type="text" name="navn" value="" placeholder="Navn"  class="w3-input w3-animate-input w3-margin " required id="navn">
                         <input type="text" name="email" value="" placeholder="Email" class="w3-input w3-animate-input w3-margin " required id="email" >
-                        <input type="text" name="birthdate" value="" placeholder="Fødselsdato" class="w3-input w3-animate-input w3-margin " required id="datepicker" >
-                        <br>
-                        <br>
+                        <!--<input type="text" name="birthdate" value="" placeholder="Fødselsdato" class="w3-input w3-animate-input w3-margin " required id="datepicker" >-->
+                        <input type="text" name="telefonnummer" value="" placeholder="Telefonnummer (valgfritt)"  class="w3-input w3-animate-input w3-margin " id="telefonnummer">
                         <br>
 
-                        <input type="checkbox" name="" value="" required class = "w3-margin" style="width:25px;height:25px;position:relative; top:6px;"> <label>Jeg har lest og godtatt <a href="personvern.php" style="text-decoration:underline;" target="_blank">personvernerklæringen</a> </label>
+                        <label  class = "w3-margin" >Jeg har lest og godtatt <a href="personvern.php" style="text-decoration:underline;" target="_blank">personvernerklæringen</a> </label><input type="checkbox" name="" value="" required style="width:25px;height:25px;position:relative; top:6px;">
 
                         <button class="black-button w3-card w3-right" type="submit"><b class="fas fa-paper-plane"></b> <b>REGISTRER</b></button>
                         <p id="responseText"></p>
