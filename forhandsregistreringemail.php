@@ -6,7 +6,7 @@ function test_input($data) {
     return $data;
 }
 
-$email = $birthdate = $telefonnummer = $headers = "";
+$email = $navn = $telefonnummer = $headers = "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $client = test_input($_POST["client"]);
@@ -22,15 +22,14 @@ $message = "
 Forhåndsregistrering:
 Navn: $navn
 Email: $email
-Navn: $telefonnummer
+Telefon: $telefonnummer
 Type: $client";
 
 $headers = "MIME-Version: 1.0" . "\r\n";
 $headers .= "Content-type:text; charset=UTF-8" . "\r\n";
 $headers .= 'From: forhåndsregistrering' . "\r\n";
 
-if (true/*preg_match("/^((((19|[2-9]\d)\d{2})\-(0[13578]|1[02])\-(0[1-9]|[12]\d|3[01]))|(((19|[2-9]\d)\d{2})\-(0[13456789]|1[012])\-(0[1-9]|[12]\d|30))|(((19|[2-9]\d)\d{2})\-02\-(0[1-9]|1\d|2[0-8]))|(((1[6-9]|[2-9]\d)(0[48]|[2468][048]|[13579][26])|((16|[2468][048]|[3579][26])00))\-02\-29))$/g",$birthdate) AND
-    preg_match("/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,})$/i", $email)*/){
+if (preg_match("/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,})$/i", $email)){
     if(mail($to, $subject, $message, $headers)){
         echo "Takk for registreringen!";
     } else {
