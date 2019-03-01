@@ -6,32 +6,23 @@ function test_input($data) {
     return $data;
 }
 
-$email = $birthdate = $headers = "";
+$email = $birthdate = $telefonnummer = $headers = "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $client = test_input($_POST["client"]);
     $email = test_input($_POST["email"]);
-    $birthdate = test_input($_POST["birthdate"]);
+    $navn = test_input($_POST["navn"]);
+    $telefonnummer = test_input($_POST["telefonnummer"]);
 }
 
-function debug_to_console( $data ) {
-    $output = $data;
-    if ( is_array( $output ) )
-        $output = implode( ',', $output);
-
-    echo "<script>console.log( 'Debug Objects: " . $output . "' );</script>";
-}
-
-debug_to_console( $client);
-debug_to_console( $email);
-debug_to_console( $birthdate);
 
 $to = "kontakt@inmarket.as";
 $subject = "Forhåndsregistrering";
 $message = "
 Forhåndsregistrering:
+Navn: $navn
 Email: $email
-Fødselsdato: $birthdate
+Navn: $telefonnummer
 Type: $client";
 
 $headers = "MIME-Version: 1.0" . "\r\n";
