@@ -505,7 +505,7 @@ label input:checked~.radio::before {
     background-size: cover;
 }
 
-.bgimg-christian-kamera {background-image: url("../img/elever/christian-kameraedit.jpg");}
+.bgimg-christian-kamera {background-image: url("../img/elever/christian-kamera.jpg");}
 .bgimg-jenterpeker {background-image: url("../img/jenterpekeredit.jpg");}
 .bgimg-allinclusive-1 {background-image: url("../img/partners/allinclusiveedit.jpg");}
 .bgimg-allinclusive-2 {background-image: url("../img/partners/allinclusive-2.jpg");}
