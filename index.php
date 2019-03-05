@@ -18,7 +18,7 @@
         <div class="bgimg-christian-kamera mySlides parallax-img" style="display:none;"></div>
         <div class="bgimg-jenterpeker mySlides parallax-img" style="display:none;"></div>
     </div>
-    <div class="w3-row width-100 mobile-large">
+    <div class="w3-row width-100 mobile-large slideshow-buttons">
         <div class="w3-col m4 hover-shadow-inset shadow-inset golden-button slide-indicator black-text indicator-active" n="0">
             Bedrifter
         </div>
