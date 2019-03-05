@@ -228,8 +228,8 @@ h1, h2, h3, h4, h5 {
 }
 
 .menu-bar1, .menu-bar2, .menu-bar3 {
-    width: 35px;
-    height: 5px;
+    width: 30px;
+    height: 3px;
     background-color: #333;
     margin: 6px 0;
     transition: 0.4s;
@@ -250,6 +250,8 @@ h1, h2, h3, h4, h5 {
 .menu-container {
     display: inline-block;
     cursor: pointer;
+    position:relative;
+    bottom:5px;
 }
 
 .width-25-percent {
@@ -473,12 +475,13 @@ label input:checked~.radio::before {
 }
 
 .slideshow {
-    height: calc(75vh - 100px);
+    /*Before 70*/
+    height: calc(75vh - 44px);
 }
 
 @media (max-width: 600px) {
     .slideshow {
-        height: calc(46vh - 100px) !important;
+        height: calc(46vh - 44px) !important;
     }
 
     .height-5em-mobile {
@@ -524,7 +527,7 @@ label input:checked~.radio::before {
 .bgimg-glade-flip-dark {background-image: url("../img/gladefolk_flip_dark.jpg");}
 
 .full-height {
-    height: calc(100vh - 100px);
+    height: calc(100vh - 80px);
 }
 
 .width-500 {
@@ -695,20 +698,23 @@ label input:checked~.radio::before {
     left: 61%;
 }
 
+/*To change height, change navbar height, margin-top-100 and full-height and .slideshow and media .slideshow*/
 #navbar {
-    height: 100px;
+    height: 80px;
     max-width: 1340px;
     margin-left: auto;
     margin-right: auto;
 }
 
 #navbar-button {
-    margin-right: 2em;
+    margin-right: 0em;
 }
 
 #navbar-img {
     margin: -5px;
-    margin-left: 2em;
+    margin-left: 0em;
+    position:relative;
+    bottom:2px;
 }
 
 .golden-hr{
@@ -758,7 +764,7 @@ label input:checked~.radio::before {
 .white-button, .golden-button, .black-button, .black-transparent-button, .feint-button {
     border:none;
     display:inline-block;
-    outline:0;padding:8px 16px;
+    outline:0;padding:0px 16px;
     vertical-align:middle;
     overflow:hidden;
     text-decoration:none;
@@ -862,7 +868,7 @@ label input:checked~.radio::before {
 }
 
 .margin-top-100 {
-    margin-top: 100px !important;
+    margin-top: 80px !important;
 }
 
 .z-index-0 {
