@@ -479,6 +479,11 @@ label input:checked~.radio::before {
     height: calc(75vh - 44px);
 }
 
+.slideshow-buttons{
+    font-size:30px!important;
+    letter-spacing:-0.5px;
+}
+
 @media (max-width: 600px) {
     .slideshow {
         height: calc(46vh - 44px) !important;
@@ -500,9 +505,9 @@ label input:checked~.radio::before {
     background-size: cover;
 }
 
-.bgimg-christian-kamera {background-image: url("../img/elever/christian-kamera.jpg");}
-.bgimg-jenterpeker {background-image: url("../img/jenterpeker.jpg");}
-.bgimg-allinclusive-1 {background-image: url("../img/partners/allinclusive.jpg");}
+.bgimg-christian-kamera {background-image: url("../img/elever/christian-kameraedit.jpg");}
+.bgimg-jenterpeker {background-image: url("../img/jenterpekeredit.jpg");}
+.bgimg-allinclusive-1 {background-image: url("../img/partners/allinclusiveedit.jpg");}
 .bgimg-allinclusive-2 {background-image: url("../img/partners/allinclusive-2.jpg");}
 .bgimg-allinclusive-3 {background-image: url("../img/partners/allinclusive-3.jpg");}
 .bgimg-gladefolk {background-image: url("../img/gladefolk.jpg");}
