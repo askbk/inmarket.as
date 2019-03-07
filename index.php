@@ -86,6 +86,12 @@
         <div class="partner-slide" itemprop="sponsor" >
             <a href="https://www.akademiet.no" target="_blank"><img src="img/logos/akademiet.png" alt="Akademiet" width="100%"></a>
         </div>
+        <div class="partner-slide" itemprop="sponsor" >
+            <a href="https://www.innovasjonnorge.no" target="_blank"><img src="img/logos/innovasjon_norge.png" alt="Innovasjon Norge" width="100%"></a>
+        </div>
+        <div class="partner-slide" itemprop="sponsor">
+            <a href="https://www.drammen.kommune.no/" target="_blank"><img src="img/logos/lierlaben.png" alt="Lierlaben" width="100%"></a>
+        </div>
         <div class="partner-slide" itemprop="sponsor">
             <a href="https://www.drammen.kommune.no/" target="_blank"><img src="img/logos/kommune.png" alt="Drammen kommune" width="100%"></a>
         </div>
@@ -97,6 +103,9 @@
         </div>
         <div class="partner-slide" itemprop="sponsor">
             <a href="http://nfdr.no/om-oss-medlemmer/bedrifter-i-naeringsforeningen?details=21626" target="_blank"><img src="img/logos/naeringsforeningen.png" alt="Næringsforeningen" width="100%"></a>
+        </div>
+        <div class="partner-slide" itemprop="sponsor">
+            <a href="http://nfdr.no/om-oss-medlemmer/bedrifter-i-naeringsforeningen?details=21626" target="_blank"><img src="img/logos/kairos.png" alt="Næringsforeningen" width="100%"></a>
         </div>
         <div class="partner-slide" itemprop="sponsor">
             <a href="https://www.allinclusivetalk.com/" target="_blank"><img src="img/logos/allinclusive.png" alt="All Inclusive Talk" width="100%"></a>
