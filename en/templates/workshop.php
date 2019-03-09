@@ -6,17 +6,17 @@
 
 <div class="black-bg">
     <article class="w3-content w3-xlarge w3-container white-text">
-        <p>Alle lærer seg teknikker for å skape seg en trygg grunnmur som kan adapteres på alle scener og i alle situasjoner.​</p>
-        <p>Gjennom praktiske øvelser gir vi din bedrift konkrete verktøy og løsninger for å mestre det å kommunisere.</p>
+        <p>We all learn techniques that help us create a safe ground that we can adapt to all scenes and situations.</p>
+        <p>Through practical exercises, we offer your company concrete tools and solutions so you can master the art of communication.</p>
     </article>
 </div>
 <div class="" id="workshop-anchor"></div>
 <div class="w3-row">
     <a class="hover-shadow-inset mobile-large w3-col m6 w3-card w3-center golden-button" id="workshop-button">
-        Form din workshop
+        Shape your workshop
     </a>
     <a href="https://www.allinclusivetalk.com/" target="_blank" class="black-button mobile-large w3-col m6 w3-card w3-center">
-        OM «ALL INCLUSIVE TALK»
+        More about «ALL INCLUSIVE TALK»
     </a>
 </div>
 
