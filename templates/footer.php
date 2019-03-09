@@ -51,7 +51,7 @@
             </ul>
         </div>
     </div>
-    <p class="w3-right w3-section">InMarket Samuel Bigirimana Org.Nr 8188 21 522</p>
+    <p class="w3-right w3-section">InMarket AS Org.nr. 922 341 923</p>
 </footer>
 <script src="js/detectIphone.js" charset="utf-8"></script>
 <script async src="js/navbar.js" charset="utf-8"></script>

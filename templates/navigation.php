@@ -2,7 +2,7 @@
 <div class="w3-top white-bg white-bg w3-card z-index-3">
     <div class="w3-bar w3-xxlarge w3-center line-height-3" id="navbar">
         <a href="index.php" class="w3-bar-item line-height-1">
-            <img src="img/logos/inmarketlogo.svg" height="72px" alt="InMarket logo" id="navbar-img">
+            <img src="img/logos/inmarketlogo2.svg" height="72px" alt="InMarket logo" id="navbar-img">
         </a>
         <button class="white-button w3-xlarge w3-right padding-top-1em" id="navbar-button">
             <div class="menu-container" onclick="menuAnimation(this)">
