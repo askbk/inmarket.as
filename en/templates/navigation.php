@@ -4,6 +4,18 @@
         <a href="index.php" class="w3-bar-item line-height-1">
             <img src="img/logos/inmarketlogo2.svg" height="72px" alt="InMarket logo" id="navbar-img">
         </a>
+
+        <div class = "w3-right w3-small" style="margin-top:25px"  >
+
+            <a href="/index.php" >
+                <img src="img/norway-lang-button.png" height="20px" alt="norwegian" >
+            </a>
+
+
+            <a href="/en/index.php">
+                <img src="img/uk-lang-button.png" height="20px" alt="uk">
+            </a>
+        </div>
         <button class="white-button w3-xlarge w3-right padding-top-1em" id="navbar-button">
             <div class="menu-container" onclick="menuAnimation(this)">
                 <div class="menu-bar1"></div>
