@@ -14,9 +14,14 @@
 
     <div class="w3-display-container parallax-img bgimg-sammy-oyvind-ask full-height margin-top-100">
         <article class="w3-display-bottommiddle white-text mobile-medium width-100 w3-container max-width-1200 w3-center" style="padding-bottom:50px;">
-            <p>Som et team jobber vi sammen. Vi vil oppnå store ting for norsk ungdom, norsk næring og internasjonal vekst. Vi vil selv være en del av løsning Norge benytter seg av for å øke i mangfold og ha større internasjonal vekst.​</p>
-            <p>InMarket sitt team består av unge ledere og medarbeidere som sammen skal skape Norges største møteplass for arbeidsgivere og resten av samfunnet.</p>
-            <p>Vi vil at prosessen med å skaffe seg ansatte ikke bare skal handle om den lille tiden det tar å legge ut stilling og finne ansatte. Vi vil at ansettelsesprosessen skal starte tidligere.</p>
+            <p>We work together as a team. We want to achieve great things for the Norwegian youth, Norwegian industry
+                and contribute in international growth. We want to be part of the solution Norway uses to increase in
+                diversity greater international impact.</p>
+            <p>InMarket team consists of young leaders and employees working together to create Norway’s largest
+                meeting place for employers and the rest of society.</p>
+            <p>We want the process of acquiring employees not only be about the little time it takes to publish
+                position and finding employees. We want the hiring process to start earlier.</p>
+
         </article>
     </div>
 
@@ -24,13 +29,13 @@
         <div class="w3-col m6 w3-padding-large w3-container">
             <img src="img/fig/ledelse.jpg" alt="" class="width-25-percent">
             <p>
-                Som leder i InMarket Norge får du ansvar for din egen avdeling. Her har du gode arbeidsvilkår, gode muligheter til å utvikle din kompetanse og kommunikasjonslinje rett opp til styret. Du vil kunne veilede, organisere og følge opp ditt eget team, og du er med på å forme InMarkets mål og arbeidsprosess.
+                As a Manager in InMarket AS you´re responsible for your department. You´ll have proper working conditions, great opportunities to develop your skill set and you´ll be in direct communication with the board. You´ll be able to guide, organize and follow up your own team and you are helping shape InMarket´s goals and work process.
             </p>
         </div>
         <div class="w3-col m6 w3-padding-large w3-container">
             <img src="img/fig/ledelse.jpg" alt="" class="width-25-percent">
             <p>
-                Som ansatt i InMarket vil du kunne bruke fagkompetanse din til å løse spesifikke oppgaver i vår drift. Vi ser først og fremst etter deg med forståelse og innblikk i norsk arbeidsmarked. Her vil alt man gjør kunne knyttes til vår visjon om å styrke det norske arbeidsmarkedet i internasjonal sammenheng.​
+                As an employee of InMarket will be able to use your expertise to solve specific tasks in our operation. We are looking primarily for you who understands and has insight into the Norwegian labor market. Everything you do here can be linked to our vision to strengthen the Norwegian labor market in an international context.
             </p>
         </div>
     </div>
@@ -40,21 +45,21 @@
     </div>
 
     <div class="w3-container w3-padding-64">
-        <h1 class="w3-center extra-margin">Møt teamet</h1>
+        <h1 class="w3-center extra-margin">Meet the team</h1>
         <div class="horizontal-scroll w3-padding">
             <div class="w3-card-2 scroll-item" itemprop="founder" itemscope itemtype="http://schema.org/Person">
                 <div class="width-300 w3-left" style="">
                     <img src="img/portraits/samuel.png" alt="Daglig leder Samuel Bigirimana" width="100%" itemprop="image">
                     <div class="w3-container">
                         <h4 itemprop="name" class="">Samuel Bigirimana</h4>
-                        <p class="w3-opacity" itemprop="jobTitle">Daglig leder</p>
-                        <p>Tlf.: (+47) <span itemprop="telephone">950 01 753</span><br>E-post: <span itemprop="email">samuel@inmarket.as</span></p>
+                        <p class="w3-opacity" itemprop="jobTitle">CEO</p>
+                        <p>Tel: (+47) <span itemprop="telephone">950 01 753</span><br>Email: <span itemprop="email">samuel@inmarket.as</span></p>
                     </div>
                 </div>
                 <div style="" class="hidden-description w3-right">
                     <div class="w3-padding">
-                        <p class="white-space-normal w3-large">Samuel har to års erfaring som soldat og befal i Luftforsvaret. Han har studert markedsføring og ledelse, og tatt flere kurs i lederskap. Som person er han veldig opptatt av mental kapasitet, sosial attferd og kollektiv kultur.</p>
-                        <p><a href="https://www.linkedin.com/in/samuel-bigirimana-64a586bb/" class="text-underline hover-golden-text">Samuel sin profil på LinkedIn</a></p>
+                        <p class="white-space-normal w3-large">Samuel has two years of experience as a soldier and officer in the Air Force. He has studied marketing and management and taken several courses in leadership. As a person he is very concerned with mental capacities, social behavior and collective culture. </p>
+                        <p><a href="https://www.linkedin.com/in/samuel-bigirimana-64a586bb/" class="text-underline hover-golden-text">Samuel's profile on LinkedIn </a></p>
                     </div>
                 </div>
             </div>
@@ -63,14 +68,14 @@
                     <img src="img/portraits/oyvind.png" alt="Nestleder Øyvind Fjeld" width="100%" itemprop="image">
                     <div class="w3-container">
                         <h4 itemprop="name" class="">Øyvind Fjeld</h4>
-                        <p class="w3-opacity" itemprop="jobTitle">Nestleder</p>
-                        <p>Tlf.: (+47) <span itemprop="telephone">454 76 037</span><br>E-post: <span itemprop="email">oyvind@inmarket.as</span></p>
+                        <p class="w3-opacity" itemprop="jobTitle">Deputy Chairman</p>
+                        <p>Tel: (+47) <span itemprop="telephone">950 01 753</span><br>Email: <span itemprop="email">oyvind@inmarket.as</span></p>
                     </div>
                 </div>
                 <div class="hidden-description w3-right">
                     <div class="w3-padding">
-                        <p class="white-space-normal w3-large">Øyvind har ett års erfaring som soldat i Luftforsvaret. Han tar mastergrad i elektronisk systemdesign og innovasjon på NTNU og har vært daglig leder i kompendiebedriften Lumenia. Øyvind ønsker å utfordre status quo og ser alltid etter muligheter til å forandre holdninger og verdier hos de han møter.</p>
-                        <p><a href="https://www.linkedin.com/in/%C3%B8yvind-fjeld-047444144/" class="text-underline hover-golden-text">Øyvind sin profil på LinkedIn</a></p>
+                        <p class="white-space-normal w3-large">Øyvind has one year of experience as a soldier in the Air Force. He’s studying for a master's degree in Electronic system design and innovation at NTNU and has been the general manager of Compendium Enterprise Lumenia. Øyvind wants to challenge the status quo and always looks for opportunities to change attitudes and values in those he encounters. </p>
+                        <p><a href="https://www.linkedin.com/in/%C3%B8yvind-fjeld-047444144/" class="text-underline hover-golden-text">Øyvind's profile on LinkedIn </a></p>
                     </div>
                 </div>
             </div>
@@ -79,14 +84,14 @@
                     <img src="img/portraits/samuels.jpg" alt="Personaldirektør Samuel Skretteberg" width="100%" itemprop="image">
                     <div class="w3-container">
                         <h4 itemprop="name" class="">Samuel Skretteberg</h4>
-                        <p class="w3-opacity" itemprop="jobTitle">Personaldirektør</p>
-                        <p>Tlf.: (+47) <span itemprop="telephone">473 26 426</span><br>E-post: <span itemprop="email">skretteberg@inmarket.as</span></p>
+                        <p class="w3-opacity" itemprop="jobTitle">Personnel Manager</p>
+                        <p>Tel: (+47) <span itemprop="telephone">950 01 753</span><br>Email: <span itemprop="email">skretteberg@inmarket.as</span></p>
                     </div>
                 </div>
                 <div class="hidden-description w3-right">
                     <div class="w3-padding">
-                        <p class="white-space-normal w3-large">Samuel har bachelorgrad i psykologi, og har erfaring som sykepleier og frivillig medarbeider i Hillsong Drammen. Samuel er veldig opptatt av hvordan mennesker kommuniserer, handler og reagerer, og dette vil han påvirke via psykologien.</p>
-                        <p><a href="https://www.linkedin.com/in/samuel-skretteberg-8a32a3149/" class="text-underline hover-golden-text">Samuel sin profil på LinkedIn</a></p>
+                        <p class="white-space-normal w3-large">Samuel holds a bachelor's degree in psychology and has experience as a nurse and volunteers at Hillsong Drammen. Samuel is very engaged in how people communicate, act and react and this is what he wants to influence through psychology. </p>
+                        <p><a href="https://www.linkedin.com/in/samuel-skretteberg-8a32a3149/" class="text-underline hover-golden-text">Samuel's profile on LinkedIn</a></p>
                     </div>
                 </div>
             </div>
@@ -97,14 +102,14 @@
                     <img src="img/portraits/ask.jpg" alt="Teknologidirektør Ask Berstad Kolltveit" width="100%" itemprop="image">
                     <div class="w3-container">
                         <h4 itemprop="name" class="">Ask Berstad Kolltveit</h4>
-                        <p class="w3-opacity" itemprop="jobTitle">Teknologidirektør</p>
-                        <p>Tlf.: (+47) <span itemprop="telephone">454 18 864</span><br>E-post: <span itemprop="email">ask@inmarket.as</span></p>
+                        <p class="w3-opacity" itemprop="jobTitle">IT Director</p>
+                        <p>Tel: (+47) <span itemprop="telephone">950 01 753</span><br>Email: <span itemprop="email">ask@inmarket.as</span></p>
                     </div>
                 </div>
                 <div class="hidden-description w3-right">
                     <div class="w3-padding">
-                        <p class="white-space-normal w3-large">Ask er tidligere finalist i Norsk Informatikkolympiade. Han tar mastergrad i datateknologi ved NTNU, og har hovedansvaret for utvikling av InMarkets nettsider og app. Ask har selv vært gjennom skolesystemet i Norge, og han ønsker å gi denne muligheten til andre unge.</p>
-                        <p><a href="https://www.linkedin.com/in/ask-berstad-kolltveit-9b568b16a/" class="text-underline hover-golden-text">Ask sin profil på LinkedIn</a></p>
+                        <p class="white-space-normal w3-large">Ask is a former finalist in the Norwegian Informatics Olympiade. He´s studying for a master's degree in computer technology at NTNU and is primarily responsible for the development of the InMarket websites and the app. Ask has been through the school system in Norway and he wants to give same opportunities he had to other youth. </p>
+                        <p><a href="https://www.linkedin.com/in/ask-berstad-kolltveit-9b568b16a/" class="text-underline hover-golden-text">Ask his profile on LinkedIn </a></p>
                     </div>
                 </div>
             </div>
@@ -113,14 +118,14 @@
                     <img src="img/portraits/filip.jpg" alt="Utvikler Filip Østervold Tangen" width="100%" itemprop="image">
                     <div class="w3-container">
                         <h4 itemprop="name" class="">Filip Østervold Tangen</h4>
-                        <p class="w3-opacity" itemprop="jobTitle">Utvikler</p>
-                        <p>Tlf.: (+47) <span itemprop="telephone">454 18 864</span><br>E-post: <span itemprop="email">filip@inmarket.as</span></p>
+                        <p class="w3-opacity" itemprop="jobTitle">Developer</p>
+                        <p>Tel: (+47) <span itemprop="telephone">950 01 753</span><br>Email: <span itemprop="email">filip@inmarket.as</span></p>
                     </div>
                 </div>
                 <div class="hidden-description w3-right">
                     <div class="w3-padding">
-                        <p class="white-space-normal w3-large">Filip tar bachelor i informatikk ved NTNU i Trondheim og er også studentassistent i faget Objektorientert programmering. Han har drevet med spillutvikling fra ung alder, og er nå motivert til å gjøre en forskjell for utdanningssystemet i Norge.</p>
-                        <p><a href="https://www.linkedin.com/in/filip-tangen-61614015b/" class="text-underline hover-golden-text">Filip sin profil på LinkedIn</a></p>
+                        <p class="white-space-normal w3-large">Filip studying for a bachelor’s in computer science at NTNU in Trondheim and is also a student assistant in the subject Object-Oriented Programming. He has been involved in game development from a young age and is now motivated to make a difference in the education system in Norway.</p>
+                        <p><a href="https://www.linkedin.com/in/filip-tangen-61614015b/" class="text-underline hover-golden-text">Filip's profile on LinkedIn </a></p>
                     </div>
                 </div>
             </div>
@@ -129,14 +134,14 @@
                     <img src="img/portraits/izraeli.jpg" alt="Mediaansvarlig Izraeli Boneza" width="100%" itemprop="image">
                     <div class="w3-container">
                         <h4 itemprop="name" class="">Izraeli Boneza</h4>
-                        <p class="w3-opacity" itemprop="jobTitle">Mediaansvarlig</p>
-                        <p>Tlf.: (+47) <span itemprop="telephone">484 02 836</span><br>E-post: <span itemprop="email">izraeli@inmarket.as</span></p>
+                        <p class="w3-opacity" itemprop="jobTitle">Marketing Director</p>
+                        <p>Tel: (+47) <span itemprop="telephone">950 01 753</span><br>Email: <span itemprop="email">izraeli@inmarket.as</span></p>
                     </div>
                 </div>
                 <div class="hidden-description w3-right">
                     <div class="w3-padding">
-                        <p class="white-space-normal w3-large">Izraeli Boneza har bachelor i sosialt arbeid og går kreativitetslinje på Filadelfia bibelskole. Gjennom film og foto vil han gjøre en forskjell i vår hverdag. Som mediaansvarlig styrer han bedriftens kommunikasjon med publikum. Han er ellers opptatt av ryddighet, estetisk fremstilling og kvalitet i sitt arbeid.</p>
-                        <p><a href="https://www.linkedin.com/in/izraeli-boneza-4386a1119/" class="text-underline hover-golden-text">Izraeli sin profil på LinkedIn</a></p>
+                        <p class="white-space-normal w3-large">Izraeli Boneza holds a bachelor's degree in social work and goes studies creativity through Filadelfia Bible School. Through film and photography, he will make a difference in our everyday lives. As a marketing director, he manages corporate communication with the public. He is otherwise serious about tidiness, aesthetic representation and quality in his work. </p>
+                        <p><a href="https://www.linkedin.com/in/izraeli-boneza-4386a1119/" class="text-underline hover-golden-text">Izraeli’s profile on LinkedIn </a></p>
                     </div>
                 </div>
             </div>
@@ -144,18 +149,20 @@
     </div>
 
     <div class="w3-content w3-center w3-xlarge w3-container w3-padding-32">
-        <h1>Bli med på teamet</h1>
-        <p>InMarket ønsker å hjelpe det norske arbeidsmarkedet med å øke i mangfold. Vår visjon er: «Å påvirke det norske utdannings- og arbeidsmiljø slik at en felles innsats for økt kompetanse, kultur og mangfold kan løfte det norske markedet i den globale sammenhengen». </p>
-        <a href="om.php" class="w3-right black-button w3-card">Visjon og mål</a>
+        <h1>Join the team!</h1>
+        <p>InMarket wants to help the Norwegian labor market increase in diversity.</p>
+
+            <p>Our vision is: "To influence the Norwegian education and work environment so that a common effort to increased competence, culture and diversity can lift the Norwegian market in the global context."  </p>
+        <a href="om.php" class="w3-right black-button w3-card">Vision and goals</a>
     </div>
 
     <div class="w3-content w3-xlarge w3-padding-32">
         <div class="width-100">
             <a href="#webdesigner" class="golden-button w3-card width-100 job-opening-button" data-job-opening="webdesigner">
-                Webdesigner
+                Web designer
             </a>
             <a href="#developer" class="golden-button w3-card width-100 job-opening-button" data-job-opening="developer">
-                Utvikler
+                Developer
             </a>
         </div>
         <div class="job-opening w3-padding-32" style="display:none;" id="webdesigner">

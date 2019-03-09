@@ -37,7 +37,7 @@
             </ul>
         </div>
         <div class="w3-col s4">
-            <h3 class="golden-text mobile-w3-xlarge">Hjelp</h3>
+            <h3 class="golden-text mobile-w3-xlarge">Help</h3>
             <ul class="w3-ul mobile-small">
                 <li class="remove-borders remove-padding">
                     <a href="#">FAQ</a>

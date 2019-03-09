@@ -14,24 +14,21 @@
 
     <div class="margin-top-100 bgimg-dressmannsvart full-height parallax-img w3-display-container">
         <div class="w3-display-bottommiddle white-text mobile-large w3-center max-width-1200 width-100 w3-container" style="bottom :40px; line-height:1.2;text-shadow: 1px 1px 2px rgba(0,0,0, 0.3)">
-            <p>
-                Det er ikke alltid like lett å komme seg ut i arbeidsmarkedet. Noen arbeidsoppgaver blir overtatt av automatiserte roboter, og globaliseringen presser på.​​
-            </p>
-            <p>
-                Med InMarket får du muligheten til å utforske arbeidsmarkedet på nytt. Sammen med våre samarbeidspartnere åpner vi dørene for at du skal ha bedre spillerom.​​
-            </p>
-            <p>
-                Vi hjelper deg å bygge et solid nettverk via våre workshop, jevne bedriftsbesøk, kurs og workshop.​
-            </p>
+
+            <p>Getting into the laboring marked isn’t as easy as it used to. Jobs are getting replaced by robots and
+                the levels of globalization is ever-increasing.</p>
+            <p>InMarket lets you explore the opportunities of jobs all over again. Along with our collaborators we are
+                opening new doors for your carrier.</p>
+            <p>We help you, whether it’s through workshops, regular company visits, or courses.</p>
+
         </div>
     </div>
     <br>
-    <br>
-    <div class="w3-card" style="max-width:870px;margin:auto;">
+    <br><div class="w3-card" style="max-width:870px;margin:auto;">
         <div class="w3-padding-32 w3-container w3-center w3-xlarge" style="padding-left:25px;">
             <div class="w3-left w3-mobile" style="width:225px; padding-top:30px;">
                 <img src="img/fig/arbeidssokere.png" alt="Figure" style="width:60%;">
-                <p>Jobbsøkere</p>
+                <p>Jobseekers</p>
             </div>
 
 
@@ -44,10 +41,11 @@
                         <object type="image/svg+xml" data="img/fig/arrow-down.svg" class="" style="width:90px"></object>
                     </div>
                     <div class="w3-col m9" style = "line-height: 0.5; ">
-                        <p>Aktiviteter</p>
-                        <p>Prosjekter</p>
-                        <p>Ledige stillinger</p>
-                        <p>Workshop og kurs</p>
+                        <p>Activities</p>
+                        <p>Projects</p>
+                        <p>Available positions</p>
+                        <p>Workshops and</p>
+                        <p>courses</p>
                     </div>
                 </div>
             </div>
@@ -62,7 +60,7 @@
                     </div>
                     <div class="w3-col m9" style="padding-top:30px;">
                         <img src="img/fig/ledelse.jpg" alt="Figure" class="width-25-percent">
-                        <p>Arbeidsgivere</p>
+                        <p>Employers</p>
                     </div>
 
                 </div>
@@ -75,7 +73,7 @@
     <div class="">
 
         <article class="narrow-content mobile-large w3-container w3-padding-large w3-center">
-            <p>Med InMarket kan du søke deg inn hos relevante aktører i ditt nærområde. Her har de lagt ut eller invitert deg, eller så kan du oppsøke dem og sende en forespørsel.</p>
+            <p>With InMarket you can apply for entry at relevant companies nearby. This can happen through company invitation, or you can send them a request to meet yourself.</p>
         </article>
 
         <div class="narrow-content">
@@ -86,8 +84,8 @@
             <!-- <div class="w3-half w3-container">
 
             </div> -->
-            <p>Lag deg en profil som kan dokumentere din aktivitet ute i virksomhetene.​ ​</p>
-            <p>Vi fyller på med relevante arbeidsplasser og aktiviteter, slik at du får mye å velge mellom. Bygg deg inn i arbeidsmarkedet.</p>
+            <p>Make yourself a profile to document your visits at the different companies. ​</p>
+            <p>We are always looking to improve our offer of available positions and industries, so that you can have a wide variety of workspaces to choose from. Have a look at the available positions, or pre-register so that you are ready to get started! </p>
             <!-- <div class="w3-half w3-container ">
             </div> -->
             <!-- <div class="w3-center w3-padding-16">
@@ -97,11 +95,11 @@
 
         <div class="w3-content w3-center w3-padding-16 w3-container w3-xlarge">
             <a href="forhandsregistrering.php" class="black-button w3-card" onclick="arbeidssokerClient();">
-                FORHÅNDSREGISTRER​
+                Pre-register
             </a>
         </div>
 
-        <a href="openings.php" class="black-button w3-card w3-bar w3-xxlarge">LEDIGE STILLINGER</a>
+        <a href="openings.php" class="black-button w3-card w3-bar w3-xxlarge">Available positions</a>
     </div>
     <div class="w3-display-container parallax-img bgimg-allinclusive-3" style="height:70vh;">
         <div class="w3-display-bottomright text-shadow w3-jumbo white-text" style="right:5%;bottom:5%;">

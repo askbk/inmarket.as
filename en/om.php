@@ -14,21 +14,21 @@
 
     <div class="narrow-content margin-top-100 white-text w3-container">
         <article class="margin-bottom-32">
-            <h1 class="golden-text">Om InMarket</h1>
-            <p>InMarket Norge vil være mellomleddet elevene trenger for å kunne oppleve vekst, trygghet og motivasjon i tråd med arbeidsmarkedet og fremtidige karriereønsker. Dette vil vi klare å gjøre ved å fysisk være tilstede og holde aktiv kommunikasjon med alle ledd som er involvert. Derfor ønsker vi å være et mellomledd mellom arbeidsmarkedet og utdanning.</p>
-            <h3 class="golden-text">Vår visjon</h3>
-            <p><em>InMarket skal påvirke det norske skole- og arbeidsmiljøet slik at en naturlig utvikling innen fagkompetanse, mestringstro og innovasjon kan løfte det norske markedet i en global sammenheng.</em></p>
+            <h1 class="golden-text">About InMarket</h1>
+            <p>InMarket Norway will be the intermediary students needs to experience growth, confidence and motivation in line with the labor market and future career desires. We will be able to do this by physically being present and keep active communication with all parts involved. That´s why we want to be an intermediary between the labor and education.</p>
+            <h3 class="golden-text">Our vision</h3>
+            <p><em>InMarket wants to affect the Norwegian schools and working environment so that a natural development within the professional competence, mastery and innovation can lift the Norwegian market in a global context.</em></p>
             <hr>
 
-            <h3 class="golden-text">Målgruppene</h3>
+            <h3 class="golden-text">Audience</h3>
             <div class="w3-row">
                 <div class="w3-col m2">
                     <img src="img/fig/elever.png" alt="" class="" width="100%">
                 </div>
                 <div class="w3-col m10 w3-container">
                     <p>
-                        <b>Elever i alder 14-19 år (ungdoms- og videregående skole)</b><br>
-                        Dette er hovedmålgruppen til InMarket. Dette er den gruppen i samfunnet som opplever store endringer, lite involvering og mye styring. Vårt mål er å koble dem til noe stabilt og etablert som kan gi dem kunnskap om karrieremuligheter, kjennskap til hvor og hvordan kunnskapen kan anvendes, forventninger fra samfunnet og muligheten man selv har til å påvirke egen fremtid.
+                        <b>Students in the age of 14-19 years (secondary school) </b><br>
+                        This is InMarket´s main target audience. This is the community group that experiences major changes, little involvement and a lot of governance. Our goal is to connect them to something stable and established. We want to provide them with knowledge of career opportunities, knowledge of where and how the knowledge can be applied, expectations from the community and the opportunity they themselves have to influence their own future.
                     </p>
                 </div>
             </div>
@@ -38,8 +38,8 @@
                 </div>
                 <div class="w3-col m10 w3-container">
                     <p>
-                        <b>Studenter i alderen 19-28 år (høgskole-/universitetsnivå)</b><br>
-                        Dette er vår virkningsgruppe eller sekundærmålgruppe. Vårt ønske med disse er å gi dem muligheten til å kobles til et nettverk som kan hjelpe dem med å bygge profesjonaliteten. Disse skal i tillegg disponeres som mentorer og/eller koordinatorer innad i InMarket. Slik kan vi sikre oss god kommunikasjon fra høyre utdanning til ungdoms- eller videregående skole.
+                        <b>Students aged 19-28 years (college/university level)</b><br>
+                        This is the group of action or secondary target group. Our desire with these is to give them the opportunity to connect to a network that can help them build professionalism. They shall also be used as mentors /or coordinators within InMarket. This is how we can ensure good communication from higher education to secondary schools.
                     </p>
                 </div>
             </div>
@@ -49,8 +49,8 @@
                 </div>
                 <div class="w3-col m10 w3-container">
                     <p>
-                        <b>Arbeidstakere og ferdigutdannede som er misfornøyde med sin situasjon</b><br>
-                        Vårt paraferende mål er å reaktivere engasjement og motivasjon for denne gruppen. Dette tror vi er mulig ved å være en langsiktig plattform som tilbyr innblikk og kommunikasjon med forskjellige bransjer.
+                        <b>Employees and graduates who are dissatisfied with their situation  </b><br>
+                        Our peripheral goal is to reactivate the commitment and motivation of this group. We believe that this is possible by being a long-term platform that offers insight and communication with various sectors.
                     </p>
                 </div>
             </div>
@@ -58,13 +58,15 @@
 
 
             <hr>
-            <p>InMarket vil med bakgrunn i det økende presset på arbeidstakeren og krav om prestasjoner og kvalifikasjoner, gjøre et forsøk på å øke trygghet og selvtillit på arbeidsplassen. Vi er overbeviste om at kunnskap og trygghet rundt et sted hvor man bruker 35-40% (om ikke mer) av tiden sin vil øke den gjennomsnittlige levestandarden.</p>
-            <h3 class="golden-text">Innovasjon som øker trivsel</h3>
-            <p>InMarket ønsker å utvikle seg i tråd med de store problemene som må løses lokalt, nasjonalt og globalt. Det arbeidet som gjøres av oss skaper forventninger fra unge elever, studenter, arbeidsgivere og kartlagt nettverk. Disse forventningene vil derfor være i vår beste interesse å møte.</p>
-            <p>Den største faktoren for å lykkes med vårt arbeid, er vår evne til å øke trivselen hos de vi oppnår kontakt med. Trivsel gir trygghet, og trygghet gjør det mulig å handle med sikkerhet. Vi er derfor svært avhengige av å skape trygge rammer.</p>
+            <p>InMarket will on the basis of the increasing pressure on the worker and demands for performance and qualifications, make an effort to increase safety and confidence in the workplace. We are convinced that the knowledge and confidence around a place where one spends 35-40% (if not more) of their time will increase the average standard of living. </p>
+            <h3 class="golden-text">Innovation that increases well-being</h3>
+            <p>InMarket wants to evolve in line with the major problems that need to be addressed locally, nationally and globally. The work done by us creates expectations from youth, students, employers and other networks. These expectations will therefore be in our best interest to meet.</p>
+
+                <p>The greatest factor in succeeding our work is our ability to increase the well-being of those we connect with. Enjoyment provides peace of mind, and safety allows you to trade with certainty. We therefore rely heavily on creating safe environment. </p>
             <hr>
-            <h3 class="golden-text">Generell situasjon i InMarket</h3>
-            <p>Generell situasjonsbeskrivelse for InMarket Norge:<br>«InMarket er en nytenkende bedrift som kombinerer rådgivningstjenester, mentoring, hospitering, coaching og rekruttering i ett virke. Bedriften er svært opptatt av å styrke sitt nettverk og omdømme ved å opprettholde gode og trygge kunderelasjoner. Vi vil alltid se etter et område å strekke oss til for å gjøre det lettere for elever å kobles til fremtidige studier, og for studenter å kobles til fremtidig arbeidsplass. Personalet i InMarket vil være de som leverer produktet. Her skal de vurderes sterkt på personlige egenskaper og evne til å kommunisere.»</p>
+            <h3 class="golden-text">Overall situation in InMarket</h3>
+            <p>General situational description for InMarket Norway:<br>"InMarket is a new thinking company that combines counselling services, mentoring, hosting, coaching and recruiting in one act. The company is passionate about strengthening its network and reputation by maintaining good and safe customer relations. We will always look for an area to reach to make it easier for students to connect with future studies and their furture workplace.  </p>
+            <p>The staff of InMarket will be the ones who supply the product. Here they shall be assessed strongly on personal characteristics and ability to communicate. " </p>
         </article>
     </div>
 
