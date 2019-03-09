@@ -18,33 +18,33 @@
             <div class="column">
                 <ul class="w3-ul">
                     <li>
-                        <b>Våre tilbud</b>
+                        <b>Our offer</b>
                     </li>
                     <li>
                         <a href="bedrift.php" class="golden-accent-bottom">
-                            Bedrifter
+                            Companies
                         </a>
                     </li>
                     <li>
                         <a href="elever-studenter.php" class="golden-accent-bottom">
-                            Studenter og elever
+                            Students and pupils
                         </a>
                         <ul class="w3-ul">
                             <li style="padding-left:16px !important;">
                                 <a href="openings.php" class="golden-accent-bottom">
-                                    Åpne plasser
+                                    Available projects
                                 </a>
                             </li>
                         </ul>
                     </li>
                     <li>
                         <a href="arbeidssoker.php" class="golden-accent-bottom">
-                            Arbeidssøkere
+                            Jobseekers
                         </a>
                         <ul class="w3-ul">
                             <li style="padding-left:16px !important;">
                                 <a href="openings.php" class="golden-accent-bottom">
-                                    Ledige stillinger
+                                    Vacancies
                                 </a>
                             </li>
                         </ul>
@@ -54,21 +54,21 @@
             <div class="column">
                 <ul class="w3-ul">
                     <li>
-                        <b>Om</b>
+                        <b>About</b>
                     </li>
                     <li>
                         <a href="teamet.php" class="golden-accent-bottom">
-                            Teamet
+                            The team
                         </a>
                     </li>
                     <li>
                         <a href="om.php" class="golden-accent-bottom">
-                            Visjon og mål
+                            Vision and goal
                         </a>
                     </li>
                     <li>
                         <a href="#" class="golden-accent-bottom">
-                            Historie
+                            History
                         </a>
                     </li>
                 </ul>
@@ -76,16 +76,16 @@
             <div class="column">
                 <ul class="w3-ul">
                     <li>
-                        <b>Nyheter</b>
+                        <b>News</b>
                     </li>
                     <li>
                         <a href="aktiviteter.php" class="golden-accent-bottom">
-                            Hva skjer hos oss?
+                            What's up?
                         </a>
                     </li>
                     <li>
                         <a href="https://www.facebook.com/pg/InMarketNorge/events/" class="golden-accent-bottom">
-                            Neste på kalenderen
+                            Upcoming events
                         </a>
                     </li>
                 </ul>
