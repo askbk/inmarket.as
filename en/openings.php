@@ -17,10 +17,10 @@
             <div class="w3-display-bottommiddle width-100 white-bg w3-card">
                 <div class="w3-row width-100 mobile-large">
                     <div class="w3-col m6 hover-shadow-inset golden-button black-text open-info-box" id="plasser-button">
-                        Åpne plasser
+                        Open spots
                     </div>
                     <div class="w3-col m6 hover-shadow-inset golden-button black-text open-info-box" id="stillinger-button">
-                        Ledige stillinger
+                        Available positions
                     </div>
                 </div>
 
@@ -28,9 +28,9 @@
                     <ul class="remove-list-things" style="">
                         <li class="listing hover-shadow-inset w3-container">
                             <div class="w3-xlarge cursor-pointer">
-                                <span class=""><span class="bold-text">NKTQFP AS</span>  - for elever</span>
+                                <span class=""><span class="bold-text">NKTQFP AS</span>  - for pupils</span>
                                 <br>
-                                (3 plasser)
+                                (3 open spots)
                             </div>
                             <div class="open-text" style="display:none;">
                                 <p class="margin-0">Ønsker deg som er elev og ønsker å utvikle deg innen robotikk, programmering eller økonomi. Dette gjør du én gang i måneden med veiledning og oppfølging fra InMarket.</p>
@@ -40,9 +40,9 @@
 
                         <li class="listing hover-shadow-inset w3-container">
                             <div class="w3-xlarge cursor-pointer">
-                                <span class=""><span class="bold-text">NRK Buskerud</span>  - for elever</span>
+                                <span class=""><span class="bold-text">NRK Buskerud</span>  - for pupils</span>
                                 <br>
-                                (2 plasser)
+                                (2 open spots)
                             </div>
                             <div class="open-text" style="display:none;">
                                 <p class="margin-0">Ønsker deg som er elev og ønsker å utvikle deg innen media etc. Dette gjør du én gang i måneden med veiledning og oppfølging fra InMarket.</p>
@@ -56,8 +56,10 @@
                     <ul class="remove-list-things" style="">
                         <li class="listing w3-container">
                             <h2>Hello!</h2>
-                            <p>InMarket har foreløpig ingen ledige stillinger. Vi jobber med å skaffe oss flere samarbeidspartnere slik at du kan oppleve arbeidslivet.​</p>
-                            <p>Du kan fortsatt kontakte oss og fortelle oss litt om deg selv og hva du ønsker. På denne måten vet vi litt bedre hvilke arbeidsplass vi skal se etter.​</p>
+                            <p>InMarket has no available positions to offer right now. We are working towards finding more companies to collaborate with so that you can experience a bigger variety of job environments. ​</p>
+                            <p>You can still contact us and tell us a little bit about yourself and your desired industry of choice. This allows us to have a better understanding of what sort of collaborators we should be looking for.
+
+                                ​</p>
                         </li>
                     </ul>
                 </div>

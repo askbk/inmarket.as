@@ -55,7 +55,7 @@
                     <p class="w3-content">Du kan velge å ha elever fra videregående skole nivå hos deg. InMarket har kontakt med skolen og lærerne slik at deres erfaring hos deg kan knyttes til det de lærer på skolen.​</p>
                 </div>
             </li>
-
+            <!--
             <li class="listing hover-shadow-inset w3-container golden-bg w3-padding" style="margin-top:0;">
                 <div class="w3-xlarge cursor-pointer">
                     Studenter
@@ -63,10 +63,10 @@
                 <div class="open-text" style="display:none;">
                     <p class="w3-content">Du kan velge å ha en student som tar sin bachelor eller mastergrad hos deg med jevne mellomrom. Disse har ny og relevant kompetanse.</p>
                 </div>
-            </li>
+            </li>-->
             <li class="listing hover-shadow-inset w3-container golden-bg w3-padding" style="margin-top:0;">
                 <div class="w3-xlarge cursor-pointer">
-                    Jobbsøkere
+                    Jobseekers
                 </div>
                 <div class="open-text" style="display:none;">
                     <p class="w3-content">Noen folk er ute etter å bygge relevant arbeidserfaring, finne gode verktøy og lage seg et godt nettverk. Velger du å ha en arbeidssøker hos deg blir det som å ha en «extended» intervju.​</p>
@@ -74,7 +74,7 @@
             </li>
         </ul>
         <a href="kontakt.php" class="black-button w3-xlarge width-100 w3-card">
-            Kontakt oss
+            Contact us
         </a>
     </div>
 

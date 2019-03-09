@@ -14,15 +14,15 @@
     <div class="w3-display-container margin-top-100" id="hjem">
         <div class="bgimg-glade-flip-dark parallax-img" style="height: calc(100vh - 100px);">
             <div class="w3-display-middle w3-xxlarge white-text margin-top-100 width-100 w3-content w3-container">
-                <p>Bygg opp din kompetanse og skaff deg erfaringer slik at du lettere kan bli klar til å jobbe.</p>
+                <p>Build your competence and gain experience so you can increase your chances of getting into work.</p>
             </div>
             <div class="w3-display-bottommiddle width-100 white-bg w3-card">
                 <div class="w3-row width-100 mobile-large">
                     <div class="w3-col s6 hover-shadow-inset golden-button black-text open-info-box" id="plasser-button">
-                        Elever
+                        Highschool students
                     </div>
                     <div class="w3-col s6 hover-shadow-inset golden-button black-text open-info-box" id="stillinger-button">
-                        Studenter
+                        University students
                     </div>
                 </div>
 
@@ -34,12 +34,12 @@
                         <div class="w3-col m9">
                         </div> -->
                         <div class="w3-center">
-                            <p>Lag deg en profil som kan dokumentere din aktivitet ute i virksomhetene.​</p>
-                            <p>​Vi holder oss tett koblet til utdanningsplassen din slik at du ikke behøver å bortprioritere dine studier. Ved å gjøre noe som aktivt kan kobles til studie ditt, vil du stå sterk til å velge veien din videre.</p>
+                            <p>Create a profile that can document your activities out on the workplace.​</p>
+                            <p>​InMarket wants to work closely to your school, so that we all can help you have the best start in working life.</p>
                             <div>
-                                <a href="forhandsregistrering.php" class="black-button w3-card" style="white-space:normal;margin:1px;" onclick="studentClient();">FORHÅNDSREGISTRER​</a>
+                                <a href="forhandsregistrering.php" class="black-button w3-card" style="white-space:normal;margin:1px;" onclick="studentClient();">Pre-register​</a>
                             </div>
-                            <a href="kontakt.php" class="black-button w3-card" style="white-space:normal;" onclick="elevSelected()">SØK PÅ ÅPNE PROSJEKTPLASSER I DITT OMRÅDE</a>
+                           <!-- <a href="kontakt.php" class="black-button w3-card" style="white-space:normal;" onclick="elevSelected()">SØK PÅ ÅPNE PROSJEKTPLASSER I DITT OMRÅDE</a>-->
                         </div>
                     </article>
                 </div>
@@ -52,12 +52,12 @@
                         <div class="w3-col m9">
                         </div> -->
                         <div class="w3-center">
-                            <p>Lag deg en profil som kan dokumentere din aktivitet ute i virksomhetene.​</p>
-                            <p>Med oss kan du utvikle de egenskapene som får deg til å blomstre. Vi hjelper deg med å bygge erfaringer og kompetanse som er relevant for studier og karriere.​</p>
+                            <p>Create a profile that can document your activities out on the workplace.​</p>
+                            <p>We want to help you develop the characteristics that can make you shine! With us, you can build experiences and competence that are relevant for your studies and career. ​</p>
                             <div>
-                                <a href="forhandsregistrering.php" class="black-button w3-card" style="white-space:normal;margin:1px;" onclick="elevClient();">FORHÅNDSREGISTRER​</a>
+                                <a href="forhandsregistrering.php" class="black-button w3-card" style="white-space:normal;margin:1px;" onclick="elevClient();">Pre-register​</a>
                             </div>
-                            <a href="kontakt.php" class="black-button w3-card" style="white-space:normal;" onclick="studentClient();">SØK PÅ ÅPNE PROSJEKTPLASSER I DITT OMRÅDE</a>
+                            <!--<a href="kontakt.php" class="black-button w3-card" style="white-space:normal;" onclick="studentClient();">SØK PÅ ÅPNE PROSJEKTPLASSER I DITT OMRÅDE</a>-->
                         </div>
                     </article>
                 </div>
@@ -69,7 +69,7 @@
         <div class="w3-padding-32 w3-container w3-center w3-xlarge" style="padding-left:25px;">
             <div class="w3-left w3-mobile" style="width:225px; padding-top:30px;">
                 <img src="img/fig/arbeidssokere.png" alt="Figure" style="width:75%;">
-                <p>Elever og studenter</p>
+                <p>Students</p>
             </div>
 
             <div class="w3-left w3-mobile testt" >
@@ -81,10 +81,10 @@
                         <object type="image/svg+xml" data="img/fig/arrow-down.svg" class="" style="width:90px"></object>
                     </div>
                     <div class="w3-col m9" style = "line-height: 0.5; ">
-                        <p>Aktiviteter</p>
-                        <p>Prosjekter</p>
-                        <p>Ledige stillinger</p>
-                        <p>Workshop og kurs</p>
+                        <p>Activities</p>
+                        <p>Projects</p>
+                        <p>Vacancies</p>
+                        <p>workshops and</p><p> courses</p>
                     </div>
                 </div>
             </div>
@@ -99,7 +99,7 @@
                     </div>
                     <div class="w3-col m9" style="padding-top:30px;">
                         <img src="img/fig/ledelse.jpg" alt="Figure" style="" class="width-25-percent">
-                        <p>Arbeidsgivere</p>
+                        <p>Workplaces</p>
                     </div>
 
                 </div>
@@ -112,8 +112,8 @@
             <img src="img/elever/anniken-square.jpg" alt="" style="width:100%;">
         </div>
         <div class="w3-col m10 w3-container mobile-medium text-align-right">
-            <p class="quote">InMarket har latt meg drive med relevante, morsomme prosjekter ved siden av VGS. Jeg har nå større forståelse for hvorfor vi lærer det vi gjør, og føler meg godt ivaretatt.</p>
-            <p class="quote-source">Anniken, elev 2. klasse Akademiet VGS</p>
+            <p class="quote">“InMarket have let me do relevant and fun project alongside school. I have bigger understanding of what we´re learning, and I feel well looked after”</p>
+            <p class="quote-source">Anniken, student 2. grade Akademiet VGS</p>
         </div>
     </div>
 

@@ -109,13 +109,13 @@
 
     <div class="black-bg">
         <article class="w3-content w3-xlarge w3-container white-text">
-            <p>Alle lærer seg teknikker for å skape seg en trygg grunnmur som kan adapteres på alle scener og i alle situasjoner.​</p>
-            <p>Gjennom praktiske øvelser gir vi deg konkrete verktøy og løsninger for å mestre det å kommunisere.</p>
+            <p>At our workshops you will learn to communicate better, particularly in work related situations. Whether it’s about nailing that pitch, resolving communication difficulties with colleagues, or improving your interview skills, we can help you.  ​</p>
+            <p>We will also teach you some exercises you can apply to your day to day life in order to improve your use of voice and communication. </p>
         </article>
     </div>
     <article class="w3-content w3-xlarge w3-container w3-center w3-padding">
-        <p>OBS! Har du lyst til å delta på Workshop med All Inclusive Talk og InMarket? Be arbeidsgiveren din om å bestille fra oss.</p>
-        <a href="bedrift.php#workshop-anchor" class="black-button w3-card" style="white-space:normal;">Bestillingsskjema for bedrifter</a>
+        <p>PS: Are you an employee who want to attend a workshop with InMarket and All Inclusive Talk? If so, tell your employer to order a workshop from us. </p>
+        <a href="bedrift.php#workshop-anchor" class="black-button w3-card" style="white-space:normal;">Order Workshop Here</a>
     </article>
 
     <!-- Footer -->

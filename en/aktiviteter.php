@@ -24,8 +24,8 @@
 
     <div class="w3-content margin-top-100">
         <article class="w3-container w3-section">
-            <h2>Hendelser</h2>
-            <h3>Ny logo!</h3>
+            <h2>Newest Happenings </h2>
+            <h3>New Logo!</h3>
             <div class="w3-row">
                 <div class="w3-col m4 w3-container w3-padding w3-jumbo w3-relative w3-display-container">
                     <img src="img/logos/logo-old.png" alt="" style="height:200px" class="w3-left">
@@ -35,22 +35,22 @@
                 </div>
                 <div class="w3-col m4 w3-container w3-padding">
                     <img src="img/logos/logo-text.png" alt="" style="width:100%;">
-                    <p>InMarket er glade for å annonsere at vi har fått nytt logo, ny font og nye farger!</p>
+                    <p>InMarket is pleased to announce that we have a new logo, new font and new colors! </p>
                 </div>
                 <div class="w3-col m4 black-bg white-text w3-container w3-padding">
                     <img src="img/logos/logo-text-light.png" alt="" style="width:100%;">
-                    <p>Dette har vi lansert sammen med ny markedsstrategi. Følg med på vår utvikling videre!</p>
+                    <p>This we have launched along with new marketing strategy. Stay tuned to our development further! </p>
                 </div>
             </div>
         </article>
         <article class="w3-container w3-section">
-            <h2>Nyeste blogg</h2>
+            <h2>Latest Blog</h2>
             <div class="videoWrapper">
                 <iframe src="https://player.vimeo.com/video/313534023?autoplay=1" width="1920" height="1080" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="vimeo-video"></iframe>
             </div>
         </article>
         <div class="w3-section w3-container">
-            <h3>Sosiale media</h3>
+            <h3>Social Media</h3>
             <div class="w3-row">
                 <div class="w3-col m6">
                     <div class="fb-page" data-href="https://www.facebook.com/InMarketNorge/" data-tabs="timeline" data-width="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/InMarketNorge/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/InMarketNorge/">InMarket Norge</a></blockquote></div>
