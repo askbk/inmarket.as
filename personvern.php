@@ -32,10 +32,10 @@
     <!-- Container -->
     <div class="w3-content w3-container w3-padding-64" id="policy">
         <h2 class=" w3-center">Personvernerklæring</h2>
-        <p>Denne personvernerklæringen forteller om hvordan InMarket Samuel Bigirimana, her kalt InMarket, samler inn og bruker personopplysninger.</p>
+        <p>Denne personvernerklæringen forteller om hvordan InMarket Aksjeselskap, her kalt InMarket, samler inn og bruker personopplysninger.</p>
         <p>InMarket, ved direktøren, er behandlingsansvarlig for bedriftens behandling av personopplysninger. Der det daglige ansvaret er delegert, kommer det fram under hvert enkelt punkt. Delegeringen omfatter kun oppgavene og ikke ansvaret. Erklæringen inneholder opplysninger du har krav på når det samles inn opplysninger fra nettstedet vårt (personopplysningsloven § 19) og generell informasjon om hvordan vi behandler personopplysninger (personopplysningsloven § 18 1. ledd).</p>
-        <h3 class=" w3-center">Behandling av personopplysninger på www.imnor.no</h3>
-        <p>IT-ansvarlig har det daglige ansvaret for InMarkets behandlinger av personopplysninger på Imnor.no. Det er frivillig for de som besøker nettsidene å oppgi personopplysninger i forbindelse med tjenester, for eksempel å registrere bruker i database. Behandlingsgrunnlaget er samtykke fra den enkelte, med mindre annet er spesifisert.</p>
+        <h3 class=" w3-center">Behandling av personopplysninger på www.inmarket.as</h3>
+        <p>IT-ansvarlig har det daglige ansvaret for InMarkets behandlinger av personopplysninger på Inmarket.as. Det er frivillig for de som besøker nettsidene å oppgi personopplysninger i forbindelse med tjenester, for eksempel å registrere bruker i database. Behandlingsgrunnlaget er samtykke fra den enkelte, med mindre annet er spesifisert.</p>
         <p>Domeneshop er InMarkets databehandler, og er vår leverandør av webhotell.</p>
         <p>Opplysninger som samles inn i forbindelse med drift av nettsted, lagres på egne servere som driftes av leverandøren. Det er kun InMarket og Domeneshop som har tilgang til opplysningene som samles inn. En egen databehandleravtale mellom InMarket og Domeneshop regulerer hvilken informasjon leverandøren har tilgang til og hvordan den skal behandles.</p>
         <h3 class=" w3-center">Nettstatistikk</h3>
@@ -50,7 +50,7 @@
             <li>Analyseverktøyet Hotjar plasserer én informasjonskapsel ("_hjIncludedInSample") for til bruk for å spore besøk. Denne informasjonskapselen blir slettet når man avslutter nettleseren.</li>
         </ul>
         <h3 class=" w3-center">Kontaktskjema på nettside</h3>
-        <p>På nettsiden kan man be InMarket om å kontakte angående videre veiledning eller ønsker om bedriftsbesøk ol.. Vi registrer da navn, telefonnummer og epostkonto slik at vi kan følge opp kontakten. InMarket kommer ikke til å bruke denne informasjonen til andre formål eller dele den med tredjeparter uten brukers samtykke.</p>
+        <p>På nettsiden kan man be InMarket om å kontakte angående videre veiledning eller ønsker om bedriftsbesøk o.l.. Vi registrer da navn, telefonnummer og epostkonto slik at vi kan følge opp kontakten. InMarket kommer ikke til å bruke denne informasjonen til andre formål eller dele den med tredjeparter uten brukers samtykke.</p>
         <h3 class=" w3-center">Spørreundersøkelser</h3>
         <p>Organisasjonsdirektør har det daglige ansvaret for InMarkets spørreundersøkelser. Vi vil alltid informere om formålet med spørreundersøkelsen, og hvorvidt den er anonym eller ikke. InMarket vil ikke dele opplysningene med andre eller bruke opplysningene til andre formål enn det som er angitt.</p>
         <strong>Anonyme undersøkelser</strong>
