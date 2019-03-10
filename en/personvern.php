@@ -25,7 +25,7 @@
                 </li>
             </ul>
             <p class="" id="responseText" style="visibility:hidden;">innstillinger lagret!</p>
-            <button type="button" name="button" class="black-button w3-card" onclick="saveSettings()">Lagre innstillinger</button>
+            <button type="button" name="button" class="black-button w3-card" onclick="saveSettings()">Save preferences</button>
         </div>
     </div>
 
