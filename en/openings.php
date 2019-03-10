@@ -20,7 +20,7 @@
                         Open spots
                     </div>
                     <div class="w3-col m6 hover-shadow-inset golden-button black-text open-info-box" id="stillinger-button">
-                        Available positions
+                        Available projects
                     </div>
                 </div>
 
@@ -28,25 +28,13 @@
                     <ul class="remove-list-things" style="">
                         <li class="listing hover-shadow-inset w3-container">
                             <div class="w3-xlarge cursor-pointer">
-                                <span class=""><span class="bold-text">NKTQFP AS</span>  - for pupils</span>
-                                <br>
-                                (3 open spots)
-                            </div>
-                            <div class="open-text" style="display:none;">
-                                <p class="margin-0">Ønsker deg som er elev og ønsker å utvikle deg innen robotikk, programmering eller økonomi. Dette gjør du én gang i måneden med veiledning og oppfølging fra InMarket.</p>
-                                <a href="kontakt.php" class="black-button w3-card bold-text w3-margin">Søk her</a>
-                            </div>
-                        </li>
-
-                        <li class="listing hover-shadow-inset w3-container">
-                            <div class="w3-xlarge cursor-pointer">
                                 <span class=""><span class="bold-text">NRK Buskerud</span>  - for pupils</span>
                                 <br>
                                 (2 open spots)
                             </div>
                             <div class="open-text" style="display:none;">
-                                <p class="margin-0">Ønsker deg som er elev og ønsker å utvikle deg innen media etc. Dette gjør du én gang i måneden med veiledning og oppfølging fra InMarket.</p>
-                                <a href="kontakt.php" class="black-button w3-card bold-text w3-margin">Søk her</a>
+                                <p class="margin-0">Seeking students who want to develop within media, journalism etc. You do this once a month with guidance and follow-up from InMarket.</p>
+                                <a href="kontakt.php" class="black-button w3-card bold-text w3-margin">Apply here</a>
                             </div>
                         </li>
                     </ul>
@@ -56,10 +44,8 @@
                     <ul class="remove-list-things" style="">
                         <li class="listing w3-container">
                             <h2>Hello!</h2>
-                            <p>InMarket has no available positions to offer right now. We are working towards finding more companies to collaborate with so that you can experience a bigger variety of job environments. ​</p>
-                            <p>You can still contact us and tell us a little bit about yourself and your desired industry of choice. This allows us to have a better understanding of what sort of collaborators we should be looking for.
-
-                                ​</p>
+                            <p>There are no available positions to right now. We are working towards finding more companies to collaborate with so that you can experience a bigger variety of work environments.​</p>
+                            <p>You can still contact us and tell us a little bit about yourself and your desired industry. This allows us to have a better understanding of what sort of partners we should be looking for.​</p>
                         </li>
                     </ul>
                 </div>
