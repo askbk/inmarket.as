@@ -24,11 +24,11 @@
             <!-- TODO: Legge til figurer-->
         </div>
         <div class="narrow-content">
-            <p class="w3-xlarge">InMarket let your company invite students and jobseekers. You decide who to invite, and you only connect with the candidates who have relevant competence and interest.</p>
+            <p class="w3-xlarge">InMarket lets your company invite students and jobseekers. You decide who to invite, and you only connect with the candidates who have relevant competence and interests.</p>
             <hr>
         </div>
         <div class="">
-            <p>Do you want to connect with potential workers and help them build relevant competence and experience? You decide the activity, where, date, time and who.​</p>
+            <p>Do you want to connect with potential workers and help them build relevant competence and experience? You decide the activity, location, date, time and candidate.​</p>
             <p class="w3-xxlarge"> <strong>WE'RE LAUNCHING SUMMER 2019​</strong> </p>
             <div>
                 <a href="forhandsregistrering.php" class="black-button w3-card" style="white-space:normal;margin:1px;" onclick="bedriftClient();">PRE-REGISTER</a>
@@ -39,7 +39,7 @@
                 <img src="img/partners/chris.jpg" alt="" style="width:100%;">
             </div>
             <div class="w3-col m10 w3-container text-align-left">
-                <p class="quote">The collaboration between InMarket and NRK-Buskerud have given us a super opportunity to get closer and more familiar with the modern youth. This has given us more insight, new and exciting angels on our cases and ideas we wouldn’t think of ourselves. We ́ve also met some young media talents from which we hired one to be our notice substitute</p>
+                <p class="quote">The collaboration between InMarket and NRK Buskerud has given us a great opportunity to get closer and more familiar with the modern youth. This has given us more insight, new and exciting angles on our cases and ideas we wouldn’t think of ourselves. We've also met some young media talents from which we hired one to be our notice substitute.</p>
                 <p class="quote-source">Chris Carlsen, district manager <strong>NRK Buskerud</strong></p>
             </div>
         </div>
@@ -49,27 +49,26 @@
         <ul class="remove-list-things" style=" margin:0;">
             <li class="listing hover-shadow-inset w3-container golden-bg w3-padding" style="margin-top:0;">
                 <div class="w3-xlarge cursor-pointer">
+                    Pupils
+                </div>
+                <div class="open-text" style="display:none;">
+                    <p class="w3-content">You can choose to have pupils from high school. InMarket has contact with the school and the teachers so that their experience with you can be linked to what they learn at school.​</p>
+                </div>
+            </li>
+            <li class="listing hover-shadow-inset w3-container golden-bg w3-padding" style="margin-top:0;">
+                <div class="w3-xlarge cursor-pointer">
                     Students
                 </div>
                 <div class="open-text" style="display:none;">
-                    <p class="w3-content">Du kan velge å ha elever fra videregående skole nivå hos deg. InMarket har kontakt med skolen og lærerne slik at deres erfaring hos deg kan knyttes til det de lærer på skolen.​</p>
+                    <p class="w3-content">You can choose to have a student who is studying for their bachelor's or master's degree with you on a regular basis. These have new and relevant expertise.</p>
                 </div>
             </li>
-            <!--
-            <li class="listing hover-shadow-inset w3-container golden-bg w3-padding" style="margin-top:0;">
-                <div class="w3-xlarge cursor-pointer">
-                    Studenter
-                </div>
-                <div class="open-text" style="display:none;">
-                    <p class="w3-content">Du kan velge å ha en student som tar sin bachelor eller mastergrad hos deg med jevne mellomrom. Disse har ny og relevant kompetanse.</p>
-                </div>
-            </li>-->
             <li class="listing hover-shadow-inset w3-container golden-bg w3-padding" style="margin-top:0;">
                 <div class="w3-xlarge cursor-pointer">
                     Jobseekers
                 </div>
                 <div class="open-text" style="display:none;">
-                    <p class="w3-content">Noen folk er ute etter å bygge relevant arbeidserfaring, finne gode verktøy og lage seg et godt nettverk. Velger du å ha en arbeidssøker hos deg blir det som å ha en «extended» intervju.​</p>
+                    <p class="w3-content">Some people are looking to build relevant work experience, find good tools and create a good network. If you choose to have a job seeker with you, it will be like having an "extended" interview.</p>
                 </div>
             </li>
         </ul>
