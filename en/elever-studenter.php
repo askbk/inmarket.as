@@ -34,8 +34,8 @@
                         <div class="w3-col m9">
                         </div> -->
                         <div class="w3-center">
-                            <p>Create a profile that can document your activities out on the workplace.​</p>
-                            <p>​InMarket wants to work closely to your school, so that we all can help you have the best start in working life.</p>
+                            <p>Create a profile to document your activities in the workplace.​</p>
+                            <p>​InMarket wants to work closely with your school, so that we all can help you have the best career start.</p>
                             <div>
                                 <a href="forhandsregistrering.php" class="black-button w3-card" style="white-space:normal;margin:1px;" onclick="studentClient();">Pre-register​</a>
                             </div>
@@ -52,7 +52,7 @@
                         <div class="w3-col m9">
                         </div> -->
                         <div class="w3-center">
-                            <p>Create a profile that can document your activities out on the workplace.​</p>
+                            <p>Create a profile to document your activities in the workplace.​</p>
                             <p>We want to help you develop the characteristics that can make you shine! With us, you can build experiences and competence that are relevant for your studies and career. ​</p>
                             <div>
                                 <a href="forhandsregistrering.php" class="black-button w3-card" style="white-space:normal;margin:1px;" onclick="elevClient();">Pre-register​</a>
@@ -112,7 +112,7 @@
             <img src="img/elever/anniken-square.jpg" alt="" style="width:100%;">
         </div>
         <div class="w3-col m10 w3-container mobile-medium text-align-right">
-            <p class="quote">“InMarket have let me do relevant and fun project alongside school. I have bigger understanding of what we´re learning, and I feel well looked after”</p>
+            <p class="quote">“InMarket has let me work on relevant and fun projects alongside school. I have a better understanding of what we're learning and feel taken care of.</p>
             <p class="quote-source">Anniken, student 2. grade Akademiet VGS</p>
         </div>
     </div>
