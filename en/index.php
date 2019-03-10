@@ -116,7 +116,7 @@
     </div>
     <div class="w3-content w3-center w3-padding-8 w3-container w3-large">
         <a href="partnere.php" class="black-button w3-card">
-            OUR PARTNERS AND COSTUMERS
+            OUR PARTNERS AND CUSTOMERS
         </a>
     </div>
 
@@ -125,7 +125,7 @@
     <div class="w3-container w3-center mobile-medium">
         <h2>HOW IT WORKS</h2>
         <p class="w3-content">
-            InMarket is a user-controlled platform that use automated systems to connect workplaces with their relevant candidates.
+            InMarket is a user-controlled platform that uses automated systems to connect companies with relevant candidates.
         </p>
     </div>
 
