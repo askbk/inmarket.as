@@ -15,11 +15,9 @@
     <div class="margin-top-100 bgimg-dressmannsvart full-height parallax-img w3-display-container">
         <div class="w3-display-bottommiddle white-text mobile-large w3-center max-width-1200 width-100 w3-container" style="bottom :40px; line-height:1.2;text-shadow: 1px 1px 2px rgba(0,0,0, 0.3)">
 
-            <p>Getting into the laboring marked isn’t as easy as it used to. Jobs are getting replaced by robots and
-                the levels of globalization is ever-increasing.</p>
-            <p>InMarket lets you explore the opportunities of jobs all over again. Along with our collaborators we are
-                opening new doors for your carrier.</p>
-            <p>We help you, whether it’s through workshops, regular company visits, or courses.</p>
+            <p>Getting into the job market isn’t as easy as it used to be. Jobs are getting replaced by robots and the level of globalization is ever-increasing.</p>
+            <p>InMarket lets you explore the opportunities of jobs all over again. Along with our partners we are opening new doors for your carrer.</p>
+            <p>We'll help you, whether it’s through workshops, regular company visits, or courses.</p>
 
         </div>
     </div>
@@ -73,7 +71,7 @@
     <div class="">
 
         <article class="narrow-content mobile-large w3-container w3-padding-large w3-center">
-            <p>With InMarket you can apply for entry at relevant companies nearby. This can happen through company invitation, or you can send them a request to meet yourself.</p>
+            <p>With InMarket you can apply at relevant and nearby companies. This can happen through company invitation or you can send them a request to meet.</p>
         </article>
 
         <div class="narrow-content">
@@ -81,16 +79,9 @@
         </div>
 
         ​​<article class="narrow-content mobile-large w3-container w3-padding-large w3-center">
-            <!-- <div class="w3-half w3-container">
 
-            </div> -->
-            <p>Make yourself a profile to document your visits at the different companies. ​</p>
-            <p>We are always looking to improve our offer of available positions and industries, so that you can have a wide variety of workspaces to choose from. Have a look at the available positions, or pre-register so that you are ready to get started! </p>
-            <!-- <div class="w3-half w3-container ">
-            </div> -->
-            <!-- <div class="w3-center w3-padding-16">
-                <a href="" class="black-button w3-card w3-bar w3-xlarge">FORHÅNDSREGISTRER</a>
-            </div> -->
+            <p>Make a profile to document your visits at the different companies. We are always looking to improve our offer of available positions and industries, so that you can have a wide variety of workplaces to choose from. Have a look at the available positions, or pre-register so that you are ready to get started! </p>
+
         </article>
 
         <div class="w3-content w3-center w3-padding-16 w3-container w3-xlarge">
@@ -114,7 +105,7 @@
         </article>
     </div>
     <article class="w3-content w3-xlarge w3-container w3-center w3-padding">
-        <p>PS: Are you an employee who want to attend a workshop with InMarket and All Inclusive Talk? If so, tell your employer to order a workshop from us. </p>
+        <p>PS: Are you an employee who wants to attend a workshop with InMarket and All Inclusive Talk? If so, tell your employer to order a workshop from us. </p>
         <a href="bedrift.php#workshop-anchor" class="black-button w3-card" style="white-space:normal;">Order Workshop Here</a>
     </article>
 
