@@ -16,7 +16,7 @@
             </ul>
         </div>
         <div class="w3-col s4">
-            <h3 class="golden-text mobile-w3-xlarge">Contact oss</h3>
+            <h3 class="golden-text mobile-w3-xlarge">Contact us</h3>
             <ul class="w3-ul">
                 <li class="remove-borders remove-padding">
                     <a href="kontakt.php" class="margin-right-1em">
@@ -51,7 +51,7 @@
             </ul>
         </div>
     </div>
-    <p class="w3-right w3-section">InMarket AS Org. No 922 341 923</p>
+    <p class="w3-right w3-section">InMarket AS Org. No. 922 341 923</p>
 </footer>
 <script src="js/detectIphone.js" charset="utf-8"></script>
 <script async src="js/navbar.js" charset="utf-8"></script>
