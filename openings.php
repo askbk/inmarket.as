@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Åpne plasser og ledige stillinger | InMarket Norge</title>
+    <title>Åpne plasser og ledige stillinger | Inmarket</title>
     <?php include_once 'templates/head.php'; ?>
 </head>
 

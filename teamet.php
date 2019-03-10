@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Vårt team | InMarket Norge</title>
+    <title>Vårt team | Inmarket</title>
     <?php include_once 'templates/head.php'; ?>
 </head>
 
@@ -24,7 +24,7 @@
         <div class="w3-col m6 w3-padding-large w3-container">
             <img src="img/fig/ledelse.jpg" alt="" class="width-25-percent">
             <p>
-                Som leder i InMarket Norge får du ansvar for din egen avdeling. Her har du gode arbeidsvilkår, gode muligheter til å utvikle din kompetanse og kommunikasjonslinje rett opp til styret. Du vil kunne veilede, organisere og følge opp ditt eget team, og du er med på å forme InMarkets mål og arbeidsprosess.
+                Som leder i Inmarket får du ansvar for din egen avdeling. Her har du gode arbeidsvilkår, gode muligheter til å utvikle din kompetanse og kommunikasjonslinje rett opp til styret. Du vil kunne veilede, organisere og følge opp ditt eget team, og du er med på å forme InMarkets mål og arbeidsprosess.
             </p>
         </div>
         <div class="w3-col m6 w3-padding-large w3-container">

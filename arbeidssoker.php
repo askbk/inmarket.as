@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Arbeidssøkere | InMarket Norge</title>
+    <title>Arbeidssøkere | Inmarket</title>
     <?php include_once 'templates/head.php'; ?>
 </head>
 

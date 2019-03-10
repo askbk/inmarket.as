@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>InMarket Norge - viser veien videre</title>
+    <title>Inmarket - viser veien videre</title>
     <?php include_once 'templates/head.php'; ?>
 </head>
 
