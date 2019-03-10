@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Students and pupils | InMarket Norge</title>
+    <title>Students and pupils | InMarket</title>
     <?php include_once 'templates/head.php'; ?>
 </head>
 

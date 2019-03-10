@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Personvern | InMarket Norge</title>
+    <title>Privacy policy | InMarket</title>
     <?php include_once 'templates/head.php'; ?>
 </head>
 

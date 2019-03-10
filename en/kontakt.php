@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Kontakt oss | InMarket Norge</title>
+    <title>Contact us | InMarket</title>
     <?php include_once 'templates/head.php'; ?>
 </head>
 
@@ -14,7 +14,7 @@
 
     <!-- Container (kontakt oss) -->
     <div class="w3-content w3-container w3-padding-64 margin-top-100" id="kontakt" style="min-height: calc(100vh - 300px);">
-        <h1 class="w3-center" id="kontaktHeader">Kontakt oss</h1>
+        <h1 class="w3-center" id="kontaktHeader">Contact us</h1>
         <div class="">
             <form class="w3-large w3-container" action="index.php" method="post" id="kontaktSkjema">
                 <p class="w3-center">Leave your contact information here, and we'll call you within a day<i class="fas fa-arrow-down"></i></p>
