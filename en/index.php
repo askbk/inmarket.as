@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>InMarket - </title>
+    <title>InMarket - Motivate to educate</title>
     <?php include_once 'templates/head.php'; ?>
 </head>
 
