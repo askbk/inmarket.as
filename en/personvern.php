@@ -14,13 +14,13 @@
 
     <div class="w3-content w3-container margin-top-100" id="personvern-innstillinger">
         <h2 class=" w3-center">Personverninnstillinger</h2>
-        <p>Denne nettsiden bruker informasjonskapsler for å føre statistikk og forbedre fremtidig brukeropplevelse.</p>
+        <p>This website uses cookies to collect statistics and improve user experience.</p>
         <div class="">
             <ul class="w3-ul">
                 <li>
                     <label>
                         <input type="checkbox" name="" value="accepttracking" id="trackingSetting">
-                        Jeg tillater at anonyme data blir samlet inn til bruk i trafikkanalyse.
+                        I consent to having anonymous data about my visit collected for analysis.
                     </label>
                 </li>
             </ul>
@@ -31,52 +31,51 @@
 
     <!-- Container -->
     <div class="w3-content w3-container w3-padding-64" id="policy">
-        <h2 class=" w3-center">Personvernerklæring</h2>
-        <p>Denne personvernerklæringen forteller om hvordan InMarket Samuel Bigirimana, her kalt InMarket, samler inn og bruker personopplysninger.</p>
-        <p>InMarket, ved direktøren, er behandlingsansvarlig for bedriftens behandling av personopplysninger. Der det daglige ansvaret er delegert, kommer det fram under hvert enkelt punkt. Delegeringen omfatter kun oppgavene og ikke ansvaret. Erklæringen inneholder opplysninger du har krav på når det samles inn opplysninger fra nettstedet vårt (personopplysningsloven § 19) og generell informasjon om hvordan vi behandler personopplysninger (personopplysningsloven § 18 1. ledd).</p>
-        <h3 class=" w3-center">Behandling av personopplysninger på www.imnor.no</h3>
-        <p>IT-ansvarlig har det daglige ansvaret for InMarkets behandlinger av personopplysninger på Imnor.no. Det er frivillig for de som besøker nettsidene å oppgi personopplysninger i forbindelse med tjenester, for eksempel å registrere bruker i database. Behandlingsgrunnlaget er samtykke fra den enkelte, med mindre annet er spesifisert.</p>
-        <p>Domeneshop er InMarkets databehandler, og er vår leverandør av webhotell.</p>
-        <p>Opplysninger som samles inn i forbindelse med drift av nettsted, lagres på egne servere som driftes av leverandøren. Det er kun InMarket og Domeneshop som har tilgang til opplysningene som samles inn. En egen databehandleravtale mellom InMarket og Domeneshop regulerer hvilken informasjon leverandøren har tilgang til og hvordan den skal behandles.</p>
-        <h3 class=" w3-center">Nettstatistikk</h3>
-        <p>InMarket samler inn avidentifiserte opplysninger om besøkende på imnor.no. Formålet med dette er å utarbeide statistikk som vi bruker til å forbedre og videreutvikle informasjonstilbudet på nettstedet. Eksempler på hva statistikken gir svar på, er hvor mange som besøker ulike sider, hvor lenge besøket varer, hvilke nettsteder brukerne kommer fra og hvilke nettlesere som benyttes.</p>
-        <p>Opplysningene behandles i avidentifisert og aggregert form. Med avidentifisert menes at vi ikke kan spore opplysningene vi samler inn tilbake til den enkelte bruker. Vi samler inn hele IP-adressen, men IP-adressen avidentifiseres slik at bare de tre første gruppene i adressen brukes til å generere statistikk. Det vil si at dersom IP-adressen består av numrene 195.159.103.82, brukes bare 195.159.103.xx. I tillegg behandles IP-adressene på aggregert nivå, det vil si at all data slås sammen til en gruppe og ikke behandles individuelt.</p>
-        <p>Vi bruker analyseverktøyet Hotjar på vårt nettsted. Dette er et proprietært verktøy med lukket kildekode. Informasjon fra dette verktøyet er lagret hos Amazon Web Services i Irland, og InMarket Norge er den eneste aktøren med tilgang til disse dataene.</p>
-        <h3 class=" w3-center">Informasjonskapsler</h3>
-        <p>Informasjonskapsler (cookies) er små tekstfiler som plasseres på din datamaskin når du laster ned en nettside.</p>
-        <p>Lagring av opplysninger og behandling av disse opplysningene er ikke tillatt med mindre bruker både har blitt informert om og har gitt sitt samtykke til behandlingen. Brukeren skal få vite om og godkjenne hvilke opplysninger som behandles, hva formålet med behandlingen er og hvem som behandler opplysningene, jf. ekomloven § 2-7b.</p>
-        <p>Følgende informasjonskapsler brukes på Imnor.no:</p>
+        <h2 class=" w3-center">Privacy policy</h2>
+        <p>This Privacy Statement describes how InMarket AS, here referred to as InMarket, collects and uses personal information.</p>
+        <p>InMarket, at the director, is responsible for the treatment of the company's processing of personal data. Where the day-to-day responsibility is delegated, it will be specified at the relevant section. The delegation covers only the tasks and not the responsibility. The declaration contains information you are entitled to when we are collecting information from our website (section 19 of the Personal Data Act) and general information on how we process personal data (section 18, first paragraph, of the Personal Data Act).</p>
+        <h3 class=" w3-center">Processing of personal information at www.inmarket.as</h3>
+        <p>The IT manager has the daily responsibility for InMarket's processing of personal information on Inmarket.as. It is voluntary for those who visit the websites to provide personal information in connection with services, such as registering users in a database. The treatment basis is the consent of the individual, unless otherwise specified.</p>
+        <p>Domeneshop is InMarket's data processor, and is our web hosting provider.</p>
+        <p>Information collected in connection with the operation of a website is stored on its own servers which are operated by the supplier. Only the InMarket and the Domain Shop have access to the information that is collected. A separate data processing agreement between InMarket and Domeneshop regulates what information the supplier has access to and how it should be processed.</p>
+        <h3 class=" w3-center">Web page statistics</h3>
+        <p>InMarket collects anonymous information about visitors to inmarket.as. The purpose of this is to compile statistics that we use to improve and further develop the information on the website. Examples of what the statistics answer to are how many people visit different pages, how long the visit lasts, which sites the users come from and which browsers are used.</p>
+        <p>The information is processed in a de-identified and aggregated form. By de-identified it is meant that we cannot trace the information we collect back to the individual user. We collect the entire IP address, but the IP address is de-identified so that only the first three groups in the address are used to generate statistics. That is, if the IP address consists of the numbers 195.159.103.82, only 195.159.103.xx is used. In addition, the IP addresses are processed at the aggregate level, meaning all data is merged into one group and not processed individually.</p>
+        <p>We use the Hotjar analysis tool on our site. This is a proprietary closed-source tool. Information from this tool is stored at Amazon Web Services in Ireland, and InMarket is the only player with access to this data.</p>
+        <h3 class=" w3-center">Cookies</h3>
+        <p>Cookies are small text files that are placed on your computer when you download a website. The storage of information and the processing of this information is not permitted unless the user has been informed and has given his consent to the processing. The user shall know about and approve which information is processed, what the purpose of the processing is and who is processing the information, cf. Electronic Communications Act § 2-7b.</p>
+        <p>The following cookies are used on inmarket.as:</p>
         <ul>
-            <li>Analyseverktøyet Hotjar plasserer én informasjonskapsel ("_hjIncludedInSample") for til bruk for å spore besøk. Denne informasjonskapselen blir slettet når man avslutter nettleseren.</li>
+            <li>The Hotjar Analysis Tool places one cookie ("_hjIncludedInSample") for use to track visits. This cookie is deleted when you exit the browser.</li>
         </ul>
-        <h3 class=" w3-center">Kontaktskjema på nettside</h3>
-        <p>På nettsiden kan man be InMarket om å kontakte angående videre veiledning eller ønsker om bedriftsbesøk ol.. Vi registrer da navn, telefonnummer og epostkonto slik at vi kan følge opp kontakten. InMarket kommer ikke til å bruke denne informasjonen til andre formål eller dele den med tredjeparter uten brukers samtykke.</p>
-        <h3 class=" w3-center">Spørreundersøkelser</h3>
-        <p>Organisasjonsdirektør har det daglige ansvaret for InMarkets spørreundersøkelser. Vi vil alltid informere om formålet med spørreundersøkelsen, og hvorvidt den er anonym eller ikke. InMarket vil ikke dele opplysningene med andre eller bruke opplysningene til andre formål enn det som er angitt.</p>
-        <strong>Anonyme undersøkelser</strong>
-        <p>Dersom undersøkelsen er anonym, vil ikke InMarket samle inn noe informasjon som kan kobles til deg.</p>
-        <strong>Identifiserbare undersøkelser</strong>
-        <p>Dersom undersøkelsen ikke er anonym, kan InMarket identifisere de som har besvart undersøkelsen.</p>
-        <h3 class=" w3-center">E-post og telefon</h3>
-        <p>InMarket benytter e-post og telefon som en del av det daglige arbeidet. Daglig leder har ansvaret for behandlingen av personopplysninger i denne sammenheng. Relevante opplysninger som fremkommer av telefonsamtaler og e-postutveksling som skjer som en del av veiledning eller oppfølgning journalføres.</p>
-        <p>InMarkets medarbeidere benytter i tillegg e-post i alminnelig dialog med interne og eksterne kontakter. Den enkelte er ansvarlig for å slette meldinger som ikke lenger er aktuelle, og minst hvert år gjennomgå og slette unødvendig innhold i e-postkassen. Ved fratreden slettes e-postkontoene, men enkelte relevante e-poster vil normalt bli overført til kollegaer.</p>
-        <p>Sensitive personopplysninger skal ikke sendes med e-post.</p>
-        <p>Vi gjør deg oppmerksom på at vanlig e-post er ukryptert. Vi oppfordrer deg derfor ikke til å sende taushetsbelagte, sensitive eller andre fortrolige opplysninger via e-post.</p>
-        <p>Telefonsamtaler logges ikke, men personell fra InMarket vil etter brukers samtykke skrive ned essensen av det som blir sagt, for å optimalisere videre oppfølgning. InMarket kommer ikke til å dele disse opplysningene med tredjepart uten brukers samtykke, og sletter informasjonen innen ett år fra siste gang bruker var i kontakt med InMarket.</p>
-        <h3 class=" w3-center">Fysisk gruppeveiledning</h3>
-        <p>Alle ansatte i InMarket har taushetsplikt for det som blir sagt under gruppeveiledningsmøter med elever og studenter. Dette ansvaret tilfalles den enkelte gruppeveileder. Veileder fra InMarket skal ikke videreformidle noe av informasjonen som blir sagt under møtene til noen andre ved mindre elevene eller studentene har sagt noe annet.</p>
-        <h3 class=" w3-center">Besøk i InMarkets lokaler og deltakelse på arrangement i vår regi</h3>
-        <strong>Liste over besøksdeltakere</strong>
-        <p>InMarket lagrer persondata om studenter, bedriftsansatte, elever og elevgrupper i våre databaser. Plattformen vi bruker for å lagre informasjonen er Portal Office. Dersom en elev, student eller bedrift ikke lenger benytter seg av produktet til InMarket, vil informasjonen slettes fra databasen innen 2 år.</p>
-        <strong>Liste over besøkende</strong>
-        <p>InMarket fører per dags dato ingen spesifikk liste over besøkende inn og ut av bedriftslokalene våre. Når du melder deg på besøk til andre bedrifter gjennom InMarket, er det den enkeltes bedrift sitt ansvar å ivareta personvern om eventuelle opplysninger som oppgis under et slikt besøk. InMarket kommer ikke til å dele opplysninger om besøkende videre til bedriften uten de besøkendes samtykke.</p>
-        <h3 class=" w3-center">Opplysninger om ansatte</h3>
-        <p>InMarket behandler personopplysninger om sine ansatte for å administrere lønn og personalansvar. Rettslig grunnlag følger av personopplysningsloven § 8, første ledd og § 8 a), b) eller f) samt § 9 a), b) og f). Det er Organisasjonsdirektør som har det daglige ansvaret for dette. Det registreres nødvendige opplysninger for utbetaling av lønn, for eksempel grunndata, lønnsnivå, tidsregistrering, skatteprosent, skattekommune og fagforeningstilhørighet. Andre opplysninger om ansatte er knyttet til vedkommendes arbeidsinstruks og tilrettelegging av vedkommendes arbeid.</p>
-        <p>Dessuten registreres det opplysninger i tilknytning til nøkkeladministrasjon av inn- og utpasseringer og opplysninger om tilgangsstyring i IT-systemet. Opplysningene hentes fra de ansatte selv. Opplysningene utleveres bare i forbindelse med lønnsutbetalinger og andre lovpliktige utleveringer. Sletterutiner for personalopplysninger følger regnskapsloven og arkivloven. Opplysninger om navn, stilling og arbeidsområdet regnes å være offentlige opplysninger og kan publiseres på tilsynets nettsider.</p>
-        <p>Alle stillingssøknader blir journalført i InMarkets postjournal. Disse blir lagret i vårt elektroniske arkiv i ca. ett år før de makuleres. Alle andre dokumenter, bl.a. søkerlister og innstillinger bevares. </p>
-        <p>Her blir blant annet stillingssøknaden arkivert/oppbevart. Personalmapper skal bevares (dvs. at stillingssøknaden ikke blir slettet eller makulert). Personalmapper blir ryddet ved utløp av arbeidsforholdet. </p>
-        <h3 class=" w3-center">Rettigheter</h3>
-        <p>Alle som spør har rett på grunnleggende informasjon om behandlinger av personopplysninger i en bedrift etter personopplysningslovens § 18, 1. ledd. InMarket har gitt denne informasjonen i denne erklæringen, og vil henvise til den ved eventuelle forespørsler. De som er registrert i en av InMarkets systemer har rett på innsyn i egne opplysninger. Vedkommende har også rett til å be om at uriktige, ufullstendige eller opplysninger InMarket ikke har adgang til å behandle blir rettet, slettet eller supplert. Krav fra den registrerte skal besvares kostnadsfritt og senest innen 30 dager.</p>
+        <h3 class=" w3-center">Contact form on website</h3>
+        <p>On the website you can ask InMarket to contact regarding further guidance or wishes about company visits etc.. We then register the name, phone number and email account so that we can follow up the contact. InMarket will not use this information for any other purpose or share it with third parties without the users consent.</p>
+        <h3 class=" w3-center">Surveys</h3>
+        <p>The Staff Director has the daily responsibility for InMarket's surveys. We will always inform about the purpose of the survey and whether it is anonymous or not. InMarket will not share the information with others or use the information for any purpose other than that specified.</p>
+        <strong>Anonymous surveys</strong>
+        <p>If the survey is anonymous, InMarket will not collect any information that can be linked to you.</p>
+        <strong>Identifiable surveys</strong>
+        <p>If the survey is not anonymous, InMarket can identify those who have answered the survey.</p>
+        <h3 class=" w3-center">E-mail and phone</h3>
+        <p>InMarket uses e-mail and telephone as part of the daily work. The CEO is responsible for the processing of personal data in this context. Relevant information that emerges from telephone calls and e-mail exchanges that occur as part of the supervision or follow-up is recorded.</p>
+        <p>InMarket's employees also use e-mail in regular dialogue with internal and external contacts. The individual is responsible for deleting messages that are no longer relevant and reviewing and deleting unnecessary content in the mailbox at least every year. Upon resignation, the e-mail accounts are deleted, but some relevant e-mails will normally be transferred to colleagues.</p>
+        <p>Sensitive personal information should not be sent by email.</p>
+        <p>We remind you that regular email is unencrypted. We therefore do not encourage you to send confidential, sensitive or other confidential information via e-mail.</p>
+        <p>Phone calls are not logged, but personnel from InMarket will, after the user's consent, write down the essence of what is said to optimize further follow-up. InMarket will not share this information with third parties without the user's consent, and will delete the information within one year from the last time the user was in contact with InMarket.</p>
+        <h3 class=" w3-center">Face to face consultation</h3>
+        <p>All employees in InMarket have a duty of confidentiality for what is said during group counseling meetings with students, jobseekers or companies. This responsibility falls to the individual group supervisor. The supervisor from InMarket will not pass on any of the information that is said during the meetings of anyone else unless the students, jobseekers or companies have said otherwise.</p>
+        <h3 class=" w3-center">Visits to InMarket's offices and participation in our events</h3>
+        <strong>List of visitor participants</strong>
+        <p>InMarket stores personal data about students, corporate employees and jobseekers in our databases. The platform we use to store the information is the Portal Office. If a student, jobseeker or company no longer uses the product for InMarket, the information will be deleted from the database within 2 years.</p>
+        <strong>List over visitors</strong>
+        <p>InMarket currently does not lead to a specific list of visitors in and out of our corporate premises. When you sign up for visits to other companies through InMarket, it is the individual's company's responsibility to safeguard the privacy of any information provided during such a visit. InMarket will not share information about visitors to the company without the visitor's consent.</p>
+        <h3 class=" w3-center">Information about employees</h3>
+        <p>InMarket processes personal information about its employees in order to manage salaries and personnel responsibilities. Legal basis follows from the Personal Data Act § 8, first paragraph and § 8 a), b) or f) as well as § 9 a), b) and f). It is the Organizational Director who has the daily responsibility for this. Necessary information is recorded for the payment of wages, such as basic data, salary level, time registration, tax rate, tax municipality and union affiliation. Other information about employees is related to his / her work instructions and adaptation of his/her work.</p>
+        <p>In addition, information related to key administration of entries and exits and information on access management in the IT system are recorded. The information is obtained from the employees themselves. The information is only disclosed in connection with salary payments and other statutory deliveries. Plain routines for personal information follow the Accounting Act and the Archives Act. Information about the name, position and work area is considered to be public information and can be published on the Authority's website.</p>
+        <p>All job applications will be registered in the InMarket post office. These are stored in our electronic archive for approx. one year before they are shredded. All other documents, including Search lists and settings are retained.</p>
+        <p>Here, among other things, the job application is filed / stored. Personnel folders must be preserved (ie the job application is not deleted or shredded). Personal folders will be cleared upon expiry of employment.</p>
+        <h3 class=" w3-center">Rights</h3>
+        <p>Everyone who asks has the right to basic information about the processing of personal data in a company pursuant to section 18, first paragraph, of the Personal Data Act. InMarket has provided this information in this statement and will refer to it at any request. Those who are registered in one of InMarkets systems are entitled to access their own information. The person also has the right to request that incorrect, incomplete or information that InMarket is not allowed to process is corrected, deleted or supplemented. Requirements from the data subject must be answered free of charge and no later than 30 days.</p>
     </div>
 
     <!-- Footer -->
