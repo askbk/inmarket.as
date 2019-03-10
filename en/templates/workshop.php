@@ -25,41 +25,41 @@
         <form class="w3-xlarge w3-container" action="index.php" method="post" id="workshop">
             <div class="w3-row">
                 <div class="w3-col m8">
-                    <p>Workshopen skal løse følgende kommunikasjonskonflikt:</p>
+                    <p>The workshop should solve the following conflict in communication:</p>
                 </div>
                 <div class="w3-col m4 w3-right">
                     <div class="">
                         <label>
                             <input type="radio" name="conflict" value="Kollega til kollega" required>
                             <i class="far w3-xlarge radio checkbox"></i>
-                            Kollega til kollega
+                            Between colleagues
                         </label><br>
                         <label>
                             <input type="radio" name="conflict" value="Arbeidsgiver til arbeidstaker" required>
                             <i class="far w3-xlarge radio"></i>
-                            Arbeidsgiver til arbeidstaker
+                            Between employer and employee
                         </label><br>
                         <label>
                             <input type="radio" name="conflict" value="I ledelsen" required>
                             <i class="far w3-xlarge radio"></i>
-                            I ledelsen
+                            In management
                         </label><br>
                         <label>
                             <input type="radio" name="conflict" value="Presentasjoner og pitcher" required>
                             <i class="far w3-xlarge radio"></i>
-                            Presentasjoner og pitcher
+                            Presentations and pitching
                         </label><br>
                         <label>
                             <input type="radio" name="conflict" value="Intervjuer" required>
                             <i class="far w3-xlarge radio"></i>
-                            Intervjuer
+                            Interviews
                         </label>
                     </div>
                 </div>
             </div>
             <div class="w3-row">
                 <div class="w3-col m8">
-                    Antall deltakere på workshopen:
+                    Number of participants:
                 </div>
                 <div class="w3-col m4 w3-right">
                     <select class="w3-select" name="headcount">
@@ -73,24 +73,24 @@
             </div>
             <div class="w3-row">
                 <div class="w3-col m8">
-                    Workshopen skal ta plass på
+                    The workshop should take place at:
                 </div>
                 <div class="w3-col m4 w3-right">
                     <div class="">
                         <label>
                             <input type="radio" name="location" value="våre fasiliteter" required>
                             <i class="far w3-xlarge radio"></i>
-                            Våre fasiliteter
+                            Our facilities
                         </label><br>
                         <label>
                             <input type="radio" name="location" value="valgt lokasjon i Oslo" required>
                             <i class="far w3-xlarge radio"></i>
-                            Valgt lokasjon i Oslo
+                            Chosen location in Oslo
                         </label><br>
                         <label>
                             <input type="radio" name="location" value="valgt lokasjon i Drammen" required>
                             <i class="far w3-xlarge radio"></i>
-                            Valgt lokasjon i Drammen
+                            Chosen location in Drammen
                         </label>
                     </div>
                 </div>
@@ -105,13 +105,13 @@
                 </div>
             </div>
             <div class="w3-row">
-                <input type="checkbox" name="" value="" required> <label>Jeg har lest og godtatt <a href="personvern.php" style="text-decoration:underline;" target="_blank">personvernerklæringen</a> </label>
-                <p>Dette er en uforpliktende bestilling. Vi ringer deg og gir deg forslag på opplegg sammen med pris.</p>
-                <button class="black-button w3-card w3-right" type="submit"><i class="fas fa-paper-plane"></i> Bestill</button>
+                <input type="checkbox" name="" value="" required> <label>I have read and accepted the InMarket <a href="personvern.php" style="text-decoration:underline;" target="_blank">privacy policy</a> </label>
+                <p>This is not a binding order. We'll call you with a proposal for program and price.</p>
+                <button class="black-button w3-card w3-right" type="submit"><i class="fas fa-paper-plane"></i> Order</button>
             </div>
         </form>
         <div class="w3-section w3-card w3-container w3-xlarge" id="kontaktRespons" style="display:none;">
-            <p class="w3-center">Takk for henvendelsen! Vi tar kontakt med deg så raskt som mulig!</p>
+            <p class="w3-center">Thank you! We'll contact you as soon as possible!</p>
         </div>
     </div>
 </div>
