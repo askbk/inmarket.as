@@ -201,7 +201,7 @@
         </div>
     </div>
     <script src="https://player.vimeo.com/api/player.js"></script>
-    <script src="js/videos.js" charset="utf-8"></script>
+    <script src="../js/videos.js" charset="utf-8"></script>
     <script type="text/javascript">
         $(".job-opening-button").on("click", e => {
             const openingId = e.currentTarget.dataset.jobOpening;

@@ -63,7 +63,7 @@
         </div>
     </div>
     <script src="https://player.vimeo.com/api/player.js"></script>
-    <script src="js/videos.js" charset="utf-8"></script>
+    <script src="../js/videos.js" charset="utf-8"></script>
     <!-- Footer -->
     <?php include_once 'templates/footer.php'; ?>
 </body>

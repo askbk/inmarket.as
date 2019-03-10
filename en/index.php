@@ -240,6 +240,6 @@
 
     <?php include_once 'templates/footer.php'; ?>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script src="js/slideshow.js" charset="utf-8"></script>
+    <script src="../js/slideshow.js" charset="utf-8"></script>
 </body>
 </html>

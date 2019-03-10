@@ -81,7 +81,7 @@
 
     <!-- Footer -->
     <?php include_once 'templates/footer.php'; ?>
-    <script src="js/privacySettings.js" charset="utf-8"></script>
+    <script src="../js/privacySettings.js" charset="utf-8"></script>
 </body>
 
 </html>

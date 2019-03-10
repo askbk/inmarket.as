@@ -13,13 +13,13 @@
 <meta name="theme-color" content="#ffffff">
 
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-<link rel="stylesheet" href="fontawesome-free-5.1.0-web/css/all.css">
-<link rel="stylesheet" href="style/style.css" />
-<link rel="stylesheet" href="style/w3pro.css" />
+<link rel="stylesheet" href="../fontawesome-free-5.1.0-web/css/all.css">
+<link rel="stylesheet" href="../style/style.css" />
+<link rel="stylesheet" href="../style/w3pro.css" />
 
 <script type="application/ld+json" href="json/about.json"></script>
-<script src="js/jquery-3.3.1.min.js" charset="utf-8"></script>
-<script src="js/jquery.color-2.1.2.min.js" charset="utf-8"></script>
+<script src="../js/jquery-3.3.1.min.js" charset="utf-8"></script>
+<script src="../js/jquery.color-2.1.2.min.js" charset="utf-8"></script>
 <!-- Hotjar Tracking Code for imnor.no -->
 <script>
     if (localStorage.tracking == "true") {

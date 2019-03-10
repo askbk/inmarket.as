@@ -53,6 +53,6 @@
     </div>
     <p class="w3-right w3-section">InMarket AS Org. No. 922 341 923</p>
 </footer>
-<script src="js/detectIphone.js" charset="utf-8"></script>
-<script async src="js/navbar.js" charset="utf-8"></script>
-<script src="js/acceptTracking.js" charset="utf-8"></script>
+<script src="../js/detectIphone.js" charset="utf-8"></script>
+<script async src="../js/navbar.js" charset="utf-8"></script>
+<script src="../js/acceptTracking.js" charset="utf-8"></script>
