@@ -7,12 +7,12 @@
 
         <div class = "w3-right w3-small" style="margin-top:25px"  >
 
-            <a href="/index.php" >
+            <a href="../index.php" >
                 <img src="img/norway-lang-button.png" height="20px" alt="norwegian" >
             </a>
 
 
-            <a href="/en/index.php">
+            <a href="../en/index.php">
                 <img src="img/uk-lang-button.png" height="20px" alt="uk">
             </a>
         </div>
