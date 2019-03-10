@@ -26,7 +26,7 @@ function elevSelected() {
     for(element of bedriftElements) {
         element.classList.add("w3-hide");
     }
-    inputPlace.setAttribute("placeholder", "Videregående skole")
+    inputPlace.setAttribute("placeholder", "High school")
     check(0);
     elevClient();
 }
@@ -35,7 +35,7 @@ function studentSelected() {
     for(element of bedriftElements) {
         element.classList.add("w3-hide");
     }
-    inputPlace.setAttribute("placeholder", "Høyskole/universitet")
+    inputPlace.setAttribute("placeholder", "College/University")
     check(1);
     studentClient();
 }
@@ -44,7 +44,7 @@ function bedriftSelected() {
     for(element of bedriftElements) {
         element.classList.remove("w3-hide");
     }
-    inputPlace.setAttribute("placeholder", "Bedrift")
+    inputPlace.setAttribute("placeholder", "Company")
     check(2);
     bedriftClient();
 }
