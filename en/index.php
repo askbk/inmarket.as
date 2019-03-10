@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>InMarket Norge - viser veien videre</title>
+    <title>InMarket - </title>
     <?php include_once 'templates/head.php'; ?>
 </head>
 
@@ -32,7 +32,7 @@
 
     <div class="w3-card w3-bar white-bg w3-padding mobile-medium" style="display:none;" id="info-container">
         <div class="w3-content" id="bedrift" style="display:none;">
-            <p class="height-5em-mobile ">Jobb med oss slik at flere kan finne sin plass i det norske arbeidsmarkedet. Med InMarket får du tilgang til potensielle eller klare arbeidstakere. </p>
+            <p class="height-5em-mobile">Work with us to let people find their place in the norwegian labor market. With InMarket you get access to potential employees.</p>
             <div class="w3-row w3-center">
                 <div class="w3-col m6 " style="padding: 1px 2px;">
                     <a href="kontakt.php" class="black-button w3-card white-border width-100">
@@ -47,7 +47,7 @@
             </div>
         </div>
         <div class="w3-content" id="elever-studenter" style="display:none;">
-            <p class="height-5em-mobile ">Vi ønsker å hjelpe deg med å utforske dine muligheter når du enten skal ta høyere utdanning, gå ut i arbeid eller oppleve verden.</p>
+            <p class="height-5em-mobile">We want to help you explore your opportunities when you are either attending higher education, working or experiencing the world.</p>
             <div class="w3-row w3-center">
                 <div class="w3-col m6 " style="padding: 1px 2px;">
                     <a href="openings.php" class="black-button w3-card white-border width-100">
@@ -62,7 +62,7 @@
             </div>
         </div>
         <div class="w3-content" id="jobb" style="display:none;">
-            <p class="height-5em-mobile ">Vi vil gi deg muligheten til å etablere deg i din bransje samtidig som du får tett oppfølging og godt nettverk. Vi har samarbeidspartnere som ønsker å møte deg.​</p>
+            <p class="height-5em-mobile">We want to give you the opportunity to establish yourself in your industry with close follow-up and good networking. We have partners who want to meet you.</p>
             <div class="w3-row w3-center">
                 <div class="w3-col m6 " style="padding: 1px 2px;">
                     <a href="openings.php" class="black-button w3-card white-border width-100">
@@ -198,7 +198,6 @@
         </div>
     </div>
 
-
     <div class="w3-container w3-center mobile-medium">
         <!--
         <h2>VIL DU:​</h2>
@@ -238,10 +237,6 @@
             <p>JOBSEEKERS</p>
         </div>
     </div>
-
-
-
-
 
     <?php include_once 'templates/footer.php'; ?>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
