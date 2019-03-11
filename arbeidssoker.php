@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Arbeidssøkere | InMarket Norge</title>
+    <title>Arbeidssøkere | Inmarket</title>
     <?php include_once 'templates/head.php'; ?>
 </head>
 
@@ -21,7 +21,7 @@
                 Med InMarket får du muligheten til å utforske arbeidsmarkedet på nytt. Sammen med våre samarbeidspartnere åpner vi dørene for at du skal ha bedre spillerom.​​
             </p>
             <p>
-                Vi hjelper deg å bygge et solid nettverk via våre workshop, jevne bedriftsbesøk, kurs og workshop.​
+                Vi hjelper deg å bygge et solid nettverk via våre workshop, jevne bedriftsbesøk og kurs.
             </p>
         </div>
     </div>

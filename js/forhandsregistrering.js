@@ -3,7 +3,7 @@ let radioButtons = document.getElementsByClassName("klient-radio");
 let bedriftElements = document.getElementsByClassName("bedriftSelected");
 let inputPlace = document.getElementById("inputPlace");
 //let studentElements = document.getElementsByClassName("studentSelected");
-
+let bedriftkode = document.getElementById("bedriftkode");
 let clientType = getClientType();
 
 if (clientType == "bedrift") {
@@ -19,6 +19,7 @@ if (clientType == "bedrift") {
 }
 
 function check(n) {
+    bedriftkode.style.display="none";
     for(let i = 0; i < 5; ++i) {
         radioButtons[i].checked = false;
     }
@@ -61,7 +62,9 @@ function bedriftSelected() {
     for(element of bedriftElements) {
         element.classList.remove("w3-hide");
     }
+
     check(4);
+    bedriftkode.style.display="inherit";
     bedriftClient();
 }
 

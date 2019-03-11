@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Registrer | InMarket Norge</title>
+    <title>Registrer | Inmarket</title>
     <?php include_once 'templates/head.php'; ?>
 </head>
 
@@ -53,12 +53,15 @@
 
 
 
+
+
                     </div>
                     <div class="w3-col m9">
                         <input type="text" name="navn" value="" placeholder="Navn"  class="w3-input w3-animate-input w3-margin " required id="navn">
                         <input type="text" name="email" value="" placeholder="Email" class="w3-input w3-animate-input w3-margin " required id="email" >
                         <!--<input type="text" name="birthdate" value="" placeholder="Fødselsdato" class="w3-input w3-animate-input w3-margin " required id="datepicker" >-->
                         <input type="text" name="telefonnummer" value="" placeholder="Telefonnummer (valgfritt)"  class="w3-input w3-animate-input w3-margin " id="telefonnummer">
+                        <input id = "bedriftkode" type="text" name="orgKode" value="" placeholder="Organisasjonsnummer" style="display:none"  class="w3-input w3-animate-input w3-margin">
                         <br>
 
                         <label  class = "w3-margin" >Jeg har lest og godtatt <a href="personvern.php" style="text-decoration:underline;" target="_blank">personvernerklæringen</a> </label><input type="checkbox" name="" value="" required style="width:25px;height:25px;position:relative; top:6px;">
