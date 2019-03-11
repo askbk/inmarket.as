@@ -13,6 +13,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = test_input($_POST["email"]);
     $navn = test_input($_POST["navn"]);
     $telefonnummer = test_input($_POST["telefonnummer"]);
+    $orgKode = test_input($_POST["orgKode"]);
 }
 
 
@@ -23,7 +24,8 @@ Forhåndsregistrering:
 Navn: $navn
 Email: $email
 Telefon: $telefonnummer
-Type: $client";
+Type: $client
+orgKode (hvis bedrift): $orgKode";
 
 $headers = "MIME-Version: 1.0" . "\r\n";
 $headers .= "Content-type:text; charset=UTF-8" . "\r\n";
