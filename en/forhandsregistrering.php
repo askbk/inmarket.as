@@ -55,6 +55,7 @@
                         <input type="text" name="email" value="" placeholder="Email" class="w3-input w3-animate-input w3-margin " required id="email" >
                         <!--<input type="text" name="birthdate" value="" placeholder="Fødselsdato" class="w3-input w3-animate-input w3-margin " required id="datepicker" >-->
                         <input type="text" name="telefonnummer" value="" placeholder="Phone number (optional)"  class="w3-input w3-animate-input w3-margin " id="telefonnummer">
+                        <input id = "bedriftkode" type="text" name="orgKode" value="" placeholder="Organization number" style="display:none"  class="w3-input w3-animate-input w3-margin">
                         <br>
 
                         <label  class="w3-margin">I have read and accepted the InMarket <a href="personvern.php" style="text-decoration:underline;" target="_blank">privacy policy</a> </label><input type="checkbox" name="" value="" required style="width:25px;height:25px;position:relative; top:6px;">
