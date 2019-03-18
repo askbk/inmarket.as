@@ -26,6 +26,9 @@
         </div>
     </div>
 
+    <div class="w3-content w3-center w3-content w3-padding">
+        <h3>Bedrifter i kontakt med InMarket</h3>
+    </div>
     <!-- Partner logos -->
     <div class="white-text w3-padding-16 w3-content" id="partner-slideshow">
         <div class="partner-slide" itemprop="sponsor">
