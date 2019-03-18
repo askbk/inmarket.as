@@ -14,10 +14,9 @@
 
     <!-- Slideshow-->
     <div class="slideshow w3-display-container margin-top-100 white-text" id="hjem">
-        <div class="bgimg-allinclusive-1 mySlides parallax-img"></div>
-        <div class="bgimg-christian-kamera mySlides parallax-img" style="display:none;"></div>
-        <div class="bgimg-jenterpeker mySlides parallax-img" style="display:none;"></div>
+        <div class="bgimg-christian-kamera parallax-img mySlides" style=""></div>
     </div>
+
     <div class="w3-row width-100 mobile-large slideshow-buttons">
         <div class="w3-col m4 hover-shadow-inset shadow-inset golden-button slide-indicator black-text indicator-active" n="0">
             Bedrifter
@@ -30,53 +29,6 @@
         </div>
     </div>
 
-    <div class="w3-card w3-bar white-bg w3-padding mobile-medium" style="display:none;" id="info-container">
-        <div class="w3-content" id="bedrift" style="display:none;">
-            <p class="height-5em-mobile ">Jobb med oss slik at flere kan finne sin plass i det norske arbeidsmarkedet. Med InMarket får du tilgang til potensielle eller klare arbeidstakere. </p>
-            <div class="w3-row w3-center">
-                <div class="w3-col m6 " style="padding: 1px 2px;">
-                    <a href="kontakt.php" class="black-button w3-card white-border width-100">
-                        Kontakt oss
-                    </a>
-                </div>
-                <div class="w3-col m6 " style="padding: 1px 2px;">
-                    <a href="bedrift.php" class="black-button w3-card white-border width-100">
-                        Mer
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="w3-content" id="elever-studenter" style="display:none;">
-            <p class="height-5em-mobile ">Vi ønsker å hjelpe deg med å utforske dine muligheter når du enten skal ta høyere utdanning, gå ut i arbeid eller oppleve verden.</p>
-            <div class="w3-row w3-center">
-                <div class="w3-col m6 " style="padding: 1px 2px;">
-                    <a href="openings.php" class="black-button w3-card white-border width-100">
-                        Åpne plasser
-                    </a>
-                </div>
-                <div class="w3-col m6 " style="padding: 1px 2px;">
-                    <a href="elever-studenter.php" class="black-button w3-card white-border width-100">
-                        Mer
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="w3-content" id="jobb" style="display:none;">
-            <p class="height-5em-mobile ">Vi vil gi deg muligheten til å etablere deg i din bransje samtidig som du får tett oppfølging og godt nettverk. Vi har samarbeidspartnere som ønsker å møte deg.​</p>
-            <div class="w3-row w3-center">
-                <div class="w3-col m6 " style="padding: 1px 2px;">
-                    <a href="openings.php" class="black-button w3-card white-border width-100">
-                        Ledige stillinger
-                    </a>
-                </div>
-                <div class="w3-col m6 " style="padding: 1px 2px;">
-                    <a href="arbeidssoker.php" class="black-button w3-card white-border width-100">
-                        Mer
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <!-- Partner logos -->
     <div class="white-text w3-padding-16 w3-content" id="partner-slideshow">
@@ -113,11 +65,6 @@
         <div class="partner-slide" itemprop="sponsor">
             <a href="http://www.charge.no" target="_blank"><img src="img/logos/charge.png" alt="Charge" width="100%"></a>
         </div>
-    </div>
-    <div class="w3-content w3-center w3-padding-8 w3-container w3-large">
-        <a href="partnere.php" class="black-button w3-card">
-            Alle våre kunder og partnere
-        </a>
     </div>
 
     <div class = "w3-padding-64" style=""></div>
@@ -198,16 +145,6 @@
         </div>
     </div>
 
-
-    <div class="w3-container w3-center mobile-medium">
-        <!--
-        <h2>VIL DU:​</h2>
-        <p class="w3-content"> Bedrifter - knytte kontakt med potensielle arbeidstakere og hjelpe dem med å bygge relevant kompetanse og erfaring?​</p>
-        <p class="w3-content"> Brukere - møte  arbeidsgivere, bygge erfaring og etablere seg i en bransje?​</p>
-        <br> -->
-        <h2 class="w3-content"> VI LANSERER PLATTFORMEN I LØPET AV SOMMER 2019!</h2>
-    </div>
-
     <div class="w3-content w3-center w3-padding-16 w3-container w3-xlarge">
         <a href="forhandsregistrering.php" class="black-button w3-card">
             Forhåndsregistrer
@@ -239,12 +176,8 @@
         </div>
     </div>
 
-
-
-
-
     <?php include_once 'templates/footer.php'; ?>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script src="js/slideshow.js" charset="utf-8"></script>
+    <!-- <script src="js/slideshow.js" charset="utf-8"></script> -->
 </body>
 </html>
