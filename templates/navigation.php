@@ -16,6 +16,16 @@
                 </a>
             </li>
         </ul> -->
+        <button class="white-button w3-xlarge w3-right padding-top-1em" id="navbar-button">
+            <div class="menu-container" onclick="menuAnimation(this)">
+                <div class="menu-bar1"></div>
+                <div class="menu-bar2"></div>
+                <div class="menu-bar3"></div>
+            </div>
+        </button>
+        <div class="w3-bar-item w3-right" style="line-height:2;">
+            <a href="" class="golden-button w3-hide-small w3-large">Arbeidsgiver</a>
+        </div>
         <div class = "w3-right w3-small" style="margin-top:25px"  >
             <a href="index.php" >
                 <img src="img/norway-lang-button.png" height="20px" alt="norwegian" >
@@ -24,13 +34,6 @@
                 <img src="img/uk-lang-button.png" height="20px" alt="uk">
             </a>
         </div>
-        <button class="white-button w3-xlarge w3-right padding-top-1em" id="navbar-button">
-            <div class="menu-container" onclick="menuAnimation(this)">
-                <div class="menu-bar1"></div>
-                <div class="menu-bar2"></div>
-                <div class="menu-bar3"></div>
-            </div>
-        </button>
     </div>
     <div id="navbar-dropdown-content" class="w3-content w3-bar white-bg padding-bottom-16 w3-large" style="display:none;">
         <hr style="margin:10px !important;">
