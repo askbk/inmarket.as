@@ -4,7 +4,7 @@
         <a href="index.php" class="w3-bar-item line-height-1">
             <img src="img/logos/inmarketlogo2.svg" height="72px" alt="InMarket logo" id="navbar-img">
         </a>
-        <!--<ul class = "w3-right w3-small" style="width:auto;height:36px; margin-top:10px; list-style-type:none;" >
+        <!-- <ul class = "w3-right w3-small" style="width:auto;height:36px; margin-top:10px; list-style-type:none;" >
             <li  style="width:30px;height:25px; margin-top:0;" >
                 <a href="/index.php" >
                 <img src="img/norway-lang-button.png" height="20px" alt="norwegian" >
@@ -15,17 +15,14 @@
                 <img src="img/uk-lang-button.png" height="20px" alt="uk">
                 </a>
             </li>
-        </ul>-->
+        </ul> -->
         <div class = "w3-right w3-small" style="margin-top:25px"  >
-
-                <a href="index.php" >
-                    <img src="img/norway-lang-button.png" height="20px" alt="norwegian" >
-                </a>
-
-
-                <a href="en/index.php">
-                    <img src="img/uk-lang-button.png" height="20px" alt="uk">
-                </a>
+            <a href="index.php" >
+                <img src="img/norway-lang-button.png" height="20px" alt="norwegian" >
+            </a>
+            <a href="en/index.php">
+                <img src="img/uk-lang-button.png" height="20px" alt="uk">
+            </a>
         </div>
         <button class="white-button w3-xlarge w3-right padding-top-1em" id="navbar-button">
             <div class="menu-container" onclick="menuAnimation(this)">
@@ -50,27 +47,13 @@
                     </li>
                     <li>
                         <a href="elever-studenter.php" class="golden-accent-bottom">
-                            Studenter og elever
+                            Under utdanning
                         </a>
-                        <ul class="w3-ul">
-                            <li style="padding-left:16px !important;">
-                                <a href="openings.php" class="golden-accent-bottom">
-                                    Åpne plasser
-                                </a>
-                            </li>
-                        </ul>
                     </li>
                     <li>
                         <a href="arbeidssoker.php" class="golden-accent-bottom">
-                            Arbeidssøkere
+                            Jobbsøkere
                         </a>
-                        <ul class="w3-ul">
-                            <li style="padding-left:16px !important;">
-                                <a href="openings.php" class="golden-accent-bottom">
-                                    Ledige stillinger
-                                </a>
-                            </li>
-                        </ul>
                     </li>
                 </ul>
             </div>
@@ -89,11 +72,6 @@
                             Visjon og mål
                         </a>
                     </li>
-                    <li>
-                        <a href="#" class="golden-accent-bottom">
-                            Historie
-                        </a>
-                    </li>
                 </ul>
             </div>
             <div class="column">
@@ -104,11 +82,6 @@
                     <li>
                         <a href="aktiviteter.php" class="golden-accent-bottom">
                             Hva skjer hos oss?
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.facebook.com/pg/InMarketNorge/events/" class="golden-accent-bottom">
-                            Neste på kalenderen
                         </a>
                     </li>
                 </ul>
