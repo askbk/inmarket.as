@@ -12,11 +12,9 @@
     include_once 'templates/cookie_notice.php';
     ?>
 
-    <div class="w3-row">
-        <div class="slideshow w3-display-container margin-top-100 white-text w3-col m7" id="hjem">
-            <div class="bgimg-christian-kamera parallax-img mySlides" style=""></div>
-        </div>
-        <div class="w3-col m5 w3-container">
+    <div class="w3-row margin-top-100">
+        <img src="img/elever/christian-kamera.jpg" alt="" class="w3-col l7">
+        <div class="w3-col l5 w3-container">
             <div class="">
                 <h3>Bli koblet til jobben du drømmer om.</h3>
                 <p>
@@ -24,6 +22,7 @@
                 </p>
             </div>
         </div>
+
     </div>
 
     <!-- Partner logos -->
