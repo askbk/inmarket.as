@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>InMarket Norge - viser veien videre</title>
+    <title>Inmarket - viser veien videre</title>
     <?php include_once 'templates/head.php'; ?>
 </head>
 
@@ -222,19 +222,19 @@
 
     <div class="w3-content w3-center w3-padding-16 w3-container w3-xlarge">
         <div class="outerdot">
-            <div class="dot"> <span class="golden-text">11</span></div>
+            <div class="dot"> <span class="golden-text">25</span></div>
             <p>BEDRIFTER</p>
         </div>
         <div class="outerdot">
-            <div class="dot"> <span class="golden-text">16</span></div>
+            <div class="dot"> <span class="golden-text">35</span></div>
             <p>ELEVER</p>
         </div>
         <div class="outerdot">
-            <div class="dot"> <span class="golden-text">12</span></div>
+            <div class="dot"> <span class="golden-text">90</span></div>
             <p>STUDENTER</p>
         </div>
         <div class="outerdot">
-            <div class="dot"> <span class="golden-text">15</span></div>
+            <div class="dot"> <span class="golden-text">100</span></div>
             <p>JOBBSØKERE</p>
         </div>
     </div>

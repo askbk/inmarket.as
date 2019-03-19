@@ -1,7 +1,7 @@
 {
   "@context": "http://schema.org",
   "@type": "Organization",
-  "name": "InMarket Norge",
+  "name": "Inmarket",
   "url": "https://www.imnor.no",
   "sameAs": [
     "https://www.facebook.com/inmarketnorge",

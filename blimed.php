@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Bli med! | InMarket Norge</title>
+    <title>Bli med! | Inmarket</title>
     <?php include_once 'templates/head.php'; ?>
 </head>
 
@@ -20,7 +20,7 @@
                 </div>
                 <div class="w3-col m10">
                     <h2>Ledelsen</h2>
-                    <p>Som leder i InMarket Norge får du ansvar for din egen avdeling. Her har du gode arbeidsvilkår, gode muligheter til å utvikle din kompetanse og kommunikasjonslinje rett opp til styret. Du vil kunne veilede, organisere og følge opp ditt eget team, og du er med på å forme InMarkets mål og arbeidsprosess.</p>
+                    <p>Som leder i Inmarket får du ansvar for din egen avdeling. Her har du gode arbeidsvilkår, gode muligheter til å utvikle din kompetanse og kommunikasjonslinje rett opp til styret. Du vil kunne veilede, organisere og følge opp ditt eget team, og du er med på å forme InMarkets mål og arbeidsprosess.</p>
                 </div>
             </div>
 
