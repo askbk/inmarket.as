@@ -1,9 +1,4 @@
-let slides = [
-	$(".bgimg-allinclusive-1"),
-	$(".bgimg-christian-kamera"),
-	$(".bgimg-jenterpeker")
-],
-	slideshowBoxes = [
+let slideshowBoxes = [
 		$("#bedrift"),
 		$("#elever-studenter"),
 		$("#jobb")
@@ -12,7 +7,7 @@ let slides = [
 
 let slideIndicators = $(".slide-indicator");
 let i = 0, prev = 2, duration = 3000;
-let slideInterval = setInterval(slideshow, duration);
+// let slideInterval = setInterval(slideshow, duration);
 let prevButton = -1;
 
 function resetSlideshow(slides) { // hides all slides
@@ -79,6 +74,19 @@ $(document).ready(function(){
     autoplay: true,
 	autoplaySpeed: 2000,
 	arrows: false,
-	slidesToShow: 4
+	slidesToShow: 8,
+	responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 6,
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 4,
+      }
+    }]
   });
 });

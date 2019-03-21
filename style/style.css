@@ -192,7 +192,10 @@ h1, h2, h3, h4, h5 {
     }
 }
 
-@media (min-width:992px) {
+@media (max-width:992px) {
+    .medium-center {
+        text-align: center !important;
+    }
 }
 
 .width-300 {
@@ -454,7 +457,7 @@ label input:checked~.radio::before {
 }
 
 .parallax-img {
-    min-width: 100vw;
+    min-width: 100%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -963,6 +966,35 @@ label input:checked~.radio::before {
 	z-index: -1;            /* position beneath */
 }
 
+.speech-bubble-left, .speech-bubble-right {
+    position: relative;
+    background: #f2f2f2;
+    border-radius: .4em;
+}
+
+.speech-bubble-left:after, .speech-bubble-right:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 0;
+    height: 0;
+    border: 22px solid transparent;
+    border-bottom: 0;
+    margin-top: -3px;
+}
+
+.speech-bubble-left:after {
+    left: 0;
+    border-right-color: #f2f2f2;
+    border-left: 0;
+    margin-left: -22px;
+}
+.speech-bubble-right:after {
+    right: 0;
+    border-left-color: #f2f2f2;
+    border-right: 0;
+    margin-right: -22px;
+}
 /* Calibri */
 @font-face {
     font-family: "Calibri";
