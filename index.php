@@ -17,7 +17,7 @@
         </div>
         <!-- <img src="img/elever/christian-kamera.jpg" alt="" class="" style="max-height:55vh;"> -->
 
-        <div class="w3-container w3-center" style="flex-shrink:0;">
+        <div class="w3-container w3-center" style="flex-shrink:1;">
             <h3 class="golden-text">Bli koblet til jobben du drømmer om.</h3>
             <p>
                 <a href="#" class="black-button w3-card w3-xlarge">Lag gratis bruker nå</a>
@@ -27,9 +27,6 @@
         </div>
     </div>
 
-    <div class="w3-content w3-center w3-content w3-padding">
-        <h3>Bedrifter i kontakt med InMarket</h3>
-    </div>
     <!-- Partner logos -->
     <div class="white-text w3-padding-16 w3-content" id="partner-slideshow">
         <div class="partner-slide" itemprop="sponsor">
