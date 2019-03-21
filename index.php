@@ -12,17 +12,18 @@
     include_once 'templates/cookie_notice.php';
     ?>
 
-    <div class="w3-row margin-top-100">
-        <img src="img/elever/christian-kamera.jpg" alt="" class="w3-col l7">
-        <div class="w3-col l5 w3-center">
-            <div class="w3-container" style="">
-                <h3 class="golden-text">Bli koblet til jobben du drømmer om.</h3>
-                <p>
-                    <a href="#" class="black-button w3-card w3-xlarge">Lag gratis bruker nå</a>
-                </p>
-                <p class="w3-xlarge">InMarket kobler arbeidsplasser med jobbsøkere.</p>
-                <p>Er du arbeidsgiver? <strong><a href="#">Les mer her</a></strong></p>
-            </div>
+    <div class="margin-top-100" style="display:flex;align-items:center;flex-wrap:wrap;justify-content: center;align-items: center;">
+        <div class="bgimg-christian-kamera" style="background-size: cover;flex-basis: 600px;height: 75vh;flex-grow: 5;background-position: center;">
+        </div>
+        <!-- <img src="img/elever/christian-kamera.jpg" alt="" class="" style="max-height:55vh;"> -->
+
+        <div class="w3-container w3-center" style="flex-shrink:0;">
+            <h3 class="golden-text">Bli koblet til jobben du drømmer om.</h3>
+            <p>
+                <a href="#" class="black-button w3-card w3-xlarge">Lag gratis bruker nå</a>
+            </p>
+            <p class="w3-xlarge">InMarket kobler arbeidsplasser med jobbsøkere.</p>
+            <p>Er du arbeidsgiver? <strong><a href="#">Les mer her</a></strong></p>
         </div>
     </div>
 
