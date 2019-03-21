@@ -68,7 +68,7 @@
         <h3>Hvordan funker det?</h3>
 
         <div class="w3-row">
-            <div class="w3-col m6 text-align-right w3-container small-center">
+            <div class="w3-col l6 text-align-right w3-container medium-center">
                 <span class="golden-text w3-xlarge">Lag en profil</span>
                 <p>List opp dine interesser, systemet vil jobbe for å koble deg til passende arbeidsplasser. Du vil bli anbefalt til relevante bedrifter.​</p>
             </div>
@@ -93,14 +93,14 @@
             <div class="w3-col m2 w3-container w3-hide-small w3-hide-medium">
                 <img src="img/partners/chris.jpg" alt="" style="width:100%;" class="w3-circle">
             </div>
-            <div class="w3-col m6 text-align-left w3-container small-center">
+            <div class="w3-col l6 text-align-left w3-container medium-center">
                 <span class="golden-text w3-xlarge">Bedriftene tar kontakt</span>
                 <p>Etter at du har registrert deg er det bare å vente på tilbud fra bedrifter. I mellomtiden hjelper vi til med å forberede deg til å møte arbeidsgivere.</p>
             </div>
         </div>
 
         <div class="w3-row">
-            <div class="w3-col m6 text-align-right small-center">
+            <div class="w3-col l6 text-align-right medium-center">
                 <span class="golden-text w3-xlarge">Du velger</span>
                 <p>Velg ut bedriftene som oppfyller dine ønsker og aksepter deres invitasjoner. ​</p>
             </div>
@@ -148,7 +148,7 @@
             <div class="w3-col m2 w3-container w3-hide-small w3-hide-medium">
                 <img src="img/elever/christian-square.jpg" alt="" style="width:100%;" class="w3-circle">
             </div>
-            <div class="w3-col m6 text-align-left small-center">
+            <div class="w3-col l6 text-align-left medium-center">
                 <span class="golden-text w3-xlarge">Bygg opp din kompetanse</span>
                 <p>Etter bedriftsbesøk får du en validering som bekrefter dine ferdigheter. Bedriften har også mulighet til å tilby deg stilling om de ønsker.​</p>
             </div>
