@@ -74,6 +74,19 @@ $(document).ready(function(){
     autoplay: true,
 	autoplaySpeed: 2000,
 	arrows: false,
-	slidesToShow: 4
+	slidesToShow: 8,
+	responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 6,
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 4,
+      }
+    }]
   });
 });

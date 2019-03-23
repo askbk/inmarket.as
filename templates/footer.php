@@ -1,6 +1,6 @@
 <!-- Footer -->
 <footer class="w3-container mobile-container uppercase">
-    <div class="w3-content w3-row golden-text padding-left-100 w3-row-padding" style="max-width:400px;">
+    <div class="w3-content w3-row golden-text padding-left-100 w3-row-padding" style="max-width:600px;">
         <div class="w3-col s6">
             <h3 class="mobile-w3-xlarge">Oss</h3>
             <ul class="w3-ul mobile-small">
