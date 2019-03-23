@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Template | Inmarket</title>
+    <title>Jobbsøker | Inmarket</title>
     <?php include_once 'templates/head.php'; ?>
 </head>
 
@@ -31,6 +31,7 @@
             </div>
         </div>
     </div>
+    <?php include_once 'templates/scripts.php'; ?>
 </body>
 
 </html>
