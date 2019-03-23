@@ -26,9 +26,9 @@
             </p>
             <p class="w3-xlarge golden-text">Vil du bli med på drømmelaget?</p>
             <p>
-                <a href="#" class="black-button w3-round" style="background:#404040;">Lag gratis bruker nå</a>
+                <a href="forhandsregistrering.php" class="black-button w3-round" style="background:#404040;">Lag gratis bruker nå</a>
             </p>
-            <p>Er du arbeidsgiver? <strong><a href="#">Les mer her</a></strong></p>
+            <p>Er du arbeidsgiver? <strong><a href="virksomhet.php">Les mer her</a></strong></p>
         </div>
     </div>
 
