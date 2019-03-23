@@ -165,6 +165,22 @@
         </div>
     </div>
 
+    <div class="w3-xlarge margin-top-100" style="display:flex;background:#181717;flex-wrap:wrap-reverse;align-items:center;justify-content: center;align-items: center;">
+        <div class="medium-center white-text" style="flex-basis:800px;padding: 64px calc(5vw);flex-grow:5;">
+            <h2>Workshop med All Inclusive Talk</h2>
+            <p class="quote">People who know what they talk about don't need powerpoint.</p>
+            <p class="quote-source">Steve Jobs</p>
+            <p>Workshopen vår er et tilbud til alle bedrifter. På workshopen lærer ansatte i din bedrift teknikker for bedre stemmebruk og kommunikasjon. Vi lærer bort konkrete øvelser og tips for å mestre presentering foran publikum eller samtaler med kollegaer og kunder.​</p>
+            <p class="w3-center">
+                <a href="#" class="black-button w3-round" style="background:#404040;">Bestill workshop</a>
+            </p>
+        </div>
+
+        <div class="" style="flex-grow: 1;background:url('img/partners/allinclusive.webp');background-repeat:no-repeat; flex-basis:500px; height:60vh;background-position:center;background-size:cover;">
+        </div>
+
+    </div>
+
     <?php include_once 'templates/footer.php'; ?>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="js/slideshow.js" charset="utf-8"></script>
