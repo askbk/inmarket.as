@@ -42,17 +42,21 @@
 
     <div class="w3-row w3-center w3-container w3-large w3-center w3-padding-32 max-width-1200" style=" margin:auto;">
         <div class="w3-col m6 w3-padding-large w3-container">
-            <img src="img/fig/ledelse.jpg" alt="" class="width-25-percent">
+            <img src="img/glasses.jpg" alt="" class="w3-circle" style="width:35%;">
             <p>
                 Som leder i Inmarket får du ansvar for din egen avdeling. Her har du gode arbeidsvilkår, gode muligheter til å utvikle din kompetanse og kommunikasjonslinje rett opp til styret. Du vil kunne veilede, organisere og følge opp ditt eget team, og du er med på å forme InMarkets mål og arbeidsprosess.
             </p>
         </div>
         <div class="w3-col m6 w3-padding-large w3-container">
-            <img src="img/fig/ledelse.jpg" alt="" class="width-25-percent">
+            <img src="img/goodfriends.jpg" alt="" class="w3-circle" style="width:35%;">
             <p>
                 Som ansatt i InMarket vil du kunne bruke fagkompetanse din til å løse spesifikke oppgaver i vår drift. Vi ser først og fremst etter deg med forståelse og innblikk i norsk arbeidsmarked. Her vil alt man gjør kunne knyttes til vår visjon om å styrke det norske arbeidsmarkedet i internasjonal sammenheng.​
             </p>
         </div>
+    </div>
+
+    <div class="w3-center w3-xlarge">
+        <a href="om.php" class="black-button w3-card w3-round">Visjon og mål</a>
     </div>
 
     <div class="w3-content">
@@ -162,12 +166,12 @@
             </div>
         </div>
     </div>
-
+<!--
     <div class="w3-content w3-center w3-xlarge w3-container w3-padding-32">
         <h1>Bli med på teamet</h1>
         <p>InMarket ønsker å hjelpe det norske arbeidsmarkedet med å øke i mangfold. Vår visjon er: «Å påvirke det norske utdannings- og arbeidsmiljø slik at en felles innsats for økt kompetanse, kultur og mangfold kan løfte det norske markedet i den globale sammenhengen». </p>
         <a href="om.php" class="w3-right black-button w3-card">Visjon og mål</a>
-    </div>
+    </div> -->
 
     <!-- <div class="w3-content w3-xlarge w3-padding-32">
         <div class="width-100">
