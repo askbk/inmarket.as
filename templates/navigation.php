@@ -24,7 +24,7 @@
             </div>
         </button>
         <div class="w3-bar-item w3-right" style="line-height:2;">
-            <a href="" class="golden-button w3-hide-small w3-large">Arbeidsgiver</a>
+            <a href="" class="golden-button w3-hide-small w3-large w3-card">Arbeidsgiver</a>
         </div>
         <div class = "w3-right w3-small" style="margin-top:25px"  >
             <a href="index.php" >
@@ -49,7 +49,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="elever-studenter.php" class="golden-accent-bottom">
+                        <a href="underutdanning.php" class="golden-accent-bottom">
                             Under utdanning
                         </a>
                     </li>
