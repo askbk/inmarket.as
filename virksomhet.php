@@ -105,7 +105,7 @@
             </div>
             <div class="w3-col l7 w3-center">
                 <p>
-                    <a href="#" class="black-button w3-card">Registrer bedrift nå</a>
+                    <a href="forhandsregistrering.php" class="black-button w3-card">Registrer bedrift nå</a>
                 </p>
             </div>
         </div>
@@ -166,7 +166,7 @@
         </div>
 
         <div class="w3-center w3-padding-64 w3-xlarge">
-            <a href="#" class="black-button w3-card">Registrer bedrift nå</a>
+            <a href="forhandsregistrering.php" class="black-button w3-card">Registrer bedrift nå</a>
             <p>Kontakten brukeren har hatt med din bedrift og tilbakemelding på ferdigheter loggføres på profilen til brukeren. Inviter folk inn, slik at de kan bygge erfaringer som vil hjelpe dem videre i arbeidslivet.</p>
         </div>
     </div>
