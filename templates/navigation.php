@@ -54,7 +54,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="arbeidssoker.php" class="golden-accent-bottom">
+                        <a href="jobbssoker.php" class="golden-accent-bottom">
                             Jobbsøkere
                         </a>
                     </li>
