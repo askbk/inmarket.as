@@ -130,6 +130,9 @@ h1, h2, h3, h4, h5 {
         margin-right: 7em;
     }
 
+    .mobile-no-flex {
+        display:flex;
+    }
 }
 
 @media (min-width: 670px) {
@@ -239,8 +242,8 @@ h1, h2, h3, h4, h5 {
 }
 
 .menu-change .menu-bar1 {
-    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-    transform: rotate(-45deg) translate(-8px, 6px);
+    -webkit-transform: rotate(-45deg) translate(-5px, 5px);
+    transform: rotate(-45deg) translate(-5px, 5px);
 }
 
 .menu-change .menu-bar2 {opacity: 0;}
@@ -772,7 +775,8 @@ label input:checked~.radio::before {
 .white-button, .golden-button, .black-button, .black-transparent-button, .feint-button {
     border:none;
     display:inline-block;
-    outline:0;padding:0px 16px;
+    outline:0;
+    padding:8px 16px;
     vertical-align:middle;
     overflow:hidden;
     text-decoration:none;
@@ -845,6 +849,10 @@ label input:checked~.radio::before {
 
 .white-text {
     color: white;
+}
+
+.gray-text {
+    color: gray;
 }
 
 .transparent-background {
