@@ -20,7 +20,7 @@
         <div class="w3-container w3-center" style="flex-shrink:1;">
             <h3 class="golden-text">Bli koblet til jobben du drømmer om.</h3>
             <p>
-                <a href="#" class="black-button w3-card w3-xlarge">Lag gratis bruker nå</a>
+                <a href="forhandsregistrering.php" class="black-button w3-card w3-xlarge">Lag gratis bruker nå</a>
             </p>
             <p class="w3-xlarge">InMarket kobler arbeidsplasser med jobbsøkere.</p>
             <p>Er du arbeidsgiver? <strong><a href="#">Les mer her</a></strong></p>
@@ -160,7 +160,7 @@
                 <img src="img/fig/black-star.png" alt="" style="width:15%;">
             </div>
             <div class="w3-col s6 text-align-left w3-center w3-container w3-xlarge">
-                <a href="#" class="black-button w3-card">Sett i gang nå!</a>
+                <a href="forhandsregistrering.php" class="black-button w3-card">Sett i gang nå!</a>
             </div>
         </div>
     </div>
@@ -172,7 +172,7 @@
             <p class="quote-source">Steve Jobs</p>
             <p>Workshopen vår er et tilbud til alle bedrifter. På workshopen lærer ansatte i din bedrift teknikker for bedre stemmebruk og kommunikasjon. Vi lærer bort konkrete øvelser og tips for å mestre presentering foran publikum eller samtaler med kollegaer og kunder.​</p>
             <p class="w3-center">
-                <a href="#" class="black-button w3-round" style="background:#404040;">Bestill workshop</a>
+                <a href="https://www.allinclusivetalk.com" target="_blank" id="allinc-order" class="black-button w3-round" style="background:#404040;">Bestill workshop</a>
             </p>
         </div>
 
@@ -182,6 +182,12 @@
     </div>
 
     <?php include_once 'templates/footer.php'; ?>
+
+    <script type="text/javascript">
+        $("#allinc-order").on("click", function () {
+            $.get("allinclusive.php");
+        });
+    </script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="js/slideshow.js" charset="utf-8"></script>
 </body>
