@@ -103,6 +103,52 @@
             </div>
         </div>
     </div>
+
+    <div class="narrow-content w3-center w3-container">
+        <h3>Hvordan funker det?</h3>
+
+        <div class="w3-row">
+            <div class="w3-col l6 text-align-right w3-container medium-center">
+                <span class="golden-text w3-xlarge">Beskriv ditt ønske</span>
+                <p>List opp kvalifikasjonene dere trenger slik at systemet kan finne de rette kandidatene for din bedrift.​</p>
+            </div>
+            <div class="w3-col m2 w3-container w3-hide-small w3-hide-medium">
+                <img src="img/elever/christian-square.jpg" alt="" style="width:100%;" class="w3-circle">
+            </div>
+            <div class="w3-col m4 w3-hide-small w3-hide-medium">
+                <div class="speech-bubble-left w3-container">
+                    <p>Vi ser etter noen med ferdighet innen JavaScript og SQL.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-padding-32">
+            <div class="w3-col m2 w3-container w3-hide-small w3-hide-medium">
+                <img src="img/partners/chris.jpg" alt="" style="width:100%;" class="w3-circle">
+            </div>
+            <div class="w3-col l6 text-align-left w3-container medium-center">
+                <span class="golden-text w3-xlarge">Oppnå kontakt</span>
+                <p>Dere velger hvilke brukere dere vil ta kontakt med. Lag en avtale og bli enige om når, hvor og hva.</p>
+            </div>
+        </div>
+
+        <div class="w3-row">
+            <div class="w3-col l6 text-align-right medium-center">
+                <span class="golden-text w3-xlarge">Velg ditt neste trekk</span>
+                <p>Når du har prøvd ut en bruker lenge nok kan du velge om du vil ansette dem eller prøve ut andre kandidater.​​</p>
+            </div>
+            <div class="w3-col m2 w3-container w3-hide-small w3-hide-medium">
+                <img src="img/elever/christian-square.jpg" alt="" style="width:100%;" class="w3-circle">
+            </div>
+            <div class="w3-col m4 w3-hide-small w3-hide-medium">
+                <div class="speech-bubble-left w3-container">
+                    <p>Vi er fornøyd med det du har vist oss i dag. Vil du komme igjen annen gang?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <?php include_once 'templates/scripts.php'; ?>
 </body>
 
 </html>
