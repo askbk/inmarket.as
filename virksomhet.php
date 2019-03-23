@@ -12,19 +12,26 @@
     include_once 'templates/cookie_notice.php';
     ?>
 
-    <div class="w3-row margin-top-100" style="background: #181717;">
+    <div class="w3-row margin-top-100" style="background: #181717;height:calc(100vh - 80px);">
         <div class="w3-col l7 white-text w3-large w3-container">
-            <h2>Finn din neste ansatt mens du skaper kompetanse</h2>
-            <p>På plattformen til InMarket venter mange talenter på en sjanse til å vise deg sine kvaliteter. Registrerte brukere er ivrige etter å bygge kompetanse og erfaring slik at de kan bli bedre kvalifiserte til jobb.</p>
+            <article class="narrow-content">
+                <h2>Finn din neste ansatt mens du skaper kompetanse</h2>
+                <p>På plattformen til InMarket venter mange talenter på en sjanse til å vise deg sine kvaliteter. Registrerte brukere er ivrige etter å bygge kompetanse og erfaring slik at de kan bli bedre kvalifiserte til jobb.</p>
+            </article>
         </div>
         <div class="w3-col l3 white-bg w3-center w3-container">
             <h3>La oss møtes</h3>
             <p>Be oss inn på møte og lær hvordan dere kan bruke InMarket</p>
+            <form class="" action="index.html" method="post">
+                <input type="text" name="" value="" placeholder="Bedriftsnavn">
+                <input type="email" name="" value="" placeholder="E-post">
+                <input type="text" name="" value="" placeholder="Sted">
+            </form>
         </div>
     </div>
 
     <div class="w3-container w3-content w3-large w3-padding-64">
-        <div class="w3-row w3-row-padding">
+        <div class="w3-row w3-row-padding w3-hide-small w3-hide-medium">
             <div class="w3-col l5">
                 <div class="w3-row">
                     <div class="w3-col l2">
