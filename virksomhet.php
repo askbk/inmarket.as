@@ -120,7 +120,7 @@
                 <p>List opp kvalifikasjonene dere trenger slik at systemet kan finne de rette kandidatene for din bedrift.​</p>
             </div>
             <div class="w3-col m2 w3-container w3-hide-small w3-hide-medium">
-                <img src="img/elever/christian-square.jpg" alt="" style="width:100%;" class="w3-circle">
+                <img src="img/hacker.jpg" alt="" style="width:100%;" class="w3-circle">
             </div>
             <div class="w3-col m4 w3-hide-small w3-hide-medium">
                 <div class="speech-bubble-left w3-container">
@@ -129,10 +129,21 @@
             </div>
         </div>
 
-        <div class="w3-row w3-padding-32">
-            <div class="w3-col m2 w3-container w3-hide-small w3-hide-medium">
-                <img src="img/partners/chris.jpg" alt="" style="width:100%;" class="w3-circle">
+        <div class="w3-row w3-padding-64">
+            <div class="w3-col l6 w3-container w3-hide-small w3-hide-medium">
+                <div class="w3-row">
+                    <div class="w3-col l4">
+                        <img src="img/singapore.jpg" alt="" style="width:100%;" class="w3-circle">
+                    </div>
+                    <div class="w3-col l4">
+                        <img src="img/chris-africa.jpg" alt="" style="width:100%;" class="w3-circle">
+                    </div>
+                    <div class="w3-col l4">
+                        <img src="img/blonde.jpg" alt="" style="width:100%;" class="w3-circle">
+                    </div>
+                </div>
             </div>
+
             <div class="w3-col l6 text-align-left w3-container medium-center">
                 <span class="golden-text w3-xlarge">Oppnå kontakt</span>
                 <p>Dere velger hvilke brukere dere vil ta kontakt med. Lag en avtale og bli enige om når, hvor og hva.</p>
@@ -140,18 +151,23 @@
         </div>
 
         <div class="w3-row">
-            <div class="w3-col l6 text-align-right medium-center">
+            <div class="w3-col l6 text-align-right medium-center w3-container">
                 <span class="golden-text w3-xlarge">Velg ditt neste trekk</span>
                 <p>Når du har prøvd ut en bruker lenge nok kan du velge om du vil ansette dem eller prøve ut andre kandidater.​​</p>
             </div>
             <div class="w3-col m2 w3-container w3-hide-small w3-hide-medium">
-                <img src="img/elever/christian-square.jpg" alt="" style="width:100%;" class="w3-circle">
+                <img src="img/startled.jpg" alt="" style="width:100%;" class="w3-circle">
             </div>
             <div class="w3-col m4 w3-hide-small w3-hide-medium">
                 <div class="speech-bubble-left w3-container">
                     <p>Vi er fornøyd med det du har vist oss i dag. Vil du komme igjen annen gang?</p>
                 </div>
             </div>
+        </div>
+
+        <div class="w3-center w3-padding-64 w3-xlarge">
+            <a href="#" class="black-button w3-card">Registrer bedrift nå</a>
+            <p>Kontakten brukeren har hatt med din bedrift og tilbakemelding på ferdigheter loggføres på profilen til brukeren. Inviter folk inn, slik at de kan bygge erfaringer som vil hjelpe dem videre i arbeidslivet.</p>
         </div>
     </div>
 
