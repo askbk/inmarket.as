@@ -20,7 +20,7 @@
         <div class="w3-container w3-center" style="flex-shrink:1;">
             <h3 class="golden-text">Bli koblet til jobben du drømmer om.</h3>
             <p>
-                <a href="#" class="black-button w3-card w3-xlarge">Lag gratis bruker nå</a>
+                <a href="forhandsregistrering.php" class="black-button w3-card w3-xlarge">Lag gratis bruker nå</a>
             </p>
             <p class="w3-xlarge">InMarket kobler arbeidsplasser med jobbsøkere.</p>
             <p>Er du arbeidsgiver? <strong><a href="#">Les mer her</a></strong></p>
@@ -64,7 +64,7 @@
         </div>
     </div>
 
-    <div class="w3-content w3-center w3-container">
+    <div class="narrow-content w3-center w3-container">
         <h3>Hvordan funker det?</h3>
 
         <div class="w3-row">
@@ -100,7 +100,7 @@
         </div>
 
         <div class="w3-row">
-            <div class="w3-col l6 text-align-right medium-center">
+            <div class="w3-col l6 text-align-right medium-center w3-container">
                 <span class="golden-text w3-xlarge">Du velger</span>
                 <p>Velg ut bedriftene som oppfyller dine ønsker og aksepter deres invitasjoner. ​</p>
             </div>
@@ -142,20 +142,52 @@
         </div>
 
         <div class="w3-row w3-padding-32">
-            <div class="w3-col m4 w3-hide-small w3-hide-medium">
-                a
+            <div class="w3-col l6 w3-container w3-hide-small w3-hide-medium">
+                <img src="img/elever/christian-square.jpg" alt="" style="width:50%;" class="w3-circle">
             </div>
-            <div class="w3-col m2 w3-container w3-hide-small w3-hide-medium">
-                <img src="img/elever/christian-square.jpg" alt="" style="width:100%;" class="w3-circle">
-            </div>
-            <div class="w3-col l6 text-align-left medium-center">
+            <div class="w3-col l6 text-align-left medium-center w3-container">
                 <span class="golden-text w3-xlarge">Bygg opp din kompetanse</span>
                 <p>Etter bedriftsbesøk får du en validering som bekrefter dine ferdigheter. Bedriften har også mulighet til å tilby deg stilling om de ønsker.​</p>
             </div>
         </div>
+
+        <div class="w3-row">
+            <div class="w3-col l6 w3-center">
+                <img src="img/fig/golden-star.png" alt="" style="width:15%;">
+                <img src="img/fig/golden-star.png" alt="" style="width:15%;">
+                <img src="img/fig/golden-star.png" alt="" style="width:15%;">
+                <img src="img/fig/black-star.png" alt="" style="width:15%;">
+                <img src="img/fig/black-star.png" alt="" style="width:15%;">
+            </div>
+            <div class="w3-col s6 text-align-left w3-center w3-container w3-xlarge">
+                <a href="forhandsregistrering.php" class="black-button w3-card">Sett i gang nå!</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-xlarge margin-top-100" style="display:flex;background:#181717;flex-wrap:wrap-reverse;align-items:center;justify-content: center;align-items: center;">
+        <div class="medium-center white-text" style="flex-basis:800px;padding: 64px calc(5vw);flex-grow:5;">
+            <h2>Workshop med All Inclusive Talk</h2>
+            <p class="quote">People who know what they talk about don't need powerpoint.</p>
+            <p class="quote-source">Steve Jobs</p>
+            <p>Workshopen vår er et tilbud til alle bedrifter. På workshopen lærer ansatte i din bedrift teknikker for bedre stemmebruk og kommunikasjon. Vi lærer bort konkrete øvelser og tips for å mestre presentering foran publikum eller samtaler med kollegaer og kunder.​</p>
+            <p class="w3-center">
+                <a href="https://www.allinclusivetalk.com" target="_blank" id="allinc-order" class="black-button w3-round" style="background:#404040;">Bestill workshop</a>
+            </p>
+        </div>
+
+        <div class="" style="flex-grow: 1;background:url('img/partners/allinclusive.webp');background-repeat:no-repeat; flex-basis:500px; height:60vh;background-position:center;background-size:cover;">
+        </div>
+
     </div>
 
     <?php include_once 'templates/footer.php'; ?>
+
+    <script type="text/javascript">
+        $("#allinc-order").on("click", function () {
+            $.get("allinclusive.php");
+        });
+    </script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="js/slideshow.js" charset="utf-8"></script>
 </body>

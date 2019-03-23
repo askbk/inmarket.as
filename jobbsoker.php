@@ -27,7 +27,7 @@
                 <p>Møt bedrifter og bygg din karriere.</p>
             </div>
             <div class="w3-padding-32">
-                <a href="#" class="black-button w3-card w3-round">Lag gratis bruker</a>
+                <a href="forhandsregistrering.php" class="black-button w3-card w3-round">Lag gratis bruker</a>
             </div>
         </div>
     </div>
