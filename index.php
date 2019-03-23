@@ -143,14 +143,24 @@
 
         <div class="w3-row w3-padding-32">
             <div class="w3-col l6 w3-container w3-hide-small w3-hide-medium">
-                <img src="img/elever/christian-square.jpg" alt="" style="width:100%;" class="w3-circle">
-                <div class="">
-                    <img src="img/fig/golden-star.png" alt="" style="width:20%;">
-                </div>
+                <img src="img/elever/christian-square.jpg" alt="" style="width:50%;" class="w3-circle">
             </div>
             <div class="w3-col l6 text-align-left medium-center w3-container">
                 <span class="golden-text w3-xlarge">Bygg opp din kompetanse</span>
                 <p>Etter bedriftsbesøk får du en validering som bekrefter dine ferdigheter. Bedriften har også mulighet til å tilby deg stilling om de ønsker.​</p>
+            </div>
+        </div>
+
+        <div class="w3-row">
+            <div class="w3-col l6 w3-center">
+                <img src="img/fig/golden-star.png" alt="" style="width:15%;">
+                <img src="img/fig/golden-star.png" alt="" style="width:15%;">
+                <img src="img/fig/golden-star.png" alt="" style="width:15%;">
+                <img src="img/fig/black-star.png" alt="" style="width:15%;">
+                <img src="img/fig/black-star.png" alt="" style="width:15%;">
+            </div>
+            <div class="w3-col s6 text-align-left w3-center w3-container w3-xlarge">
+                <a href="#" class="black-button w3-card">Sett i gang nå!</a>
             </div>
         </div>
     </div>
