@@ -133,13 +133,13 @@
             <div class="w3-col l6 w3-container w3-hide-small w3-hide-medium">
                 <div class="w3-row">
                     <div class="w3-col l4">
+                        <img src="img/blonde.jpg" alt="" style="width:100%;" class="w3-circle">
+                    </div>
+                    <div class="w3-col l4">
                         <img src="img/singapore.jpg" alt="" style="width:100%;" class="w3-circle">
                     </div>
                     <div class="w3-col l4">
                         <img src="img/chris-africa.jpg" alt="" style="width:100%;" class="w3-circle">
-                    </div>
-                    <div class="w3-col l4">
-                        <img src="img/blonde.jpg" alt="" style="width:100%;" class="w3-circle">
                     </div>
                 </div>
             </div>
