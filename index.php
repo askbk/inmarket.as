@@ -64,7 +64,7 @@
         </div>
     </div>
 
-    <div class="w3-content w3-center w3-container">
+    <div class="narrow-content w3-center w3-container">
         <h3>Hvordan funker det?</h3>
 
         <div class="w3-row">
@@ -100,7 +100,7 @@
         </div>
 
         <div class="w3-row">
-            <div class="w3-col l6 text-align-right medium-center">
+            <div class="w3-col l6 text-align-right medium-center w3-container">
                 <span class="golden-text w3-xlarge">Du velger</span>
                 <p>Velg ut bedriftene som oppfyller dine ønsker og aksepter deres invitasjoner. ​</p>
             </div>
@@ -142,13 +142,13 @@
         </div>
 
         <div class="w3-row w3-padding-32">
-            <div class="w3-col m4 w3-hide-small w3-hide-medium">
-                a
-            </div>
-            <div class="w3-col m2 w3-container w3-hide-small w3-hide-medium">
+            <div class="w3-col l6 w3-container w3-hide-small w3-hide-medium">
                 <img src="img/elever/christian-square.jpg" alt="" style="width:100%;" class="w3-circle">
+                <div class="">
+                    <img src="img/fig/golden-star.png" alt="" style="width:20%;">
+                </div>
             </div>
-            <div class="w3-col l6 text-align-left medium-center">
+            <div class="w3-col l6 text-align-left medium-center w3-container">
                 <span class="golden-text w3-xlarge">Bygg opp din kompetanse</span>
                 <p>Etter bedriftsbesøk får du en validering som bekrefter dine ferdigheter. Bedriften har også mulighet til å tilby deg stilling om de ønsker.​</p>
             </div>
