@@ -152,14 +152,14 @@
         </div>
 
         <div class="w3-row">
-            <div class="w3-col l6 w3-center">
+            <div class="w3-col l6 w3-center w3-hide-small w3-hide-medium">
                 <img src="img/fig/golden-star.png" alt="" style="width:15%;">
                 <img src="img/fig/golden-star.png" alt="" style="width:15%;">
                 <img src="img/fig/golden-star.png" alt="" style="width:15%;">
                 <img src="img/fig/black-star.png" alt="" style="width:15%;">
                 <img src="img/fig/black-star.png" alt="" style="width:15%;">
             </div>
-            <div class="w3-col s6 text-align-left w3-center w3-container w3-xlarge">
+            <div class="w3-col l6 text-align-left w3-center w3-container w3-xlarge">
                 <a href="forhandsregistrering.php" class="black-button w3-card">Sett i gang nå!</a>
             </div>
         </div>
