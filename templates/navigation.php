@@ -44,7 +44,7 @@
                         <b>Våre tilbud</b>
                     </li>
                     <li>
-                        <a href="Virksomhet.php" class="golden-accent-bottom">
+                        <a href="virksomhet.php" class="golden-accent-bottom">
                             Virksomheter
                         </a>
                     </li>

@@ -23,7 +23,7 @@
                 <a href="forhandsregistrering.php" class="black-button w3-card w3-xlarge">Lag gratis bruker nå</a>
             </p>
             <p class="w3-xlarge">InMarket kobler arbeidsplasser med jobbsøkere.</p>
-            <p>Er du arbeidsgiver? <strong><a href="#">Les mer her</a></strong></p>
+            <p>Er du arbeidsgiver? <strong><a href="virksomhet.php">Les mer her</a></strong></p>
         </div>
     </div>
 
