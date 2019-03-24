@@ -309,6 +309,37 @@ ul {
 .checkbox:*/
 
 
+.new-radio{
+    /*
+    filer: drop-shadow(2px 2px 2px #C08D42);*/
+    border:  2px solid #C08D42 !important;
+    border-radius: 5px;
+    height:30px;
+    width:30px;
+}
+label input ~ .new-radio::before {
+
+    /*content: "\f0c8";*/
+    color:transparent;
+}
+
+label:hover .new-radio {
+    background-color: #d4b17d;
+}
+
+label input:checked ~ .new-radio {
+    background-color: #C08D42;
+    /*
+    color: #000;*/
+}
+
+label input:checked ~ .new-radio::before {
+
+    content: "\f14a";
+}
+
+
+
 .radio {
     cursor: pointer;
     color: #ddd;
@@ -318,6 +349,7 @@ input[type=radio] {
     position: absolute;
     opacity: 0;
     cursor: pointer;
+
 }
 
 label {
@@ -325,6 +357,7 @@ label {
 }
 
 label input ~ .radio::before {
+
     content: "\f0c8";
 }
 
@@ -333,12 +366,17 @@ label:hover .radio {
 }
 
 label input:checked ~ .radio {
+
     color: #000;
 }
 
 label input:checked ~ .radio::before {
+
     content: "\f14a";
 }
+
+
+
 
 .slideshowText {
     padding: 6px;
@@ -644,9 +682,9 @@ label input:checked ~ .radio::before {
     padding-right: 3vw;
 }
 
-.choose-type ul li label span {
+.choose-type div div label span {
     padding-right: 10px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 
@@ -654,14 +692,18 @@ label input:checked ~ .radio::before {
         width:80%;
 }
 
+
+
 .register-container {
-    width: 80%;
+    width: 60%;
     margin: auto;
+    text-align:center;
 
 }
 
 .register-interests div div input {
     border-radius: 20px;
+    text-align:center;
 }
 .register-interests div div{
     padding:8px;
@@ -677,7 +719,9 @@ label input:checked ~ .radio::before {
 
 .register-container input {
     border-radius: 10px;
+    text-align:center;
 }
+
 
 input{
 
@@ -687,12 +731,12 @@ input{
 input::placeholder {
 
     /* Firefox, Chrome, Opera */
-    text-align: center;
+    text-align: center !important;
 }
 input:-ms-input-placeholder {
 
     /* Internet Explorer 10-11 */
-    text-align: center;
+    text-align: center !important;
 }
 
 
@@ -729,6 +773,21 @@ input:-ms-input-placeholder {
     .parallax-img {
         background-attachment: scroll;
     }
+
+
+    .register-interests div div{
+        width:100%;
+    }
+    .register-container{
+        width:100%
+    }
+    .register-video{
+        display:none;
+    }
+
+
+
+
 
     /* .bgimg-christian-kamera {background-image: url("../img/elever/christian-kamera-mob.jpg")!important;}
     .bgimg-jenterpeker {background-image: url("../img/jenterpeker-mob.jpg")!important;}

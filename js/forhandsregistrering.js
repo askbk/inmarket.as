@@ -68,10 +68,47 @@ function bedriftSelected() {
     bedriftClient();
 }
 
+function nextPage(){
+    if(!document.getElementById("kontaktSkjema").checkValidity()){
+        return false;
+    }
+    //elevSelected();
+    //document.getElementById("radio-elev").required=true;
+    document.getElementById("first-page").style.display = "none";
+    document.getElementById("second-page").style.display = "block";
+    document.getElementById("personvern").required = true;
+
+    return false;
+}
+
+
+function nextPageBedrift(){
+    if(!document.getElementById("kontaktSkjema").checkValidity()){
+        return false;
+    }
+    //elevSelected();
+    //document.getElementById("radio-elev").required=true;
+    document.getElementById("first-page").style.display = "none";
+    document.getElementById("second-page").style.display = "block";
+    document.getElementById("personvern").required = true;
+    document.getElementById("inputBedriftNavn").required = true;
+    document.getElementById("inputBedriftNummer").required = true;
+
+    return false;
+}
+
 $("#kontaktSkjema").submit(function (e) {
 	e.preventDefault();
 	$.post("forhandsregistreringemail.php", $(this).serialize(), function () {
 		$("#kontaktSkjema").hide();
 		$("#kontaktRespons").show();
 	});
+})
+
+$("#kontaktSkjemaBedrift").submit(function (e) {
+    e.preventDefault();
+    $.post("forhandsregistreringBedriftemail.php", $(this).serialize(), function () {
+        $("#kontaktSkjemaBedrift").hide();
+        $("#kontaktRespons").show();
+    });
 })

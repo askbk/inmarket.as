@@ -14,18 +14,64 @@
 
     <div class="w3-row margin-top-100" style="background: #181717;height:calc(100vh - 80px);">
         <div class="w3-col l7 white-text w3-large w3-container">
-            <article class="narrow-content">
+            <article class="narrow-content" style="width:80%">
                 <h2>Finn din neste ansatt mens du skaper kompetanse</h2>
                 <p>På plattformen til InMarket venter mange talenter på en sjanse til å vise deg sine kvaliteter. Registrerte brukere er ivrige etter å bygge kompetanse og erfaring slik at de kan bli bedre kvalifiserte til jobb.</p>
             </article>
         </div>
-        <div class="w3-col l3 white-bg w3-center w3-container">
-            <h3>La oss møtes</h3>
+        <div class="w3-col l4 white-bg w3-center w3-container">
+            <p class="w3-xxlarge w3-margin">La oss møtes</p>
             <p>Be oss inn på møte og lær hvordan dere kan bruke InMarket</p>
-            <form class="" action="index.html" method="post">
+            <form class="" action="index.php" method="post" id="kontaktSkjemaVirksomhet">
+
+                <!--
                 <input type="text" name="" value="" placeholder="Bedriftsnavn">
                 <input type="email" name="" value="" placeholder="E-post">
-                <input type="text" name="" value="" placeholder="Sted">
+                <input type="text" name="" value="" placeholder="Sted">-->
+
+                <div class=" w3-content w3-center register-container">
+
+                    <p>Bedrift:​</p>
+                    <input type="tel" name="bedriftnavn" value="" placeholder="Bedriftsnavn"
+                           class="w3-input w3-animate-input" required id="inputKommune">
+                    <p>E-post:</p>
+                    <input type="email" name="email" value="" placeholder="deg@eksempel.no​" id="inputPlace"
+                           class="w3-input w3-animate-input" required id="inputEpost">
+
+
+                    <p>Kommune:</p>
+                    <input type="text" name="kommune" value="" placeholder="Navnet på din kommune" required
+                           class="w3-input w3-animate-input" id="inputKommune">
+
+                    <label>
+                        <p class="w3-margin" style="font-weight:normal">
+
+
+                            Jeg godkjenner InMarkets Vilkår for Bruk og <br> <a
+                                    href="personvern.php" style="text-decoration:underline;" target="_blank">Personvernerklæringen</a>.​
+
+                            <input type="checkbox" name="personvern" id="personvern" value="student"
+                                   class="klient-radio "
+                                   onclick="studentSelected()" style="width:1px; position:relative; left:20px;">
+                            <i class="fas fa-user-tie w3-xlarge new-radio"></i>
+                        </p>
+
+                    </label>
+
+
+                    <button class="white-button w3-card black-bg white-text border" type="submit"
+                            onsubmit="return nextPage()" onclick="nextPage();">Avtall møte
+                    </button>
+                    <div >
+                    - Eller -
+                    </div>
+                    <a href="forhandsregistreringbedrift.php" class="white-button w3-card black-bg white-text border" type="submit"
+                            onsubmit="return nextPage()" onclick="nextPage();">Registrer bedriften din nå
+                    </a>
+
+                    <p id="responseText"></p>
+
+                </div>
             </form>
         </div>
     </div>
@@ -105,7 +151,7 @@
             </div>
             <div class="w3-col l7 w3-center">
                 <p>
-                    <a href="forhandsregistrering.php" class="black-button w3-card">Registrer bedrift nå</a>
+                    <a href="forhandsregistreringbedrift.php" class="black-button w3-card">Registrer bedrift nå</a>
                 </p>
             </div>
         </div>
@@ -166,12 +212,13 @@
         </div>
 
         <div class="w3-center w3-padding-64 w3-xlarge">
-            <a href="forhandsregistrering.php" class="black-button w3-card">Registrer bedrift nå</a>
+            <a href="forhandsregistreringbedrift.php" class="black-button w3-card">Registrer bedrift nå</a>
             <p>Kontakten brukeren har hatt med din bedrift og tilbakemelding på ferdigheter loggføres på profilen til brukeren. Inviter folk inn, slik at de kan bygge erfaringer som vil hjelpe dem videre i arbeidslivet.</p>
         </div>
     </div>
 
     <?php include_once 'templates/scripts.php'; ?>
+    <?php include_once 'contactVirksomheter.php'; ?>
 </body>
 
 </html>

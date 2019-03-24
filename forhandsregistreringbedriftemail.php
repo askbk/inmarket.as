@@ -9,12 +9,13 @@ function test_input($data) {
 $email = $navn = $telefonnummer = $headers = "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $client = test_input($_POST["client"]);
     $email = test_input($_POST["email"]);
     $navn = test_input($_POST["navn"]);
     $kommune = test_input($_POST["kommune"]);
-    $telefonnummer = test_input($_POST["telefonnummer"]);
-
+    $telefonnummer = test_input($_POST["telefon"]);
+    $rolle = test_input($_POST["rolle"]);
+    $orgKode = test_input($_POST["orgKode"]);
+    $bedriftnavn = test_input($_POST["bedriftnavn"]);
     $k1 = test_input($_POST["k1"]);
     $k2 = test_input($_POST["k2"]);
     $k3 = test_input($_POST["k3"]);
@@ -26,16 +27,18 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
 $to = "kontakt@inmarket.as";
-$subject = "BRUKER: Forhåndsregistrering";
+$subject = "BEDRIFT: Forhåndsregistrering ";
 $message = "
 Forhåndsregistrering:
 
-Email (obligatorisk): $email
+bedriftnavn: $bedriftnavn
+orgKode: $orgKode
 
 Navn: $navn
+Email: $email
 Telefon: $telefonnummer
-Type: $client
-Kommune: $kommune
+Rolle: $rolle
+
 
 Kvalifikasjon 1: $k1
 Kvalifikasjon 2: $k2
@@ -43,7 +46,6 @@ Kvalifikasjon 3: $k3
 Interesse 1: $i1
 Interesse 2: $i2
 Interesse 3: $i3
-
 ";
 
 $headers = "MIME-Version: 1.0" . "\r\n";
