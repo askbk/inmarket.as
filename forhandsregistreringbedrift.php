@@ -33,7 +33,7 @@ include_once 'templates/cookie_notice.php';
         <div class="w3-content w3-center">
 
 
-            <form class="w3-large w3-container" action="index.php" method="post" id="kontaktSkjema">
+            <form class="w3-large w3-container" action="index.php" method="post" id="kontaktSkjemaBedrift">
                 <div class="w3-row">
 
                     <div id="first-page">
@@ -77,7 +77,7 @@ include_once 'templates/cookie_notice.php';
                             <p>Telefon:​</p>
                             <input type="tel" name="telefon" value="" placeholder="+XX XXXXXXXX​"
                                    class="w3-input w3-animate-input" required id="inputKommune">
-                            <p>Rolle:</p>
+                            <p>Stilling:</p>
                             <input type="text" name="rolle" value="" placeholder="sjef / ansatt / CEO / osv"
                                    class="w3-input w3-animate-input" required id="inputKommune">
                             <p>Kommune:</p>
@@ -108,10 +108,10 @@ include_once 'templates/cookie_notice.php';
 
                             <p>Bedrift:​</p>
                             <input type="tel" name="bedriftnavn" value="" placeholder="Bedriftsnavn"
-                                   class="w3-input w3-animate-input" required id="inputKommune">
+                                   class="w3-input w3-animate-input"  id="inputBedriftNavn">
                             <p>Org.nr.:​</p>
                             <input type="text" name="Rolle" value="" placeholder="XXXXXXXXXX​"
-                                   class="w3-input w3-animate-input" required id="inputKommune">
+                                   class="w3-input w3-animate-input"  id="inputBedriftTelefonnummer">
 
                             <p class="w3-xlarge" style="font-weight:bold;">Si med et ord hva dere ser etter:</p>
 
@@ -153,7 +153,7 @@ include_once 'templates/cookie_notice.php';
                                 <p class="w3-margin" style="font-weight:normal">
 
 
-                                    Jeg godkjenner InMarkets Vilkår for Bruk og <a
+                                    Jeg godkjenner InMarkets Vilkår for Bruk og <br><a
                                             href="personvern.php" style="text-decoration:underline;" target="_blank">Personvernerklæringen</a>.​
 
                                     <input type="checkbox" name="personvern" id="personvern" value="student"

@@ -91,6 +91,8 @@ function nextPageBedrift(){
     document.getElementById("first-page").style.display = "none";
     document.getElementById("second-page").style.display = "block";
     document.getElementById("personvern").required = true;
+    document.getElementById("inputBedriftNavn").required = true;
+    document.getElementById("inputBedriftNummer").required = true;
 
     return false;
 }
@@ -101,4 +103,12 @@ $("#kontaktSkjema").submit(function (e) {
 		$("#kontaktSkjema").hide();
 		$("#kontaktRespons").show();
 	});
+})
+
+$("#kontaktSkjemaBedrift").submit(function (e) {
+    e.preventDefault();
+    $.post("forhandsregistreringBedriftemail.php", $(this).serialize(), function () {
+        $("#kontaktSkjemaBedrift").hide();
+        $("#kontaktRespons").show();
+    });
 })

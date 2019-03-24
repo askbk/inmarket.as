@@ -695,7 +695,7 @@ label input:checked ~ .radio::before {
 
 
 .register-container {
-    width: 80%;
+    width: 60%;
     margin: auto;
     text-align:center;
 
