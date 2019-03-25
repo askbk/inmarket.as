@@ -72,14 +72,14 @@ include_once 'templates/cookie_notice.php';
                         <div class=" w3-content w3-center register-container">
                             <p>E-post:</p>
                             <input type="email" name="email" value="" placeholder="deg@eksempel.no​" id="inputPlace"
-                                   class="w3-input w3-animate-input" required id="inputEpost"><br>
+                                   class="w3-input w3-animate-input w3-padding-16" required id="inputEpost"><br>
                             <p>Fullt navn (valgfritt):</p>
                             <input type="text" name="navn" value="" placeholder="Fornavn og etternavn"
-                                   class="w3-input w3-animate-input" id="inputName"><br>
+                                   class="w3-input w3-animate-input w3-padding-16" id="inputName"><br>
 
                             <p>Kommune (valgfritt):</p>
                             <input type="text" name="kommune" value="" placeholder="Navnet på din kommune"
-                                   class="w3-input w3-animate-input" id="inputKommune"><br>
+                                   class="w3-input w3-animate-input w3-padding-16" id="inputKommune"><br>
 
 
                             <button class="black-button w3-card w3-padding-8" type="submit"
@@ -202,7 +202,7 @@ include_once 'templates/cookie_notice.php';
 
 
                             <div>
-                                <button class="black-button w3-card w3-padding-8" type="submit"
+                                <button class="black-button w3-card w3-padding-8 w3-margin" type="submit"
                                         onsubmit="return nextPage()" onclick="nextPage();">Registrer
                                 </button>
                             </div>

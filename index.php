@@ -181,7 +181,7 @@ include_once 'templates/cookie_notice.php';
         </div>
     </div>
 
-    <div class="w3-row w3-padding-64">
+    <div class="w3-row" style="padding-top:64px!important; padding-bottom:8px;">
         <div class="w3-col l6 w3-container w3-hide-small w3-hide-medium">
             <img src="img/elever/christian-square.jpg" alt="" style="width:50%;" class="w3-circle">
         </div>
@@ -194,17 +194,17 @@ include_once 'templates/cookie_notice.php';
 
     <div class="w3-row">
         <div class="w3-col l6 w3-center w3-hide-small w3-hide-medium">
-            <img src="img/fig/golden-star.png" alt="" style="width:15%;">
-            <img src="img/fig/golden-star.png" alt="" style="width:15%;">
-            <img src="img/fig/golden-star.png" alt="" style="width:15%;">
-            <img src="img/fig/black-star.png" alt="" style="width:15%;">
-            <img src="img/fig/black-star.png" alt="" style="width:15%;">
+            <img src="img/fig/golden-star.png" alt="" style="width:10%;">
+            <img src="img/fig/golden-star.png" alt="" style="width:10%;">
+            <img src="img/fig/golden-star.png" alt="" style="width:10%;">
+            <img src="img/fig/black-star.png" alt="" style="width:7%;">
+            <img src="img/fig/black-star.png" alt="" style="width:7%;">
         </div>
         <div class="w3-col l6 text-align-left w3-center w3-container w3-xlarge">
             <a href="forhandsregistrering.php" class="black-button w3-card w3-padding-16">Sett i gang nå!</a>
         </div>
     </div>
-    
+
 </div>
 
 <div class="w3-xlarge margin-top-100"
