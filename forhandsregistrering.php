@@ -82,7 +82,7 @@ include_once 'templates/cookie_notice.php';
                                    class="w3-input w3-animate-input" id="inputKommune"><br>
 
 
-                            <button class="white-button w3-card black-bg white-text border" type="submit"
+                            <button class="black-button w3-card w3-padding-8" type="submit"
                                     onsubmit="return nextPage()" onclick="nextPage();">Neste
                             </button>
                             <p id="responseText"></p>
@@ -186,7 +186,7 @@ include_once 'templates/cookie_notice.php';
 
 
                                     Jeg godkjenner InMarkets Vilkår for Bruk og <a
-                                            href="personvern.php" style="text-decoration:underline;" target="_blank">Personvernerklæringen</a>.​
+                                            href="personvern.php" style="text-decoration:underline;" target="_blank">Personvernerklæring</a>.​
 
                                     <input type="checkbox" name="personvern" id="personvern" value="student"
                                            class="klient-radio "
@@ -202,7 +202,7 @@ include_once 'templates/cookie_notice.php';
 
 
                             <div>
-                                <button class="white-button w3-card black-bg white-text border" type="submit"
+                                <button class="black-button w3-card w3-padding-8" type="submit"
                                         onsubmit="return nextPage()" onclick="nextPage();">Registrer
                                 </button>
                             </div>
@@ -215,7 +215,8 @@ include_once 'templates/cookie_notice.php';
 
 </div>
     <div class="w3-col l6 register-video">
-        <p>12 columns on a small screen, 8 on a medium screen, and 9 on a large screen.</p>
+        <!--
+        <p>12 columns on a small screen, 8 on a medium screen, and 9 on a large screen.</p>-->
     </div>
 
 

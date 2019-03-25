@@ -83,7 +83,7 @@ function nextPage(){
 
 
 function nextPageBedrift(){
-    if(!document.getElementById("kontaktSkjema").checkValidity()){
+    if(!document.getElementById("kontaktSkjemaBedrift").checkValidity()){
         return false;
     }
     //elevSelected();

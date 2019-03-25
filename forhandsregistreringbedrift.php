@@ -12,6 +12,8 @@ include_once 'templates/navigation.php';
 include_once 'templates/cookie_notice.php';
 ?>
 
+
+
 <div class="w3-row margin-top-100">
     <div class="w3-col l6 w3-card" style="background-color:white">
         <a href="forhandsregistrering.php" onclick="bedriftClient();">
@@ -70,7 +72,7 @@ include_once 'templates/cookie_notice.php';
                             <input type="text" name="navn" value="" placeholder="Fornavn og etternavn"
                                    class="w3-input w3-animate-input" required id="inputName">
                             <p>E-post:</p>
-                            <input type="email" name="email" value="" placeholder="deg@eksempel.no​" id="inputPlace"
+                            <input type="email" name="email" value="<?php echo $_POST['email']; ?>" placeholder="deg@eksempel.no​" id="inputPlace"
                                    class="w3-input w3-animate-input" required id="inputEpost">
 
 
@@ -81,11 +83,11 @@ include_once 'templates/cookie_notice.php';
                             <input type="text" name="rolle" value="" placeholder="sjef / ansatt / CEO / osv"
                                    class="w3-input w3-animate-input" required id="inputKommune">
                             <p>Kommune:</p>
-                            <input type="text" name="kommune" value="" placeholder="Navnet på din kommune"
+                            <input type="text" name="kommune" value="<?php echo $_POST['kommune']; ?>" placeholder="Navnet på din kommune"
                                    class="w3-input w3-animate-input" required id="inputKommune">
                             <br>
 
-                            <button class="white-button w3-card black-bg white-text border" type="submit"
+                            <button class="black-button w3-card w3-padding-8" type="submit"
                                     onsubmit="return nextPageBedrift()" onclick="nextPageBedrift();">Neste
                             </button>
                             <p id="responseText"></p>
@@ -107,7 +109,7 @@ include_once 'templates/cookie_notice.php';
 
 
                             <p>Bedrift:​</p>
-                            <input type="tel" name="bedriftnavn" value="" placeholder="Bedriftsnavn"
+                            <input type="text" name="bedriftnavn" value="<?php echo $_POST['bedriftnavn']; ?>" placeholder="Bedriftsnavn"
                                    class="w3-input w3-animate-input"  id="inputBedriftNavn">
                             <p>Org.nr.:​</p>
                             <input type="text" name="Rolle" value="" placeholder="XXXXXXXXXX​"
@@ -154,7 +156,7 @@ include_once 'templates/cookie_notice.php';
 
 
                                     Jeg godkjenner InMarkets Vilkår for Bruk og <br><a
-                                            href="personvern.php" style="text-decoration:underline;" target="_blank">Personvernerklæringen</a>.​
+                                            href="personvern.php" style="text-decoration:underline;" target="_blank">Personvernerklæring</a>.​
 
                                     <input type="checkbox" name="personvern" id="personvern" value="student"
                                            class="klient-radio "
@@ -170,7 +172,7 @@ include_once 'templates/cookie_notice.php';
 
 
                             <div>
-                                <button class="white-button w3-card black-bg white-text border" type="submit"
+                                <button class="black-button w3-card w3-padding-8" type="submit"
                                         onsubmit="return nextPage()" onclick="nextPage();">Registrer
                                 </button>
                             </div>
@@ -183,8 +185,8 @@ include_once 'templates/cookie_notice.php';
         </div>
     </div>
 
-    <div class="w3-col l6 register-video">
-        <p>12 columns on a small screen, 8 on a medium screen, and 9 on a large screen.</p>
+    <div class="w3-col l6 register-video"><!--
+        <p>12 columns on a small screen, 8 on a medium screen, and 9 on a large screen.</p>-->
     </div>
 
     <div class="w3-content w3-container w3-padding-64    margin-top-100" id="kontakt"

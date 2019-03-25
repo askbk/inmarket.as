@@ -27,12 +27,16 @@
             <a href="virksomhet.php" class="golden-button w3-hide-small w3-large w3-card">Arbeidsgiver</a>
         </div>
         <div class = "w3-right w3-small" style="margin-top:25px"  >
+
+            <!-- Vi har ikke oppdatert den engelske versjonen
             <a href="index.php" >
                 <img src="img/norway-lang-button.png" height="20px" alt="norwegian" >
             </a>
             <a href="en/index.php">
                 <img src="img/uk-lang-button.png" height="20px" alt="uk">
             </a>
+
+            -->
         </div>
     </div>
     <div id="navbar-dropdown-content" class="w3-content w3-bar white-bg padding-bottom-16 w3-large" style="display:none;">

@@ -741,6 +741,13 @@ input:-ms-input-placeholder {
 
 
 
+.w3-padding-8{
+    padding-top: 8px!important;
+    padding-bottom: 8px!important;
+}
+
+
+
 .mobile-large {
     font-size: 36px;
 }
@@ -916,6 +923,9 @@ input:-ms-input-placeholder {
     margin-right: 0em;
 }
 
+
+
+
 #navbar-img {
     margin: -5px;
     margin-left: 0em;
@@ -971,14 +981,18 @@ input:-ms-input-placeholder {
     border:none;
     display:inline-block;
     outline:0;
-    padding:8px 16px;
+    padding:2px 16px;
     vertical-align:middle;
     overflow:hidden;
     text-decoration:none;
     text-align:center;
     cursor:pointer;
     white-space:nowrap;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
+
+    /*Changes*/
+    border-radius:10px;
+    -webkit-appearance:none!important;
 }
 
 .white-button {
