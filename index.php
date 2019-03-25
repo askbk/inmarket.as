@@ -204,6 +204,7 @@ include_once 'templates/cookie_notice.php';
             <a href="forhandsregistrering.php" class="black-button w3-card w3-padding-16">Sett i gang nå!</a>
         </div>
     </div>
+    
 </div>
 
 <div class="w3-xlarge margin-top-100"
