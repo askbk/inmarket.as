@@ -56,7 +56,7 @@ include_once 'templates/cookie_notice.php';
 </div>
 
 <!-- Partner logos -->
-<div class="white-text w3-padding-16" id="partner-slideshow">
+<div class="white-text w3-padding-16 w3-center w3-content" style="width:60vw; margin 0 auto;" id="partner-slideshow">
     <div class="partner-slide" itemprop="sponsor">
         <a href="https://www.usn.no/" target="_blank"><img src="img/logos/usn.png" alt="Universitetet i Sørøst-Norge"
                                                            width="100%"></a>

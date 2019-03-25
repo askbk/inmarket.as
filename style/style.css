@@ -554,6 +554,10 @@ label input:checked ~ .radio::before {
         height: calc(46vh - 44px) !important;
     }
 
+    #partner-slideshow{
+        width:100% !important;
+    }
+
     .height-5em-mobile {
         height: 5em;
     }

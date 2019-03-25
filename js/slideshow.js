@@ -74,12 +74,12 @@ $(document).ready(function(){
     autoplay: true,
 	autoplaySpeed: 2000,
 	arrows: false,
-	slidesToShow: 8,
+	slidesToShow: 4,
 	responsive: [
     {
       breakpoint: 1024,
       settings: {
-        slidesToShow: 6,
+        slidesToShow: 4,
       }
     },
     {
