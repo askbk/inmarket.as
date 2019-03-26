@@ -106,15 +106,19 @@ include_once 'templates/cookie_notice.php';
     <h2 class="w3-margin">Hvordan funker det?</h2>
 
     <div class="w3-row w3-padding-32">
-        <div class="w3-col l6 text-align-right w3-container medium-center">
+        <div class="w3-col l55 text-align-right w3-container medium-center">
             <span class="golden-text w3-xlarge">Lag en profil</span>
             <p>List opp dine interesser, systemet vil jobbe for å koble deg til passende arbeidsplasser. Du vil bli
                 anbefalt til relevante bedrifter.​</p>
         </div>
-        <div class="w3-col m2 w3-container w3-hide-small w3-hide-medium">
-            <img src="img/elever/christian-square.jpg" alt="" style="width:100%;" class="w3-circle">
+        <div class="w3-col m1 w3-container w3-hide-small w3-hide-medium" style="position:relative;">
+            <strong class="golden-text w3-xlarge">1.0</strong>
+            <div class="arrow "></div>
         </div>
-        <div class="w3-col m4 w3-hide-small w3-hide-medium">
+        <div class="w3-col m25 w3-container w3-hide-small w3-hide-medium">
+            <img src="img/elever/christian-square.jpg" alt="" style="width:120%; background-position-y:20px;" class="w3-circle">
+        </div>
+        <div class="w3-col m3 w3-hide-small w3-hide-medium">
             <div class="speech-bubble-left w3-container">
                 <p>Jeg er media elev som ser etter jobberfaring innen filmproduksjon for nett-TV.</p>
             </div>
@@ -122,29 +126,37 @@ include_once 'templates/cookie_notice.php';
     </div>
 
     <div class="w3-row w3-padding-64">
-        <div class="w3-col m4 w3-hide-small w3-hide-medium">
+        <div class="w3-col m3 w3-hide-small w3-hide-medium">
             <div class="speech-bubble-right w3-container">
                 <p>
                     Hei. Vi fra NRK ønsker å etablere kontakt med deg!
                 </p>
             </div>
         </div>
-        <div class="w3-col m2 w3-container w3-hide-small w3-hide-medium">
-            <img src="img/partners/chris.jpg" alt="" style="width:100%;" class="w3-circle">
+        <div class="w3-col m25 w3-container w3-hide-small w3-hide-medium">
+            <img src="img/partners/chris.jpg" alt="" style="width:120%;" class="w3-circle">
         </div>
-        <div class="w3-col l6 text-align-left w3-container medium-center">
+        <div class="w3-col m1 w3-container w3-hide-small w3-hide-medium" style="position:relative">
+            <strong class="golden-text w3-xlarge">2.0</strong>
+            <div class="arrow "></div><!--<div class="arrow-down"></div>-->
+        </div>
+        <div class="w3-col l55 text-align-left w3-container medium-center">
             <span class="golden-text w3-xlarge">Bedriftene tar kontakt</span>
             <p>Etter at du har registrert deg er det bare å vente på tilbud fra bedrifter. I mellomtiden hjelper vi til
                 med å forberede deg til å møte arbeidsgivere.</p>
         </div>
     </div>
 
-    <div class="w3-row w3-padding-32">
-        <div class="w3-col l6 text-align-right medium-center w3-container">
+    <div class="w3-row w3-padding-32" style="height:226px;">
+        <div class="w3-col l55 text-align-right medium-center w3-container">
             <span class="golden-text w3-xlarge">Du velger</span>
             <p>Velg ut bedriftene som oppfyller dine ønsker og aksepter deres invitasjoner. ​</p>
         </div>
-        <div class="w3-col m6 w3-container w3-hide-small w3-hide-medium">
+        <div class="w3-col m1 w3-container w3-hide-small w3-hide-medium" style="position:relative;">
+            <strong class="golden-text w3-xlarge">3.0</strong>
+            <div class="arrow "></div>
+        </div>
+        <div class="w3-col m55 w3-container w3-hide-small w3-hide-medium">
 
             <div class="w3-row w3-panel">
                 <div class="w3-col m2">
@@ -182,10 +194,14 @@ include_once 'templates/cookie_notice.php';
     </div>
 
     <div class="w3-row" style="padding-top:64px!important; padding-bottom:8px;">
-        <div class="w3-col l6 w3-container w3-hide-small w3-hide-medium">
+        <div class="w3-col l55 w3-container w3-hide-small w3-hide-medium">
             <img src="img/elever/christian-square.jpg" alt="" style="width:50%;" class="w3-circle">
         </div>
-        <div class="w3-col l6 text-align-left medium-center w3-container">
+        <div class="w3-col m1 w3-container w3-hide-small w3-hide-medium" style="position:relative;">
+            <strong class="golden-text w3-xlarge">4.0</strong>
+
+        </div>
+        <div class="w3-col l55 text-align-left medium-center w3-container">
             <span class="golden-text w3-xlarge">Bygg opp din kompetanse</span>
             <p>Etter bedriftsbesøk får du en validering som bekrefter dine ferdigheter. Bedriften har også mulighet til
                 å tilby deg stilling om de ønsker.​</p>
@@ -193,7 +209,7 @@ include_once 'templates/cookie_notice.php';
     </div>
 
     <div class="w3-row">
-        <div class="w3-col l6 w3-center w3-hide-small w3-hide-medium">
+        <div class="w3-col l55 w3-center w3-hide-small w3-hide-medium">
             <img src="img/fig/golden-star.png" alt="" style="width:10%;">
             <img src="img/fig/golden-star.png" alt="" style="width:10%;">
             <img src="img/fig/golden-star.png" alt="" style="width:10%;">

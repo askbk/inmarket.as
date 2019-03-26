@@ -85,24 +85,29 @@ include_once 'templates/cookie_notice.php';
 <div class="narrow-content w3-center w3-container">
     <h2 class="w3-margin " style="margin-top:60px!important;">Hvordan funker det?</h2>
 
-    <div class="w3-row  w3-padding-32">
-        <div class="w3-col l6 text-align-right w3-container medium-center">
+    <div class="w3-row  w3-padding-32" style="height:226px;">
+        <div class="w3-col l55 text-align-right w3-container medium-center">
             <span class="golden-text w3-xlarge">Beskriv ditt ønske</span>
             <p>List opp kvalifikasjonene dere trenger slik at systemet kan finne de rette kandidatene for din
                 bedrift.​</p>
         </div>
-        <div class="w3-col m2 w3-container w3-hide-small w3-hide-medium">
+
+        <div class="w3-col m1 w3-container w3-hide-small w3-hide-medium" style="position:relative">
+            <strong class="golden-text w3-xlarge">1.0</strong>
+            <div class="arrow "></div><!--<div class="arrow-down"></div>-->
+        </div>
+        <div class="w3-col m25 w3-container w3-hide-small w3-hide-medium">
             <img src="img/hacker.jpg" alt="" style="width:100%;" class="w3-circle">
         </div>
-        <div class="w3-col m4 w3-hide-small w3-hide-medium">
+        <div class="w3-col m3 w3-hide-small w3-hide-medium">
             <div class="speech-bubble-left w3-container">
                 <p>Vi ser etter noen med ferdighet innen JavaScript og SQL.</p>
             </div>
         </div>
     </div>
 
-    <div class="w3-row w3-padding-64">
-        <div class="w3-col l6 w3-container w3-hide-small w3-hide-medium">
+    <div class="w3-row w3-padding-64" style="height:290px;">
+        <div class="w3-col l55 w3-container w3-hide-small w3-hide-medium">
             <div class="w3-row">
                 <div class="w3-col l4">
                     <img src="img/blonde.jpg" alt="" style="width:100%;" class="w3-circle">
@@ -115,23 +120,30 @@ include_once 'templates/cookie_notice.php';
                 </div>
             </div>
         </div>
+        <div class="w3-col m1 w3-container w3-hide-small w3-hide-medium" style="position:relative">
+            <strong class="golden-text w3-xlarge">2.0</strong>
+            <div class="arrow "></div><!--<div class="arrow-down"></div>-->
+        </div>
 
-        <div class="w3-col l6 text-align-left w3-container medium-center">
+        <div class="w3-col l55 text-align-left w3-container medium-center">
             <span class="golden-text w3-xlarge">Oppnå kontakt</span>
             <p>Dere velger hvilke brukere dere vil ta kontakt med. Lag en avtale og bli enige om når, hvor og hva.</p>
         </div>
     </div>
 
-    <div class="w3-row w3-padding-32">
-        <div class="w3-col l6 text-align-right medium-center w3-container">
+    <div class="w3-row w3-padding-32"  style="height:226px;">
+        <div class="w3-col l55 text-align-right medium-center w3-container">
             <span class="golden-text w3-xlarge">Velg ditt neste trekk</span>
             <p>Når du har prøvd ut en bruker lenge nok kan du velge om du vil ansette dem eller prøve ut andre
                 kandidater.​​</p>
         </div>
-        <div class="w3-col m2 w3-container w3-hide-small w3-hide-medium">
+        <div class="w3-col m1 w3-container w3-hide-small w3-hide-medium" style="position:relative">
+            <strong class="golden-text w3-xlarge">3.0</strong>
+        </div>
+        <div class="w3-col m25 w3-container w3-hide-small w3-hide-medium">
             <img src="img/startled.jpg" alt="" style="width:100%;" class="w3-circle">
         </div>
-        <div class="w3-col m4 w3-hide-small w3-hide-medium">
+        <div class="w3-col m3 w3-hide-small w3-hide-medium">
             <div class="speech-bubble-left w3-container">
                 <p>Vi er fornøyd med det du har vist oss i dag. Vil du komme igjen annen gang?</p>
             </div>
