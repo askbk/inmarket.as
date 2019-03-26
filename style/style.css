@@ -119,6 +119,10 @@ h1, h2, h3, h4, h5 {
     left:33px;
 
 }
+
+.image-size{
+    width:130% !important;
+}
 .arrow-down{
 
     border: solid gray;

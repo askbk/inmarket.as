@@ -97,7 +97,7 @@ include_once 'templates/cookie_notice.php';
             <div class="arrow "></div><!--<div class="arrow-down"></div>-->
         </div>
         <div class="w3-col m25 w3-container w3-hide-small w3-hide-medium">
-            <img src="img/hacker.jpg" alt="" style="width:100%;" class="w3-circle">
+            <img src="img/hacker.jpg" alt="" style="width:100%;" class="w3-circle image-size">
         </div>
         <div class="w3-col m3 w3-hide-small w3-hide-medium">
             <div class="speech-bubble-left w3-container">
@@ -110,13 +110,13 @@ include_once 'templates/cookie_notice.php';
         <div class="w3-col l55 w3-container w3-hide-small w3-hide-medium">
             <div class="w3-row">
                 <div class="w3-col l4">
-                    <img src="img/blonde.jpg" alt="" style="width:100%;" class="w3-circle">
+                    <img src="img/blonde.jpg" alt="" style="width:100%;" class="w3-circle image-size">
                 </div>
                 <div class="w3-col l4">
-                    <img src="img/singapore.jpg" alt="" style="width:100%;" class="w3-circle">
+                    <img src="img/singapore.jpg" alt="" style="width:100%;" class="w3-circle image-size">
                 </div>
                 <div class="w3-col l4">
-                    <img src="img/chris-africa.jpg" alt="" style="width:100%;" class="w3-circle">
+                    <img src="img/chris-africa.jpg" alt="" style="width:100%;" class="w3-circle image-size">
                 </div>
             </div>
         </div>
@@ -141,7 +141,7 @@ include_once 'templates/cookie_notice.php';
             <strong class="golden-text w3-xlarge">3.0</strong>
         </div>
         <div class="w3-col m25 w3-container w3-hide-small w3-hide-medium">
-            <img src="img/startled.jpg" alt="" style="width:100%;" class="w3-circle">
+            <img src="img/startled.jpg" alt="" style="width:100%;" class="w3-circle image-size">
         </div>
         <div class="w3-col m3 w3-hide-small w3-hide-medium">
             <div class="speech-bubble-left w3-container">
