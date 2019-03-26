@@ -210,7 +210,7 @@ include_once 'templates/cookie_notice.php';
 <div class="w3-xlarge margin-top-100"
      style="display:flex;background:#181717;flex-wrap:wrap-reverse;align-items:center;justify-content: center;align-items: center;">
     <div class="medium-center white-text" style="flex-basis:800px;padding: 64px calc(5vw);flex-grow:5;">
-        <h2>Workshop med All Inclusive Talk (samarbeidspartner)</h2>
+        <h2>Workshop med våres samarbeidspartner All Inclusive Talk</h2>
         <p class="quote">People who know what they talk about don't need powerpoint.</p>
         <p class="quote-source">Steve Jobs</p>
         <p>Workshopen vår er et tilbud til alle bedrifter. På workshopen lærer ansatte i din bedrift teknikker for bedre

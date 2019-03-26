@@ -12,7 +12,7 @@ include_once 'templates/navigation.php';
 include_once 'templates/cookie_notice.php';
 ?>
 
-<div class="w3-row margin-top-100">
+<div class="w3-row margin-top-100" style="display:flex;align-items:center;flex-wrap:wrap;justify-content: center;align-items: center;">
     <div class="w3-col l6 w3-card" style="background-color:white">
         <div class="w3-col l6 s6" style="background-color:white;color:black">
             <p class="w3-content w3-center w3-xlarge w3-padding-16">
@@ -33,7 +33,7 @@ include_once 'templates/cookie_notice.php';
         </a>
 
 
-        <div class="w3-content w3-center">
+        <div class="w3-content w3-center" style="flex-basis:800px;padding: 64px calc(5vw);flex-grow:5;">
 
 
             <form class="w3-large w3-container" action="index.php" method="post" id="kontaktSkjema">
@@ -214,10 +214,19 @@ include_once 'templates/cookie_notice.php';
     </div>
 
 </div>
-    <div class="w3-col l6 register-video">
-        <!--
+    <div class="w3-col l6 register-video " >
+
+        <div class="videoWrapper w3-hide-medium w3-hide-small" style="flex-grow: 1;background-repeat:no-repeat; flex-basis:500px; height:60vh;background-position:center;background-size:cover; margin:20px;">
+            <p class="golden-text w3-xxlarge w3-margin" style="text-align:center; line-height:1;">Det finnes en enklere måte for bedrifter og jobbsøkere å finne hverandre.​</p>
+            <div style="">
+            <iframe style="position:absolute; top:30px;" src="https://player.vimeo.com/video/326206969?autoplay=1" width="1920" height="1080" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="vimeo-video"></iframe>
+
+            </div>
+        </div>
+            <!--
         <p>12 columns on a small screen, 8 on a medium screen, and 9 on a large screen.</p>-->
     </div>
+
 
 
 <div class="w3-content w3-container w3-padding-64    margin-top-100" id="kontakt"
@@ -295,7 +304,9 @@ include_once 'templates/cookie_notice.php';
 <!-- Footer -->
 <!--<input type="text" name="birthdate" value="" placeholder="Fødselsdato" class="w3-input w3-animate-input w3-margin " required id="datepicker" >-->
 
+
 <?php include_once 'templates/footer.php'; ?>
+<script src="https://player.vimeo.com/api/player.js"></script>
 <script src="js/clientType.js" charset="utf-8"></script>
 <script src="js/forhandsregistrering.js" charset="utf-8"></script>
 </body>
