@@ -93,6 +93,31 @@ include_once 'templates/cookie_notice.php';
     </div>
 </div>
 
+<div class="w3-container w3-center w3-content w3-large w3-padding-32 w3-card" style="margin-top:20px!important;width:70vw; margin:auto;">
+    <div class="w3-row w3-hide-small w3-hide-medium">
+        <div class="w3-col l5">
+            <img src="img/people-woman-coffee-meeting.jpg" style="width:100%;border-radius:5px;"/>
+        </div>
+        <div class="w3-col l6 w3-center w3-margin">
+            <p>Plattformen kobler dere til kandidater som passer deres behov. Dere betaler kun for tiden dere bruker på
+                møter, prosjekter, intervjuer eller oppdrag med brukerne på plattformen.</p>
+            <p>Bli med å bygge kompetansen til arbeidssøkere samtidig som dere ser etter den beste kandidaten til
+                arbeidsplassen.</p>
+        </div>
+    </div>
+    <div class="w3-row w3-row-padding">
+        <div class="w3-col l5">
+            <p>La vårt automatiserte system koble deg med potensielle arbeidstakere</p>
+        </div>
+        <div class="w3-col l7 w3-center w3-hide-medium">
+            <p>
+                <a href="forhandsregistreringbedrift.php" class="black-button w3-card">Registrer bedrift nå</a>
+            </p>
+        </div>
+    </div>
+</div>
+
+
 
 
 <div class="narrow-content w3-center w3-container">
@@ -170,15 +195,17 @@ include_once 'templates/cookie_notice.php';
         <a href="forhandsregistreringbedrift.php" class="black-button w3-card w3-padding-16 w3-margin">Registrer
             bedriften din</a>
 
+        <p class="w3-xlarge" style="padding-bottom:32px;">Kontakten brukeren har hatt med din bedrift og tilbakemelding på ferdigheter loggføres på profilen til
+            brukeren. Inviter folk inn, slik at de kan bygge erfaringer som vil hjelpe dem videre i arbeidslivet.</p>
+
+
     </div>
 
-    <p class="w3-padding-64">Kontakten brukeren har hatt med din bedrift og tilbakemelding på ferdigheter loggføres på profilen til
-        brukeren. Inviter folk inn, slik at de kan bygge erfaringer som vil hjelpe dem videre i arbeidslivet.</p>
 
 </div>
 
 
-<div class="w3-container w3-center w3-content w3-large w3-padding-32 w3-card" style="width:70vw; margin:auto;">
+<!--<div class="w3-container w3-center w3-content w3-large w3-padding-32 w3-card" style="width:70vw; margin:auto;">
     <div class="w3-row w3-hide-small w3-hide-medium">
         <div class="w3-col l5">
             <div class="w3-row">
@@ -258,8 +285,9 @@ include_once 'templates/cookie_notice.php';
                 <a href="forhandsregistreringbedrift.php" class="black-button w3-card">Registrer bedrift nå</a>
             </p>
         </div>
-    </div>
-</div>
+    </div>-->
+
+
 
 <?php include_once 'templates/scripts.php'; ?>
 </body>
