@@ -14,15 +14,25 @@ include_once 'templates/cookie_notice.php';
 
 <div class="w3-row margin-top-100" style="background: #181717;height:calc(100vh - 80px);">
     <div class="w3-col l7 white-text w3-large w3-container">
-        <article class="narrow-content" style="width:45vw">
+        <article class="narrow-content w3-xlarge virksomheter-ting" >
             <h2>Finn din neste ansatt mens du skaper kompetanse</h2>
-            <p>På plattformen til InMarket venter mange talenter på en sjanse til å vise deg sine kvaliteter.
+            <p style="line-height:1.25;">På plattformen til InMarket venter mange talenter på en sjanse til å vise deg sine kvaliteter.
                 Registrerte brukere er ivrige etter å bygge kompetanse og erfaring slik at de kan bli bedre kvalifiserte
                 til jobb.</p>
+
+
+
+
+            <div class="videoWrapper " style="height:20vh;background-position:center;background-size:cover;">
+                <div style="">
+                    <iframe style="position:absolute; top:-5px;" src="https://player.vimeo.com/video/326205671?autoplay=1" width="1920" height="1080" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="vimeo-video"></iframe>
+
+                </div>
+            </div>
         </article>
     </div>
-    <div class="w3-col l4 white-bg w3-center w3-container">
-        <p class="w3-xxlarge w3-margin">La oss møtes</p>
+    <div class="w3-col l4 white-bg w3-center w3-container" style="padding-bottom:50px;">
+        <p class="w3-xxlarge w3-margin" >La oss møtes</p>
         <p>Be oss inn på møte og lær hvordan dere kan bruke InMarket</p>
         <form class="" action="index.php" method="post" id="kontaktSkjemaVirksomhet">
 
@@ -59,6 +69,9 @@ include_once 'templates/cookie_notice.php';
                     </p>
 
                 </label>
+
+                <br>
+                <br>
 
 
                 <button class="black-button w3-card  w3-padding-8" type="submit"

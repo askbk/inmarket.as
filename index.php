@@ -203,7 +203,6 @@ include_once 'templates/cookie_notice.php';
         </div>
         <div class="w3-col m1 w3-container w3-hide-small w3-hide-medium" style="position:relative;">
             <strong class="golden-text w3-xlarge">4.0</strong>
-
         </div>
         <div class="w3-col l2 w3-container w3-hide-small w3-hide-medium" style="position:relative;">
 

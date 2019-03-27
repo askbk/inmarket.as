@@ -24,13 +24,15 @@ footer {
 html, body {
     font-family: Calibri;
     line-height: 1.8;
-    background-color: white;
+    background-color: white;/*
+    letter-spacing:-0.5px;*/
 }
 
 h1, h2, h3, h4, h5 {
     font-family: Calibri !important;
     font-weight: bold;
-    text-transform: uppercase;
+    /**
+    text-transform: uppercase;**/
 }
 
 .light-text {
@@ -1207,6 +1209,20 @@ input:-ms-input-placeholder {
     transition: transform 0.8s;
     transform-style: preserve-3d;
 }
+
+
+.virksomheter-ting{
+    width:55vw;
+    margin-top:20px;
+}
+
+@media (max-width: 1000px) {
+    .virksomheter-ting{
+        width:100% !important;
+        margin-top:20px;
+    }
+}
+
 
 /* Do an horizontal flip when you move the mouse over the flip box container */
 /* .flip-card:hover .flip-card-inner {
