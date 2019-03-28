@@ -25,7 +25,7 @@ include_once 'templates/cookie_notice.php';
 
             <div class="videoWrapper " style="height:20vh;background-position:center;background-size:cover;">
                 <div style="">
-                    <iframe style="position:absolute; top:-5px;" src="https://player.vimeo.com/video/326205671?autoplay=1" width="1920" height="1080" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="vimeo-video"></iframe>
+                    <iframe style="position:absolute; top:-5px;" src="https://player.vimeo.com/video/327008691" width="1920" height="1080" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="vimeo-video"></iframe>
 
                 </div>
             </div>
@@ -70,23 +70,21 @@ include_once 'templates/cookie_notice.php';
 
                 </label>
 
-                <br>
-                <br>
 
 
                 <button class="black-button w3-card  w3-padding-8" type="submit"
                         ">Avtal møte
                 </button>
-                <div>
-                    <p>
-                        - Eller -
-                    </p>
-                </div>
+                <span>
+                    <strong>
+                         Eller
+                    </strong>
+                </span>
                 <button class="black-button w3-card w3-padding-8 " type="submit"
                    formaction="/forhandsregistreringbedrift.php">Registrer bedriften din nå
                 </button>
 
-                <p id="responseText"></p>
+
 
             </div>
         </form>
@@ -137,7 +135,7 @@ include_once 'templates/cookie_notice.php';
         <div class="w3-col m25 w3-container w3-hide-small w3-hide-medium">
             <img src="img/hacker.jpg" alt="" style="width:100%;" class="w3-circle image-size">
         </div>
-        <div class="w3-col m3 w3-hide-small w3-hide-medium">
+        <div class="w3-col m3 w3-hide-small w3-hide-medium speech-bubble-container">
             <div class="speech-bubble-left w3-container">
                 <p>Vi ser etter noen med ferdighet innen JavaScript og SQL.</p>
             </div>
@@ -181,7 +179,7 @@ include_once 'templates/cookie_notice.php';
         <div class="w3-col m25 w3-container w3-hide-small w3-hide-medium">
             <img src="img/startled.jpg" alt="" style="width:100%;" class="w3-circle image-size">
         </div>
-        <div class="w3-col m3 w3-hide-small w3-hide-medium">
+        <div class="w3-col m3 w3-hide-small w3-hide-medium speech-bubble-container">
             <div class="speech-bubble-left w3-container">
                 <p>Vi er fornøyd med det du har vist oss i dag. Vil du komme igjen annen gang?</p>
             </div>

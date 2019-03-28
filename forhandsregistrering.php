@@ -216,10 +216,10 @@ include_once 'templates/cookie_notice.php';
 </div>
     <div class="w3-col l6 register-video " >
 
-        <div class="videoWrapper w3-hide-medium w3-hide-small" style="flex-grow: 1;background-repeat:no-repeat; flex-basis:500px; height:60vh;background-position:center;background-size:cover; margin:20px;">
+        <div class="videoWrapper w3-hide-medium w3-hide-small" style="margin:50px;flex-grow: 1;background-repeat:no-repeat; flex-basis:500px; height:60vh;background-position:center;background-size:cover; ">
             <p class="golden-text w3-xxlarge w3-margin" style="text-align:center; line-height:1;">Det finnes en enklere måte for bedrifter og jobbsøkere å finne hverandre.​</p>
             <div style="">
-            <iframe style="position:absolute; top:30px;" src="https://player.vimeo.com/video/326206969?autoplay=1" width="1920" height="1080" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="vimeo-video"></iframe>
+            <iframe style="position:absolute; top:30px;" src="https://player.vimeo.com/video/326206969" width="1920" height="1080" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="vimeo-video"></iframe>
 
             </div>
         </div>

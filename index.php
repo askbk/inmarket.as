@@ -118,7 +118,7 @@ include_once 'templates/cookie_notice.php';
         <div class="w3-col m25 w3-container w3-hide-small w3-hide-medium">
             <img src="img/elever/christian-square.jpg" alt="" style="width:120%; background-position-y:20px;" class="w3-circle image-size">
         </div>
-        <div class="w3-col m3 w3-hide-small w3-hide-medium">
+        <div class="w3-col m3 w3-hide-small w3-hide-medium speech-bubble-container">
             <div class="speech-bubble-left w3-container">
                 <p>Jeg er media elev som ser etter jobberfaring innen filmproduksjon for nett-TV.</p>
             </div>
@@ -126,8 +126,8 @@ include_once 'templates/cookie_notice.php';
     </div>
 
     <div class="w3-row w3-padding-64">
-        <div class="w3-col m3 w3-hide-small w3-hide-medium">
-            <div class="speech-bubble-right w3-container">
+        <div class="w3-col m3 w3-hide-small w3-hide-medium speech-bubble-container" style="position:relative; left:35px;top:20px;">
+            <div class="speech-bubble-right w3-container" style="">
                 <p>
                     Hei. Vi fra NRK ønsker å etablere kontakt med deg!
                 </p>
@@ -229,26 +229,68 @@ include_once 'templates/cookie_notice.php';
 
 </div>
 
-<div class="w3-xlarge margin-top-100"
-     style="display:flex;background:#181717;flex-wrap:wrap-reverse;align-items:center;justify-content: center;align-items: center;">
+<div class="w3-xlarge margin-top-100 full-height"
+     style="display:flex;background:#181717;flex-wrap:wrap-reverse;align-items:center;justify-content: center;align-items: center; height:auto;
+">
     <div class="medium-center white-text" style="flex-basis:800px;padding: 64px calc(5vw);flex-grow:5;">
-        <h2>Workshop med våres samarbeidspartner All Inclusive Talk</h2>
+        <h2 class="w3-padding-32 w3-container w3-center" style="position:relative;">Workshop med våres samarbeidspartner All Inclusive Talk</h2>
         <p class="quote">People who know what they talk about don't need powerpoint.</p>
         <p class="quote-source">Steve Jobs</p>
-        <p>Workshopen vår er et tilbud til alle bedrifter. På workshopen lærer ansatte i din bedrift teknikker for bedre
+        <p class="w3-padding-32">Workshopen vår er et tilbud til alle bedrifter. På workshopen lærer ansatte i din bedrift teknikker for bedre
             stemmebruk og kommunikasjon. Vi lærer bort konkrete øvelser og tips for å mestre presentering foran publikum
             eller samtaler med kollegaer og kunder.​</p>
         <p class="w3-center">
-            <a href="https://www.allinclusivetalk.com" target="_blank" id="allinc-order" class="black-button w3-round"
-               style="background:#404040;">Bestill workshop</a>
+            <a href="https://www.allinclusivetalk.com" target="_blank" id="allinc-order" class="black-button full "
+               style="background:#404040; padding: 16px 32px">Bestill workshop</a>
         </p>
     </div>
 
-    <div class=""
-         style="flex-grow: 1;background:url('img/partners/allinclusive.webp');background-repeat:no-repeat; flex-basis:500px; height:60vh;background-position:center;background-size:cover;">
+    <div class="all-inclusive-img"
+         style="flex-grow: 1;background:url('img/partners/workshop.jpeg');background-repeat:no-repeat; flex-basis:600px; background-position:center;background-size:cover;">
     </div>
 
 </div>
+<div>
+
+<div class="w3-col l4 s12" style="background-color:white;color:black">
+    <div class="videoWrapper w3-margin style="">
+        <div style="">
+            <iframe style="position:absolute; top:-5px;" src="https://player.vimeo.com/video/326205077" width="1920" height="1080" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="vimeo-video"></iframe>
+
+        </div>
+    </div>
+</div>
+    <div class="w3-col l4 s12" style="">
+        <div class="videoWrapper w3-margin " style="height:20vh;background-position:center;background-size:cover;">
+            <div style="">
+                <iframe style="position:absolute; top:-5px;" src="https://player.vimeo.com/video/327008691" width="1920" height="1080" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="vimeo-video"></iframe>
+
+            </div>
+        </div>
+
+    </div>
+<div class="w3-col l4 s12" style="">
+    <div class="videoWrapper w3-margin" style="height:20vh;background-position:center;background-size:cover;">
+        <div style="">
+            <iframe style="position:absolute; top:-5px;" src="https://player.vimeo.com/video/326204872" width="1920" height="1080" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="vimeo-video"></iframe>
+
+        </div>
+    </div>
+    
+
+
+</div>
+</div>
+
+<div class="w3-content w3-center w3-xxlarge golden-text">
+    <p >
+        Det finnes <strong>enklere</strong> og <strong>bedre</strong> måte å komme seg ut i arbeid på.​
+    </p>
+    <p>
+        <a href="forhandsregistrering.php" class="black-button w3-card w3-xlarge"  style="padding:16px;">Lag gratis bruker nå</a>
+    </p>
+</div>
+
 
 <?php include_once 'templates/footer.php'; ?>
 
