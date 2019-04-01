@@ -12,7 +12,7 @@
     include_once 'templates/cookie_notice.php';
     ?>
 
-    <div class="margin-top-100 mobile-no-flex" style="align-items: center;background-image: url('img/underutdanning.jpg');background-size: cover;background-repeat: no-repeat;background-position-y: center;height: calc(100vh - 80px);background-position-x: 600px;overflow:hidden;">
+    <div class="margin-top-100 mobile-no-flex overflow-hidden-on-large-screens" style="align-items: center;background-image: url('img/underutdanning.jpg');background-size: cover;background-repeat: no-repeat;background-position-y: center;height: calc(100vh - 80px);background-position-x: 600px;">
         <div class="gray-text w3-mobile w3-container w3-center white-bg w3-xlarge" style="flex-basis:600px;">
             <div >
                 <img src="img/fig/target.png" alt="" style="width:20%;" class="">

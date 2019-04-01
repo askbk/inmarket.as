@@ -102,7 +102,7 @@ include_once 'templates/cookie_notice.php';
     </div>
 </div>
 
-<div class="narrow-content w3-center w3-container">
+<div class="narrow-content w3-center w3-container" 2>
     <h2 class="w3-margin">Hvordan funker det?</h2>
 
     <div class="w3-row w3-padding-32">
@@ -233,7 +233,7 @@ include_once 'templates/cookie_notice.php';
      style="display:flex;background:#181717;flex-wrap:wrap-reverse;align-items:center;justify-content: center;align-items: center; height:auto;
 ">
     <div class="medium-center white-text" style="flex-basis:800px;padding: 64px calc(5vw);flex-grow:5;">
-        <h2 class="w3-padding-32 w3-container w3-center" style="position:relative;">Workshop med våres samarbeidspartner All Inclusive Talk</h2>
+        <h2 class="w3-padding-32 w3-container w3-center" style="position:relative;">Workshop med vår samarbeidspartner All Inclusive Talk</h2>
         <p class="quote">People who know what they talk about don't need powerpoint.</p>
         <p class="quote-source">Steve Jobs</p>
         <p class="w3-padding-32">Workshopen vår er et tilbud til alle bedrifter. På workshopen lærer ansatte i din bedrift teknikker for bedre

@@ -55,10 +55,16 @@ h1, h2, h3, h4, h5 {
 .overflow-hidden {
     overflow: hidden;
 }
+.overflow-hidden-on-large-screens {
+    overflow: hidden;
+}
 
 /*FOR ARBEIDSSØKERSIDEN :)))*/
 @media (max-width: 600px) {
 
+    .overflow-hidden-on-large-screens {
+        overflow: visible;
+    }
 }
 
 
@@ -749,6 +755,8 @@ label input:checked ~ .radio::before {
 .register-interests div div{
         width:80%;
 }
+
+
 
 
 
