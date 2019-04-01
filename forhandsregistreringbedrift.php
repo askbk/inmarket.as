@@ -182,6 +182,9 @@ include_once 'templates/cookie_notice.php';
                     </div>
                 </div>
             </form>
+            <div class="w3-section w3-card w3-container" id="kontaktRespons" style="display:none;">
+                <p class="w3-center">Takk for henvendelsen! Vi tar kontakt med deg så snart vi har lansert!</p>
+            </div>
         </div>
     </div>
 
