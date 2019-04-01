@@ -48,10 +48,18 @@ function bedriftSelected() {
     check(2);
     bedriftClient();
 }
-
 $("#kontaktSkjema").submit(function (e) {
+    e.preventDefault();
+    $.post("contact.php", $(this).serialize(), function () {
+        $("#kontaktSkjema").hide();
+        $("#kontaktRespons").show();
+    });
+})
+
+
+$("#kontaktSkjemaVirksomhet").submit(function (e) {
 	e.preventDefault();
-	$.post("contact.php", $(this).serialize(), function () {
+	$.post("contactVirksomheter.php", $(this).serialize(), function () {
 		$("#kontaktSkjema").hide();
 		$("#kontaktRespons").show();
 	});
