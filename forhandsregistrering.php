@@ -82,9 +82,7 @@ include_once 'templates/cookie_notice.php';
                                    class="w3-input w3-animate-input w3-padding-16" id="inputKommune"><br>
 
 
-                            <button class="black-button w3-card w3-padding-8" type="submit"
-                                    onsubmit="return nextPage()" onclick="nextPage();">Neste
-                            </button>
+                            <button class="black-button w3-card w3-padding-8" id="nextPageButton">Neste</button>
                             <p id="responseText"></p>
 
                         </div>
@@ -202,9 +200,7 @@ include_once 'templates/cookie_notice.php';
 
 
                             <div>
-                                <button class="black-button w3-card w3-padding-8 w3-margin" type="submit"
-                                        onsubmit="return nextPage()" onclick="nextPage();">Registrer
-                                </button>
+                                <button class="black-button w3-card w3-padding-8 w3-margin" type="submit">Registrer</button>
                             </div>
                         </div>
                     </div>

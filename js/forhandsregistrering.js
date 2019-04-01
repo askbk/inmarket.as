@@ -5,6 +5,9 @@ let inputPlace = document.getElementById("inputPlace");
 //let studentElements = document.getElementsByClassName("studentSelected");
 let bedriftkode = document.getElementById("bedriftkode");
 let clientType = getClientType();
+let nextPageButton = document.getElementById("nextPageButton");
+
+nextPageButton.addEventListener("click", nextPage);
 
 if (clientType == "bedrift") {
     bedriftSelected();
@@ -70,7 +73,8 @@ function bedriftSelected() {
     bedriftClient();
 }
 
-function nextPage(){
+function nextPage(e){
+	e.preventDefault();
     if(!document.getElementById("kontaktSkjema").checkValidity()){
         return false;
     }
