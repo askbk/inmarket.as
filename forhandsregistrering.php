@@ -13,7 +13,7 @@ include_once 'templates/cookie_notice.php';
 ?>
 
 <div class="w3-row margin-top-100" style="display:flex;align-items:center;flex-wrap:wrap;justify-content: center;align-items: center;">
-    <div class="w3-col l6 w3-card" style="background-color:white">
+    <div class="w3-col l6 w3-card submit-hide" style="background-color:white">
         <div class="w3-col l6 s6" style="background-color:white;color:black">
             <p class="w3-content w3-center w3-xlarge w3-padding-16">
                 Bruker
@@ -128,10 +128,10 @@ include_once 'templates/cookie_notice.php';
                 </div>
             </form>
 
-            <div class="w3-section w3-container" id="kontaktRespons" style="display:none;">
-                <p class="w3-center">Takk for henvendelsen! Vi tar kontakt med deg så snart vi har lansert!</p>
-            </div>
         </div>
+    </div>
+    <div class="w3-section w3-container w3-card" id="kontaktRespons" style="display:none;">
+        <p class="w3-center">Takk for henvendelsen! Vi tar kontakt med deg så snart vi har lansert!</p>
     </div>
     <div class="w3-col l6 register-video">
         <div class="videoWrapper w3-hide-medium w3-hide-small" style="margin:50px;flex-grow: 1;background-repeat:no-repeat; flex-basis:500px; height:60vh;background-position:center;background-size:cover; ">

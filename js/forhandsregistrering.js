@@ -106,7 +106,7 @@ function nextPageBedrift(){
 $("#kontaktSkjema").submit(function (e) {
 	e.preventDefault();
 	$.post("forhandsregistreringemail.php", $(this).serialize(), function () {
-		$("#kontaktSkjema").hide();
+		$(".submit-hide").hide();
 		$("#kontaktRespons").show();
 	});
 })
