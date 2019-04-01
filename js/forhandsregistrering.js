@@ -19,11 +19,13 @@ if (clientType == "bedrift") {
 }
 
 function check(n) {
-    bedriftkode.style.display="none";
+    // bedriftkode.style.display="none";
     for(let i = 0; i < 5; ++i) {
-        radioButtons[i].checked = false;
+        // radioButtons[i].checked = false;
     }
-
+	for (let radioBtn of radioButtons) {
+		radioBtn.checked = false;
+	}
     radioButtons[n].checked = true;
 }
 
@@ -31,7 +33,7 @@ function elevSelected() {
     for(element of bedriftElements) {
         element.classList.add("w3-hide");
     }
-    check(0);
+    // check(0);
     elevClient();
 }
 
@@ -39,22 +41,22 @@ function ansattSelected() {
     for(element of bedriftElements) {
         element.classList.add("w3-hide");
     }
-    check(3);
-    elevClient();
+    // check(3);
+    ansattClient();
 }
 
 function arbeidsledigSelected() {
     for(element of bedriftElements) {
         element.classList.add("w3-hide");
     }
-    check(2);
-    elevClient();
+    // check(2);
+    arbeidssokerClient();
 }
 function studentSelected() {
     for(element of bedriftElements) {
         element.classList.add("w3-hide");
     }
-    check(1);
+    // check(1);
     studentClient();
 }
 
@@ -63,7 +65,7 @@ function bedriftSelected() {
         element.classList.remove("w3-hide");
     }
 
-    check(4);
+    // check(4);
     bedriftkode.style.display="inherit";
     bedriftClient();
 }
