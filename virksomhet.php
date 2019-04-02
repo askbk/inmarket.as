@@ -60,12 +60,12 @@ include_once 'templates/cookie_notice.php';
                          Eller
                     </strong>
                 </span>
-                <button class="black-button w3-card w3-padding-8 " type="submit"
-                   formaction="/forhandsregistreringbedrift.php">Registrer bedriften din nå
-                </button>
+                <a href="forhandsregistreringbedrift.php" class="black-button w3-card w3-padding-8">Registrer bedriften din nå</a>
             </div>
         </form>
-
+        <div class="w3-section w3-container w3-card" id="kontaktRespons" style="display:none;">
+            <p class="w3-center">Takk for henvendelsen! Vi tar kontakt med deg så snart vi har lansert!</p>
+        </div>
     </div>
 </div>
 
@@ -104,7 +104,7 @@ include_once 'templates/cookie_notice.php';
         </div>
         <div class="w3-col m1 w3-container w3-hide-small w3-hide-medium" style="position:relative">
             <strong class="golden-text w3-xlarge">1.0</strong>
-            <div class="arrow "></div><!--<div class="arrow-down"></div>-->
+            <div class="arrow "></div>
         </div>
         <div class="w3-col m25 w3-container w3-hide-small w3-hide-medium">
             <img src="img/hacker.jpg" alt="" style="width:100%;" class="w3-circle image-size">
@@ -168,6 +168,16 @@ include_once 'templates/cookie_notice.php';
             brukeren. Inviter folk inn, slik at de kan bygge erfaringer som vil hjelpe dem videre i arbeidslivet.</p>
     </div>
 </div>
+
+<script type="text/javascript">
+    $("#kontaktSkjemaVirksomhet").submit(function (e) {
+        e.preventDefault();
+        $.post("contactVirksomheter.php", $(this).serialize(), function () {
+            $("#kontaktSkjemaVirksomhet").hide();
+            $("#kontaktRespons").show();
+        });
+    });
+</script>
 
 <?php include_once 'templates/scripts.php'; ?>
 </body>
