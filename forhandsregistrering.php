@@ -81,7 +81,6 @@ include_once 'templates/cookie_notice.php';
                                         <span>Videregående elev</span>
                                         <input type="radio" name="client" value="elev" class="klient-radio w3-right new-radio" id="radio-elev">
 
-
                                         <i class="fas fa-user-tie w3-xlarge new-radio"></i>
                                     </label>
                                 </div>
@@ -127,12 +126,13 @@ include_once 'templates/cookie_notice.php';
                     </div>
                 </div>
             </form>
-
         </div>
     </div>
+
     <div class="w3-section w3-container w3-card" id="kontaktRespons" style="display:none;">
         <p class="w3-center">Takk for henvendelsen! Vi tar kontakt med deg så snart vi har lansert!</p>
     </div>
+
     <div class="w3-col l6 register-video">
         <div class="videoWrapper w3-hide-medium w3-hide-small" style="margin:50px;flex-grow: 1;background-repeat:no-repeat; flex-basis:500px; height:60vh;background-position:center;background-size:cover; ">
             <p class="golden-text w3-xxlarge w3-margin" style="text-align:center; line-height:1;">Det finnes en enklere måte for bedrifter og jobbsøkere å finne hverandre.​</p>
