@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Åpne plasser og ledige stillinger | InMarket Norge</title>
+    <title>Åpne plasser og ledige stillinger | Inmarket</title>
     <?php include_once 'templates/head.php'; ?>
 </head>
 
@@ -57,7 +57,7 @@
                         <li class="listing w3-container">
                             <h2>Hello!</h2>
                             <p>InMarket har foreløpig ingen ledige stillinger. Vi jobber med å skaffe oss flere samarbeidspartnere slik at du kan oppleve arbeidslivet.​</p>
-                            <p>Du kan fortsatt kontakte oss og fortelle oss litt om deg selv og hva du ønsker. På denne måten vet vi litt bedre hvilke arbeidsplass vi skal se etter.​</p>
+                            <p>Du kan fortsatt kontakte oss og fortelle oss litt om deg selv og hva du ønsker. På denne måten vet vi litt bedre hvilke arbeidsplasser vi skal se etter.​</p>
                         </li>
                     </ul>
                 </div>

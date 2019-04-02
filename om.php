@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Om oss | InMarket Norge</title>
+    <title>Om oss | Inmarket</title>
     <?php include_once 'templates/head.php'; ?>
 </head>
 
@@ -15,7 +15,7 @@
     <div class="narrow-content margin-top-100 white-text w3-container">
         <article class="margin-bottom-32">
             <h1 class="golden-text">Om InMarket</h1>
-            <p>InMarket Norge vil være mellomleddet elevene trenger for å kunne oppleve vekst, trygghet og motivasjon i tråd med arbeidsmarkedet og fremtidige karriereønsker. Dette vil vi klare å gjøre ved å fysisk være tilstede og holde aktiv kommunikasjon med alle ledd som er involvert. Derfor ønsker vi å være et mellomledd mellom arbeidsmarkedet og utdanning.</p>
+            <p>Inmarket vil være mellomleddet elevene trenger for å kunne oppleve vekst, trygghet og motivasjon i tråd med arbeidsmarkedet og fremtidige karriereønsker. Dette vil vi klare å gjøre ved å fysisk være tilstede og holde aktiv kommunikasjon med alle ledd som er involvert. Derfor ønsker vi å være et mellomledd mellom arbeidsmarkedet og utdanning.</p>
             <h3 class="golden-text">Vår visjon</h3>
             <p><em>InMarket skal påvirke det norske skole- og arbeidsmiljøet slik at en naturlig utvikling innen fagkompetanse, mestringstro og innovasjon kan løfte det norske markedet i en global sammenheng.</em></p>
             <hr>
@@ -64,7 +64,7 @@
             <p>Den største faktoren for å lykkes med vårt arbeid, er vår evne til å øke trivselen hos de vi oppnår kontakt med. Trivsel gir trygghet, og trygghet gjør det mulig å handle med sikkerhet. Vi er derfor svært avhengige av å skape trygge rammer.</p>
             <hr>
             <h3 class="golden-text">Generell situasjon i InMarket</h3>
-            <p>Generell situasjonsbeskrivelse for InMarket Norge:<br>«InMarket er en nytenkende bedrift som kombinerer rådgivningstjenester, mentoring, hospitering, coaching og rekruttering i ett virke. Bedriften er svært opptatt av å styrke sitt nettverk og omdømme ved å opprettholde gode og trygge kunderelasjoner. Vi vil alltid se etter et område å strekke oss til for å gjøre det lettere for elever å kobles til fremtidige studier, og for studenter å kobles til fremtidig arbeidsplass. Personalet i InMarket vil være de som leverer produktet. Her skal de vurderes sterkt på personlige egenskaper og evne til å kommunisere.»</p>
+            <p>Generell situasjonsbeskrivelse for Inmarket:<br>«InMarket er en nytenkende bedrift som kombinerer rådgivningstjenester, mentoring, hospitering, coaching og rekruttering i ett virke. Bedriften er svært opptatt av å styrke sitt nettverk og omdømme ved å opprettholde gode og trygge kunderelasjoner. Vi vil alltid se etter et område å strekke oss til for å gjøre det lettere for elever å kobles til fremtidige studier, og for studenter å kobles til fremtidig arbeidsplass. Personalet i InMarket vil være de som leverer produktet. Her skal de vurderes sterkt på personlige egenskaper og evne til å kommunisere.»</p>
         </article>
     </div>
 

@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Vårt team | InMarket Norge</title>
+    <title>Vårt team | Inmarket</title>
     <?php include_once 'templates/head.php'; ?>
 </head>
 
@@ -12,27 +12,51 @@
     include_once 'templates/cookie_notice.php';
     ?>
 
-    <div class="w3-display-container parallax-img bgimg-sammy-oyvind-ask full-height margin-top-100">
+    <div class="margin-top-100 black-bg" style="display:flex;align-items:center;flex-wrap:wrap;justify-content: center;align-items: center;">
+        <div class="bgimg-sammy-oyvind-ask" style="background-size: cover;flex-basis: 600px;height: 75vh;flex-grow: 5;background-position: center;">
+        </div>
+        <!-- <img src="img/elever/christian-kamera.jpg" alt="" class="" style="max-height:55vh;"> -->
+
+        <div class="w3-container w3-center white-text w3-large" style="flex-shrink:1; height:100%;flex-basis:500px;">
+            <p>
+                Vi vil være en del av løsningen Norge benytter seg av for å øke mangfold og internasjonal vekst.
+            </p>
+            <p>
+                InMarket sitt team består av unge ledere og medarbeidere som sammen skaper Norges største møteplass for arbeidsgivere og resten av samfunnet. ​
+            </p>
+            <p class="w3-xlarge golden-text">Vil du bli med på drømmelaget?</p>
+            <p>
+                <a href="forhandsregistrering.php" class="black-button w3-round" style="background:#404040;">Lag gratis bruker nå</a>
+            </p>
+            <p>Er du arbeidsgiver? <strong><a href="virksomhet.php">Les mer her</a></strong></p>
+        </div>
+    </div>
+
+    <!-- <div class="w3-display-container parallax-img bgimg-sammy-oyvind-ask full-height margin-top-100">
         <article class="w3-display-bottommiddle white-text mobile-medium width-100 w3-container max-width-1200 w3-center" style="padding-bottom:50px;">
             <p>Som et team jobber vi sammen. Vi vil oppnå store ting for norsk ungdom, norsk næring og internasjonal vekst. Vi vil selv være en del av løsning Norge benytter seg av for å øke i mangfold og ha større internasjonal vekst.​</p>
             <p>InMarket sitt team består av unge ledere og medarbeidere som sammen skal skape Norges største møteplass for arbeidsgivere og resten av samfunnet.</p>
             <p>Vi vil at prosessen med å skaffe seg ansatte ikke bare skal handle om den lille tiden det tar å legge ut stilling og finne ansatte. Vi vil at ansettelsesprosessen skal starte tidligere.</p>
         </article>
-    </div>
+    </div> -->
 
     <div class="w3-row w3-center w3-container w3-large w3-center w3-padding-32 max-width-1200" style=" margin:auto;">
         <div class="w3-col m6 w3-padding-large w3-container">
-            <img src="img/fig/ledelse.jpg" alt="" class="width-25-percent">
+            <img src="img/glasses.jpg" alt="" class="w3-circle" style="width:35%;">
             <p>
-                Som leder i InMarket Norge får du ansvar for din egen avdeling. Her har du gode arbeidsvilkår, gode muligheter til å utvikle din kompetanse og kommunikasjonslinje rett opp til styret. Du vil kunne veilede, organisere og følge opp ditt eget team, og du er med på å forme InMarkets mål og arbeidsprosess.
+                Som leder i Inmarket får du ansvar for din egen avdeling. Her har du gode arbeidsvilkår, gode muligheter til å utvikle din kompetanse og kommunikasjonslinje rett opp til styret. Du vil kunne veilede, organisere og følge opp ditt eget team, og du er med på å forme InMarkets mål og arbeidsprosess.
             </p>
         </div>
         <div class="w3-col m6 w3-padding-large w3-container">
-            <img src="img/fig/ledelse.jpg" alt="" class="width-25-percent">
+            <img src="img/goodfriends.jpg" alt="" class="w3-circle" style="width:35%;">
             <p>
                 Som ansatt i InMarket vil du kunne bruke fagkompetanse din til å løse spesifikke oppgaver i vår drift. Vi ser først og fremst etter deg med forståelse og innblikk i norsk arbeidsmarked. Her vil alt man gjør kunne knyttes til vår visjon om å styrke det norske arbeidsmarkedet i internasjonal sammenheng.​
             </p>
         </div>
+    </div>
+
+    <div class="w3-center w3-xlarge">
+        <a href="om.php" class="black-button w3-card w3-round">Visjon og mål</a>
     </div>
 
     <div class="w3-content">
@@ -142,14 +166,14 @@
             </div>
         </div>
     </div>
-
+<!--
     <div class="w3-content w3-center w3-xlarge w3-container w3-padding-32">
         <h1>Bli med på teamet</h1>
         <p>InMarket ønsker å hjelpe det norske arbeidsmarkedet med å øke i mangfold. Vår visjon er: «Å påvirke det norske utdannings- og arbeidsmiljø slik at en felles innsats for økt kompetanse, kultur og mangfold kan løfte det norske markedet i den globale sammenhengen». </p>
         <a href="om.php" class="w3-right black-button w3-card">Visjon og mål</a>
-    </div>
+    </div> -->
 
-    <div class="w3-content w3-xlarge w3-padding-32">
+    <!-- <div class="w3-content w3-xlarge w3-padding-32">
         <div class="width-100">
             <a href="#webdesigner" class="golden-button w3-card width-100 job-opening-button" data-job-opening="webdesigner">
                 Webdesigner
@@ -209,7 +233,7 @@
             $(e.currentTarget).hide();
             $("#" + openingId).show();
         });
-    </script>
+    </script> -->
 
     <!-- Footer -->
     <?php include_once 'templates/footer.php'; ?>
