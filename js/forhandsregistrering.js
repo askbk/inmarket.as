@@ -1,9 +1,6 @@
 let radioButtons = document.getElementsByClassName("klient-radio");
-//let elevElements = document.getElementsByClassName("elevSelected");
 let bedriftElements = document.getElementsByClassName("bedriftSelected");
 let inputPlace = document.getElementById("inputPlace");
-//let studentElements = document.getElementsByClassName("studentSelected");
-let bedriftkode = document.getElementById("bedriftkode");
 let clientType = getClientType();
 let nextPageButton = document.getElementById("nextPageButton");
 
@@ -22,14 +19,10 @@ if (clientType == "bedrift") {
 }
 
 function check(n) {
-    // bedriftkode.style.display="none";
-    for(let i = 0; i < 5; ++i) {
-        // radioButtons[i].checked = false;
-    }
 	for (let radioBtn of radioButtons) {
 		radioBtn.checked = false;
 	}
-    radioButtons[n].checked = true;
+    // radioButtons[n].checked = true;
 }
 
 function elevSelected() {
@@ -69,7 +62,7 @@ function bedriftSelected() {
     }
 
     // check(4);
-    bedriftkode.style.display="inherit";
+    // bedriftkode.style.display="inherit";
     bedriftClient();
 }
 
@@ -92,29 +85,27 @@ function nextPageBedrift(){
     if(!document.getElementById("kontaktSkjemaBedrift").checkValidity()){
         return false;
     }
-    //elevSelected();
-    //document.getElementById("radio-elev").required=true;
     document.getElementById("first-page").style.display = "none";
     document.getElementById("second-page").style.display = "block";
     document.getElementById("personvern").required = true;
-    document.getElementById("inputBedriftNavn").required = true;
-    document.getElementById("inputBedriftNummer").required = true;
+    // document.getElementById("inputBedriftNavn").required = true;
+    // document.getElementById("inputBedriftNummer").required = true;
 
     return false;
 }
 
 $("#kontaktSkjema").submit(function (e) {
 	e.preventDefault();
-	$.post("forhandsregistreringemail.php", $(this).serialize(), function () {
+	let url;
+
+	if (document.getElementById("inputBedriftNavn")) {
+		url = "forhandsregistreringbedriftemail.php";
+	} else {
+		url = "forhandsregistreringemail.php";
+	}
+
+	$.post(url, $(this).serialize(), function () {
 		$(".submit-hide").hide();
 		$("#kontaktRespons").show();
 	});
-})
-
-$("#kontaktSkjemaBedrift").submit(function (e) {
-    e.preventDefault();
-    $.post("forhandsregistreringBedriftemail.php", $(this).serialize(), function () {
-        $("#kontaktSkjemaBedrift").hide();
-        $("#kontaktRespons").show();
-    });
-})
+});
