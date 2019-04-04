@@ -64,7 +64,7 @@ include_once 'templates/cookie_notice.php';
 
                         <input type="checkbox" name="personvern" id="personvern" value="student"
                                class="klient-radio "
-                               onclick="studentSelected()" style="width:1px; position:relative; left:20px;">
+                               onclick="studentSelected()" style="width:1px; position:relative; left:20px; display:none;">
                         <i class="fas fa-user-tie w3-xlarge new-radio"></i>
                     </p>
 

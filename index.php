@@ -106,8 +106,10 @@ include_once 'templates/cookie_notice.php';
     <h2 class="w3-margin">Hvordan funker det?</h2>
 
     <div class="w3-row w3-padding-32">
+
         <div class="w3-col l55 text-align-right w3-container medium-center">
-            <span class="golden-text w3-xlarge">Lag en profil</span>
+            <strong class="golden-text w3-xlarge w3-hide-large">1.0</strong>
+            <div class="golden-text w3-xlarge">Lag en profil</div>
             <p>List opp dine interesser, systemet vil jobbe for å koble deg til passende arbeidsplasser. Du vil bli
                 anbefalt til relevante bedrifter.​</p>
         </div>
@@ -115,12 +117,17 @@ include_once 'templates/cookie_notice.php';
             <strong class="golden-text w3-xlarge">1.0</strong>
             <div class="arrow "></div>
         </div>
+
+        <div class="w3-container w3-hide-large w3-center" style="position:relative;">
+            <div class="arrow-mobile "></div>
+        </div>
+
         <div class="w3-col m25 w3-container w3-hide-small w3-hide-medium">
             <img src="img/elever/christian-square.jpg" alt="" style="width:120%; background-position-y:20px;" class="w3-circle image-size">
         </div>
         <div class="w3-col m3 w3-hide-small w3-hide-medium speech-bubble-container">
             <div class="speech-bubble-left w3-container">
-                <p>Jeg er media elev som ser etter jobberfaring innen filmproduksjon for nett-TV.</p>
+                <p>Jeg er mediaelev som ser etter jobberfaring innen filmproduksjon for nett-TV.</p>
             </div>
         </div>
     </div>
@@ -141,7 +148,8 @@ include_once 'templates/cookie_notice.php';
             <div class="arrow "></div><!--<div class="arrow-down"></div>-->
         </div>
         <div class="w3-col l55 text-align-left w3-container medium-center">
-            <span class="golden-text w3-xlarge">Bedriftene tar kontakt</span>
+            <strong class="golden-text w3-xlarge w3-hide-large">2.0</strong>
+            <div class="golden-text w3-xlarge">Bedriftene tar kontakt</div>
             <p>Etter at du har registrert deg er det bare å vente på tilbud fra bedrifter. I mellomtiden hjelper vi til
                 med å forberede deg til å møte arbeidsgivere.</p>
         </div>
@@ -149,7 +157,8 @@ include_once 'templates/cookie_notice.php';
 
     <div class="w3-row w3-padding-32" style="height:226px;">
         <div class="w3-col l55 text-align-right medium-center w3-container">
-            <span class="golden-text w3-xlarge">Du velger</span>
+            <strong class="golden-text w3-xlarge w3-hide-large">3.0</strong>
+            <div class="golden-text w3-xlarge">Du velger</div>
             <p>Velg ut bedriftene som oppfyller dine ønsker og aksepter deres invitasjoner. ​</p>
         </div>
         <div class="w3-col m1 w3-container w3-hide-small w3-hide-medium" style="position:relative;">
@@ -194,21 +203,24 @@ include_once 'templates/cookie_notice.php';
     </div>
 
     <div class="w3-row" style="padding-top:64px!important; padding-bottom:8px;">
-        <div class="w3-col l2 w3-container w3-hide-small w3-hide-medium">
+        <div class="w3-col m2 w3-container w3-hide-small w3-hide-medium">
         </div>
         <div class="w3-col m25 w3-container w3-hide-small w3-hide-medium">
             <img src="img/elever/christian-square.jpg" alt="" style="width:50%;" class="w3-circle image-size">
         </div>
-        <div class="w3-col l1 w3-container w3-hide-small w3-hide-medium">
+
+        <div class="w3-col m1 w3-container w3-hide-small w3-hide-medium">
         </div>
         <div class="w3-col m1 w3-container w3-hide-small w3-hide-medium" style="position:relative;">
             <strong class="golden-text w3-xlarge">4.0</strong>
         </div>
+        <!--
         <div class="w3-col l2 w3-container w3-hide-small w3-hide-medium" style="position:relative;">
 
-        </div>
+        </div>-->
         <div class="w3-col l55 text-align-left medium-center w3-container">
-            <span class="golden-text w3-xlarge">Bygg opp din kompetanse</span>
+            <strong class="golden-text w3-xlarge w3-hide-large">4.0</strong>
+            <div class="golden-text w3-xlarge">Bygg opp din kompetanse</div>
             <p>Etter bedriftsbesøk får du en validering som bekrefter dine ferdigheter. Bedriften har også mulighet til
                 å tilby deg stilling om de ønsker.​</p>
         </div>

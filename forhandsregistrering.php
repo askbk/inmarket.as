@@ -150,35 +150,54 @@ include_once 'templates/cookie_notice.php';
 
                             <div class="w3-col m6 l6 s6">
                                 <div class="w3-content w3-center">
-                                    <input type="text" name="k1" value="" placeholder="Kvalifikasjon 1​"
-                                           class="w3-input w3-animate-input" id="inputName">
+                                    <input type="text" name="k1" value="" placeholder="Kompetanse 1​"
+                                           class="w3-input w3-animate-input" id="inputName" list="kompetanse">
 
                                 </div>
                                 <div class="w3-content w3-center">
-                                    <input type="text" name="k2" value="" placeholder="Kvalifikasjon 2"
-                                           class="w3-input w3-animate-input" id="inputName">
+                                    <input type="text" name="k2" value="" placeholder="Kompetanse 2"
+                                           class="w3-input w3-animate-input" id="inputName" list="kompetanse">
 
                                 </div>
                                 <div class="w3-content w3-center">
-                                    <input type="text" name="k3" value="" placeholder="Kvalifikasjon 3"
-                                           class="w3-input w3-animate-input" id="inputName">
+                                    <input type="text" name="k3" value="" placeholder="Kompetanse 3"
+                                           class="w3-input w3-animate-input" id="inputName" list="kompetanse">
 
                                 </div>
                             </div>
+
+
+                            <datalist id="kompetanse">
+                                <option value="Internet Explorer">
+                                <option value="Firefox">
+                                <option value="Chrome">
+                                <option value="Opera">
+                                <option value="Safari">
+                            </datalist>
+
+
                             <div class="w3-col m6 l6 s6 padding-bottom-16">
                                 <div class="w3-content w3-center">
                                     <input type="text" name="i1" value="" placeholder="Interesse 1​​"
-                                           class="w3-input w3-animate-input" id="inputName">
+                                           class="w3-input w3-animate-input" id="inputName" list="interesse">
                                 </div>
                                 <div class="w3-content w3-center">
                                     <input type="text" name="i2" value="" placeholder="Interesse 2"
-                                           class="w3-input w3-animate-input" id="inputName">
+                                           class="w3-input w3-animate-input" id="inputName" list="interesse">
                                 </div>
                                 <div class="w3-content w3-center">
                                     <input type="text" name="i3" value="" placeholder="Interesse 3"
-                                           class="w3-input w3-animate-input" id="inputName">
+                                           class="w3-input w3-animate-input" id="inputName" list="interesse">
                                 </div>
                             </div>
+
+                            <datalist id="interesse">
+                                <option value="Internet Explorer">
+                                <option value="Firefox">
+                                <option value="Chrome">
+                                <option value="Opera">
+                                <option value="Safari">
+                            </datalist>
 
                             <br>
                             <label>
@@ -190,7 +209,7 @@ include_once 'templates/cookie_notice.php';
 
                                     <input type="checkbox" name="personvern" id="personvern" value="student"
                                            class="klient-radio "
-                                           onclick="studentSelected()" style="width:1px; position:relative; left:20px;">
+                                           onclick="studentSelected()" style="width:1px; position:relative; left:20px; display:none;">
                                     <i class="fas fa-user-tie w3-xlarge new-radio"></i>
                                 </p>
 
