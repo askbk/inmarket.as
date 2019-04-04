@@ -3,7 +3,7 @@ let radioButtons = document.getElementsByClassName("klient-radio");
 let bedriftElements = document.getElementsByClassName("bedriftSelected");
 let inputPlace = document.getElementById("inputPlace");
 //let studentElements = document.getElementsByClassName("studentSelected");
-
+/*
 let clientType = getClientType();
 
 if (clientType == "bedrift") {
@@ -13,6 +13,7 @@ if (clientType == "bedrift") {
 } else if (clientType == "elev") {
     elevSelected();
 }
+
 
 function check(n) {
     for(let i = 0; i < 3; ++i) {
@@ -47,7 +48,7 @@ function bedriftSelected() {
     inputPlace.setAttribute("placeholder", "Bedrift")
     check(2);
     bedriftClient();
-}
+}*/
 $("#kontaktSkjema").submit(function (e) {
     e.preventDefault();
     $.post("contact.php", $(this).serialize(), function () {

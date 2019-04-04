@@ -21,17 +21,6 @@ include_once 'templates/cookie_notice.php';
     <div class="bgimg-christian-kamera w3-hide-large"
          style="background-size: cover;flex-basis: 600px;height: 75vh;flex-grow: 5; background-position:-150px;">
     </div>
-    <!-- <img src="img/elever/christian-kamera.jpg" alt="" class="" style="max-height:55vh;"> -->
-    <!--
-    <div class="w3-container w3-center " style="flex-shrink:1;">
-        <h3 class="golden-text">Bli koblet til jobben du drømmer om.</h3>
-        <p>
-            <a href="forhandsregistrering.php" class="black-button w3-card w3-xlarge">Lag gratis bruker nå</a>
-        </p>
-        <p class="w3-xlarge">InMarket kobler arbeidsplasser med jobbsøkere.</p>
-        <p>Er du arbeidsgiver? <strong><a href="virksomhet.php">Les mer her</a></strong></p>
-    </div>
-    -->
 
     <div class="w3-hide-large w3-hide-small" style="height:75vh;">
         <div class="w3-container w3-center" style="padding-left:32px;padding-right:32px;width:100%;flex-shrink:1; margin 0 auto; transform: translateY(-50%); position:relative; top:50%;">
@@ -224,10 +213,7 @@ include_once 'templates/cookie_notice.php';
         <div class="w3-col m1 w3-container w3-hide-small w3-hide-medium" style="position:relative;">
             <strong class="golden-text w3-xlarge">4.0</strong>
         </div>
-        <!--
-        <div class="w3-col l2 w3-container w3-hide-small w3-hide-medium" style="position:relative;">
 
-        </div>-->
         <div class="w3-col l55 text-align-left medium-center w3-container">
             <strong class="golden-text w3-xlarge w3-hide-large">4.0</strong>
             <div class="golden-text w3-xlarge">Bygg opp din kompetanse</div>

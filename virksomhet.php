@@ -63,8 +63,7 @@ include_once 'templates/cookie_notice.php';
                                 href="personvern.php" style="text-decoration:underline;" target="_blank">Personvernerklæring</a>.​
 
                         <input type="checkbox" name="personvern" id="personvern" value="student"
-                               class="klient-radio "
-                               onclick="studentSelected()" style="width:1px; position:relative; left:20px; opacity:0;" required>
+                               class="klient-radio " style="width:1px; position:relative; left:20px; opacity:0;" required>
                         <i class="fas fa-user-tie w3-xlarge new-radio"></i>
                     </p>
 
@@ -288,6 +287,9 @@ include_once 'templates/cookie_notice.php';
 
 
 <?php include_once 'templates/scripts.php'; ?>
+
+<script src="js/contactForm.js" charset="utf-8"></script>
+
 </body>
 
 </html>
