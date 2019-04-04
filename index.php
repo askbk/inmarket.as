@@ -147,15 +147,19 @@ include_once 'templates/cookie_notice.php';
             <strong class="golden-text w3-xlarge">2.0</strong>
             <div class="arrow "></div><!--<div class="arrow-down"></div>-->
         </div>
+
         <div class="w3-col l55 text-align-left w3-container medium-center">
             <strong class="golden-text w3-xlarge w3-hide-large">2.0</strong>
             <div class="golden-text w3-xlarge">Bedriftene tar kontakt</div>
             <p>Etter at du har registrert deg er det bare å vente på tilbud fra bedrifter. I mellomtiden hjelper vi til
                 med å forberede deg til å møte arbeidsgivere.</p>
         </div>
+        <div class="w3-container w3-hide-large w3-center" style="position:relative;">
+            <div class="arrow-mobile "></div>
+        </div>
     </div>
 
-    <div class="w3-row w3-padding-32" style="height:226px;">
+    <div class="w3-row w3-padding-32 the-3th-content">
         <div class="w3-col l55 text-align-right medium-center w3-container">
             <strong class="golden-text w3-xlarge w3-hide-large">3.0</strong>
             <div class="golden-text w3-xlarge">Du velger</div>
@@ -165,6 +169,7 @@ include_once 'templates/cookie_notice.php';
             <strong class="golden-text w3-xlarge">3.0</strong>
             <div class="arrow "></div>
         </div>
+
         <div class="w3-col m55 w3-container w3-hide-small w3-hide-medium">
 
             <div class="w3-row w3-panel">
@@ -199,6 +204,11 @@ include_once 'templates/cookie_notice.php';
                     </div>
                 </div>
             </div>
+
+
+        </div>
+        <div class="w3-container w3-hide-large w3-center" style="position:relative;">
+            <div class="arrow-mobile "></div>
         </div>
     </div>
 
@@ -288,7 +298,7 @@ include_once 'templates/cookie_notice.php';
 
         </div>
     </div>
-    
+
 
 
 </div>

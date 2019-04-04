@@ -51,19 +51,18 @@ h1, h2, h3, h4, h5 {
 .cursor-pointer {
     cursor: pointer;
 }
-
-.overflow-hidden {
-    overflow: hidden;
-}
-.overflow-hidden-on-large-screens {
-    overflow: hidden;
-}
-
 /*FOR ARBEIDSSØKERSIDEN :)))*/
-@media (max-width: 600px) {
 
-    .overflow-hidden-on-large-screens {
-        overflow: visible;
+.full-height-custom {
+    height: calc(100vh - 80px);
+    /*
+    overflow: hidden;*/
+}
+
+
+@media(max-height:800px){
+    .full-height-custom{
+        height:100%
     }
 }
 
@@ -130,8 +129,8 @@ h1, h2, h3, h4, h5 {
 
 
 .arrow-mobile{
-    border: 1px solid gray;
-    height: 100px;
+    border: 0.5px solid gray;
+    height: 80px;
     margin:0 auto;
     border-radius:1px;
     width:1px;
@@ -139,6 +138,12 @@ h1, h2, h3, h4, h5 {
     left:49.75%;
 
 
+}
+
+@media(min-width:993px){
+.the-3th-content{
+    height:226px;
+  }
 }
 
 .image-size{
