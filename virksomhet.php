@@ -71,7 +71,7 @@ include_once 'templates/cookie_notice.php';
 
 
 
-                <button class="black-button w3-card  w3-padding-8" type="submit"
+                <button class="black-button w3-card  w3-padding-8" type="button" onClick="button()"
                         ">Avtal møte
                 </button>
                 <span>
@@ -79,7 +79,7 @@ include_once 'templates/cookie_notice.php';
                          Eller
                     </strong>
                 </span>
-                <button class="black-button w3-card w3-padding-8 " type="submit"
+                <button class="black-button w3-card w3-padding-8 " type="submit" id="submit"
                    formaction="/forhandsregistreringbedrift.php">Registrer bedriften din nå
                 </button>
 
@@ -87,6 +87,19 @@ include_once 'templates/cookie_notice.php';
 
             </div>
         </form>
+
+        <div id="kontaktRespons">
+
+            <div class=" w3-content w3-center register-container">
+
+                <p>Takker for henvendelsen! Dere vil bli kontaktet så fort som mulig</p>
+
+
+
+            </div>
+
+
+        </div>
     </div>
 </div>
 
