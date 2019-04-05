@@ -12,7 +12,8 @@ include_once 'templates/navigation.php';
 include_once 'templates/cookie_notice.php';
 ?>
 
-<div class="w3-row margin-top-100" style="display:flex;align-items:center;flex-wrap:wrap;justify-content: center;align-items: center;">
+<div class="w3-row margin-top-100"
+     style="display:flex;align-items:center;flex-wrap:wrap;justify-content: center;align-items: center;">
     <div class="w3-col l6 w3-card submit-hide" style="background-color:white">
         <div class="w3-col l6 s6" style="background-color:white;color:black">
             <p class="w3-content w3-center w3-xlarge w3-padding-16">
@@ -40,11 +41,14 @@ include_once 'templates/cookie_notice.php';
                         </p>
                         <div class=" w3-content w3-center register-container">
                             <p>E-post:</p>
-                            <input type="email" name="email" value="" placeholder="deg@eksempel.no​" id="inputPlace" class="w3-input w3-animate-input w3-padding-16" required id="inputEpost"><br>
+                            <input type="email" name="email" value="" placeholder="deg@eksempel.no​" id="inputPlace"
+                                   class="w3-input w3-animate-input w3-padding-16" required id="inputEpost"><br>
                             <p>Fullt navn (valgfritt):</p>
-                            <input type="text" name="navn" value="" placeholder="Fornavn og etternavn" class="w3-input w3-animate-input w3-padding-16" id="inputName"><br>
+                            <input type="text" name="navn" value="" placeholder="Fornavn og etternavn"
+                                   class="w3-input w3-animate-input w3-padding-16" id="inputName"><br>
                             <p>Kommune (valgfritt):</p>
-                            <input type="text" name="kommune" value="" placeholder="Navnet på din kommune" class="w3-input w3-animate-input w3-padding-16" id="inputKommune"><br>
+                            <input type="text" name="kommune" value="" placeholder="Navnet på din kommune"
+                                   class="w3-input w3-animate-input w3-padding-16" id="inputKommune"><br>
                             <button class="black-button w3-card w3-padding-8" id="nextPageButton">Neste</button>
                         </div>
                     </div>
@@ -63,7 +67,9 @@ include_once 'templates/cookie_notice.php';
                                 <div class="w3-col m4">
                                     <label>
                                         <span>Arbeidssøkere</span>
-                                        <input type="radio" name="client" value="arbeidsledig" class="klient-radio w3-right new-radio" checked onclick="arbeidsledigSelected()">
+                                        <input type="radio" name="client" value="arbeidsledig"
+                                               class="klient-radio w3-right new-radio" checked
+                                               onclick="arbeidsledigSelected()">
 
                                         <i class="fas fa-user-tie w3-xlarge new-radio"></i>
                                     </label>
@@ -71,7 +77,8 @@ include_once 'templates/cookie_notice.php';
                                 <div class="w3-col m4">
                                     <label>
                                         <span>Student</span>
-                                        <input type="radio" name="client" value="student" class="klient-radio  w3-right new-radio" onclick="studentSelected()">
+                                        <input type="radio" name="client" value="student"
+                                               class="klient-radio  w3-right new-radio" onclick="studentSelected()">
                                         <i class="fas fa-user-tie w3-xlarge new-radio"></i>
 
                                     </label>
@@ -79,7 +86,8 @@ include_once 'templates/cookie_notice.php';
                                 <div class="w3-col m4">
                                     <label>
                                         <span>Videregående elev</span>
-                                        <input type="radio" name="client" value="elev" class="klient-radio w3-right new-radio" id="radio-elev">
+                                        <input type="radio" name="client" value="elev"
+                                               class="klient-radio w3-right new-radio" id="radio-elev">
 
                                         <i class="fas fa-user-tie w3-xlarge new-radio"></i>
                                     </label>
@@ -106,7 +114,6 @@ include_once 'templates/cookie_notice.php';
 
                                 </div>
                             </div>
-
 
                             <datalist id="kompetanse">
                                 <option value="Fotografi">
@@ -136,7 +143,6 @@ include_once 'templates/cookie_notice.php';
                                 <option value="Nettverkbygging">
                             </datalist>
 
-
                             <div class="w3-col m6 l6 s6 padding-bottom-16">
                                 <div class="w3-content w3-center">
                                     <input type="text" name="i1" value="" placeholder="Interesse 1​​"
@@ -163,13 +169,19 @@ include_once 'templates/cookie_notice.php';
                             <br>
                             <label>
                                 <p class="w3-margin">
-                                    Jeg godkjenner InMarkets Vilkår for Bruk og <a href="personvern.php" style="text-decoration:underline;" target="_blank">Personvernerklæring</a>.​
-                                    <input type="checkbox" name="personvern" id="personvern" value="student" class="klient-radio " onclick="studentSelected()" style="width:1px; position:relative; left:20px;opacity:0;">
+                                    Jeg godkjenner InMarkets Vilkår for Bruk og <a href="personvern.php"
+                                                                                   style="text-decoration:underline;"
+                                                                                   target="_blank">Personvernerklæring</a>.​
+                                    <input type="checkbox" name="personvern" id="personvern" value="student"
+                                           class="klient-radio " onclick="studentSelected()"
+                                           style="width:1px; position:relative; left:20px;opacity:0;">
                                     <i class="fas fa-user-tie w3-xlarge new-radio"></i>
                                 </p>
                             </label>
                             <div>
-                                <button class="black-button w3-card w3-padding-8 w3-margin" type="submit" id="submit">Registrer</button>
+                                <button class="black-button w3-card w3-padding-8 w3-margin" type="submit" id="submit">
+                                    Registrer
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -183,17 +195,18 @@ include_once 'templates/cookie_notice.php';
     </div>
 
     <div class="w3-col l6 register-video">
-        <div class="videoWrapper w3-hide-medium w3-hide-small" style="margin:50px;flex-grow: 1;background-repeat:no-repeat; flex-basis:500px; height:60vh;background-position:center;background-size:cover; ">
-            <p class="golden-text w3-xxlarge w3-margin" style="text-align:center; line-height:1;">Det finnes en enklere måte for bedrifter og jobbsøkere å finne hverandre.​</p>
+        <div class="videoWrapper w3-hide-medium w3-hide-small"
+             style="margin:50px;flex-grow: 1;background-repeat:no-repeat; flex-basis:500px; height:60vh;background-position:center;background-size:cover; ">
+            <p class="golden-text w3-xxlarge w3-margin" style="text-align:center; line-height:1;">Det finnes en enklere
+                måte for bedrifter og jobbsøkere å finne hverandre.​</p>
             <div style="">
-                <iframe style="position:absolute; top:30px;" src="https://player.vimeo.com/video/326206969" width="1920" height="1080" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="vimeo-video"></iframe>
+                <iframe style="position:absolute; top:30px;" src="https://player.vimeo.com/video/326206969" width="1920"
+                        height="1080" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen
+                        class="vimeo-video"></iframe>
             </div>
         </div>
     </div>
 </div>
-
-
-<!-- <div class="w3-content w3-container w3-padding-64 margin-top-100" id="kontakt" style="min-height: calc(100vh - 300px);"></div> -->
 
 <?php include_once 'templates/footer.php'; ?>
 <script src="https://player.vimeo.com/api/player.js"></script>
