@@ -93,11 +93,31 @@ include_once 'templates/cookie_notice.php';
                                 </div>
                             </div>
                             <datalist id="kompetanse">
-                                <option value="Internet Explorer">
-                                <option value="Firefox">
-                                <option value="Chrome">
-                                <option value="Opera">
-                                <option value="Safari">
+                                <option value="Fotografi">
+                                <option value="Sosiale medier">
+                                <option value="Tekst redigering">
+                                <option value="Grafisk animasjon">
+                                <option value="Grafisk Design">
+                                <option value="Illustrator">
+                                <option value="Photoshop">
+                                <option value="CSS">
+                                <option value="JavaScript">
+                                <option value="SQL">
+                                <option value="Utvikling">
+                                <option value="Programmering">
+                                <option value="Informatikk">
+                                <option value="Datateknologi">
+                                <option value="Matematikk">
+                                <option value="Fysikk">
+                                <option value="Realfag">
+                                <option value="Salg">
+                                <option value="Markedsføring">
+                                <option value="Pitching">
+                                <option value="Kommunikasjon">
+                                <option value="Mangfoldsledelse">
+                                <option value="Stand">
+                                <option value="B2B">
+                                <option value="Nettverkbygging">
                             </datalist>
 
                             <div class="w3-col m6 l6 s6 padding-bottom-16">
@@ -114,14 +134,14 @@ include_once 'templates/cookie_notice.php';
                                            class="w3-input w3-animate-input" id="inputName" list="interesse">
                                 </div>
                             </div>
-
+<!--
                             <datalist id="interesse">
                                 <option value="Internet Explorer">
                                 <option value="Firefox">
                                 <option value="Chrome">
                                 <option value="Opera">
                                 <option value="Safari">
-                            </datalist>
+                            </datalist>-->
 
                             <br>
                             <label>

@@ -122,7 +122,8 @@ include_once 'templates/cookie_notice.php';
 
     <div class="w3-row  w3-padding-32" style="height:226px;">
         <div class="w3-col l55 text-align-right w3-container medium-center">
-            <span class="golden-text w3-xlarge">Beskriv ditt ønske</span>
+            <strong class="golden-text w3-xlarge w3-hide-large">1.0</strong>
+            <div class="golden-text w3-xlarge">Beskriv ditt ønske</div>
             <p>List opp kvalifikasjonene dere trenger slik at systemet kan finne de rette kandidatene for din
                 bedrift.​</p>
         </div>
@@ -138,6 +139,9 @@ include_once 'templates/cookie_notice.php';
             <div class="speech-bubble-left w3-container">
                 <p>Vi ser etter noen med ferdighet innen JavaScript og SQL.</p>
             </div>
+        </div>
+        <div class="w3-container w3-hide-large w3-center" style="position:relative;">
+            <div class="arrow-mobile " style="height:130px;"></div>
         </div>
     </div>
 
@@ -161,14 +165,19 @@ include_once 'templates/cookie_notice.php';
         </div>
 
         <div class="w3-col l55 text-align-left w3-container medium-center">
-            <span class="golden-text w3-xlarge">Oppnå kontakt</span>
+            <strong class="golden-text w3-xlarge w3-hide-large">2.0</strong>
+            <div class="golden-text w3-xlarge">Oppnå kontakt</div>
             <p>Dere velger hvilke brukere dere vil ta kontakt med. Lag en avtale og bli enige om når, hvor og hva.</p>
+        </div>
+        <div class="w3-container w3-hide-large w3-center" style="position:relative;">
+            <div class="arrow-mobile " style="height:130px;"></div>
         </div>
     </div>
 
     <div class="w3-row w3-padding-32"  style="height:226px;">
         <div class="w3-col l55 text-align-right medium-center w3-container">
-            <span class="golden-text w3-xlarge">Velg ditt neste trekk</span>
+            <strong class="golden-text w3-xlarge w3-hide-large">3.0</strong>
+            <div class="golden-text w3-xlarge">Velg ditt neste trekk</div>
             <p>Når du har prøvd ut en bruker lenge nok kan du velge om du vil ansette dem eller prøve ut andre
                 kandidater.​​</p>
         </div>
