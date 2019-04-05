@@ -134,15 +134,6 @@ include_once 'templates/cookie_notice.php';
                                            class="w3-input w3-animate-input" id="inputName" list="interesse">
                                 </div>
                             </div>
-<!--
-                            <datalist id="interesse">
-                                <option value="Internet Explorer">
-                                <option value="Firefox">
-                                <option value="Chrome">
-                                <option value="Opera">
-                                <option value="Safari">
-                            </datalist>-->
-
                             <br>
                             <label>
                                 <p class="w3-margin" style="font-weight:normal">
@@ -179,11 +170,6 @@ include_once 'templates/cookie_notice.php';
 
             </div>
         </div>
-    </div>
-
-    <div class="w3-content w3-container w3-padding-64    margin-top-100" id="kontakt"
-         style="min-height: calc(100vh - 300px);">
-
     </div>
 </div>
 
