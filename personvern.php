@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Personvern | Inmarket</title>
+    <title>Personvern | InMarket</title>
     <?php include_once 'templates/head.php'; ?>
 </head>
 
@@ -35,20 +35,13 @@
         <p>Denne personvernerklæringen forteller om hvordan InMarket Aksjeselskap, her kalt InMarket, samler inn og bruker personopplysninger.</p>
         <p>InMarket, ved direktøren, er behandlingsansvarlig for bedriftens behandling av personopplysninger. Der det daglige ansvaret er delegert, kommer det fram under hvert enkelt punkt. Delegeringen omfatter kun oppgavene og ikke ansvaret. Erklæringen inneholder opplysninger du har krav på når det samles inn opplysninger fra nettstedet vårt (personopplysningsloven § 19) og generell informasjon om hvordan vi behandler personopplysninger (personopplysningsloven § 18 1. ledd).</p>
         <h3 class=" w3-center">Behandling av personopplysninger på www.inmarket.as</h3>
-        <p>IT-ansvarlig har det daglige ansvaret for InMarkets behandlinger av personopplysninger på Inmarket.as. Det er frivillig for de som besøker nettsidene å oppgi personopplysninger i forbindelse med tjenester, for eksempel å registrere bruker i database. Behandlingsgrunnlaget er samtykke fra den enkelte, med mindre annet er spesifisert.</p>
+        <p>IT-ansvarlig har det daglige ansvaret for InMarkets behandlinger av personopplysninger på inmarket.as. Det er frivillig for de som besøker nettsidene å oppgi personopplysninger i forbindelse med tjenester, for eksempel å registrere bruker i database. Behandlingsgrunnlaget er samtykke fra den enkelte, med mindre annet er spesifisert.</p>
         <p>Domeneshop er InMarkets databehandler, og er vår leverandør av webhotell.</p>
         <p>Opplysninger som samles inn i forbindelse med drift av nettsted, lagres på egne servere som driftes av leverandøren. Det er kun InMarket og Domeneshop som har tilgang til opplysningene som samles inn. En egen databehandleravtale mellom InMarket og Domeneshop regulerer hvilken informasjon leverandøren har tilgang til og hvordan den skal behandles.</p>
-        <h3 class=" w3-center">Nettstatistikk</h3>
-        <p>InMarket samler inn avidentifiserte opplysninger om besøkende på imnor.no. Formålet med dette er å utarbeide statistikk som vi bruker til å forbedre og videreutvikle informasjonstilbudet på nettstedet. Eksempler på hva statistikken gir svar på, er hvor mange som besøker ulike sider, hvor lenge besøket varer, hvilke nettsteder brukerne kommer fra og hvilke nettlesere som benyttes.</p>
-        <p>Opplysningene behandles i avidentifisert og aggregert form. Med avidentifisert menes at vi ikke kan spore opplysningene vi samler inn tilbake til den enkelte bruker. Vi samler inn hele IP-adressen, men IP-adressen avidentifiseres slik at bare de tre første gruppene i adressen brukes til å generere statistikk. Det vil si at dersom IP-adressen består av numrene 195.159.103.82, brukes bare 195.159.103.xx. I tillegg behandles IP-adressene på aggregert nivå, det vil si at all data slås sammen til en gruppe og ikke behandles individuelt.</p>
-        <p>Vi bruker analyseverktøyet Hotjar på vårt nettsted. Dette er et proprietært verktøy med lukket kildekode. Informasjon fra dette verktøyet er lagret hos Amazon Web Services i Irland, og Inmarket er den eneste aktøren med tilgang til disse dataene.</p>
         <h3 class=" w3-center">Informasjonskapsler</h3>
         <p>Informasjonskapsler (cookies) er små tekstfiler som plasseres på din datamaskin når du laster ned en nettside.</p>
         <p>Lagring av opplysninger og behandling av disse opplysningene er ikke tillatt med mindre bruker både har blitt informert om og har gitt sitt samtykke til behandlingen. Brukeren skal få vite om og godkjenne hvilke opplysninger som behandles, hva formålet med behandlingen er og hvem som behandler opplysningene, jf. ekomloven § 2-7b.</p>
-        <p>Følgende informasjonskapsler brukes på Imnor.no:</p>
-        <ul>
-            <li>Analyseverktøyet Hotjar plasserer én informasjonskapsel ("_hjIncludedInSample") for til bruk for å spore besøk. Denne informasjonskapselen blir slettet når man avslutter nettleseren.</li>
-        </ul>
+        <p>Det brukes ikke informasjonskapsler på inmarket.as</p>
         <h3 class=" w3-center">Kontaktskjema på nettside</h3>
         <p>På nettsiden kan man be InMarket om å kontakte angående videre veiledning eller ønsker om bedriftsbesøk o.l.. Vi registrer da navn, telefonnummer og epostkonto slik at vi kan følge opp kontakten. InMarket kommer ikke til å bruke denne informasjonen til andre formål eller dele den med tredjeparter uten brukers samtykke.</p>
         <h3 class=" w3-center">Spørreundersøkelser</h3>
