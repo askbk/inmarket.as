@@ -68,7 +68,10 @@ function bedriftSelected() {
 
 function nextPage(e){
 	e.preventDefault();
-    if(!document.getElementById("kontaktSkjema").checkValidity()){
+	let skjema = document.getElementById("kontaktSkjema");
+
+    if(!skjema.checkValidity()){
+        document.getElementById('submit').click();
         return false;
     }
     //elevSelected();
