@@ -51,19 +51,18 @@ h1, h2, h3, h4, h5 {
 .cursor-pointer {
     cursor: pointer;
 }
-
-.overflow-hidden {
-    overflow: hidden;
-}
-.overflow-hidden-on-large-screens {
-    overflow: hidden;
-}
-
 /*FOR ARBEIDSSØKERSIDEN :)))*/
-@media (max-width: 600px) {
 
-    .overflow-hidden-on-large-screens {
-        overflow: visible;
+.full-height-custom {
+    height: calc(100vh - 80px);
+    /*
+    overflow: hidden;*/
+}
+
+
+@media(max-height:800px){
+    .full-height-custom{
+        height:100%
     }
 }
 
@@ -126,6 +125,23 @@ h1, h2, h3, h4, h5 {
     top:40px;
     left:33px;
 
+}
+
+
+.arrow-mobile{
+    border: 0.5px solid gray;
+    height: 80px;
+    margin:0 auto;
+    border-radius:1px;
+    width:1px;
+    position:absolute;
+    left:49.75%;
+}
+
+@media(min-width:993px){
+.the-3th-content{
+    height:226px;
+  }
 }
 
 .image-size{
@@ -360,13 +376,11 @@ ul {
     list-style-type: circle;
 }
 
-/*
-.checkbox:*/
+
 
 
 .new-radio{
-    /*
-    filer: drop-shadow(2px 2px 2px #C08D42);*/
+
     border:  2px solid #C08D42 !important;
     border-radius: 5px;
     height:30px;
@@ -374,7 +388,6 @@ ul {
 }
 label input ~ .new-radio::before {
 
-    /*content: "\f0c8";*/
     color:transparent;
 }
 
@@ -384,8 +397,6 @@ label:hover .new-radio {
 
 label input:checked ~ .new-radio {
     background-color: #C08D42;
-    /*
-    color: #000;*/
 }
 
 label input:checked ~ .new-radio::before {
@@ -861,12 +872,6 @@ input:-ms-input-placeholder {
 
 
 
-
-    /* .bgimg-christian-kamera {background-image: url("../img/elever/christian-kamera-mob.jpg")!important;}
-    .bgimg-jenterpeker {background-image: url("../img/jenterpeker-mob.jpg")!important;}
-    .bgimg-allinclusive-1 {background-image: url("../img/dressmann-mob.jpg")!important;}
-    .bgimg-gladefolk {background-image: url("../img/gladefolk-mob.jpg")!important;}
-    .bgimg-5 {background-image: url("../img/elever/trainee-big-mob.jpg")!important;} */
     .padding-left-100 {
         padding-left: inherit !important;
     }
@@ -1073,7 +1078,6 @@ input:-ms-input-placeholder {
     text-align:center;
     cursor:pointer;
     white-space:nowrap;
-    /*text-transform: uppercase;*/
 
     /*Changes*/
     border-radius:15px;
@@ -1120,8 +1124,6 @@ input:-ms-input-placeholder {
 .black-button {
     color: #fff;
     background-color:#222222;
-    /*
-    background-color: #000;*/
 }
 
 .black-button:hover {
@@ -1220,9 +1222,7 @@ input:-ms-input-placeholder {
 
 .flip-card {
     background-color: transparent;
-    /* width: 300px;*/
     height: 200px;
-    /* border: 1px solid #f1f1f1; */
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 

@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Kontakt oss | Inmarket</title>
+    <title>Kontakt oss | InMarket</title>
     <?php include_once 'templates/head.php'; ?>
 </head>
 

@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Template | Inmarket</title>
+    <title>Template | InMarket</title>
     <?php include_once 'templates/head.php'; ?>
 </head>
 

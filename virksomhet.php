@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Virksomheter | Inmarket</title>
+    <title>Virksomheter | InMarket</title>
     <?php include_once 'templates/head.php'; ?>
 </head>
 
@@ -14,15 +14,18 @@ include_once 'templates/cookie_notice.php';
 
 <div class="w3-row margin-top-100" style="background: #181717;height:calc(100vh - 80px);">
     <div class="w3-col l7 white-text w3-large w3-container">
-        <article class="narrow-content w3-xlarge virksomheter-ting" >
+        <article class="narrow-content w3-xlarge virksomheter-ting">
             <h2>Finn din neste ansatt mens du skaper kompetanse</h2>
-            <p style="line-height:1.25;">På plattformen til InMarket venter mange talenter på en sjanse til å vise deg sine kvaliteter.
+            <p style="line-height:1.25;">På plattformen til InMarket venter mange talenter på en sjanse til å vise deg
+                sine kvaliteter.
                 Registrerte brukere er ivrige etter å bygge kompetanse og erfaring slik at de kan bli bedre kvalifiserte
                 til jobb.</p>
 
             <div class="videoWrapper " style="height:20vh;background-position:center;background-size:cover;">
                 <div style="">
-                    <iframe style="position:absolute; top:-5px;" src="https://player.vimeo.com/video/327008691" width="1920" height="1080" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="vimeo-video"></iframe>
+                    <iframe style="position:absolute; top:-5px;" src="https://player.vimeo.com/video/327008691"
+                            width="1920" height="1080" frameborder="0" webkitallowfullscreen mozallowfullscreen
+                            allowfullscreen class="vimeo-video"></iframe>
                 </div>
             </div>
         </article>
@@ -30,8 +33,8 @@ include_once 'templates/cookie_notice.php';
     <div class="w3-col l4 white-bg w3-center w3-container" style="padding-bottom:50px;">
         <p class="w3-xxlarge w3-margin">La oss møtes</p>
         <p>Be oss inn på møte og lær hvordan dere kan bruke InMarket</p>
+        <form class="" action="index.php" method="post" id="kontaktSkjemaVirksomhet">
 
-        <form class="" method="post" id="kontaktSkjemaVirksomhet">
             <div class=" w3-content w3-center register-container">
                 <p>Bedrift:​</p>
                 <input type="text" name="bedriftnavn" value="" placeholder="Bedriftsnavn"
@@ -39,37 +42,48 @@ include_once 'templates/cookie_notice.php';
                 <p>E-post:</p>
                 <input type="email" name="email" value="" placeholder="deg@eksempel.no​" id="inputPlace"
                        class="w3-input w3-animate-input" required id="inputEpost">
+
                 <p>Kommune:</p>
                 <input type="text" name="kommune" value="" placeholder="Navnet på din kommune" required
                        class="w3-input w3-animate-input" id="inputKommune">
+
                 <label>
                     <p class="w3-margin" style="font-weight:normal">
-                        Jeg godkjenner InMarkets Vilkår for Bruk og <br>
-                        <a href="personvern.php" style="text-decoration:underline;" target="_blank">Personvernerklæring</a>.​
 
-                        <input type="checkbox" name="personvern" id="personvern"
-                               style="width:1px; position:relative; left:20px;" required>
+                        Jeg godkjenner InMarkets Vilkår for Bruk og <br> <a
+                                href="personvern.php" style="text-decoration:underline;" target="_blank">Personvernerklæring</a>.​
+
+                        <input type="checkbox" name="personvern" id="personvern" value="student"
+                               class="klient-radio " style="width:1px; position:relative; left:20px; opacity:0;"
+                               required>
                         <i class="fas fa-user-tie w3-xlarge new-radio"></i>
                     </p>
                 </label>
 
-                <button class="black-button w3-card  w3-padding-8" type="submit">Avtal møte</button>
-
+                <button class="black-button w3-card  w3-padding-8" type="button" onClick="button()">
+                    Avtal møte
+                </button>
                 <span>
                     <strong>
                          Eller
                     </strong>
                 </span>
-                <a href="forhandsregistreringbedrift.php" class="black-button w3-card w3-padding-8">Registrer bedriften din nå</a>
+                <button class="black-button w3-card w3-padding-8 " type="submit" id="submit"
+                        formaction="forhandsregistreringbedrift.php">Registrer bedriften din nå
+                </button>
             </div>
         </form>
-        <div class="w3-section w3-container w3-card" id="kontaktRespons" style="display:none;">
-            <p class="w3-center">Takk for henvendelsen! Vi tar kontakt med deg så snart vi har lansert!</p>
+
+        <div style="display:none;" id="kontaktRespons">
+            <div class=" w3-content w3-center register-container">
+                <p>Takk for henvendelsen! Dere vil bli kontaktet så fort som mulig</p>
+            </div>
         </div>
     </div>
 </div>
 
-<div class="w3-container w3-center w3-content w3-large w3-padding-32 w3-card" style="margin-top:20px!important;width:70vw; margin:auto;">
+<div class="w3-container w3-center w3-content w3-large w3-padding-32 w3-card"
+     style="margin-top:20px!important;width:70vw; margin:auto;">
     <div class="w3-row w3-hide-small w3-hide-medium">
         <div class="w3-col l5">
             <img src="img/people-woman-coffee-meeting.jpg" style="width:100%;border-radius:5px;"/>
@@ -98,10 +112,12 @@ include_once 'templates/cookie_notice.php';
 
     <div class="w3-row  w3-padding-32" style="height:226px;">
         <div class="w3-col l55 text-align-right w3-container medium-center">
-            <span class="golden-text w3-xlarge">Beskriv ditt ønske</span>
+            <strong class="golden-text w3-xlarge w3-hide-large">1.0</strong>
+            <div class="golden-text w3-xlarge">Beskriv ditt ønske</div>
             <p>List opp kvalifikasjonene dere trenger slik at systemet kan finne de rette kandidatene for din
                 bedrift.​</p>
         </div>
+
         <div class="w3-col m1 w3-container w3-hide-small w3-hide-medium" style="position:relative">
             <strong class="golden-text w3-xlarge">1.0</strong>
             <div class="arrow "></div>
@@ -113,6 +129,9 @@ include_once 'templates/cookie_notice.php';
             <div class="speech-bubble-left w3-container">
                 <p>Vi ser etter noen med ferdighet innen JavaScript og SQL.</p>
             </div>
+        </div>
+        <div class="w3-container w3-hide-large w3-center" style="position:relative;">
+            <div class="arrow-mobile " style="height:130px;"></div>
         </div>
     </div>
 
@@ -132,18 +151,23 @@ include_once 'templates/cookie_notice.php';
         </div>
         <div class="w3-col m1 w3-container w3-hide-small w3-hide-medium" style="position:relative">
             <strong class="golden-text w3-xlarge">2.0</strong>
-            <div class="arrow"></div>
+            <div class="arrow "></div>
         </div>
 
         <div class="w3-col l55 text-align-left w3-container medium-center">
-            <span class="golden-text w3-xlarge">Oppnå kontakt</span>
+            <strong class="golden-text w3-xlarge w3-hide-large">2.0</strong>
+            <div class="golden-text w3-xlarge">Oppnå kontakt</div>
             <p>Dere velger hvilke brukere dere vil ta kontakt med. Lag en avtale og bli enige om når, hvor og hva.</p>
+        </div>
+        <div class="w3-container w3-hide-large w3-center" style="position:relative;">
+            <div class="arrow-mobile " style="height:130px;"></div>
         </div>
     </div>
 
-    <div class="w3-row w3-padding-32"  style="height:226px;">
+    <div class="w3-row w3-padding-32" style="height:226px;">
         <div class="w3-col l55 text-align-right medium-center w3-container">
-            <span class="golden-text w3-xlarge">Velg ditt neste trekk</span>
+            <strong class="golden-text w3-xlarge w3-hide-large">3.0</strong>
+            <div class="golden-text w3-xlarge">Velg ditt neste trekk</div>
             <p>Når du har prøvd ut en bruker lenge nok kan du velge om du vil ansette dem eller prøve ut andre
                 kandidater.​​</p>
         </div>
@@ -164,22 +188,17 @@ include_once 'templates/cookie_notice.php';
         <a href="forhandsregistreringbedrift.php" class="black-button w3-card w3-padding-16 w3-margin">Registrer
             bedriften din</a>
 
-        <p class="w3-xlarge" style="padding-bottom:32px;">Kontakten brukeren har hatt med din bedrift og tilbakemelding på ferdigheter loggføres på profilen til
+        <p class="w3-xlarge" style="padding-bottom:32px;">Kontakten brukeren har hatt med din bedrift og tilbakemelding
+            på ferdigheter loggføres på profilen til
             brukeren. Inviter folk inn, slik at de kan bygge erfaringer som vil hjelpe dem videre i arbeidslivet.</p>
+
     </div>
 </div>
 
-<script type="text/javascript">
-    $("#kontaktSkjemaVirksomhet").submit(function (e) {
-        e.preventDefault();
-        $.post("contactVirksomheter.php", $(this).serialize(), function () {
-            $("#kontaktSkjemaVirksomhet").hide();
-            $("#kontaktRespons").show();
-        });
-    });
-</script>
-
 <?php include_once 'templates/scripts.php'; ?>
+
+<script src="js/contactForm.js" charset="utf-8"></script>
+
 </body>
 
 </html>
