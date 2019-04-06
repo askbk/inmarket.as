@@ -20,6 +20,7 @@
             <div class="w3-col m3 s3" itemprop="sponsor">
                 <a href="https://www.usn.no/" target="_blank"><img src="img/logos/usn.png" alt="Universitetet i Sørøst-Norge" width="100%"></a>
             </div>
+
             <div class="w3-col m3 s3" itemprop="sponsor" >
                 <a href="https://www.akademiet.no" target="_blank"><img src="img/logos/akademiet.png" alt="Akademiet" width="100%"></a>
             </div>
