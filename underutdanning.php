@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Under utdanning | Inmarket</title>
+    <title>Under utdanning | InMarket</title>
     <?php include_once 'templates/head.php'; ?>
 </head>
 

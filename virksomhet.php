@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Virksomheter | Inmarket</title>
+    <title>Virksomheter | InMarket</title>
     <?php include_once 'templates/head.php'; ?>
 </head>
 
@@ -26,7 +26,6 @@ include_once 'templates/cookie_notice.php';
                     <iframe style="position:absolute; top:-5px;" src="https://player.vimeo.com/video/327008691"
                             width="1920" height="1080" frameborder="0" webkitallowfullscreen mozallowfullscreen
                             allowfullscreen class="vimeo-video"></iframe>
-
                 </div>
             </div>
         </article>
@@ -37,7 +36,6 @@ include_once 'templates/cookie_notice.php';
         <form class="" action="index.php" method="post" id="kontaktSkjemaVirksomhet">
 
             <div class=" w3-content w3-center register-container">
-
                 <p>Bedrift:​</p>
                 <input type="text" name="bedriftnavn" value="" placeholder="Bedriftsnavn"
                        class="w3-input w3-animate-input" required id="inputKommune">
@@ -60,7 +58,6 @@ include_once 'templates/cookie_notice.php';
                                required>
                         <i class="fas fa-user-tie w3-xlarge new-radio"></i>
                     </p>
-
                 </label>
 
                 <button class="black-button w3-card  w3-padding-8" type="button" onClick="button()">
@@ -74,18 +71,13 @@ include_once 'templates/cookie_notice.php';
                 <button class="black-button w3-card w3-padding-8 " type="submit" id="submit"
                         formaction="forhandsregistreringbedrift.php">Registrer bedriften din nå
                 </button>
-
             </div>
         </form>
 
         <div style="display:none;" id="kontaktRespons">
-
             <div class=" w3-content w3-center register-container">
-
-                <p>Takker for henvendelsen! Dere vil bli kontaktet så fort som mulig</p>
-
+                <p>Takk for henvendelsen! Dere vil bli kontaktet så fort som mulig</p>
             </div>
-
         </div>
     </div>
 </div>
@@ -201,7 +193,6 @@ include_once 'templates/cookie_notice.php';
             brukeren. Inviter folk inn, slik at de kan bygge erfaringer som vil hjelpe dem videre i arbeidslivet.</p>
 
     </div>
-
 </div>
 
 <?php include_once 'templates/scripts.php'; ?>

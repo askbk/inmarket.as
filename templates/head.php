@@ -20,17 +20,3 @@
 <script type="application/ld+json" href="json/about.json"></script>
 <script src="js/jquery-3.3.1.min.js" charset="utf-8"></script>
 <script src="js/jquery.color-2.1.2.min.js" charset="utf-8"></script>
-<!-- Hotjar Tracking Code for imnor.no -->
-<script>
-    if (localStorage.tracking == "true") {
-        (function(h,o,t,j,a,r){
-            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-            h._hjSettings={hjid:959986,hjsv:6};
-            a=o.getElementsByTagName('head')[0];
-            r=o.createElement('script');r.async=1;
-            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-            a.appendChild(r);
-            console.log("hotjar enabled");
-        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-    }
-</script>
