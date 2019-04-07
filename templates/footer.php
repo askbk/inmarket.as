@@ -36,6 +36,9 @@
                     <li class="mobile-small remove-padding">
                         <i class="fas fa-map-marker-alt"></i> Drammen, Oslo
                     </li>
+                    <li class="mobile-small remove-padding">
+                        <i class="fas fa-map-marker-alt"></i> Trondheim, Trøndelag
+                    </li>
                 </ul>
             </div>
         </div>
