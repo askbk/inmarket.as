@@ -110,7 +110,7 @@ include_once 'templates/cookie_notice.php';
 <div class="narrow-content w3-center w3-container">
     <h2 class="w3-margin " style="margin-top:60px!important;">Hvordan funker det?</h2>
 
-    <div class="w3-row  w3-padding-32" style="height:226px;">
+    <div class="w3-row  w3-padding-32">
         <div class="w3-col l55 text-align-right w3-container medium-center">
             <strong class="golden-text w3-xlarge w3-hide-large">1.0</strong>
             <div class="golden-text w3-xlarge">Beskriv ditt ønske</div>
@@ -131,11 +131,11 @@ include_once 'templates/cookie_notice.php';
             </div>
         </div>
         <div class="w3-container w3-hide-large w3-center" style="position:relative;">
-            <div class="arrow-mobile " style="height:130px;"></div>
+            <div class="arrow-mobile " ></div>
         </div>
     </div>
 
-    <div class="w3-row w3-padding-64" style="height:290px;">
+    <div class="w3-row w3-padding-64">
         <div class="w3-col l55 w3-container w3-hide-small w3-hide-medium">
             <div class="w3-row">
                 <div class="w3-col l4">
@@ -151,7 +151,7 @@ include_once 'templates/cookie_notice.php';
         </div>
         <div class="w3-col m1 w3-container w3-hide-small w3-hide-medium" style="position:relative">
             <strong class="golden-text w3-xlarge">2.0</strong>
-            <div class="arrow "></div>
+            <div class="arrow " style="height:200px"></div>
         </div>
 
         <div class="w3-col l55 text-align-left w3-container medium-center">
@@ -160,11 +160,11 @@ include_once 'templates/cookie_notice.php';
             <p>Dere velger hvilke brukere dere vil ta kontakt med. Lag en avtale og bli enige om når, hvor og hva.</p>
         </div>
         <div class="w3-container w3-hide-large w3-center" style="position:relative;">
-            <div class="arrow-mobile " style="height:130px;"></div>
+            <div class="arrow-mobile "></div>
         </div>
     </div>
 
-    <div class="w3-row w3-padding-32" style="height:226px;">
+    <div class="w3-row w3-padding-32" >
         <div class="w3-col l55 text-align-right medium-center w3-container">
             <strong class="golden-text w3-xlarge w3-hide-large">3.0</strong>
             <div class="golden-text w3-xlarge">Velg ditt neste trekk</div>
