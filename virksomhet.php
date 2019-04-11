@@ -68,8 +68,11 @@ include_once 'templates/cookie_notice.php';
                          Eller
                     </strong>
                 </span>
-                <button class="black-button w3-card w3-padding-8 " type="submit" id="submit"
+                <button formnovalidate class="black-button w3-card w3-padding-8 " type="submit" id="submit"
                         formaction="forhandsregistreringbedrift.php">Registrer bedriften din nå
+                </button>
+
+                <button type="submit" id="checkValidity" style="opacity:1;">
                 </button>
             </div>
         </form>

@@ -12,7 +12,7 @@ function button() {
 
     let skjema = document.getElementById("kontaktSkjemaVirksomhet");
     if (!skjema.checkValidity()) {
-        document.getElementById("submit").click();
+        document.getElementById("checkValidity").click();
         return false;
     }
 
