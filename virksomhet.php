@@ -33,7 +33,7 @@ include_once 'templates/cookie_notice.php';
     <div class="w3-col l4 white-bg w3-center w3-container" style="padding-bottom:50px;">
         <p class="w3-xxlarge w3-margin">La oss møtes</p>
         <p>Be oss inn på møte og lær hvordan dere kan bruke InMarket</p>
-        <form class="" action="index.php" method="post" id="kontaktSkjemaVirksomhet">
+        <form class=""  action="javascript:void(0);" method="post" id="kontaktSkjemaVirksomhet">
 
             <div class=" w3-content w3-center register-container">
                 <p>Bedrift:​</p>
@@ -72,7 +72,7 @@ include_once 'templates/cookie_notice.php';
                         formaction="forhandsregistreringbedrift.php">Registrer bedriften din nå
                 </button>
 
-                <button type="submit" id="checkValidity" style="opacity:1;">
+                <button onclick="" type="submit" id="checkValidity" style="opacity:0;">
                 </button>
             </div>
         </form>
