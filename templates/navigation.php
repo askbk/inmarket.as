@@ -54,12 +54,12 @@
                     </li>
                     <li>
                         <a href="underutdanning.php" class="golden-accent-bottom">
-                            Under utdanning
+                            Er du under utdanning?
                         </a>
                     </li>
                     <li>
                         <a href="jobbsoker.php" class="golden-accent-bottom">
-                            Jobbsøkere
+                            Er du jobbsøker?
                         </a>
                     </li>
                 </ul>
@@ -67,7 +67,7 @@
             <div class="column">
                 <ul class="w3-ul">
                     <li>
-                        <b>Om</b>
+                        <b>Om oss</b>
                     </li>
                     <li>
                         <a href="teamet.php" class="golden-accent-bottom">
@@ -88,7 +88,7 @@
                     </li>
                     <li>
                         <a href="aktiviteter.php" class="golden-accent-bottom">
-                            Hva skjer hos oss?
+                            Sosiale medier
                         </a>
                     </li>
                 </ul>

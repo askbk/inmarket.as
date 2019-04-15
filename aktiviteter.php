@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Aktiviteter | InMarket</title>
+    <title>Sosiale medier | InMarket</title>
 
     <?php include_once 'templates/head.php'; ?>
 </head>
@@ -23,32 +23,6 @@
     ?>
 
     <div class="w3-content margin-top-100">
-        <article class="w3-container w3-section">
-            <h2>Hendelser</h2>
-            <h3>Ny logo!</h3>
-            <div class="w3-row">
-                <div class="w3-col m4 w3-container w3-padding w3-jumbo w3-relative w3-display-container">
-                    <img src="img/logos/logo-old.png" alt="" style="height:200px" class="w3-left">
-                    <span class="golden-text weird-positioning">
-                        <i class="fas fa-arrow-right" class="w3-right"></i>
-                    </span>
-                </div>
-                <div class="w3-col m4 w3-container w3-padding">
-                    <img src="img/logos/logo-text.png" alt="" style="width:100%;">
-                    <p>InMarket er glade for å annonsere at vi har fått nytt logo, ny font og nye farger!</p>
-                </div>
-                <div class="w3-col m4 black-bg white-text w3-container w3-padding">
-                    <img src="img/logos/logo-text-light.png" alt="" style="width:100%;">
-                    <p>Dette har vi lansert sammen med ny markedsstrategi. Følg med på vår utvikling videre!</p>
-                </div>
-            </div>
-        </article>
-        <article class="w3-container w3-section">
-            <h2>Nyeste blogg</h2>
-            <div class="videoWrapper">
-                <iframe src="https://player.vimeo.com/video/313534023?autoplay=1" width="1920" height="1080" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="vimeo-video"></iframe>
-            </div>
-        </article>
         <div class="w3-section w3-container">
             <h3>Sosiale media</h3>
             <div class="w3-row">
@@ -61,6 +35,12 @@
                 </div>
             </div>
         </div>
+        <article class="w3-container w3-section">
+            <h3>Nyeste blogg</h3>
+            <div class="videoWrapper">
+                <iframe src="https://player.vimeo.com/video/313534023" width="1920" height="1080" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="vimeo-video"></iframe>
+            </div>
+        </article>
     </div>
     <script src="https://player.vimeo.com/api/player.js"></script>
     <script src="js/videos.js" charset="utf-8"></script>
