@@ -291,6 +291,12 @@ h1, h2, h3, h4, h5 {
     .medium-center {
         text-align: center !important;
     }
+    #forsideVideo1  {
+      display: none;
+    }
+    #forsideVideo2 {
+      display: none;
+    }
 }
 
 .width-300 {
@@ -945,6 +951,11 @@ input:-ms-input-placeholder {
         font-size: 20px;
     }
 
+@media only screen and (max-width: 1150) {
+    .black-bg w3-hide-medium {
+          height:40vh!important;
+    }
+}
 
 
 }
@@ -1068,7 +1079,6 @@ input:-ms-input-placeholder {
 
 .white-button, .golden-button, .black-button, .black-transparent-button, .feint-button {
     border:none;
-
     display:inline-block;
     outline:0;
     padding:2px 16px;
@@ -1080,7 +1090,7 @@ input:-ms-input-placeholder {
     white-space:nowrap;
 
     /*Changes*/
-    border-radius:15px;
+    border-radius:0.2em; /*15px erstattet med 0.2em*/
     -webkit-appearance:none!important;
 }
 
@@ -1219,6 +1229,7 @@ input:-ms-input-placeholder {
 .w3-col.fifth {
     width: 19.99999%
 }
+
 
 .flip-card {
     background-color: transparent;

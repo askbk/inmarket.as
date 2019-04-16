@@ -301,9 +301,8 @@ include_once 'templates/cookie_notice.php';
 </div>
 <div>
 
-    <div class="w3-col l4 s12" style="background-color:white;color:black">
-        <div class="videoWrapper w3-margin style="
-        ">
+    <div class="w3-col l4 s12" style="background-color:white;color:black" id="forsideVideo1">
+        <div class="videoWrapper w3-margin style="">
         <div style="">
             <iframe style="position:absolute; top:-5px;" src="https://player.vimeo.com/video/326205077" width="1920"
                     height="1080" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen
@@ -312,7 +311,7 @@ include_once 'templates/cookie_notice.php';
         </div>
     </div>
 </div>
-<div class="w3-col l4 s12" style="">
+<div class="w3-col l4 s12" style="" id="forsideVideo2">
     <div class="videoWrapper w3-margin " style="height:20vh;background-position:center;background-size:cover;">
         <div style="">
             <iframe style="position:absolute; top:-5px;" src="https://player.vimeo.com/video/327008691" width="1920"
@@ -323,7 +322,7 @@ include_once 'templates/cookie_notice.php';
     </div>
 
 </div>
-<div class="w3-col l4 s12" style="">
+<div class="w3-col l4 s12" style="" id="forsideVideo3">
     <div class="videoWrapper w3-margin" style="height:20vh;background-position:center;background-size:cover;">
         <div style="">
             <iframe style="position:absolute; top:-5px;" src="https://player.vimeo.com/video/326204872" width="1920"
