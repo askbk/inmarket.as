@@ -655,6 +655,17 @@ label input:checked ~ .radio::before {
     background-image: url("../img/elever/christian-kamera.jpg");
 }
 
+.bgimg-front-video {
+    position: relative;
+}
+
+.bgimg-front-video>video {
+    object-fit: cover;
+
+    width: 100%;
+    height: 100%;
+}
+
 .bgimg-jenterpeker {
     background-image: url("../img/jenterpekeredit.jpg");
 }
@@ -1075,6 +1086,7 @@ input:-ms-input-placeholder {
 
 .black-bg {
     background-color: #000 !important;
+
 }
 
 .white-button, .golden-button, .black-button, .black-transparent-button, .feint-button {

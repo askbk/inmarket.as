@@ -14,12 +14,18 @@ include_once 'templates/cookie_notice.php';
 
 <div class="margin-top-100"
      style="display:flex;align-items:center;flex-wrap:wrap;justify-content: center;align-items: center;">
-    <div class="bgimg-christian-kamera w3-hide-small w3-hide-medium"
+    <div class="bgimg-front-video w3-hide-small w3-hide-medium"
          style="background-size: cover;flex-basis: 600px;height: 75vh;flex-grow: 5;background-position: center;">
+        <video muted autoplay loop>
+            <source src="/vid/InMarket.mp4" type="video/mp4">
+        </video>
     </div>
 
-    <div class="bgimg-christian-kamera w3-hide-large"
+    <div class="bgimg-front-video w3-hide-large"
          style="background-size: cover;flex-basis: 600px;height: 75vh;flex-grow: 5; background-position:-150px;">
+        <video muted autoplay loop>
+            <source src="/vid/InMarket.mp4" type="video/mp4">
+        </video>
     </div>
 
     <div class="w3-hide-large w3-hide-small" style="height:75vh;">
@@ -33,7 +39,7 @@ include_once 'templates/cookie_notice.php';
             <p>Er du arbeidsgiver? <strong><a href="virksomhet.php">Les mer her</a></strong></p>
         </div>
     </div>
-    <div class="black-bg w3-hide-medium" style="height:75vh;">
+    <div class="black-bg w3-hide-medium" style="height:75vh; z-index: 10;">
         <div class="w3-container w3-center"
              style="padding-left:32px;padding-right:32px;width:100%;flex-shrink:1; margin 0 auto; transform: translateY(-50%); position:relative; top:50%;">
             <h3 class="golden-text">Bli koblet til jobben du drømmer om.</h3>
