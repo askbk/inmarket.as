@@ -16,9 +16,7 @@ include_once 'templates/cookie_notice.php';
      style="display:flex;align-items:center;flex-wrap:wrap;justify-content: center;align-items: center;">
     <div class="bgimg-front-video w3-hide-small w3-hide-medium"
          style="background-size: cover;flex-basis: 600px;height: 75vh;flex-grow: 5;background-position: center;">
-        <video muted autoplay loop>
-            <source src="/vid/InMarket.mp4" type="video/mp4">
-        </video>
+        <iframe src="https://player.vimeo.com/video/327008691?autoplay=1&loop=1&color=c08d42&title=0&byline=0&portrait=0"frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
     </div>
 
     <div class="bgimg-front-video w3-hide-large"
@@ -360,5 +358,6 @@ include_once 'templates/cookie_notice.php';
 </script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script src="js/slideshow.js" charset="utf-8"></script>
+<script src="https://player.vimeo.com/api/player.js"></script>
 </body>
 </html>
