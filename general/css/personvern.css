@@ -1,0 +1,17 @@
+.page7{
+    background-color: #111224;
+}
+
+.page7 .row{
+    padding-top: 17.5vh;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: white;
+}
+
+.page7 .row a,
+.page7 .row button{
+    color: #C38F43;
+    background: none;
+    border: none;
+}

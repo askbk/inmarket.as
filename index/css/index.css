@@ -1,0 +1,172 @@
+.page1 .fa-user{
+    color: white;
+    border:  1px solid white;;
+}
+
+/*Intro til siden*/
+.page1 .r1{
+    height: 100vh;
+    background-image: url("img-mp4/bak.jpeg");
+    background-position: center;
+    filter: contrast(90%);
+}
+
+.page1 .r1 .col{
+    height: 100vh;
+    text-align: center;
+}
+
+.page1 .r1 h1{
+    margin-top: 20vh;
+    color: white;
+}
+
+.page1 .r1 .but{
+    margin-top: 2.5vh;
+}
+
+.page1 .r1 .arrow{
+    margin-top: 30vh;
+    border-color: #E4E4E4;
+}
+
+/*Om InMarket*/
+.page1 .r2{
+    height: 100vh;
+    background-color:#E4E4E4;
+}
+
+.page1 .r2 .p1{
+    float: left;
+    height: 33.33vh;
+    width: 100%;
+    text-align: center;
+}
+
+.page1 .r2 .fa{
+    position: relative;
+    left: 50%;
+    margin-top: 10vh;
+    margin-left: -30px;
+    font-size: x-large;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+
+.page1 .r2 h1{
+    margin-top: 5vh;
+}
+
+/*inmarket videoen*/
+.page1 .r3{
+    height: 60vh;
+    background-color: #E4E4E4;
+}
+
+.page1 .r3 video{
+    margin-top: 20vh;
+    height: 50%;
+    width: 100%;
+}
+
+.page1 .r3 .fa{
+    position: absolute;
+    top: 22.5vh;
+    right: 10%;
+    color: white;
+    background: none;
+    border: none;
+    font-size: 3vmax;
+}
+
+/*Logoer*/
+.page1 .r4{
+    height: 40vh;
+    background-color: #E4E4E4;
+    text-align: center;
+}
+
+.page1 .r4 .col img{
+    float: left;
+    margin-top: 5vh;
+    height: 50px;
+    width: 33.33%;
+    object-fit: contain;
+}
+
+.page1 .r4 .hide{
+    display: none;
+}
+
+/* For smaller screens */
+@media only screen and (min-width: 425px){
+    .page1 .r3 video{
+        height: 60vh;
+    }
+}
+
+/* For computer screens */
+@media only screen and (min-width: 768px){
+    .page1 .r1{
+        background-attachment: fixed;
+    }
+
+    .page1 .r1 h1{
+        margin-top: 65vh;
+    }
+    
+    .page1 .r1 .arrow{
+        margin-top: 5vh;
+    }
+
+    .page1 .r2{
+        height: 60vh;
+    }
+
+    .page1 .r2 .p1{
+        height: 60vh;
+        width: 33.3%;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 10vh;
+    }
+
+    .page1 .r3{
+        height: 75vh;
+    }
+
+    .page1 .r3 video{
+        height: 50vh;
+    }
+
+    /*Logoer*/
+    .page1 .r4{
+        height: 30vh;
+    }
+
+    .page1 .r4 .col img{
+        float: left;
+        height: 50px;
+        width: 20%;
+        object-fit: contain;
+    }
+
+    .page1 .r4 .hide{
+        display: block;
+    }
+}
+
+/*bred skjerm*/
+@media only screen and (min-width: 1024px){
+    .page1 .r3{
+        height: 100vh;
+    }
+
+    .page1 .r3 video{
+        height: 65vh;
+    }
+}

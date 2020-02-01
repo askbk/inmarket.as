@@ -1,0 +1,27 @@
+.footer{
+    height: 60vh;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+}
+
+.footer .en{
+    display: none;
+}
+
+.footer .to{
+    padding: 5%;
+    text-align: center;
+    color: white;
+}
+
+.footer a{
+    color: #5454fa;
+}
+
+.footer .social .fa{
+    font-size: x-large;
+    color: white;
+    background: none;
+    border: none;
+}

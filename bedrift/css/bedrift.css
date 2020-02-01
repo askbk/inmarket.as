@@ -1,0 +1,164 @@
+.page2 .r1{
+    height: 100vh;
+    background-image: url("img-mp4/bak.jpeg");
+    background-position: right;
+}
+
+.page2 .r1 h2{
+    margin-top: 45vh;
+    margin-left: 10%;
+    color: white;
+}
+
+/*Info til bedrifter*/
+.page2 .r2{
+    height: 135vh;
+    background-color: #E4E4E4;
+}
+
+.page2 .r2 .col{
+    padding-top: 10vh;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.page2 .r2 .butb{
+    margin-top: 5vh;
+}
+
+.page2 .r2 img{
+    margin-bottom: 5vh;
+    height: 35vh;
+    width: 100%;
+    object-position: center;
+}
+
+.page2 .r2 .p2 a{
+    color: #5454fa;
+}
+
+/*Info om hva bedrifter kan forvente*/
+.page2 .r3{
+    height: 130vh;
+    background-color: #E4E4E4;
+}
+
+.page2 .r3 .col{
+    padding-top: 5vh;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.page2 .r3 .butb{
+    margin-top: 5vh;
+}
+
+.page2 .r3 img{
+    margin-bottom: 5vh;
+    height: 30vh;
+    width: 100%;
+    object-position: center;
+}
+
+/*Fliser*/
+.page2 .r4{
+    height: 50vh;
+}
+
+.page2 .r4 .hide{
+    display: none;
+}
+
+.page2 .r4 .col{
+    height: 50vh;
+}
+
+.page2 .r4 .col a{
+    height: 100%;
+    width: 100%;
+    color: white;
+}
+
+.page2 .r4 .col a .d-bg{
+    transition: 0.4s ease-in-out;
+}
+
+.page2 .r4 .col a .d-bg:hover{
+    background-color: rgba(228, 228, 228, 0.5);
+}
+
+.page2 .r4 #c2{
+    background-image: url("img-mp4/reg.jpeg");
+}
+
+/* For medium screens */
+@media only screen and (min-width: 600px){
+    .page2 .r1 h2{
+        margin-right: 40%;
+    }
+}
+
+/* For computer screens */
+@media only screen and (min-width: 768px){
+    .w-100{
+        display: none;
+    }
+
+    .page2 .r1{
+        background-attachment: fixed;
+    }
+
+    .page2 .r4 .hide{
+        display: block;
+    }
+
+    /*Info til bedrifter*/
+    .page2 .r2{
+        height: 85vh;
+    }
+
+    .page2 .r2 .col{
+        padding-top: 10vh;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .page2 .r2 img{
+        margin-top: -5vh;
+        height: 50vh;
+    }
+
+    /*Info om hva bedrifter kan forvente*/
+    .page2 .r3{
+        height: 90vh;
+        background-color: #E4E4E4;
+    }
+
+    .page2 .r3 .col{
+        padding-top: 10vh;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .page2 .r3 img{
+        height: 40vh;
+    }
+    
+    /*lenker*/
+    .page2 .r4 .col{
+        width: 33.33%;
+    }
+
+    .page2 .r4 #c1{
+        background-image: url("img-mp4/e-m.jpeg");
+        background-position: center;
+    }
+    
+    .page2 .r4 #c3{
+        background-image: url("img-mp4/sara.jpeg");
+        background-position: right;
+    }
+    
+
+
+}

@@ -1,0 +1,51 @@
+.page4 .r1,
+.page4 .r2{
+    height: 100vh;
+    background-color: #050505;
+}
+
+.page4 .r1 p{
+    margin-top: 25vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: white;
+}
+
+.page4 .r1 img{
+    position: absolute;
+    left: 50%;
+    margin-left: -175px;
+    margin-top: 5vh;
+    height: 350px;
+    width: 350px;
+    border-radius: 100%;
+}
+
+/*Teknisk*/
+.page4 .r2 h1{
+    margin-top: 5vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: white;
+}
+
+.page4 .r2 p{
+    margin-top: 5vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: white;
+}
+
+/* For computer screens */
+@media only screen and (min-width: 768px){
+    .page4 .r1 p{
+        margin-top: 50vh;
+        margin-right: 60%;
+    }
+    
+    .page4 .r1 img{
+        position: absolute;
+        left: 70%;
+        margin-top: -30vh;
+    }
+}

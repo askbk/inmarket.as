@@ -1,0 +1,110 @@
+/*Texts and links*/
+.active{
+    color: #f09974;
+    border-bottom: 1px solid #f09974;
+}
+
+body, html{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+
+p, h1, h2{
+    position: relative;
+}
+
+h1{
+    font-size: 4.25vmax;
+}
+
+h2{
+    font-size: 3.25vmax;
+}
+
+p{
+    font-size: 2vmax;
+    font-weight: lighter;
+}
+
+b{
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: black;
+    text-decoration: none !important;
+}
+
+li{
+    list-style: none;
+}
+
+/* For smaller screens */
+@media only screen and (min-width: 425px){
+    h1{
+        font-size: 4.25vmax;
+    }
+
+    h2{
+        font-size: 3.25vmax;
+    }
+
+    p{
+        font-size: 2vmax;
+    }
+
+    /*Positioning*/
+
+    #h1-left{
+        left: -5vw;
+    }
+
+    #pLeft{
+        margin-left: 15vw;
+        margin-right: 5vw;
+    }
+
+    /*..*/
+
+    #h1-right{
+        right: -5vw;
+    }
+}
+
+
+/* For medium screens */
+@media only screen and (min-width: 600px){
+     /*Texts and links*/
+     h1{
+        font-size: 5vmin;
+    }
+
+    h2{
+        font-size: 4vmin;
+    }
+
+    p{
+        font-size: 2.5vmin;
+    }
+}
+
+/* For computer screens */
+@media only screen and (min-width: 768px){
+    /*Texts and links*/
+    h1{
+        font-size: 4.15vmin;
+    }
+
+    h2{
+        font-size: 3.5vmin;
+    }
+
+    p{
+        font-size: 2.5vmin;
+    }
+}

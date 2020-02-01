@@ -1,0 +1,46 @@
+/*Arrows*/
+.arrow {
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 20px;
+    background: none;
+    transition: 0.4s ease-in-out;
+  }
+
+  .arrow:hover{
+    padding: 25px;
+  }
+  
+  .arrow-r {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  
+  .arrow-l {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+  
+  .arrow-u {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+  }
+  
+  .arrow-d {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+  /*Arrows*/
+  .rhombus{
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  }
+
+  .left-chivron{
+    clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+  }
+
+  .right-chivron{
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+  }
+  

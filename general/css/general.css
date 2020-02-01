@@ -1,0 +1,79 @@
+/* Styling that will be general for the whole page*/
+*, 
+*:before, 
+*:after {
+    box-sizing: border-box;
+}
+
+.row:before, .row:after {
+    display: none !important;
+}
+
+img,
+video{
+    object-fit: cover;
+}
+
+/*div spesifications*/
+.bg{ /*tag for backgrounds*/
+    object-fit: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover; 
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.d-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.mid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/*Bottons*/
+.but{
+    position: relative;
+    border: none;
+    text-decoration: none;
+    padding: 5px 25px;
+    transition: 0.4s ease-in;
+    border-radius: 50px;
+    font-size: larger;
+}
+
+.butw{
+    background-color:white ;
+    color: black;
+}
+
+.butb{
+    background-color: 	#C38F43;
+    color: white;
+}
+
+.butb:hover{
+    background-color: white;
+    color: black !important;
+    border: 1px solid black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.butw:hover{
+    background-color: black;
+    color: white !important;
+    border: 1px solid black;
+    text-decoration: none;
+    cursor: pointer;
+}

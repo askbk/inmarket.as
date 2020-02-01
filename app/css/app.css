@@ -1,0 +1,169 @@
+/*appe intro*/
+.page3 .r1{
+    height: 100vh;
+    background-color: #111224;
+}
+
+.page3 .r1 h2{
+    margin-top: 25vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: white;
+}
+
+.page3 .r1 p{
+    margin-top: 2.5vh;
+    margin-left: 10%;
+    color: white;
+}
+
+.page3 .r1 img{
+    position: absolute;
+    margin-top: 2.5vh;
+    left: 50%;
+    margin-left: -175px;
+    height: 350px;
+    width: 350px;
+    border-radius: 100%;
+}
+
+/*forklaring av begreper*/
+.page3 .r2{
+    height: 100vh;
+    background-color: #111224;
+}
+
+.page3 .r2 .box-1{
+    position: absolute;
+    height: 30vh;
+    width: 75%;
+    background-color: white;
+    color: black;
+    padding: 5%;
+}
+
+.page3 .r2 .box-2{
+    position: absolute;
+    top: 30vh;
+    right: 10%;
+    height: 30vh;
+    width: 80%;
+    background-color: #C38F43;
+    color: black;
+    padding: 5%;
+}
+
+.page3 .r2 .box-3{
+    position: absolute;
+    top: 60vh;
+    height: 30vh;
+    width: 80%;
+    background-color: black;
+    color: white;
+    padding: 5%;
+}
+
+/*Video av test*/
+.page3 .r3{
+    height: 50vh;
+    background-color: #111224;
+}
+
+.page3 .r3 video{
+    margin-top: 5vh;
+    height: 27.5vh;
+    width: 100%;
+}
+
+.page3 .r3 button{
+    position: absolute;
+    top: 7.5vh;
+    right: 10%;
+    font-size: x-large;
+    color: white;
+    background: none;
+    border: none;
+}
+
+/*MVP vs Ferdig*/
+.page3 .r4{
+    height: 70vh;
+    background-color: #111224;
+    color: white;
+}
+
+/* For medium screens */
+@media only screen and (min-width: 600px){
+    .page3 .r2,
+    .page3 .r4{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .page3 .r3 video{
+        height: 40vh;
+    }
+}
+
+/* For computer screens */
+@media only screen and (min-width: 768px){
+    .page3 .r1 h2{
+        margin-top: 35vh;
+        margin-right: 30%;
+    }
+    
+    .page3 .r1 img{
+        margin-top: -15vh;
+        left: 70%;
+    }
+
+    /*forklaring av begreper*/
+    .page3 .r2{
+        height: 80vh;
+        background-color: #111224;
+    }
+
+    .page3 .r2 .box-1,
+    .page3 .r2 .box-2,
+    .page3 .r2 .box-3{
+        height: 70vh;
+        width: 30%;
+    }
+
+    .page3 .r2 .box-2{
+        top: 7.5vh;
+        left: 35%;
+    }
+
+    .page3 .r2 .box-3{
+        top: 5vh;
+        left: 67.5%;
+    }
+
+    /*Video av test*/
+    .page3 .r3{
+        height: 60vh;
+    }
+
+    .page3 .r3 video{
+        height: 50vh;
+    }
+
+    /*--*/
+    .page3 .r4{
+        height: 90vh;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+}
+
+/* For wide screens */
+@media only screen and (min-width: 1024px){
+    .page3 .r3{
+        height: 100vh;
+    }
+
+    .page3 .r3 video{
+        height: 90vh;
+    }
+}

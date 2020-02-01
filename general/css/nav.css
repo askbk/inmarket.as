@@ -1,0 +1,165 @@
+.nav{
+    position: absolute;
+    z-index: 2;
+    height: 15vh;
+    width: 100%;
+}
+
+.nav-desk{
+    display: none;
+}
+
+.active{
+    color: #C38F43;
+}
+
+/*drop nav*/
+.nav .fa-bars{
+    position: absolute;
+    z-index: 4;
+    top: 5vh;
+    left: 10%;
+    font-size: 4vmax;
+    color: white;
+    background: none;
+    border: none;
+    transition: 0.7s ease-in-out;
+}
+
+.nav .fa-bars:hover{
+    cursor: pointer;
+    color: #C38F43;
+}
+
+.drop-nav{
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background-color: black;
+    overflow: hidden;
+    transition: 1s ease-in-out;
+}
+
+.drop-nav ul{
+    margin-top: 20vh;
+    margin-left: 15%;
+}
+
+.drop-nav ul li{
+    list-style: none;
+    line-height: 2.75;
+}
+
+.drop-nav ul li a{
+    color: white;
+    font-size: 3vmax;
+}
+
+.drop-nav .but{
+    margin-left: 15%;
+}
+
+.drop-nav #fa-grp{
+    margin-top: 2.5vh;
+    margin-left: 15%;
+}
+
+.drop-nav .fa{
+    font-size: xx-large;
+    color: #C38F43;
+    margin-top: 10vh;
+    background: none;
+    border: none;
+}
+
+/* nav logo*/
+.nav #logo{
+    position: absolute;
+    top: 7.5vh;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background-image: url("img-mp4/hvit.gull.png");
+    height: 50px;
+    width: 46.5px;
+}
+
+.nav #logo:hover{
+    cursor: pointer;
+}
+
+/*nav logg inn*/
+.nav .fa-user{
+    position: fixed;
+    top: 5vh;
+    right: 10%;
+    font-size: 4vmax;
+    color: white;
+    border: 1px solid white;
+    border-radius: 100%;
+    padding: 5px 7px;
+    transition: 0.4s ease-in-out;
+}
+
+.nav .fa-user:hover{
+    cursor: pointer;
+    color: #C38F43;
+    border-color: #C38F43;
+}
+
+/* For computer screens */
+@media only screen and (min-width: 768px){
+    .nav .fa-bars{
+        display: none;
+    }
+
+    .nav .drop-nav{
+        display: none;
+    }
+
+    .nav .nav-desk{
+        display: block;
+    }
+
+    /* nav logo*/
+    .nav #logo{
+    left: 10%;
+    height: 70px;
+    width: 65.5px;
+    }
+
+    /*nav logg inn*/
+    .nav .fa-user{
+    font-size: 5vmin;
+    padding: 6px 10px;
+    }
+
+    /*nav-desk*/
+    .nav .nav-desk{
+        height: 15vh;
+        width: 100%;
+    }
+
+    .nav .nav-desk .but{
+        top: 7.5vh; 
+        left: 20%;
+    }
+
+    .nav .nav-desk li{
+        margin-top: 2.5vh;
+        margin-left: 40%;
+    }
+
+    .nav .nav-desk li a{
+        margin-left: 7.5%;
+        font-size: 3vmin;
+        color: #d1d1d1;
+    }
+
+    .nav .nav-desk li a:hover{
+        color: #C38F43;
+    }
+}

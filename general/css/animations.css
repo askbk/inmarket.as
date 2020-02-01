@@ -1,0 +1,63 @@
+/*Pulse animation*/
+.pulse {
+  border-radius: 50%;
+  background: none;
+  border: none;
+	transform: scale(0.2);
+	animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(1);
+	}
+
+	70% {
+		transform: scale(1.2);
+	}
+
+	100% {
+		transform: scale(1.0);
+	}
+}
+
+/*animation on introduction */
+.intro-p1, 
+.intro-p2, 
+.intro-p3 {
+  position: absolute;
+  animation-duration: 10s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.intro-p1{
+animation-name: anim-1;
+}
+
+.intro-p2{
+animation-name: anim-2;
+}
+
+.intro-p3{
+animation-name: anim-3;
+}
+
+@keyframes anim-1 {
+  0%, 8.3% { top: -2.5%; opacity: 0; }
+  8.3%,25% { top: 5%; opacity: 1; }
+  33.33%, 100% { top: -2.5%; opacity: 0; }
+}
+
+@keyframes anim-2 {
+  0%, 33.33% { top: -2.5%; opacity: 0; }
+  41.63%, 58.29% { top: 5%; opacity: 1; }
+  66.66%, 100% { top: -2.5%; opacity: 0; }
+}
+
+@keyframes anim-3 {
+  0%, 66.66% { top: -2.5%; opacity: 0; }
+  74.96%, 91.62% { top: 5%; opacity: 1; }
+  100% { top: -2.5%; opacity: 0; }
+}
+/*end*/
