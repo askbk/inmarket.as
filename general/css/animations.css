@@ -1,6 +1,5 @@
 /*Pulse animation*/
 .pulse {
-  border-radius: 50%;
   background: none;
   border: none;
 	transform: scale(0.2);

@@ -16,7 +16,7 @@
                 <div class="col">
 
                     <h2 data-aos="fade-up"  data-aos-duration="900">Gamification, automatisk og responsiv</h2>
-                    <p data-aos="fade-up"  data-aos-duration="800">Hva betyr alt det?</p>
+                    <p data-aos="fade-up"  data-aos-duration="800">En bedre måte å finne det som er mest relevant for deg.</p>
                     <img src="app/css/img-mp4/app.jpg" alt="Appen">
                 </div>
             </div>
@@ -39,7 +39,7 @@
                         <p>
                         Hele appen er bygd opp slik at informasjonen som ligger inn blir automatisk lenket med 
                         hverandre. De beste matchene kommer opp som sterke anbefalinger for nettverk, 
-                        aktivitet eller endring.
+                        aktivitet eller prosjekt.
                         </p>
                     </div>
 
@@ -62,36 +62,54 @@
                         <source src="app/css/img-mp4/test.mp4" type="video/mp4">
                     </video>
 
-                    <button class="fa fa-volume-up" onclick="sound2()" id="mute"></button>
+                    <button class="fa fa-volume-off" onclick="sound2()" id="mute"></button>
                 </div>
             </div>
 
             <div class="row r4">
-                <div class="col">
-                    <h2 data-aos="fade-up"  data-aos-duration="900">MVP</h2>
-                    <p data-aos="fade-up"  data-aos-duration="900"> 
-                        Beta versjonen av appen har blitt bygd og lansert. Denne bygger InMarket på
-                        for å kunne presentere den ferdigstile appen ila. 2020. <br><br>
+                <div class="col" id="r4c1">
+                    
+                    <h2>Allerede nå kan du:<h2> <br><br>
 
-                        <b>Funkjsoner:</b> <br>
-                        Automatisert matching <br>
-                        Chat <br>
-                        Planleggingsverktøy <br>
-                        Monitoreringsfunksjon for skolene
+                    <img src="app/css/img-mp4/profbild.jpeg" alt="profilbide" id="profilbilde">
+                    <p id="mV1">
+                        <b>Mille Nord</b> <br>
+                        Elev, <i>Idrett Vgs</i> <br>
+                        16år
                     </p> <br><br>
 
-                    <h2 data-aos="fade-up"  data-aos-duration="900">V.01</h2>
-                    <p data-aos="fade-up"  data-aos-duration="900">
-                        Første versjon av appen blir ferdigstilt ila. 2020 og lansert på googleplay og 
-                        app-store. Dette vil medføre følgende funksjoner: <br><br>
-                        Gamification <br>
-                        Responsive desing <br>
-                        Responsive profiling <br>
-                        Rapportering
-                    </p>
-                </div>
-            </div>
+                    <p>1) Legge til profilbide og kort personalia</p> <br><br>
 
+                    <img src="app/css/img-mp4/velg.png" alt="valg" id="valg"><br><br>
+                    <p>2) Velge ferdigheter, interesser og bransje</p> <br><br>
+
+                    <img src="app/css/img-mp4/chat.png" alt="chat" id="chat"><br><br>
+                    <p>3) Bygge nettverk, kommunisere og planlegge møter med relevante personer</p>
+                    
+                </div>
+
+                <div class="w-100"></div>
+
+                <div class="col" id="r4c2">
+                    <h2>Til neste versjon:</h2> <br><br>
+
+                    <img src="app/css/img-mp4/profbild.jpeg" alt="profilbide" id="profilbilde">
+                    <p id="mV2">
+                        <b>Mille Nord</b> <br>
+                        Elev, <i>Idrett Vgs</i> <br>
+                        16år
+                    </p> <br><br>
+
+                    <p>1) Dynamisk software med bedre brukervennlighet</p> <br><br>
+
+                    <img src="app/css/img-mp4/dynamisk.png" alt="dynamisk" id="dynamisk"><br><br>
+                    <p>2) Interaktiv profil som følger utviklingen din og dine aktiviteter</p> <br><br>
+
+                    <img src="app/css/img-mp4/prog.png" alt="progresjon" id="prog"><br><br>
+                    <p>3) Enkel indikator for å følge med på utvikling, måloppnåelse, statistikk og data.</p>
+                </div>
+
+            </div>
         </div>
 
         <?php 

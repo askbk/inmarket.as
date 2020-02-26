@@ -24,27 +24,16 @@
 
             <div class="row r2">
                 <div class="col">
-                    <h1 data-aos="zoom-in-up"  data-aos-duration="1000">3 Bunnlinjer</h1>
+                    <h1 data-aos="zoom-in-up"  data-aos-duration="1000">Vi bygger for fremtiden</h1>
                     <p data-aos="zoom-in-up"  data-aos-duration="1000">
-                        InMarket har som mål å være en ledende aktør i det internasjonale markedet.
-                        Dette medfører at vi har tydelige mål, gode partnere og dyktige leverandører<br><br>
+                        InMarket ønsker å se unge mennesker vokse med trygghet på hva de ønsker å bli, hvem de 
+                        ønsker å være og hva de ønsker å oppnå. <br><br>
 
-                        <b>Økonomisk</b><br>
-                        I 2020 skal InMarket selge 10% av aksjene for en pris på 750 000 kr. Dette er inntekter som 
-                        skal brukes på brukerorientert app-utvikling. I samme periode skal vi selge for 500 000kr 
-                        i appens første regnskapsår. <br><br>
+                        Vi er derfor opptatt av å bruke statistikk, studier og forskning slik at vi kan 
+                        bygge en app for ikke bare nåtiden, men også for fremtiden. <br><br>
 
-                        <b>Sosial</b><br>
-                        I 2020 skal InMarket ha 50 registrerte bedrifter og 250 elever som er aktive i appen. Her 
-                        teller vi deltakelse på aktiviteter, besvarelse av caser og bygging av profile som aktiv.
-                        <br><br>
-                        Det sosiale målet kan kun måles på sikt; å se at appen bidrar til å redusere 
-                        frafall fra videregående utdanning. <br><br>
-
-                        <b>Teknisk</b><br>
-                        InMarket appen skal via gamification, automasjon og maskinlearning bli til en avansert 
-                        og brukervenlig plattform. Den skal kunne aktivt gjøre gode match og anbefalinger, samtidig
-                        som den skal være en personlig tilpasset app for alle brukere.
+                        InMarket har siden 2017 brukt tid på å undersøke et konsept som skal øke ungdommens trivsel, 
+                        trygghet og kunnskap om fremtiden. Resultatene har vært enestående.
                     </p>
                 </div>
             </div>

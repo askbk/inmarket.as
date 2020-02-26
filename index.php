@@ -49,23 +49,16 @@
                         <h1 data-aos="zoom-in"  data-aos-duration="800">Nettverk</h1>
                         <p data-aos="zoom-in"  data-aos-duration="800">
                             Appen kobler deg til relevante arbeidsplasser. Her kan du bygge nettverk,
-                            finne jobb og stille spørsmål.
+                            finne jobb og utvikle deg.
                         </p>
                     </div>
+
+                    <a href="appen.php"><button class="but butb">Mer Om Appen</button></a>
 
                 </div>
             </div>
 
             <div class="row r3">
-                <div class="col">
-                    <video preload autoplay loop muted playsinline loop id="iMvid">
-                        <source src="index/css/img-mp4/inmarket.mp4" type="video/mp4">
-                    </video>
-                    <button class="fa fa-volume-up" onclick="sound()" id="mute"></button>
-                </div>
-            </div>
-
-            <div class="row r4">
                 <div class="col">
                     <h2 data-aos="zoom-in"  data-aos-duration="800">Utviklet sammen med:</h2>
                     <a href="https://www.innovasjonnorge.no/" target="_blank">
