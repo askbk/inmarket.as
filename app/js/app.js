@@ -1,4 +1,4 @@
-//mut and umnute video
+//mute and umnute video
 function sound2(){
     var vid2 = document.getElementById("iMvid2");
     var vol2 = document.getElementById("mute");

@@ -74,7 +74,7 @@
                     <img src="app/css/img-mp4/profbild.jpeg" alt="profilbide" id="profilbilde">
                     <p id="mV1">
                         <b>Mille Nord</b> <br>
-                        Elev, <i>Idrett Vgs</i> <br>
+                        Elev, <i>Aktiv Vgs</i> <br>
                         16år
                     </p> <br><br>
 
@@ -96,7 +96,7 @@
                     <img src="app/css/img-mp4/profbild.jpeg" alt="profilbide" id="profilbilde">
                     <p id="mV2">
                         <b>Mille Nord</b> <br>
-                        Elev, <i>Idrett Vgs</i> <br>
+                        Elev, <i>Aktiv Vgs</i> <br>
                         16år
                     </p> <br><br>
 

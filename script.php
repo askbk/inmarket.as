@@ -24,3 +24,4 @@ crossorigin="anonymous"></script>
 
 <!-- index --> <script src="index/js/index.js"></script>
 <!-- app --> <script src="app/js/app.js"></script>
+<!-- oss --> <script src="oss/js/oss.js"></script>

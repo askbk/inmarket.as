@@ -21,7 +21,11 @@
     border-radius: 100%;
 }
 
-/*Teknisk*/
+/*Om oss*/
+.page4 .r2{
+    height: 100%;
+}
+
 .page4 .r2 h1{
     margin-top: 5vh;
     margin-left: 10%;
@@ -36,6 +40,49 @@
     color: white;
 }
 
+.page4 .r2 button{
+    margin-left: 10%;
+    margin-top: 2.5vh;
+    margin-bottom: 7.5vh;
+}
+
+/*Ansatte*/
+.page4 .r3{
+    height: 290vh;
+    text-align: center;
+    background-color: #050505;
+    color: white;
+}
+
+.page4 .r3 .block{
+    height: auto;
+    width: 100%;
+}
+
+.page4 .r3 img{
+    height: 345px;
+    width: 345px;
+    margin-top: 2.5vh;
+    margin-bottom: 2.5vh;
+    object-position: top;
+}
+
+.page4 .r3 h2{
+    margin-bottom: 5vh;
+}
+
+/* For smaller screens */
+@media only screen and (min-width: 425px){
+    .page4 .r2 #CVid{
+        height: 250px;
+    }
+
+    .page4 .r3 img{
+        height: 290px;
+        width: 345px;
+    }
+}
+
 /* For computer screens */
 @media only screen and (min-width: 768px){
     .page4 .r1 p{
@@ -48,4 +95,28 @@
         left: 70%;
         margin-top: -30vh;
     }
+
+    .page4 .r2{
+        height: 100vh;
+    }
+
+    .page4 .r2 #CVid{
+        position: absolute;
+        left: 50%;
+        margin-left: -350px;
+        height: 360px;
+        width: 700px;
+    }
+
+    /*Ansatte*/
+    .page4 .r3{
+        height: 285vh;
+        text-align: left;
+        padding-left: 5%;
+    }
+
+    .page4 .r3 h2{
+        margin-bottom: 5vh;
+    }
+
 }
