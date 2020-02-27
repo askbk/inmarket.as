@@ -23,8 +23,8 @@
                 </div>
             </div>
 
-            <div class="row r2">
-                <div class="col" id="omIm">
+            <div class="row r2" id="omIm">
+                <div class="col">
                     <h1 data-aos="zoom-in-up"  data-aos-duration="1000">Vi bygger for fremtiden</h1>
                     <p data-aos="zoom-in-up"  data-aos-duration="1000">
                         InMarket ønsker å se unge mennesker vokse med trygghet på hva de ønsker å bli, hvem de 
@@ -34,7 +34,14 @@
                         trygghet og kunnskap om fremtiden.
                     </p>
 
-                    <button class="but butb" onclick="merTest(x)">Les mer</button>
+                    <button class="but butb" onclick="merTest(x)" id="merTest">Les mer</button>
+
+                    <h2>Fra start</h2>
+                    <p>
+                        InMarket har siden starten, i sommer 2017 vært fokusert på kundens behov. Vi kom fort i kontakt
+                        med aktører som Drammen Kommune, Næringsforeningen i Drammen, Akademiet, 
+                        NRK-Viken (Tidligere NRK-Buskerud), Comfort Hotel Union Brygge og USN. Siden la vi 
+                    </p>
                 </div>
             </div>
 

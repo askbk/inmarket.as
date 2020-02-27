@@ -23,7 +23,8 @@
 
 /*Om oss*/
 .page4 .r2{
-    height: 100%;
+    height: 130vh;
+    transition: 1s ease-in-out;
 }
 
 .page4 .r2 h1{

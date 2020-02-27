@@ -14,17 +14,19 @@ var wide = wide();
 var narrow = narrow();
 
 function wide(){
-    if(document.getElementById("navigate").style.width == "80vw"){
-        document.getElementById("navigate").style.width = "0";
+    if(document.getElementById("omIm").style.height == "100vh"){
+        document.getElementById("omIm").style.height = "55vh";
+
+        
       } else {
-        document.getElementById("navigate").style.width = "80vw";
+        document.getElementById("omIm").style.height = "100vh";
       };
 };
 
 function narrow(){
-    if(document.getElementById("navigate").style.width == "30vw"){
-        document.getElementById("navigate").style.width = "0";
+    if(document.getElementById("omIm").style.height == "130vh"){
+        document.getElementById("omIm").style.height = "55vh";
       } else {
-        document.getElementById("navigate").style.width = "30vw";
+        document.getElementById("omIm").style.height = "130vh";
       };
 }
