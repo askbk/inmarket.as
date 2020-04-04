@@ -31,5 +31,5 @@
 
     <a href="index.php"><div id="logo" class="bg"></div></a>
 
-    <a href="https://app.inmarket.as/#!/logginn" target="_blank"><button class="fa fa-user pulse"></button></a>
+    <a href="https://app.inmarket.as" target="_blank"><button class="fa fa-user pulse"></button></a>
 </div>
